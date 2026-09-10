@@ -1,5 +1,493 @@
-import ComingSoonPage from '@/features/misc/ComingSoonPage'
+import { useEffect, useState } from 'react'
+import { Link, useNavigate, useParams } from 'react-router-dom'
+import { Plus, RotateCcw, Save, Trash2, UserPlus } from 'lucide-react'
+import { useStore } from '@/store/useStore'
+import {
+  Badge, Button, Card, CardHeader, CardSection, DividedCard, Input, Modal, PageHeader, Radio,
+  Select, Textarea, Toggle, useConfirm, useToast,
+} from '@/components/ui'
+import { formatRelative, initials } from '@/lib/format'
+import { PERMISSION_RESOURCES } from '@/types'
+import {
+  inviteStaff, resetDemoData, saveShippingRates, setPaymentTestMode, togglePaymentProvider,
+  updateStoreSettings,
+} from '@/services/settingsService'
+import { useCan } from '@/lib/permissions'
+import type { ShippingRate } from '@/types'
 
-export default function Placeholder() {
-  return <ComingSoonPage module="SettingsSection" />
+const SECTION_TITLES: Record<string, string> = {
+  general: 'General',
+  payments: 'Payments',
+  checkout: 'Checkout',
+  shipping: 'Shipping and delivery',
+  taxes: 'Taxes and duties',
+  notifications: 'Notifications',
+  policies: 'Policies',
+  users: 'Users and permissions',
+}
+
+export default function SettingsSectionPage() {
+  const { section = 'general' } = useParams()
+  const settings = useStore((s) => s.settings)
+  const staff = useStore((s) => s.staff)
+  const locations = useStore((s) => s.locations)
+  const navigate = useNavigate()
+  const { toast } = useToast()
+  const { confirm, confirmElement } = useConfirm()
+  const canEdit = useCan('settings', 'edit')
+
+  const [form, setForm] = useState(settings)
+  const [saving, setSaving] = useState(false)
+  const [rates, setRates] = useState<ShippingRate[]>(settings.shipping)
+  const [inviteOpen, setInviteOpen] = useState(false)
+  const [invite, setInvite] = useState({ name: '', email: '', role: 'staff' as 'admin' | 'staff' })
+
+  useEffect(() => {
+    setForm(settings)
+    setRates(settings.shipping)
+  }, [settings])
+
+  const title = SECTION_TITLES[section] ?? 'Settings'
+
+  const saveGeneral = async () => {
+    setSaving(true)
+    try {
+      await updateStoreSettings({
+        storeName: form.storeName,
+        legalName: form.legalName,
+        email: form.email,
+        phone: form.phone,
+        storeAddress: form.storeAddress,
+        currency: form.currency,
+        timezone: form.timezone,
+        unitSystem: form.unitSystem,
+        weightUnit: form.weightUnit,
+        orderPrefix: form.orderPrefix,
+      })
+      toast('Settings saved')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const patch = (p: Partial<typeof form>) => setForm((f) => ({ ...f, ...p }))
+
+  return (
+    <div>
+      {confirmElement}
+      <PageHeader
+        title={title}
+        subtitle="Changes save to this demo store and persist across reloads"
+        backTo="/settings"
+        backLabel="Settings"
+        primaryAction={
+          section === 'general' ? (
+            <Button variant="primary" icon={<Save size={13} />} loading={saving} onClick={() => void saveGeneral()} disabled={!canEdit}>
+              Save
+            </Button>
+          ) : undefined
+        }
+      />
+
+      {/* ── General ── */}
+      {section === 'general' && (
+        <div className="grid gap-4 lg:grid-cols-2">
+          <DividedCard>
+            <CardHeader title="Store details" />
+            <CardSection>
+              <div className="space-y-3">
+                <Input label="Store name" value={form.storeName} onChange={(e) => patch({ storeName: e.target.value })} disabled={!canEdit} />
+                <Input label="Legal business name" value={form.legalName} onChange={(e) => patch({ legalName: e.target.value })} disabled={!canEdit} />
+              </div>
+            </CardSection>
+          </DividedCard>
+
+          <DividedCard>
+            <CardHeader title="Contact information" />
+            <CardSection>
+              <div className="space-y-3">
+                <Input label="Store email" type="email" value={form.email} onChange={(e) => patch({ email: e.target.value })} disabled={!canEdit} />
+                <Input label="Phone" value={form.phone} onChange={(e) => patch({ phone: e.target.value })} disabled={!canEdit} />
+                <Input label="Street address" value={form.storeAddress.address1} onChange={(e) => patch({ storeAddress: { ...form.storeAddress, address1: e.target.value } })} disabled={!canEdit} />
+                <div className="grid grid-cols-2 gap-3">
+                  <Input label="City" value={form.storeAddress.city} onChange={(e) => patch({ storeAddress: { ...form.storeAddress, city: e.target.value } })} disabled={!canEdit} />
+                  <Input label="State" value={form.storeAddress.province} onChange={(e) => patch({ storeAddress: { ...form.storeAddress, province: e.target.value } })} disabled={!canEdit} />
+                </div>
+                <div className="grid grid-cols-2 gap-3">
+                  <Input label="ZIP" value={form.storeAddress.zip} onChange={(e) => patch({ storeAddress: { ...form.storeAddress, zip: e.target.value } })} disabled={!canEdit} />
+                  <Input label="Country" value={form.storeAddress.country} onChange={(e) => patch({ storeAddress: { ...form.storeAddress, country: e.target.value } })} disabled={!canEdit} />
+                </div>
+              </div>
+            </CardSection>
+          </DividedCard>
+
+          <DividedCard>
+            <CardHeader title="Standards and format" />
+            <CardSection>
+              <div className="space-y-3">
+                <Select
+                  label="Currency"
+                  value={form.currency}
+                  onChange={(e) => patch({ currency: e.target.value })}
+                  options={[{ label: 'US Dollar (USD)', value: 'USD' }, { label: 'Euro (EUR)', value: 'EUR' }, { label: 'British Pound (GBP)', value: 'GBP' }, { label: 'Canadian Dollar (CAD)', value: 'CAD' }]}
+                  disabled={!canEdit}
+                />
+                <Select
+                  label="Timezone"
+                  value={form.timezone}
+                  onChange={(e) => patch({ timezone: e.target.value })}
+                  options={['(GMT-08:00) Pacific Time', '(GMT-05:00) Eastern Time', '(GMT+00:00) London', '(GMT+01:00) Berlin'].map((t) => ({ label: t, value: t }))}
+                  disabled={!canEdit}
+                />
+                <div>
+                  <p className="mb-1 text-xs font-medium">Unit system</p>
+                  <div className="flex gap-5">
+                    <Radio name="units" label="Imperial" checked={form.unitSystem === 'imperial'} onChange={() => patch({ unitSystem: 'imperial' })} disabled={!canEdit} />
+                    <Radio name="units" label="Metric" checked={form.unitSystem === 'metric'} onChange={() => patch({ unitSystem: 'metric' })} disabled={!canEdit} />
+                  </div>
+                </div>
+                <Select
+                  label="Weight unit"
+                  value={form.weightUnit}
+                  onChange={(e) => patch({ weightUnit: e.target.value as 'kg' | 'lb' })}
+                  options={[{ label: 'Kilograms (kg)', value: 'kg' }, { label: 'Pounds (lb)', value: 'lb' }]}
+                  disabled={!canEdit}
+                  className="max-w-[200px]"
+                />
+              </div>
+            </CardSection>
+          </DividedCard>
+
+          <DividedCard>
+            <CardHeader title="Danger zone" subtitle="Demo utilities" />
+            <CardSection>
+              <p className="text-[13px] text-text-muted">
+                Reset wipes every change you've made (orders, products, settings…) and restores the generated seed data.
+              </p>
+              <Button
+                variant="destructive"
+                icon={<RotateCcw size={13} />}
+                className="mt-3"
+                onClick={() =>
+                  confirm({
+                    title: 'Reset demo data?',
+                    body: 'All local changes will be discarded and the original demo dataset restored.',
+                    confirmLabel: 'Reset demo data',
+                    destructive: true,
+                    onConfirm: async () => {
+                      await resetDemoData()
+                      toast('Demo data reset', { tone: 'warning' })
+                    },
+                  })
+                }
+              >
+                Reset demo data
+              </Button>
+            </CardSection>
+          </DividedCard>
+        </div>
+      )}
+
+      {/* ── Payments ── */}
+      {section === 'payments' && (
+        <Card padding={false}>
+          <CardHeader title="Payment providers" subtitle="Toggle providers available at checkout" />
+          <ul className="divide-y divide-border">
+            {form.payments.map((p) => (
+              <li key={p.id} className="flex flex-wrap items-center justify-between gap-3 px-4 py-3">
+                <div>
+                  <p className="text-[13px] font-medium">{p.provider}</p>
+                  <p className="text-xs text-text-muted">{p.enabled ? (p.testMode ? 'Test mode — no real charges' : 'Active') : 'Disabled'}</p>
+                </div>
+                <div className="flex items-center gap-4">
+                  {p.enabled && (
+                    <Toggle checked={p.testMode} onChange={(v) => void setPaymentTestMode(p.id, v).then(() => toast('Test mode updated'))} label="Test mode" disabled={!canEdit} />
+                  )}
+                  <Toggle
+                    checked={p.enabled}
+                    onChange={() => void togglePaymentProvider(p.id).then(() => toast(`${p.provider} ${p.enabled ? 'disabled' : 'enabled'}`))}
+                    disabled={!canEdit}
+                  />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
+
+      {/* ── Checkout ── */}
+      {section === 'checkout' && (
+        <DividedCard>
+          <CardHeader title="Checkout" />
+          <CardSection>
+            <div className="space-y-4">
+              <div>
+                <p className="mb-1.5 text-xs font-medium">Customer accounts</p>
+                <div className="space-y-2">
+                  <Radio name="accounts" label="Accounts disabled — guests only" checked={form.checkout.customerAccounts === 'disabled'} onChange={() => void updateStoreSettings({ checkout: { ...form.checkout, customerAccounts: 'disabled' } }).then(() => { patch({ checkout: { ...form.checkout, customerAccounts: 'disabled' } }); toast('Checkout updated') })} />
+                  <Radio name="accounts" label="Accounts optional" checked={form.checkout.customerAccounts === 'optional'} onChange={() => void updateStoreSettings({ checkout: { ...form.checkout, customerAccounts: 'optional' } }).then(() => { patch({ checkout: { ...form.checkout, customerAccounts: 'optional' } }); toast('Checkout updated') })} />
+                  <Radio name="accounts" label="Accounts required" checked={form.checkout.customerAccounts === 'required'} onChange={() => void updateStoreSettings({ checkout: { ...form.checkout, customerAccounts: 'required' } }).then(() => { patch({ checkout: { ...form.checkout, customerAccounts: 'required' } }); toast('Checkout updated') })} />
+                </div>
+              </div>
+              <Toggle label="Email receipts to customers" checked={form.checkout.emailReceipts} onChange={(v) => void updateStoreSettings({ checkout: { ...form.checkout, emailReceipts: v } }).then(() => { patch({ checkout: { ...form.checkout, emailReceipts: v } }); toast('Checkout updated') })} disabled={!canEdit} />
+              <Toggle label="Ask for tips at checkout" checked={form.checkout.tipLine} onChange={(v) => void updateStoreSettings({ checkout: { ...form.checkout, tipLine: v } }).then(() => { patch({ checkout: { ...form.checkout, tipLine: v } }); toast('Checkout updated') })} disabled={!canEdit} />
+              <Toggle label="Abandoned checkout recovery emails" checked={form.checkout.abandonedRecovery} onChange={(v) => void updateStoreSettings({ checkout: { ...form.checkout, abandonedRecovery: v } }).then(() => { patch({ checkout: { ...form.checkout, abandonedRecovery: v } }); toast('Checkout updated') })} disabled={!canEdit} />
+            </div>
+          </CardSection>
+        </DividedCard>
+      )}
+
+      {/* ── Shipping ── */}
+      {section === 'shipping' && (
+        <Card padding={false}>
+          <CardHeader
+            title="Shipping rates"
+            subtitle={`${locations.filter((l) => l.active).length} active locations ship from these rates`}
+            actions={
+              canEdit && (
+                <Button size="sm" icon={<Plus size={12} />} onClick={() => setRates([...rates, { id: `ship_${Date.now()}`, name: 'New rate', regions: 'United States', rate: 5 }])}>
+                  Add rate
+                </Button>
+              )
+            }
+          />
+          <div className="overflow-x-auto scroll-thin">
+            <table className="w-full text-[13px]">
+              <thead>
+                <tr className="border-b border-border bg-[#fafafa] text-left text-xs text-text-muted">
+                  <th className="px-4 py-2 font-medium">Name</th>
+                  <th className="px-4 py-2 font-medium">Regions</th>
+                  <th className="px-4 py-2 font-medium">Rate</th>
+                  <th className="px-4 py-2 font-medium">Free over</th>
+                  <th className="px-4 py-2"><span className="sr-only">Remove</span></th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {rates.map((r, i) => (
+                  <tr key={r.id}>
+                    <td className="px-4 py-2">
+                      <Input value={r.name} onChange={(e) => setRates(rates.map((x, ix) => (ix === i ? { ...x, name: e.target.value } : x)))} disabled={!canEdit} aria-label="Rate name" />
+                    </td>
+                    <td className="px-4 py-2">
+                      <Input value={r.regions} onChange={(e) => setRates(rates.map((x, ix) => (ix === i ? { ...x, regions: e.target.value } : x)))} disabled={!canEdit} aria-label="Regions" />
+                    </td>
+                    <td className="px-4 py-2">
+                      <Input type="number" step="0.01" min="0" prefix="$" value={r.rate} onChange={(e) => setRates(rates.map((x, ix) => (ix === i ? { ...x, rate: Number(e.target.value) } : x)))} disabled={!canEdit} className="max-w-[110px]" aria-label="Rate amount" />
+                    </td>
+                    <td className="px-4 py-2">
+                      <Input type="number" step="0.01" min="0" prefix="$" value={r.freeOver ?? ''} onChange={(e) => setRates(rates.map((x, ix) => (ix === i ? { ...x, freeOver: e.target.value === '' ? undefined : Number(e.target.value) } : x)))} disabled={!canEdit} className="max-w-[110px]" aria-label="Free over" />
+                    </td>
+                    <td className="px-4 py-2">
+                      {canEdit && (
+                        <button aria-label={`Remove ${r.name}`} onClick={() => setRates(rates.filter((_, ix) => ix !== i))} className="rounded p-1.5 text-text-muted hover:bg-critical-surface hover:text-critical-strong">
+                          <Trash2 size={13} />
+                        </button>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {canEdit && (
+            <div className="flex justify-end border-t border-border px-4 py-3">
+              <Button variant="primary" onClick={() => void saveShippingRates(rates).then(() => toast('Shipping rates saved'))}>
+                Save rates
+              </Button>
+            </div>
+          )}
+        </Card>
+      )}
+
+      {/* ── Taxes ── */}
+      {section === 'taxes' && (
+        <DividedCard>
+          <CardHeader title="Tax settings" />
+          <CardSection>
+            <div className="space-y-4">
+              <Input
+                label="Tax rate (%)"
+                type="number"
+                step="0.01"
+                min="0"
+                max="40"
+                value={String(form.taxes.taxRate)}
+                onChange={(e) => patch({ taxes: { ...form.taxes, taxRate: Number(e.target.value) } })}
+                disabled={!canEdit}
+                className="max-w-[160px]"
+              />
+              <Toggle label="Charge tax on shipping rates" checked={form.taxes.chargeTaxOnShipping} onChange={(v) => void updateStoreSettings({ taxes: { ...form.taxes, chargeTaxOnShipping: v } }).then(() => { patch({ taxes: { ...form.taxes, chargeTaxOnShipping: v } }); toast('Tax settings saved') })} disabled={!canEdit} />
+              <Toggle label="Include tax in prices" checked={form.taxes.includeTaxInPrices} onChange={(v) => void updateStoreSettings({ taxes: { ...form.taxes, includeTaxInPrices: v } }).then(() => { patch({ taxes: { ...form.taxes, includeTaxInPrices: v } }); toast('Tax settings saved') })} disabled={!canEdit} />
+              <Button variant="primary" onClick={() => void updateStoreSettings({ taxes: form.taxes }).then(() => toast('Tax settings saved'))} disabled={!canEdit}>
+                Save
+              </Button>
+            </div>
+          </CardSection>
+        </DividedCard>
+      )}
+
+      {/* ── Notifications ── */}
+      {section === 'notifications' && (
+        <Card padding={false}>
+          <CardHeader title="Customer notifications" subtitle="Emails sent on your behalf" />
+          <ul className="divide-y divide-border">
+            {(
+              [
+                ['orderConfirmation', 'Order confirmation', 'Sent when an order is placed'],
+                ['shippingConfirmation', 'Shipping confirmation', 'Sent when an order is fulfilled'],
+                ['abandonedCheckout', 'Abandoned checkout recovery', 'Sent to shoppers who leave items behind'],
+                ['customerWelcome', 'Customer welcome', 'Sent when an account is created'],
+              ] as const
+            ).map(([key, label, help]) => (
+              <li key={key} className="flex items-center justify-between gap-4 px-4 py-3">
+                <div>
+                  <p className="text-[13px] font-medium">{label}</p>
+                  <p className="text-xs text-text-muted">{help}</p>
+                </div>
+                <Toggle
+                  checked={form.notifications[key]}
+                  onChange={(v) => void updateStoreSettings({ notifications: { ...form.notifications, [key]: v } }).then(() => { patch({ notifications: { ...form.notifications, [key]: v } }); toast('Notification settings saved') })}
+                  disabled={!canEdit}
+                />
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
+
+      {/* ── Policies ── */}
+      {section === 'policies' && (
+        <div className="grid gap-4 lg:grid-cols-2">
+          {(
+            [
+              ['refund', 'Refund policy'],
+              ['privacy', 'Privacy policy'],
+              ['terms', 'Terms of service'],
+              ['shipping', 'Shipping policy'],
+            ] as const
+          ).map(([key, label]) => (
+            <DividedCard key={key}>
+              <CardHeader title={label} />
+              <CardSection>
+                <Textarea
+                  rows={4}
+                  value={form.policies[key]}
+                  onChange={(e) => patch({ policies: { ...form.policies, [key]: e.target.value } })}
+                  disabled={!canEdit}
+                  aria-label={label}
+                />
+              </CardSection>
+            </DividedCard>
+          ))}
+          {canEdit && (
+            <div className="flex justify-end lg:col-span-2">
+              <Button variant="primary" onClick={() => void updateStoreSettings({ policies: form.policies }).then(() => toast('Policies saved'))}>
+                Save policies
+              </Button>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ── Users & permissions ── */}
+      {section === 'users' && (
+        <Card padding={false}>
+          <CardHeader
+            title="Staff"
+            subtitle={`${staff.filter((s) => s.status === 'active').length} active · ${staff.filter((s) => s.status === 'invited').length} invited`}
+            actions={
+              canEdit && (
+                <Button size="sm" variant="primary" icon={<UserPlus size={12} />} onClick={() => setInviteOpen(true)}>
+                  Invite staff
+                </Button>
+              )
+            }
+          />
+          <ul className="divide-y divide-border">
+            {staff.map((m) => (
+              <li key={m.id} className="flex flex-wrap items-center gap-3 px-4 py-3">
+                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#e3e3e3] text-xs font-semibold">
+                  {initials(m.name)}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-[13px] font-medium">{m.name}</p>
+                  <p className="truncate text-xs text-text-muted">{m.email}</p>
+                </div>
+                <Badge tone={m.role === 'owner' ? 'highlight' : m.role === 'admin' ? 'info' : 'neutral'}>{m.role}</Badge>
+                <Badge tone={m.status === 'active' ? 'success' : m.status === 'invited' ? 'warning' : 'neutral'} dot>
+                  {m.status}
+                </Badge>
+                <span className="hidden w-24 text-right text-xs text-text-muted sm:block">
+                  {m.lastActiveAt ? formatRelative(m.lastActiveAt) : '—'}
+                </span>
+                <Link to={`/settings/users/${m.id}`} className="text-xs text-accent hover:underline">
+                  Edit permissions
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <CardSection className="border-t border-border bg-[#fafafa]">
+            <p className="text-xs text-text-muted">
+              Tip: use the account menu (top-right avatar) to <em>simulate acting as a staff member</em> — their
+              permissions hide actions across the admin, including this page.
+            </p>
+          </CardSection>
+        </Card>
+      )}
+
+      {section === 'users' && (
+        <p className="mt-3 text-xs text-text-muted">
+          Permission resources: {PERMISSION_RESOURCES.join(', ')}
+        </p>
+      )}
+
+      {/* Invite modal */}
+      <Modal
+        open={inviteOpen}
+        onClose={() => setInviteOpen(false)}
+        title="Invite staff member"
+        size="sm"
+        footer={
+          <>
+            <Button onClick={() => setInviteOpen(false)}>Cancel</Button>
+            <Button
+              variant="primary"
+              onClick={async () => {
+                if (!invite.name.trim() || !invite.email.trim()) {
+                  toast('Name and email are required', { tone: 'critical' })
+                  return
+                }
+                try {
+                  const created = await inviteStaff({ name: invite.name.trim(), email: invite.email.trim(), role: invite.role })
+                  toast(`Invitation sent to ${created.email}`)
+                  setInviteOpen(false)
+                  setInvite({ name: '', email: '', role: 'staff' })
+                  navigate(`/settings/users/${created.id}`)
+                } catch (e) {
+                  toast(e instanceof Error ? e.message : 'Failed to invite', { tone: 'critical' })
+                }
+              }}
+            >
+              Send invite
+            </Button>
+          </>
+        }
+      >
+        <div className="space-y-3">
+          <Input label="Full name" value={invite.name} onChange={(e) => setInvite({ ...invite, name: e.target.value })} />
+          <Input label="Email" type="email" value={invite.email} onChange={(e) => setInvite({ ...invite, email: e.target.value })} />
+          <Select
+            label="Role"
+            value={invite.role}
+            onChange={(e) => setInvite({ ...invite, role: e.target.value as 'admin' | 'staff' })}
+            options={[
+              { label: 'Staff — limited permissions', value: 'staff' },
+              { label: 'Admin — most permissions', value: 'admin' },
+            ]}
+          />
+          <p className="text-xs text-text-muted">Permissions can be customized after sending the invite.</p>
+        </div>
+      </Modal>
+    </div>
+  )
 }
