@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import {
-  Area, AreaChart, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart,
+  Area, AreaChart, Bar, BarChart, CartesianGrid, ComposedChart, Line, LineChart,
   ResponsiveContainer, Tooltip, XAxis, YAxis,
 } from 'recharts'
 import { useStore } from '@/store/useStore'
@@ -66,7 +66,6 @@ export default function AnalyticsPage() {
     [orders, range, compare],
   )
   const prevRange = previousRange(range)
-  const prevMetrics = coreMetrics(orders, prevRange)
   const channels = channelBreakdown(orders, range)
   const prevChannels = channelBreakdown(orders, prevRange)
   const top = topProducts(orders, products, range, 10)
