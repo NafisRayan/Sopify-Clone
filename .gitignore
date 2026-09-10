@@ -7,3 +7,4 @@ dist-ssr
 *.png
 .playwright-cli/
 *.png
+scripts/patch_settings.py
