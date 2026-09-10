@@ -1,0 +1,382 @@
+[
+ {
+  "id": "ab_1",
+  "customerId": "c_100",
+  "email": "paulo.fontaine@example.com",
+  "createdAt": "2026-09-01T11:01:29.614Z",
+  "lineItems": [
+   {
+    "id": "li_hqrb1",
+    "productId": "p_bar-soap-trio",
+    "variantId": "p_bar-soap-trio_v1",
+    "title": "Cold-Process Bar Soap Trio",
+    "variantTitle": "",
+    "sku": "BST53",
+    "quantity": 1,
+    "price": 18,
+    "totalDiscount": 3.6,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/bar-soap-trio.svg"
+   },
+   {
+    "id": "li_hrtcr",
+    "productId": "p_cast-iron-skillet",
+    "variantId": "p_cast-iron-skillet_v1",
+    "title": "Pre-Seasoned Cast Iron Skillet",
+    "variantTitle": "",
+    "sku": "CIS47",
+    "quantity": 3,
+    "price": 42,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/cast-iron-skillet.svg"
+   }
+  ],
+  "total": 155.52,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_2",
+  "customerId": "c_161",
+  "email": "hana.moreau@example.com",
+  "createdAt": "2026-08-15T08:30:28.121Z",
+  "lineItems": [
+   {
+    "id": "li_hsw3d",
+    "productId": "p_everyday-hoodie",
+    "variantId": "p_everyday-hoodie_v1",
+    "title": "Everyday Hoodie",
+    "variantTitle": "Charcoal / S",
+    "sku": "EH11-CHAR-S",
+    "quantity": 1,
+    "price": 54,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/everyday-hoodie.svg"
+   }
+  ],
+  "total": 58.32,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_3",
+  "customerId": "c_133",
+  "email": "iris.mendoza@example.com",
+  "createdAt": "2026-08-24T06:04:22.227Z",
+  "lineItems": [
+   {
+    "id": "li_ht7ub",
+    "productId": "p_ceramic-vase",
+    "variantId": "p_ceramic-vase_v3",
+    "title": "Matte Ceramic Vase",
+    "variantTitle": "Clay",
+    "sku": "CV48-CLAY",
+    "quantity": 1,
+    "price": 34,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/ceramic-vase.svg"
+   }
+  ],
+  "total": 36.72,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_4",
+  "customerId": "c_147",
+  "email": "oscar.castellano@example.com",
+  "createdAt": "2026-08-16T10:41:14.009Z",
+  "lineItems": [
+   {
+    "id": "li_hupsf",
+    "productId": "p_minimal-sneakers",
+    "variantId": "p_minimal-sneakers_v9",
+    "title": "Minimal Sneakers",
+    "variantTitle": "Slate / 10",
+    "sku": "MS13-SLAT-10",
+    "quantity": 4,
+    "price": 89,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/minimal-sneakers.svg"
+   },
+   {
+    "id": "li_hvrb2",
+    "productId": "p_leather-wallet",
+    "variantId": "p_leather-wallet_v1",
+    "title": "Leather Bifold Wallet",
+    "variantTitle": "Chestnut",
+    "sku": "LW15-CHES",
+    "quantity": 1,
+    "price": 42,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/leather-wallet.svg"
+   }
+  ],
+  "total": 429.84,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_5",
+  "customerId": "c_106",
+  "email": "mei.mendoza@example.com",
+  "createdAt": "2026-09-01T05:19:16.688Z",
+  "lineItems": [
+   {
+    "id": "li_hwhcw",
+    "productId": "p_hammock",
+    "variantId": "p_hammock_v1",
+    "title": "Packable Hammock",
+    "variantTitle": "",
+    "sku": "H34",
+    "quantity": 1,
+    "price": 58,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/hammock.svg"
+   }
+  ],
+  "total": 62.64,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_6",
+  "customerId": "c_115",
+  "email": "arjun.moreau@example.com",
+  "createdAt": "2026-09-03T16:57:54.728Z",
+  "lineItems": [
+   {
+    "id": "li_hxhub",
+    "productId": "p_woven-belt",
+    "variantId": "p_woven-belt_v6",
+    "title": "Woven Canvas Belt",
+    "variantTitle": "Navy / L (36-39\")",
+    "sku": "WB32-NAVY-L363",
+    "quantity": 1,
+    "price": 29,
+    "totalDiscount": 2.9,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/woven-belt.svg"
+   }
+  ],
+  "total": 31.32,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_7",
+  "customerId": "c_118",
+  "email": "theo.oseibonsu@example.com",
+  "createdAt": "2026-09-08T07:53:50.155Z",
+  "lineItems": [
+   {
+    "id": "li_hykfi",
+    "productId": "p_canvas-tote",
+    "variantId": "p_canvas-tote_v2",
+    "title": "Heavy Canvas Tote",
+    "variantTitle": "Navy",
+    "sku": "CT24-NAVY",
+    "quantity": 2,
+    "price": 26,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/canvas-tote.svg"
+   },
+   {
+    "id": "li_hzcju",
+    "productId": "p_woven-belt",
+    "variantId": "p_woven-belt_v3",
+    "title": "Woven Canvas Belt",
+    "variantTitle": "Olive / L (36-39\")",
+    "sku": "WB32-OLIV-L363",
+    "quantity": 1,
+    "price": 29,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/woven-belt.svg"
+   }
+  ],
+  "total": 87.48,
+  "recoveryStatus": "email_sent"
+ },
+ {
+  "id": "ab_8",
+  "customerId": "c_103",
+  "email": "maya.larsen@example.com",
+  "createdAt": "2026-08-11T18:00:05.839Z",
+  "lineItems": [
+   {
+    "id": "li_i0ar8",
+    "productId": "p_linen-notebook",
+    "variantId": "p_linen-notebook_v2",
+    "title": "Linen-Bound Notebook",
+    "variantTitle": "Rust",
+    "sku": "LN23-RUST",
+    "quantity": 2,
+    "price": 16,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/linen-notebook.svg"
+   },
+   {
+    "id": "li_i1ege",
+    "productId": "p_field-journal",
+    "variantId": "p_field-journal_v1",
+    "title": "Waterproof Field Journal",
+    "variantTitle": "Olive",
+    "sku": "FJ30-OLIV",
+    "quantity": 1,
+    "price": 22,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/field-journal.svg"
+   }
+  ],
+  "total": 58.32,
+  "recoveryStatus": "email_sent"
+ },
+ {
+  "id": "ab_9",
+  "customerId": "c_113",
+  "email": "cole.vasquez@example.com",
+  "createdAt": "2026-08-21T06:11:13.189Z",
+  "lineItems": [
+   {
+    "id": "li_i2ud0",
+    "productId": "p_ceramic-vase",
+    "variantId": "p_ceramic-vase_v2",
+    "title": "Matte Ceramic Vase",
+    "variantTitle": "Ink Blue",
+    "sku": "CV48-INKB",
+    "quantity": 1,
+    "price": 34,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/ceramic-vase.svg"
+   },
+   {
+    "id": "li_i3jbm",
+    "productId": "p_minimal-sneakers",
+    "variantId": "p_minimal-sneakers_v7",
+    "title": "Minimal Sneakers",
+    "variantTitle": "Slate / 8",
+    "sku": "MS13-SLAT-8",
+    "quantity": 1,
+    "price": 89,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/minimal-sneakers.svg"
+   }
+  ],
+  "total": 132.84,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_10",
+  "customerId": "c_106",
+  "email": "mei.mendoza@example.com",
+  "createdAt": "2026-09-02T23:41:07.790Z",
+  "lineItems": [
+   {
+    "id": "li_i4wkv",
+    "productId": "p_oversized-shirt",
+    "variantId": "p_oversized-shirt_v6",
+    "title": "Oversized Linen Shirt",
+    "variantTitle": "Sky / XL/2XL",
+    "sku": "OS16-SKY-XL2X",
+    "quantity": 2,
+    "price": 58,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/oversized-shirt.svg"
+   },
+   {
+    "id": "li_i55em",
+    "productId": "p_woven-belt",
+    "variantId": "p_woven-belt_v2",
+    "title": "Woven Canvas Belt",
+    "variantTitle": "Olive / M (33-36\")",
+    "sku": "WB32-OLIV-M333",
+    "quantity": 4,
+    "price": 29,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/woven-belt.svg"
+   }
+  ],
+  "total": 250.56,
+  "recoveryStatus": "email_sent"
+ },
+ {
+  "id": "ab_11",
+  "customerId": "c_144",
+  "email": "freya.ramirez@example.com",
+  "createdAt": "2026-08-25T06:12:31.418Z",
+  "lineItems": [
+   {
+    "id": "li_i6acw",
+    "productId": "p_dog-rope-leash",
+    "variantId": "p_dog-rope-leash_v1",
+    "title": "Braided Rope Dog Leash",
+    "variantTitle": "Field Green",
+    "sku": "DRL56-FIEL",
+    "quantity": 1,
+    "price": 30,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/dog-rope-leash.svg"
+   },
+   {
+    "id": "li_i7vny",
+    "productId": "p_dog-rope-leash",
+    "variantId": "p_dog-rope-leash_v2",
+    "title": "Braided Rope Dog Leash",
+    "variantTitle": "Rust",
+    "sku": "DRL56-RUST",
+    "quantity": 1,
+    "price": 30,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/dog-rope-leash.svg"
+   }
+  ],
+  "total": 64.8,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_12",
+  "customerId": "c_133",
+  "email": "iris.mendoza@example.com",
+  "createdAt": "2026-09-04T02:08:27.653Z",
+  "lineItems": [
+   {
+    "id": "li_i81vq",
+    "productId": "p_merino-beanie",
+    "variantId": "p_merino-beanie_v3",
+    "title": "Merino Beanie",
+    "variantTitle": "Ink Blue",
+    "sku": "MB25-INKB",
+    "quantity": 1,
+    "price": 30,
+    "totalDiscount": 4.5,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/merino-beanie.svg"
+   },
+   {
+    "id": "li_i9wzp",
+    "productId": "p_canvas-tote",
+    "variantId": "p_canvas-tote_v1",
+    "title": "Heavy Canvas Tote",
+    "variantTitle": "Natural",
+    "sku": "CT24-NATU",
+    "quantity": 1,
+    "price": 26,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/canvas-tote.svg"
+   }
+  ],
+  "total": 60.48,
+  "recoveryStatus": "not_recovered"
+ }
+]

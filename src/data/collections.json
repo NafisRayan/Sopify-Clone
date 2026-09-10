@@ -1,0 +1,346 @@
+[
+ {
+  "id": "col_1",
+  "title": "New Arrivals",
+  "descriptionHtml": "<p>The latest additions to the Northstar shelf.</p>",
+  "imageSrc": "/images/collections/new-arrivals.svg",
+  "handle": "new-arrivals",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "tag",
+    "relation": "equals",
+    "condition": "new-arrival"
+   }
+  ],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_everyday-hoodie",
+   "p_minimal-sneakers",
+   "p_ceramic-coffee-mug",
+   "p_oversized-shirt",
+   "p_running-cap",
+   "p_insulated-water-bottle",
+   "p_desk-organizer",
+   "p_trail-socks",
+   "p_desk-lamp",
+   "p_field-journal",
+   "p_passport-holder",
+   "p_picnic-blanket",
+   "p_hammock",
+   "p_plant-pot",
+   "p_phone-sling",
+   "p_matcha-whisk-set",
+   "p_packable-rain-jacket",
+   "p_carry-on-duffel",
+   "p_kids-organic-tee",
+   "p_cast-iron-skillet",
+   "p_linen-apron",
+   "p_postcard-pack",
+   "p_olive-oil-cruet",
+   "p_slate-coasters",
+   "p_trail-water-flask"
+  ],
+  "status": "active",
+  "publishedAt": "2026-01-16T09:47:19.222Z",
+  "createdAt": "2025-09-16T09:47:19.222Z",
+  "seoTitle": "New Arrivals",
+  "seoDescription": "The latest additions to the Northstar shelf."
+ },
+ {
+  "id": "col_2",
+  "title": "Bestsellers",
+  "descriptionHtml": "<p>What everyone is taking home.</p>",
+  "imageSrc": "/images/collections/bestsellers.svg",
+  "handle": "bestsellers",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "tag",
+    "relation": "equals",
+    "condition": "bestseller"
+   }
+  ],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_soy-candle-set"
+  ],
+  "status": "active",
+  "publishedAt": "2026-01-02T09:47:19.223Z",
+  "createdAt": "2025-07-18T09:47:19.223Z",
+  "seoTitle": "Bestsellers",
+  "seoDescription": "What everyone is taking home."
+ },
+ {
+  "id": "col_3",
+  "title": "Apparel",
+  "descriptionHtml": "<p>Everyday clothing, built to last.</p>",
+  "imageSrc": "/images/collections/apparel.svg",
+  "handle": "apparel",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "product_type",
+    "relation": "equals",
+    "condition": "Apparel"
+   }
+  ],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_classic-cotton-t-shirt",
+   "p_everyday-hoodie",
+   "p_oversized-shirt",
+   "p_merino-beanie",
+   "p_trail-socks",
+   "p_packable-rain-jacket",
+   "p_wool-scarf",
+   "p_kids-organic-tee",
+   "p_kids-fleece-pullover",
+   "p_fingerless-gloves",
+   "p_merino-crew-socks"
+  ],
+  "status": "active",
+  "publishedAt": "2026-04-26T09:47:19.224Z",
+  "createdAt": "2025-05-26T09:47:19.224Z",
+  "seoTitle": "Apparel",
+  "seoDescription": "Everyday clothing, built to last."
+ },
+ {
+  "id": "col_4",
+  "title": "Home Goods",
+  "descriptionHtml": "<p>Objects for a warmer home — ceramics, textiles, and light.</p>",
+  "imageSrc": "/images/collections/home-goods.svg",
+  "handle": "home-goods",
+  "type": "manual",
+  "rules": [],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_stainless-lunch-box",
+   "p_woven-belt",
+   "p_linen-apron",
+   "p_bamboo-cutlery-set",
+   "p_serving-board"
+  ],
+  "status": "active",
+  "publishedAt": "2025-11-15T09:47:19.225Z",
+  "createdAt": "2025-10-24T09:47:19.226Z",
+  "seoTitle": "Home Goods",
+  "seoDescription": "Objects for a warmer home — ceramics, textiles, and light."
+ },
+ {
+  "id": "col_5",
+  "title": "Outdoor & Travel",
+  "descriptionHtml": "<p>Gear for the trail, the commute, and the red-eye.</p>",
+  "imageSrc": "/images/collections/outdoor-travel.svg",
+  "handle": "outdoor-travel",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "tag",
+    "relation": "equals",
+    "condition": "outdoor"
+   },
+   {
+    "column": "tag",
+    "relation": "equals",
+    "condition": "travel"
+   }
+  ],
+  "rulesMatch": "any",
+  "productIds": [
+   "p_canvas-backpack",
+   "p_field-journal",
+   "p_phone-sling",
+   "p_carry-on-duffel",
+   "p_enamel-camping-mug",
+   "p_dog-rope-leash"
+  ],
+  "status": "active",
+  "publishedAt": "2026-06-07T09:47:19.227Z",
+  "createdAt": "2026-06-09T09:47:19.227Z",
+  "seoTitle": "Outdoor & Travel",
+  "seoDescription": "Gear for the trail, the commute, and the red-eye."
+ },
+ {
+  "id": "col_6",
+  "title": "Kitchen & Dining",
+  "descriptionHtml": "<p>Tools and tableware for slow mornings.</p>",
+  "imageSrc": "/images/collections/kitchen-dining.svg",
+  "handle": "kitchen-dining",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "product_type",
+    "relation": "equals",
+    "condition": "Kitchen"
+   }
+  ],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_ceramic-coffee-mug",
+   "p_french-press",
+   "p_serving-board",
+   "p_matcha-whisk-set",
+   "p_cast-iron-skillet",
+   "p_linen-apron",
+   "p_stainless-lunch-box",
+   "p_olive-oil-cruet"
+  ],
+  "status": "active",
+  "publishedAt": "2026-07-27T09:47:19.228Z",
+  "createdAt": "2026-06-09T09:47:19.228Z",
+  "seoTitle": "Kitchen & Dining",
+  "seoDescription": "Tools and tableware for slow mornings."
+ },
+ {
+  "id": "col_7",
+  "title": "Gift Guide",
+  "descriptionHtml": "<p>Hand-picked gifts under $100.</p>",
+  "imageSrc": "/images/collections/gift-guide.svg",
+  "handle": "gift-guide",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "tag",
+    "relation": "equals",
+    "condition": "gift"
+   }
+  ],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_insulated-water-bottle",
+   "p_wool-throw-blanket",
+   "p_soy-candle-set",
+   "p_serving-board",
+   "p_keychain-tool",
+   "p_matcha-whisk-set",
+   "p_shower-steamer-set",
+   "p_enamel-camping-mug",
+   "p_postcard-pack",
+   "p_pothos-care-kit",
+   "p_slate-coasters"
+  ],
+  "status": "active",
+  "publishedAt": "2026-05-29T09:47:19.229Z",
+  "createdAt": "2026-04-14T09:47:19.229Z",
+  "seoTitle": "Gift Guide",
+  "seoDescription": "Hand-picked gifts under $100."
+ },
+ {
+  "id": "col_8",
+  "title": "Leather Goods",
+  "descriptionHtml": "<p>Vegetable-tanned pieces that age well.</p>",
+  "imageSrc": "/images/collections/leather-goods.svg",
+  "handle": "leather-goods",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "tag",
+    "relation": "equals",
+    "condition": "leather"
+   }
+  ],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_passport-holder"
+  ],
+  "status": "active",
+  "publishedAt": "2025-12-26T09:47:19.230Z",
+  "createdAt": "2025-07-06T09:47:19.230Z",
+  "seoTitle": "Leather Goods",
+  "seoDescription": "Vegetable-tanned pieces that age well."
+ },
+ {
+  "id": "col_9",
+  "title": "Made in Portland",
+  "descriptionHtml": "<p>Designed and finished in our Portland workshop.</p>",
+  "imageSrc": "/images/collections/made-in-portland.svg",
+  "handle": "made-in-portland",
+  "type": "manual",
+  "rules": [],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_trail-socks",
+   "p_keychain-tool",
+   "p_dog-rope-leash",
+   "p_enamel-camping-mug"
+  ],
+  "status": "active",
+  "publishedAt": "2026-01-22T09:47:19.231Z",
+  "createdAt": "2025-04-28T09:47:19.231Z",
+  "seoTitle": "Made in Portland",
+  "seoDescription": "Designed and finished in our Portland workshop."
+ },
+ {
+  "id": "col_10",
+  "title": "Office & Desk",
+  "descriptionHtml": "<p>Upgrade the nine-to-five surface.</p>",
+  "imageSrc": "/images/collections/office-desk.svg",
+  "handle": "office-desk",
+  "type": "manual",
+  "rules": [],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_oversized-shirt",
+   "p_yoga-mat",
+   "p_dog-rope-leash",
+   "p_packable-rain-jacket"
+  ],
+  "status": "active",
+  "publishedAt": "2026-07-13T09:47:19.232Z",
+  "createdAt": "2025-08-26T09:47:19.232Z",
+  "seoTitle": "Office & Desk",
+  "seoDescription": "Upgrade the nine-to-five surface."
+ },
+ {
+  "id": "col_11",
+  "title": "Stationery",
+  "descriptionHtml": "<p>Paper goods worth writing on.</p>",
+  "imageSrc": "/images/collections/stationery.svg",
+  "handle": "stationery",
+  "type": "smart",
+  "rules": [
+   {
+    "column": "product_type",
+    "relation": "equals",
+    "condition": "Stationery"
+   }
+  ],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_linen-notebook",
+   "p_field-journal",
+   "p_postcard-pack"
+  ],
+  "status": "active",
+  "publishedAt": "2026-01-09T09:47:19.233Z",
+  "createdAt": "2025-08-01T09:47:19.233Z",
+  "seoTitle": "Stationery",
+  "seoDescription": "Paper goods worth writing on."
+ },
+ {
+  "id": "col_12",
+  "title": "Archive Sale",
+  "descriptionHtml": "<p>Final markdowns — while stock lasts.</p>",
+  "imageSrc": "/images/collections/archive-sale.svg",
+  "handle": "archive-sale",
+  "type": "manual",
+  "rules": [],
+  "rulesMatch": "all",
+  "productIds": [
+   "p_postcard-pack",
+   "p_desk-lamp",
+   "p_linen-notebook",
+   "p_soy-candle-set",
+   "p_stainless-lunch-box",
+   "p_desk-organizer",
+   "p_field-journal",
+   "p_passport-holder"
+  ],
+  "status": "active",
+  "publishedAt": "2026-01-18T09:47:19.234Z",
+  "createdAt": "2026-06-13T09:47:19.234Z",
+  "seoTitle": "Archive Sale",
+  "seoDescription": "Final markdowns — while stock lasts."
+ }
+]

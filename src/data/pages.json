@@ -1,0 +1,68 @@
+[
+ {
+  "id": "page_1",
+  "title": "About Northstar",
+  "handle": "about",
+  "contentHtml": "<p>Northstar Goods started in a Portland garage in 2018 with one product: a waxed canvas tote. Today we make and curate everyday objects that are built to be kept.</p><p>Every product we sell is chosen for durability, repairability, and quiet good looks.</p>",
+  "status": "published",
+  "seoTitle": "About Northstar",
+  "seoDescription": "Northstar Goods started in a Portland garage in 2018 with one product: a waxed canvas tote. Today we make and curate everyday objects that are built t",
+  "createdAt": "2025-04-26T09:47:19.236Z",
+  "updatedAt": "2026-09-08T02:03:27.017Z"
+ },
+ {
+  "id": "page_2",
+  "title": "Contact Us",
+  "handle": "contact",
+  "contentHtml": "<p>Questions, wholesale, press? Email <strong>hello@northstargoods.com</strong> and we answer within one business day.</p><p>Our studio: 4218 Alder St, Portland OR.</p>",
+  "status": "published",
+  "seoTitle": "Contact Us",
+  "seoDescription": "Questions, wholesale, press? Email hello@northstargoods.com and we answer within one business day.Our studio: 4218 Alder St, Portland OR.",
+  "createdAt": "2025-11-12T09:47:19.236Z",
+  "updatedAt": "2026-07-24T06:35:35.974Z"
+ },
+ {
+  "id": "page_3",
+  "title": "FAQ",
+  "handle": "faq",
+  "contentHtml": "<h3>How long does shipping take?</h3><p>Domestic orders ship in 1–2 business days and arrive in 3–5.</p><h3>What is your return policy?</h3><p>60 days, no questions. Items just need to be unused.</p>",
+  "status": "published",
+  "seoTitle": "FAQ",
+  "seoDescription": "How long does shipping take?Domestic orders ship in 1–2 business days and arrive in 3–5.What is your return policy?60 days, no questions. Items just n",
+  "createdAt": "2025-11-10T09:47:19.236Z",
+  "updatedAt": "2026-07-19T07:41:30.767Z"
+ },
+ {
+  "id": "page_4",
+  "title": "Shipping & Delivery",
+  "handle": "shipping-and-delivery",
+  "contentHtml": "<p>We ship worldwide from Portland and Brooklyn. Free domestic shipping on orders over $75.</p>",
+  "status": "published",
+  "seoTitle": "Shipping & Delivery",
+  "seoDescription": "We ship worldwide from Portland and Brooklyn. Free domestic shipping on orders over $75.",
+  "createdAt": "2025-08-21T09:47:19.236Z",
+  "updatedAt": "2026-08-18T11:48:14.797Z"
+ },
+ {
+  "id": "page_5",
+  "title": "Size Guide",
+  "handle": "size-guide",
+  "contentHtml": "<p>Our tees run relaxed. If you prefer a classic fit, size down. Hoodies are true to size.</p>",
+  "status": "published",
+  "seoTitle": "Size Guide",
+  "seoDescription": "Our tees run relaxed. If you prefer a classic fit, size down. Hoodies are true to size.",
+  "createdAt": "2026-02-10T09:47:19.236Z",
+  "updatedAt": "2026-07-29T11:00:22.729Z"
+ },
+ {
+  "id": "page_6",
+  "title": "Wholesale Inquiry",
+  "handle": "wholesale",
+  "contentHtml": "<p>We partner with select retailers. Minimum opening order $500. Email wholesale@northstargoods.com.</p>",
+  "status": "draft",
+  "seoTitle": "Wholesale Inquiry",
+  "seoDescription": "We partner with select retailers. Minimum opening order $500. Email wholesale@northstargoods.com.",
+  "createdAt": "2025-09-21T09:47:19.236Z",
+  "updatedAt": "2026-08-15T11:34:52.074Z"
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "id": "t_1",
+  "title": "Add your first custom domain",
+  "description": "Point northstargoods.com at your store.",
+  "done": false,
+  "link": "/settings"
+ },
+ {
+  "id": "t_2",
+  "title": "Set up abandoned checkout recovery",
+  "description": "Automatically email shoppers who leave items behind.",
+  "done": true,
+  "link": "/settings/checkout"
+ },
+ {
+  "id": "t_3",
+  "title": "Publish 3 more collections",
+  "description": "Stores with 8+ collections convert 12% better.",
+  "done": false,
+  "link": "/collections"
+ },
+ {
+  "id": "t_4",
+  "title": "Name a backup staff member",
+  "description": "Give an admin fallback fulfillment permissions.",
+  "done": false,
+  "link": "/settings/users"
+ },
+ {
+  "id": "t_5",
+  "title": "Review your tax settings",
+  "description": "Confirm rates before the next filing period.",
+  "done": false,
+  "link": "/settings/taxes"
+ }
+]

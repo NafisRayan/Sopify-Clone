@@ -1,0 +1,47 @@
+[
+ {
+  "id": "th_1",
+  "name": "Northstar",
+  "version": "3.2.0",
+  "role": "current",
+  "imageSrc": "/images/banners/theme-northstar.svg",
+  "updatedDays": 2,
+  "addedAt": "2026-09-08T09:47:19.252Z"
+ },
+ {
+  "id": "th_2",
+  "name": "Dawn",
+  "version": "9.1.0",
+  "role": "published-mirror",
+  "imageSrc": "/images/banners/theme-dawn.svg",
+  "updatedDays": 11,
+  "addedAt": "2026-08-30T09:47:19.252Z"
+ },
+ {
+  "id": "th_3",
+  "name": "Studio",
+  "version": "2.4.1",
+  "role": "library",
+  "imageSrc": "/images/banners/theme-studio.svg",
+  "updatedDays": 30,
+  "addedAt": "2026-08-11T09:47:19.252Z"
+ },
+ {
+  "id": "th_4",
+  "name": "Craft",
+  "version": "1.9.0",
+  "role": "library",
+  "imageSrc": "/images/banners/theme-craft.svg",
+  "updatedDays": 74,
+  "addedAt": "2026-06-28T09:47:19.252Z"
+ },
+ {
+  "id": "th_5",
+  "name": "Sense",
+  "version": "4.0.2",
+  "role": "library",
+  "imageSrc": "/images/banners/theme-sense.svg",
+  "updatedDays": 120,
+  "addedAt": "2026-05-13T09:47:19.252Z"
+ }
+]

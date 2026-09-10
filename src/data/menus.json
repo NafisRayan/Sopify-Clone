@@ -1,0 +1,133 @@
+[
+ {
+  "id": "menu_main",
+  "title": "Main menu",
+  "handle": "main-menu",
+  "items": [
+   {
+    "id": "mi_home",
+    "title": "Home",
+    "url": "/",
+    "children": []
+   },
+   {
+    "id": "mi_catalog",
+    "title": "Catalog",
+    "url": "/collections/all",
+    "children": [
+     {
+      "id": "mi_new",
+      "title": "New Arrivals",
+      "url": "/collections/new-arrivals",
+      "children": []
+     },
+     {
+      "id": "mi_best",
+      "title": "Bestsellers",
+      "url": "/collections/bestsellers",
+      "children": []
+     },
+     {
+      "id": "mi_apparel",
+      "title": "Apparel",
+      "url": "/collections/apparel",
+      "children": []
+     },
+     {
+      "id": "mi_home",
+      "title": "Home Goods",
+      "url": "/collections/home-goods",
+      "children": []
+     },
+     {
+      "id": "mi_outdoor",
+      "title": "Outdoor & Travel",
+      "url": "/collections/outdoor-travel",
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "mi_about",
+    "title": "About",
+    "url": "/pages/about",
+    "children": []
+   },
+   {
+    "id": "mi_journal",
+    "title": "Journal",
+    "url": "/blogs/journal",
+    "children": []
+   },
+   {
+    "id": "mi_contact",
+    "title": "Contact",
+    "url": "/pages/contact",
+    "children": []
+   }
+  ]
+ },
+ {
+  "id": "menu_footer",
+  "title": "Footer menu",
+  "handle": "footer",
+  "items": [
+   {
+    "id": "mi_f_quick",
+    "title": "Quick links",
+    "url": "#",
+    "children": [
+     {
+      "id": "mi_f_search",
+      "title": "Search",
+      "url": "/search",
+      "children": []
+     },
+     {
+      "id": "mi_f_shipping",
+      "title": "Shipping & Delivery",
+      "url": "/pages/shipping-and-delivery",
+      "children": []
+     },
+     {
+      "id": "mi_f_faq",
+      "title": "FAQ",
+      "url": "/pages/faq",
+      "children": []
+     }
+    ]
+   },
+   {
+    "id": "mi_f_info",
+    "title": "Info",
+    "url": "#",
+    "children": [
+     {
+      "id": "mi_f_about",
+      "title": "About",
+      "url": "/pages/about",
+      "children": []
+     },
+     {
+      "id": "mi_f_contact",
+      "title": "Contact",
+      "url": "/pages/contact",
+      "children": []
+     },
+     {
+      "id": "mi_f_privacy",
+      "title": "Privacy policy",
+      "url": "/policies/privacy-policy",
+      "children": []
+     },
+     {
+      "id": "mi_f_terms",
+      "title": "Terms of service",
+      "url": "/policies/terms-of-service",
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+]

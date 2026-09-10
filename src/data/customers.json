@@ -1,0 +1,2134 @@
+[
+ {
+  "id": "c_100",
+  "firstName": "Paulo",
+  "lastName": "Fontaine",
+  "email": "paulo.fontaine@example.com",
+  "phone": "(921) 555-1510",
+  "defaultAddress": {
+   "firstName": "Paulo",
+   "lastName": "Fontaine",
+   "address1": "5368 Kestrel Rd",
+   "city": "Minneapolis",
+   "province": "MN",
+   "country": "United States",
+   "zip": "55401",
+   "phone": "(921) 555-1510"
+  },
+  "addresses": [
+   {
+    "firstName": "Paulo",
+    "lastName": "Fontaine",
+    "address1": "5368 Kestrel Rd",
+    "city": "Minneapolis",
+    "province": "MN",
+    "country": "United States",
+    "zip": "55401",
+    "phone": "(921) 555-1510"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "pending",
+  "taxExempt": false,
+  "createdAt": "2024-10-11T09:47:19.178Z"
+ },
+ {
+  "id": "c_101",
+  "firstName": "Mateo",
+  "lastName": "Marino",
+  "email": "mateo.marino@example.com",
+  "phone": "(431) 555-7836",
+  "defaultAddress": {
+   "firstName": "Mateo",
+   "lastName": "Marino",
+   "address1": "3933 Oakmont Dr",
+   "city": "Brooklyn",
+   "province": "NY",
+   "country": "United States",
+   "zip": "11201",
+   "phone": "(431) 555-7836"
+  },
+  "addresses": [
+   {
+    "firstName": "Mateo",
+    "lastName": "Marino",
+    "address1": "3933 Oakmont Dr",
+    "city": "Brooklyn",
+    "province": "NY",
+    "country": "United States",
+    "zip": "11201",
+    "phone": "(431) 555-7836"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-11-13T09:47:19.178Z"
+ },
+ {
+  "id": "c_102",
+  "firstName": "Daisy",
+  "lastName": "Baptiste",
+  "email": "daisy.baptiste@example.com",
+  "phone": "(793) 555-4264",
+  "defaultAddress": {
+   "firstName": "Daisy",
+   "lastName": "Baptiste",
+   "address1": "6055 Spruce Ln",
+   "city": "Melbourne",
+   "province": "VIC",
+   "country": "Australia",
+   "zip": "3000",
+   "phone": "(793) 555-4264"
+  },
+  "addresses": [
+   {
+    "firstName": "Daisy",
+    "lastName": "Baptiste",
+    "address1": "6055 Spruce Ln",
+    "city": "Melbourne",
+    "province": "VIC",
+    "country": "Australia",
+    "zip": "3000",
+    "phone": "(793) 555-4264"
+   }
+  ],
+  "tags": [
+   "newsletter"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-07-21T09:47:19.178Z"
+ },
+ {
+  "id": "c_103",
+  "firstName": "Maya",
+  "lastName": "Larsen",
+  "email": "maya.larsen@example.com",
+  "phone": "(386) 555-8933",
+  "defaultAddress": {
+   "firstName": "Maya",
+   "lastName": "Larsen",
+   "address1": "1612 Birchwood Ave",
+   "city": "Brooklyn",
+   "province": "NY",
+   "country": "United States",
+   "zip": "11201",
+   "phone": "(386) 555-8933"
+  },
+  "addresses": [
+   {
+    "firstName": "Maya",
+    "lastName": "Larsen",
+    "address1": "1612 Birchwood Ave",
+    "city": "Brooklyn",
+    "province": "NY",
+    "country": "United States",
+    "zip": "11201",
+    "phone": "(386) 555-8933"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-04-26T09:47:19.178Z"
+ },
+ {
+  "id": "c_104",
+  "firstName": "Wren",
+  "lastName": "Ramirez",
+  "email": "wren.ramirez@example.com",
+  "phone": "(233) 555-5541",
+  "defaultAddress": {
+   "firstName": "Wren",
+   "lastName": "Ramirez",
+   "address1": "4973 Noble Ct",
+   "city": "Nashville",
+   "province": "TN",
+   "country": "United States",
+   "zip": "37201",
+   "phone": "(233) 555-5541"
+  },
+  "addresses": [
+   {
+    "firstName": "Wren",
+    "lastName": "Ramirez",
+    "address1": "4973 Noble Ct",
+    "city": "Nashville",
+    "province": "TN",
+    "country": "United States",
+    "zip": "37201",
+    "phone": "(233) 555-5541"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "pending",
+  "taxExempt": false,
+  "createdAt": "2024-11-15T09:47:19.178Z"
+ },
+ {
+  "id": "c_105",
+  "firstName": "Freya",
+  "lastName": "Ibrahim",
+  "email": "freya.ibrahim@example.com",
+  "phone": "(559) 555-9686",
+  "defaultAddress": {
+   "firstName": "Freya",
+   "lastName": "Ibrahim",
+   "address1": "5044 Elm Ct",
+   "city": "Savannah",
+   "province": "GA",
+   "country": "United States",
+   "zip": "31401",
+   "phone": "(559) 555-9686"
+  },
+  "addresses": [
+   {
+    "firstName": "Freya",
+    "lastName": "Ibrahim",
+    "address1": "5044 Elm Ct",
+    "city": "Savannah",
+    "province": "GA",
+    "country": "United States",
+    "zip": "31401",
+    "phone": "(559) 555-9686"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-01-21T09:47:19.178Z"
+ },
+ {
+  "id": "c_106",
+  "firstName": "Mei",
+  "lastName": "Mendoza",
+  "email": "mei.mendoza@example.com",
+  "phone": "(847) 555-4888",
+  "defaultAddress": {
+   "firstName": "Mei",
+   "lastName": "Mendoza",
+   "address1": "4399 Hazelwood Ave",
+   "city": "Vancouver",
+   "province": "BC",
+   "country": "Canada",
+   "zip": "V6B 1A1",
+   "phone": "(847) 555-4888"
+  },
+  "addresses": [
+   {
+    "firstName": "Mei",
+    "lastName": "Mendoza",
+    "address1": "4399 Hazelwood Ave",
+    "city": "Vancouver",
+    "province": "BC",
+    "country": "Canada",
+    "zip": "V6B 1A1",
+    "phone": "(847) 555-4888"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2024-10-27T09:47:19.178Z"
+ },
+ {
+  "id": "c_107",
+  "firstName": "Cole",
+  "lastName": "Fitzgerald",
+  "email": "cole.fitzgerald@example.com",
+  "phone": "(485) 555-8465",
+  "defaultAddress": {
+   "firstName": "Cole",
+   "lastName": "Fitzgerald",
+   "address1": "7326 Ridgeway Ave",
+   "city": "Chicago",
+   "province": "IL",
+   "country": "United States",
+   "zip": "60601",
+   "phone": "(485) 555-8465"
+  },
+  "addresses": [
+   {
+    "firstName": "Cole",
+    "lastName": "Fitzgerald",
+    "address1": "7326 Ridgeway Ave",
+    "city": "Chicago",
+    "province": "IL",
+    "country": "United States",
+    "zip": "60601",
+    "phone": "(485) 555-8465"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-06-22T09:47:19.178Z"
+ },
+ {
+  "id": "c_108",
+  "firstName": "Clara",
+  "lastName": "Ramirez",
+  "email": "clara.ramirez@example.com",
+  "phone": "(637) 555-5610",
+  "defaultAddress": {
+   "firstName": "Clara",
+   "lastName": "Ramirez",
+   "address1": "5612 Cedar Ln",
+   "city": "Portland",
+   "province": "OR",
+   "country": "United States",
+   "zip": "97201",
+   "phone": "(637) 555-5610"
+  },
+  "addresses": [
+   {
+    "firstName": "Clara",
+    "lastName": "Ramirez",
+    "address1": "5612 Cedar Ln",
+    "city": "Portland",
+    "province": "OR",
+    "country": "United States",
+    "zip": "97201",
+    "phone": "(637) 555-5610"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-06-01T09:47:19.178Z"
+ },
+ {
+  "id": "c_109",
+  "firstName": "Amos",
+  "lastName": "Nakamura",
+  "email": "amos.nakamura@example.com",
+  "phone": "(536) 555-3212",
+  "defaultAddress": {
+   "firstName": "Amos",
+   "lastName": "Nakamura",
+   "address1": "5778 Maple Ave",
+   "city": "Savannah",
+   "province": "GA",
+   "country": "United States",
+   "zip": "31401",
+   "phone": "(536) 555-3212"
+  },
+  "addresses": [
+   {
+    "firstName": "Amos",
+    "lastName": "Nakamura",
+    "address1": "5778 Maple Ave",
+    "city": "Savannah",
+    "province": "GA",
+    "country": "United States",
+    "zip": "31401",
+    "phone": "(536) 555-3212"
+   }
+  ],
+  "tags": [
+   "newsletter",
+   "local"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-01-25T09:47:19.178Z"
+ },
+ {
+  "id": "c_110",
+  "firstName": "Sadie",
+  "lastName": "Haddad",
+  "email": "sadie.haddad@example.com",
+  "phone": "(394) 555-9565",
+  "defaultAddress": {
+   "firstName": "Sadie",
+   "lastName": "Haddad",
+   "address1": "9392 Quarry St",
+   "city": "Seattle",
+   "province": "WA",
+   "country": "United States",
+   "zip": "98101",
+   "phone": "(394) 555-9565"
+  },
+  "addresses": [
+   {
+    "firstName": "Sadie",
+    "lastName": "Haddad",
+    "address1": "9392 Quarry St",
+    "city": "Seattle",
+    "province": "WA",
+    "country": "United States",
+    "zip": "98101",
+    "phone": "(394) 555-9565"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "pending",
+  "taxExempt": false,
+  "createdAt": "2025-03-09T09:47:19.178Z"
+ },
+ {
+  "id": "c_111",
+  "firstName": "Wren",
+  "lastName": "Suzuki",
+  "email": "wren.suzuki@example.com",
+  "phone": "(217) 555-9730",
+  "defaultAddress": {
+   "firstName": "Wren",
+   "lastName": "Suzuki",
+   "address1": "2733 Pine Hollow Rd",
+   "city": "Seattle",
+   "province": "WA",
+   "country": "United States",
+   "zip": "98101",
+   "phone": "(217) 555-9730"
+  },
+  "addresses": [
+   {
+    "firstName": "Wren",
+    "lastName": "Suzuki",
+    "address1": "2733 Pine Hollow Rd",
+    "city": "Seattle",
+    "province": "WA",
+    "country": "United States",
+    "zip": "98101",
+    "phone": "(217) 555-9730"
+   }
+  ],
+  "tags": [
+   "repeat",
+   "high-value"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-03-29T09:47:19.178Z"
+ },
+ {
+  "id": "c_112",
+  "firstName": "Isla",
+  "lastName": "Tanaka",
+  "email": "isla.tanaka@example.com",
+  "phone": "(469) 555-0714",
+  "defaultAddress": {
+   "firstName": "Isla",
+   "lastName": "Tanaka",
+   "address1": "5899 Cedar Ln",
+   "city": "Nashville",
+   "province": "TN",
+   "country": "United States",
+   "zip": "37201",
+   "phone": "(469) 555-0714"
+  },
+  "addresses": [
+   {
+    "firstName": "Isla",
+    "lastName": "Tanaka",
+    "address1": "5899 Cedar Ln",
+    "city": "Nashville",
+    "province": "TN",
+    "country": "United States",
+    "zip": "37201",
+    "phone": "(469) 555-0714"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "pending",
+  "taxExempt": false,
+  "createdAt": "2025-12-11T09:47:19.178Z"
+ },
+ {
+  "id": "c_113",
+  "firstName": "Cole",
+  "lastName": "Vasquez",
+  "email": "cole.vasquez@example.com",
+  "phone": "(888) 555-1841",
+  "defaultAddress": {
+   "firstName": "Cole",
+   "lastName": "Vasquez",
+   "address1": "2862 Grove St",
+   "city": "Vancouver",
+   "province": "BC",
+   "country": "Canada",
+   "zip": "V6B 1A1",
+   "phone": "(888) 555-1841"
+  },
+  "addresses": [
+   {
+    "firstName": "Cole",
+    "lastName": "Vasquez",
+    "address1": "2862 Grove St",
+    "city": "Vancouver",
+    "province": "BC",
+    "country": "Canada",
+    "zip": "V6B 1A1",
+    "phone": "(888) 555-1841"
+   }
+  ],
+  "tags": [
+   "repeat"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-04-13T09:47:19.178Z"
+ },
+ {
+  "id": "c_114",
+  "firstName": "Ruby",
+  "lastName": "Tanaka",
+  "email": "ruby.tanaka@example.com",
+  "phone": "(912) 555-7071",
+  "defaultAddress": {
+   "firstName": "Ruby",
+   "lastName": "Tanaka",
+   "address1": "7510 Laurel St",
+   "city": "Vancouver",
+   "province": "BC",
+   "country": "Canada",
+   "zip": "V6B 1A1",
+   "phone": "(912) 555-7071"
+  },
+  "addresses": [
+   {
+    "firstName": "Ruby",
+    "lastName": "Tanaka",
+    "address1": "7510 Laurel St",
+    "city": "Vancouver",
+    "province": "BC",
+    "country": "Canada",
+    "zip": "V6B 1A1",
+    "phone": "(912) 555-7071"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-01-27T09:47:19.178Z"
+ },
+ {
+  "id": "c_115",
+  "firstName": "Arjun",
+  "lastName": "Moreau",
+  "email": "arjun.moreau@example.com",
+  "phone": "(366) 555-8848",
+  "defaultAddress": {
+   "firstName": "Arjun",
+   "lastName": "Moreau",
+   "address1": "8997 Oakmont Dr",
+   "city": "Toronto",
+   "province": "ON",
+   "country": "Canada",
+   "zip": "M5V 2H1",
+   "phone": "(366) 555-8848"
+  },
+  "addresses": [
+   {
+    "firstName": "Arjun",
+    "lastName": "Moreau",
+    "address1": "8997 Oakmont Dr",
+    "city": "Toronto",
+    "province": "ON",
+    "country": "Canada",
+    "zip": "M5V 2H1",
+    "phone": "(366) 555-8848"
+   }
+  ],
+  "tags": [
+   "repeat",
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-07-11T09:47:19.178Z"
+ },
+ {
+  "id": "c_116",
+  "firstName": "Owen",
+  "lastName": "Silva",
+  "email": "owen.silva@example.com",
+  "phone": "(774) 555-5843",
+  "defaultAddress": {
+   "firstName": "Owen",
+   "lastName": "Silva",
+   "address1": "147 Maple Ave",
+   "city": "Toronto",
+   "province": "ON",
+   "country": "Canada",
+   "zip": "M5V 2H1",
+   "phone": "(774) 555-5843"
+  },
+  "addresses": [
+   {
+    "firstName": "Owen",
+    "lastName": "Silva",
+    "address1": "147 Maple Ave",
+    "city": "Toronto",
+    "province": "ON",
+    "country": "Canada",
+    "zip": "M5V 2H1",
+    "phone": "(774) 555-5843"
+   }
+  ],
+  "tags": [
+   "repeat",
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-04-10T09:47:19.178Z"
+ },
+ {
+  "id": "c_117",
+  "firstName": "Mateo",
+  "lastName": "Bennett",
+  "email": "mateo.bennett@example.com",
+  "phone": "(224) 555-0758",
+  "defaultAddress": {
+   "firstName": "Mateo",
+   "lastName": "Bennett",
+   "address1": "1356 Cedar Ln",
+   "city": "Brooklyn",
+   "province": "NY",
+   "country": "United States",
+   "zip": "11201",
+   "phone": "(224) 555-0758"
+  },
+  "addresses": [
+   {
+    "firstName": "Mateo",
+    "lastName": "Bennett",
+    "address1": "1356 Cedar Ln",
+    "city": "Brooklyn",
+    "province": "NY",
+    "country": "United States",
+    "zip": "11201",
+    "phone": "(224) 555-0758"
+   }
+  ],
+  "tags": [
+   "high-value",
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-08-19T09:47:19.178Z"
+ },
+ {
+  "id": "c_118",
+  "firstName": "Theo",
+  "lastName": "Osei-Bonsu",
+  "email": "theo.oseibonsu@example.com",
+  "phone": "(891) 555-0731",
+  "defaultAddress": {
+   "firstName": "Theo",
+   "lastName": "Osei-Bonsu",
+   "address1": "1333 Grove St",
+   "city": "Minneapolis",
+   "province": "MN",
+   "country": "United States",
+   "zip": "55401",
+   "phone": "(891) 555-0731"
+  },
+  "addresses": [
+   {
+    "firstName": "Theo",
+    "lastName": "Osei-Bonsu",
+    "address1": "1333 Grove St",
+    "city": "Minneapolis",
+    "province": "MN",
+    "country": "United States",
+    "zip": "55401",
+    "phone": "(891) 555-0731"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-02-06T09:47:19.178Z"
+ },
+ {
+  "id": "c_119",
+  "firstName": "Tessa",
+  "lastName": "Osei",
+  "email": "tessa.osei@example.com",
+  "phone": "(584) 555-4658",
+  "defaultAddress": {
+   "firstName": "Tessa",
+   "lastName": "Osei",
+   "address1": "4198 Pine Hollow Rd",
+   "city": "Berlin",
+   "province": "Berlin",
+   "country": "Germany",
+   "zip": "10115",
+   "phone": "(584) 555-4658"
+  },
+  "addresses": [
+   {
+    "firstName": "Tessa",
+    "lastName": "Osei",
+    "address1": "4198 Pine Hollow Rd",
+    "city": "Berlin",
+    "province": "Berlin",
+    "country": "Germany",
+    "zip": "10115",
+    "phone": "(584) 555-4658"
+   }
+  ],
+  "tags": [
+   "local"
+  ],
+  "emailMarketingConsent": "pending",
+  "taxExempt": false,
+  "createdAt": "2025-03-14T09:47:19.179Z"
+ },
+ {
+  "id": "c_120",
+  "firstName": "Ruby",
+  "lastName": "Petrov",
+  "email": "ruby.petrov@example.com",
+  "phone": "(901) 555-6892",
+  "defaultAddress": {
+   "firstName": "Ruby",
+   "lastName": "Petrov",
+   "address1": "2140 Spruce Ln",
+   "city": "Berlin",
+   "province": "Berlin",
+   "country": "Germany",
+   "zip": "10115",
+   "phone": "(901) 555-6892"
+  },
+  "addresses": [
+   {
+    "firstName": "Ruby",
+    "lastName": "Petrov",
+    "address1": "2140 Spruce Ln",
+    "city": "Berlin",
+    "province": "Berlin",
+    "country": "Germany",
+    "zip": "10115",
+    "phone": "(901) 555-6892"
+   }
+  ],
+  "tags": [
+   "vip",
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-03-12T09:47:19.179Z"
+ },
+ {
+  "id": "c_121",
+  "firstName": "Elsie",
+  "lastName": "Baptiste",
+  "email": "elsie.baptiste@example.com",
+  "phone": "(903) 555-3977",
+  "defaultAddress": {
+   "firstName": "Elsie",
+   "lastName": "Baptiste",
+   "address1": "1898 Oakmont Dr",
+   "city": "Portland",
+   "province": "OR",
+   "country": "United States",
+   "zip": "97201",
+   "phone": "(903) 555-3977"
+  },
+  "addresses": [
+   {
+    "firstName": "Elsie",
+    "lastName": "Baptiste",
+    "address1": "1898 Oakmont Dr",
+    "city": "Portland",
+    "province": "OR",
+    "country": "United States",
+    "zip": "97201",
+    "phone": "(903) 555-3977"
+   }
+  ],
+  "tags": [
+   "wholesale",
+   "newsletter"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-09-17T09:47:19.179Z"
+ },
+ {
+  "id": "c_122",
+  "firstName": "Mateo",
+  "lastName": "Andersen",
+  "email": "mateo.andersen@example.com",
+  "phone": "(594) 555-6433",
+  "defaultAddress": {
+   "firstName": "Mateo",
+   "lastName": "Andersen",
+   "address1": "9595 Ridgeway Ave",
+   "city": "Nashville",
+   "province": "TN",
+   "country": "United States",
+   "zip": "37201",
+   "phone": "(594) 555-6433"
+  },
+  "addresses": [
+   {
+    "firstName": "Mateo",
+    "lastName": "Andersen",
+    "address1": "9595 Ridgeway Ave",
+    "city": "Nashville",
+    "province": "TN",
+    "country": "United States",
+    "zip": "37201",
+    "phone": "(594) 555-6433"
+   }
+  ],
+  "tags": [
+   "local",
+   "wholesale"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2024-11-08T09:47:19.179Z"
+ },
+ {
+  "id": "c_123",
+  "firstName": "Iris",
+  "lastName": "Rossi",
+  "email": "iris.rossi@example.com",
+  "phone": "(710) 555-6666",
+  "defaultAddress": {
+   "firstName": "Iris",
+   "lastName": "Rossi",
+   "address1": "3144 Dogwood Dr",
+   "city": "Denver",
+   "province": "CO",
+   "country": "United States",
+   "zip": "80202",
+   "phone": "(710) 555-6666"
+  },
+  "addresses": [
+   {
+    "firstName": "Iris",
+    "lastName": "Rossi",
+    "address1": "3144 Dogwood Dr",
+    "city": "Denver",
+    "province": "CO",
+    "country": "United States",
+    "zip": "80202",
+    "phone": "(710) 555-6666"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-08-17T09:47:19.179Z"
+ },
+ {
+  "id": "c_124",
+  "firstName": "Ethan",
+  "lastName": "Baptiste",
+  "email": "ethan.baptiste@example.com",
+  "phone": "(371) 555-6657",
+  "defaultAddress": {
+   "firstName": "Ethan",
+   "lastName": "Baptiste",
+   "address1": "7296 Dogwood Dr",
+   "city": "Toronto",
+   "province": "ON",
+   "country": "Canada",
+   "zip": "M5V 2H1",
+   "phone": "(371) 555-6657"
+  },
+  "addresses": [
+   {
+    "firstName": "Ethan",
+    "lastName": "Baptiste",
+    "address1": "7296 Dogwood Dr",
+    "city": "Toronto",
+    "province": "ON",
+    "country": "Canada",
+    "zip": "M5V 2H1",
+    "phone": "(371) 555-6657"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-11-23T09:47:19.179Z"
+ },
+ {
+  "id": "c_125",
+  "firstName": "Tessa",
+  "lastName": "Ramirez",
+  "email": "tessa.ramirez@example.com",
+  "phone": "(583) 555-3850",
+  "defaultAddress": {
+   "firstName": "Tessa",
+   "lastName": "Ramirez",
+   "address1": "910 Ridgeway Ave",
+   "city": "Vancouver",
+   "province": "BC",
+   "country": "Canada",
+   "zip": "V6B 1A1",
+   "phone": "(583) 555-3850"
+  },
+  "addresses": [
+   {
+    "firstName": "Tessa",
+    "lastName": "Ramirez",
+    "address1": "910 Ridgeway Ave",
+    "city": "Vancouver",
+    "province": "BC",
+    "country": "Canada",
+    "zip": "V6B 1A1",
+    "phone": "(583) 555-3850"
+   }
+  ],
+  "tags": [
+   "wholesale",
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-11-05T09:47:19.179Z"
+ },
+ {
+  "id": "c_126",
+  "firstName": "Sofia",
+  "lastName": "Chatterjee",
+  "email": "sofia.chatterjee@example.com",
+  "phone": "(453) 555-4328",
+  "defaultAddress": {
+   "firstName": "Sofia",
+   "lastName": "Chatterjee",
+   "address1": "5411 Maple Ave",
+   "city": "Austin",
+   "province": "TX",
+   "country": "United States",
+   "zip": "73301",
+   "phone": "(453) 555-4328"
+  },
+  "addresses": [
+   {
+    "firstName": "Sofia",
+    "lastName": "Chatterjee",
+    "address1": "5411 Maple Ave",
+    "city": "Austin",
+    "province": "TX",
+    "country": "United States",
+    "zip": "73301",
+    "phone": "(453) 555-4328"
+   }
+  ],
+  "tags": [
+   "newsletter"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-01-26T09:47:19.179Z"
+ },
+ {
+  "id": "c_127",
+  "firstName": "Yuki",
+  "lastName": "Dubois",
+  "email": "yuki.dubois@example.com",
+  "phone": "(988) 555-5523",
+  "defaultAddress": {
+   "firstName": "Yuki",
+   "lastName": "Dubois",
+   "address1": "9157 Laurel St",
+   "city": "Melbourne",
+   "province": "VIC",
+   "country": "Australia",
+   "zip": "3000",
+   "phone": "(988) 555-5523"
+  },
+  "addresses": [
+   {
+    "firstName": "Yuki",
+    "lastName": "Dubois",
+    "address1": "9157 Laurel St",
+    "city": "Melbourne",
+    "province": "VIC",
+    "country": "Australia",
+    "zip": "3000",
+    "phone": "(988) 555-5523"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-04-01T09:47:19.179Z"
+ },
+ {
+  "id": "c_128",
+  "firstName": "Freya",
+  "lastName": "Eriksen",
+  "email": "freya.eriksen@example.com",
+  "phone": "(267) 555-6979",
+  "defaultAddress": {
+   "firstName": "Freya",
+   "lastName": "Eriksen",
+   "address1": "395 Elm Ct",
+   "city": "Melbourne",
+   "province": "VIC",
+   "country": "Australia",
+   "zip": "3000",
+   "phone": "(267) 555-6979"
+  },
+  "addresses": [
+   {
+    "firstName": "Freya",
+    "lastName": "Eriksen",
+    "address1": "395 Elm Ct",
+    "city": "Melbourne",
+    "province": "VIC",
+    "country": "Australia",
+    "zip": "3000",
+    "phone": "(267) 555-6979"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-08-11T09:47:19.179Z"
+ },
+ {
+  "id": "c_129",
+  "firstName": "Zoe",
+  "lastName": "Lindqvist",
+  "email": "zoe.lindqvist@example.com",
+  "phone": "(680) 555-9306",
+  "defaultAddress": {
+   "firstName": "Zoe",
+   "lastName": "Lindqvist",
+   "address1": "2122 Noble Ct",
+   "city": "Toronto",
+   "province": "ON",
+   "country": "Canada",
+   "zip": "M5V 2H1",
+   "phone": "(680) 555-9306"
+  },
+  "addresses": [
+   {
+    "firstName": "Zoe",
+    "lastName": "Lindqvist",
+    "address1": "2122 Noble Ct",
+    "city": "Toronto",
+    "province": "ON",
+    "country": "Canada",
+    "zip": "M5V 2H1",
+    "phone": "(680) 555-9306"
+   }
+  ],
+  "tags": [
+   "repeat"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-11-12T09:47:19.179Z"
+ },
+ {
+  "id": "c_130",
+  "firstName": "Felix",
+  "lastName": "Reyes",
+  "email": "felix.reyes@example.com",
+  "phone": "(591) 555-9275",
+  "defaultAddress": {
+   "firstName": "Felix",
+   "lastName": "Reyes",
+   "address1": "6438 Juniper Way",
+   "city": "Austin",
+   "province": "TX",
+   "country": "United States",
+   "zip": "73301",
+   "phone": "(591) 555-9275"
+  },
+  "addresses": [
+   {
+    "firstName": "Felix",
+    "lastName": "Reyes",
+    "address1": "6438 Juniper Way",
+    "city": "Austin",
+    "province": "TX",
+    "country": "United States",
+    "zip": "73301",
+    "phone": "(591) 555-9275"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-10-13T09:47:19.179Z"
+ },
+ {
+  "id": "c_131",
+  "firstName": "Clara",
+  "lastName": "Larsen",
+  "email": "clara.larsen@example.com",
+  "phone": "(645) 555-6683",
+  "defaultAddress": {
+   "firstName": "Clara",
+   "lastName": "Larsen",
+   "address1": "8218 Ridgeway Ave",
+   "city": "Toronto",
+   "province": "ON",
+   "country": "Canada",
+   "zip": "M5V 2H1",
+   "phone": "(645) 555-6683"
+  },
+  "addresses": [
+   {
+    "firstName": "Clara",
+    "lastName": "Larsen",
+    "address1": "8218 Ridgeway Ave",
+    "city": "Toronto",
+    "province": "ON",
+    "country": "Canada",
+    "zip": "M5V 2H1",
+    "phone": "(645) 555-6683"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-04-04T09:47:19.179Z"
+ },
+ {
+  "id": "c_132",
+  "firstName": "Elena",
+  "lastName": "Nakamura",
+  "email": "elena.nakamura@example.com",
+  "phone": "(223) 555-2303",
+  "defaultAddress": {
+   "firstName": "Elena",
+   "lastName": "Nakamura",
+   "address1": "6945 Noble Ct",
+   "city": "Savannah",
+   "province": "GA",
+   "country": "United States",
+   "zip": "31401",
+   "phone": "(223) 555-2303"
+  },
+  "addresses": [
+   {
+    "firstName": "Elena",
+    "lastName": "Nakamura",
+    "address1": "6945 Noble Ct",
+    "city": "Savannah",
+    "province": "GA",
+    "country": "United States",
+    "zip": "31401",
+    "phone": "(223) 555-2303"
+   }
+  ],
+  "tags": [
+   "vip",
+   "wholesale"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-02-15T09:47:19.179Z"
+ },
+ {
+  "id": "c_133",
+  "firstName": "Iris",
+  "lastName": "Mendoza",
+  "email": "iris.mendoza@example.com",
+  "phone": "(567) 555-2552",
+  "defaultAddress": {
+   "firstName": "Iris",
+   "lastName": "Mendoza",
+   "address1": "4449 Elm Ct",
+   "city": "Nashville",
+   "province": "TN",
+   "country": "United States",
+   "zip": "37201",
+   "phone": "(567) 555-2552"
+  },
+  "addresses": [
+   {
+    "firstName": "Iris",
+    "lastName": "Mendoza",
+    "address1": "4449 Elm Ct",
+    "city": "Nashville",
+    "province": "TN",
+    "country": "United States",
+    "zip": "37201",
+    "phone": "(567) 555-2552"
+   }
+  ],
+  "tags": [],
+  "note": "VIP — prioritize fulfillment during holiday season.",
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-12-21T09:47:19.179Z"
+ },
+ {
+  "id": "c_134",
+  "firstName": "Elsie",
+  "lastName": "Larsen",
+  "email": "elsie.larsen@example.com",
+  "phone": "(570) 555-5724",
+  "defaultAddress": {
+   "firstName": "Elsie",
+   "lastName": "Larsen",
+   "address1": "8131 Grove St",
+   "city": "Melbourne",
+   "province": "VIC",
+   "country": "Australia",
+   "zip": "3000",
+   "phone": "(570) 555-5724"
+  },
+  "addresses": [
+   {
+    "firstName": "Elsie",
+    "lastName": "Larsen",
+    "address1": "8131 Grove St",
+    "city": "Melbourne",
+    "province": "VIC",
+    "country": "Australia",
+    "zip": "3000",
+    "phone": "(570) 555-5724"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-06-14T09:47:19.179Z"
+ },
+ {
+  "id": "c_135",
+  "firstName": "Jack",
+  "lastName": "Mendoza",
+  "email": "jack.mendoza@example.com",
+  "phone": "(469) 555-2648",
+  "defaultAddress": {
+   "firstName": "Jack",
+   "lastName": "Mendoza",
+   "address1": "824 Fir St",
+   "city": "Berlin",
+   "province": "Berlin",
+   "country": "Germany",
+   "zip": "10115",
+   "phone": "(469) 555-2648"
+  },
+  "addresses": [
+   {
+    "firstName": "Jack",
+    "lastName": "Mendoza",
+    "address1": "824 Fir St",
+    "city": "Berlin",
+    "province": "Berlin",
+    "country": "Germany",
+    "zip": "10115",
+    "phone": "(469) 555-2648"
+   }
+  ],
+  "tags": [
+   "vip",
+   "high-value"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-07-14T09:47:19.179Z"
+ },
+ {
+  "id": "c_136",
+  "firstName": "Lucas",
+  "lastName": "Aldana",
+  "email": "lucas.aldana@example.com",
+  "phone": "(264) 555-6392",
+  "defaultAddress": {
+   "firstName": "Lucas",
+   "lastName": "Aldana",
+   "address1": "6921 Oakmont Dr",
+   "city": "Vancouver",
+   "province": "BC",
+   "country": "Canada",
+   "zip": "V6B 1A1",
+   "phone": "(264) 555-6392"
+  },
+  "addresses": [
+   {
+    "firstName": "Lucas",
+    "lastName": "Aldana",
+    "address1": "6921 Oakmont Dr",
+    "city": "Vancouver",
+    "province": "BC",
+    "country": "Canada",
+    "zip": "V6B 1A1",
+    "phone": "(264) 555-6392"
+   }
+  ],
+  "tags": [
+   "repeat"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": true,
+  "createdAt": "2026-07-09T09:47:19.179Z"
+ },
+ {
+  "id": "c_137",
+  "firstName": "Rhys",
+  "lastName": "Rossi",
+  "email": "rhys.rossi@example.com",
+  "phone": "(517) 555-2788",
+  "defaultAddress": {
+   "firstName": "Rhys",
+   "lastName": "Rossi",
+   "address1": "3370 Dogwood Dr",
+   "city": "Portland",
+   "province": "OR",
+   "country": "United States",
+   "zip": "97201",
+   "phone": "(517) 555-2788"
+  },
+  "addresses": [
+   {
+    "firstName": "Rhys",
+    "lastName": "Rossi",
+    "address1": "3370 Dogwood Dr",
+    "city": "Portland",
+    "province": "OR",
+    "country": "United States",
+    "zip": "97201",
+    "phone": "(517) 555-2788"
+   }
+  ],
+  "tags": [
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-12-06T09:47:19.179Z"
+ },
+ {
+  "id": "c_138",
+  "firstName": "Marcus",
+  "lastName": "Andersen",
+  "email": "marcus.andersen@example.com",
+  "phone": "(455) 555-5536",
+  "defaultAddress": {
+   "firstName": "Marcus",
+   "lastName": "Andersen",
+   "address1": "2533 Laurel St",
+   "city": "Seattle",
+   "province": "WA",
+   "country": "United States",
+   "zip": "98101",
+   "phone": "(455) 555-5536"
+  },
+  "addresses": [
+   {
+    "firstName": "Marcus",
+    "lastName": "Andersen",
+    "address1": "2533 Laurel St",
+    "city": "Seattle",
+    "province": "WA",
+    "country": "United States",
+    "zip": "98101",
+    "phone": "(455) 555-5536"
+   }
+  ],
+  "tags": [
+   "high-value",
+   "wholesale"
+  ],
+  "emailMarketingConsent": "pending",
+  "taxExempt": false,
+  "createdAt": "2025-10-19T09:47:19.179Z"
+ },
+ {
+  "id": "c_139",
+  "firstName": "Freya",
+  "lastName": "Costa",
+  "email": "freya.costa@example.com",
+  "phone": "(734) 555-7993",
+  "defaultAddress": {
+   "firstName": "Freya",
+   "lastName": "Costa",
+   "address1": "941 Hazelwood Ave",
+   "city": "Austin",
+   "province": "TX",
+   "country": "United States",
+   "zip": "73301",
+   "phone": "(734) 555-7993"
+  },
+  "addresses": [
+   {
+    "firstName": "Freya",
+    "lastName": "Costa",
+    "address1": "941 Hazelwood Ave",
+    "city": "Austin",
+    "province": "TX",
+    "country": "United States",
+    "zip": "73301",
+    "phone": "(734) 555-7993"
+   }
+  ],
+  "tags": [],
+  "note": "Prefers email contact. Repeat wholesale buyer.",
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-09-06T09:47:19.179Z"
+ },
+ {
+  "id": "c_140",
+  "firstName": "Omar",
+  "lastName": "Fitzgerald",
+  "email": "omar.fitzgerald@example.com",
+  "phone": "(809) 555-6378",
+  "defaultAddress": {
+   "firstName": "Omar",
+   "lastName": "Fitzgerald",
+   "address1": "8513 Noble Ct",
+   "city": "Vancouver",
+   "province": "BC",
+   "country": "Canada",
+   "zip": "V6B 1A1",
+   "phone": "(809) 555-6378"
+  },
+  "addresses": [
+   {
+    "firstName": "Omar",
+    "lastName": "Fitzgerald",
+    "address1": "8513 Noble Ct",
+    "city": "Vancouver",
+    "province": "BC",
+    "country": "Canada",
+    "zip": "V6B 1A1",
+    "phone": "(809) 555-6378"
+   }
+  ],
+  "tags": [],
+  "note": "Prefers email contact. Repeat wholesale buyer.",
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-07-07T09:47:19.179Z"
+ },
+ {
+  "id": "c_141",
+  "firstName": "Grace",
+  "lastName": "Nakamura",
+  "email": "grace.nakamura@example.com",
+  "phone": "(845) 555-3850",
+  "defaultAddress": {
+   "firstName": "Grace",
+   "lastName": "Nakamura",
+   "address1": "3325 Pine Hollow Rd",
+   "city": "Chicago",
+   "province": "IL",
+   "country": "United States",
+   "zip": "60601",
+   "phone": "(845) 555-3850"
+  },
+  "addresses": [
+   {
+    "firstName": "Grace",
+    "lastName": "Nakamura",
+    "address1": "3325 Pine Hollow Rd",
+    "city": "Chicago",
+    "province": "IL",
+    "country": "United States",
+    "zip": "60601",
+    "phone": "(845) 555-3850"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "pending",
+  "taxExempt": false,
+  "createdAt": "2025-12-13T09:47:19.179Z"
+ },
+ {
+  "id": "c_142",
+  "firstName": "Iris",
+  "lastName": "Larsen",
+  "email": "iris.larsen@example.com",
+  "phone": "(314) 555-4014",
+  "defaultAddress": {
+   "firstName": "Iris",
+   "lastName": "Larsen",
+   "address1": "968 Grove St",
+   "city": "Brooklyn",
+   "province": "NY",
+   "country": "United States",
+   "zip": "11201",
+   "phone": "(314) 555-4014"
+  },
+  "addresses": [
+   {
+    "firstName": "Iris",
+    "lastName": "Larsen",
+    "address1": "968 Grove St",
+    "city": "Brooklyn",
+    "province": "NY",
+    "country": "United States",
+    "zip": "11201",
+    "phone": "(314) 555-4014"
+   }
+  ],
+  "tags": [
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-11-11T09:47:19.179Z"
+ },
+ {
+  "id": "c_143",
+  "firstName": "Paulo",
+  "lastName": "Aldana",
+  "email": "paulo.aldana@example.com",
+  "phone": "(632) 555-0959",
+  "defaultAddress": {
+   "firstName": "Paulo",
+   "lastName": "Aldana",
+   "address1": "1007 Alder St",
+   "city": "Portland",
+   "province": "OR",
+   "country": "United States",
+   "zip": "97201",
+   "phone": "(632) 555-0959"
+  },
+  "addresses": [
+   {
+    "firstName": "Paulo",
+    "lastName": "Aldana",
+    "address1": "1007 Alder St",
+    "city": "Portland",
+    "province": "OR",
+    "country": "United States",
+    "zip": "97201",
+    "phone": "(632) 555-0959"
+   }
+  ],
+  "tags": [
+   "newsletter"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-03-28T09:47:19.179Z"
+ },
+ {
+  "id": "c_144",
+  "firstName": "Freya",
+  "lastName": "Ramirez",
+  "email": "freya.ramirez@example.com",
+  "phone": "(828) 555-0774",
+  "defaultAddress": {
+   "firstName": "Freya",
+   "lastName": "Ramirez",
+   "address1": "2502 Juniper Way",
+   "city": "Denver",
+   "province": "CO",
+   "country": "United States",
+   "zip": "80202",
+   "phone": "(828) 555-0774"
+  },
+  "addresses": [
+   {
+    "firstName": "Freya",
+    "lastName": "Ramirez",
+    "address1": "2502 Juniper Way",
+    "city": "Denver",
+    "province": "CO",
+    "country": "United States",
+    "zip": "80202",
+    "phone": "(828) 555-0774"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2024-12-14T09:47:19.179Z"
+ },
+ {
+  "id": "c_145",
+  "firstName": "Dmitri",
+  "lastName": "Larsen",
+  "email": "dmitri.larsen@example.com",
+  "phone": "(567) 555-1601",
+  "defaultAddress": {
+   "firstName": "Dmitri",
+   "lastName": "Larsen",
+   "address1": "4579 Maple Ave",
+   "city": "Denver",
+   "province": "CO",
+   "country": "United States",
+   "zip": "80202",
+   "phone": "(567) 555-1601"
+  },
+  "addresses": [
+   {
+    "firstName": "Dmitri",
+    "lastName": "Larsen",
+    "address1": "4579 Maple Ave",
+    "city": "Denver",
+    "province": "CO",
+    "country": "United States",
+    "zip": "80202",
+    "phone": "(567) 555-1601"
+   }
+  ],
+  "tags": [
+   "local"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2024-12-27T09:47:19.179Z"
+ },
+ {
+  "id": "c_146",
+  "firstName": "Leo",
+  "lastName": "Haddad",
+  "email": "leo.haddad@example.com",
+  "phone": "(311) 555-4398",
+  "defaultAddress": {
+   "firstName": "Leo",
+   "lastName": "Haddad",
+   "address1": "3356 Oakmont Dr",
+   "city": "Savannah",
+   "province": "GA",
+   "country": "United States",
+   "zip": "31401",
+   "phone": "(311) 555-4398"
+  },
+  "addresses": [
+   {
+    "firstName": "Leo",
+    "lastName": "Haddad",
+    "address1": "3356 Oakmont Dr",
+    "city": "Savannah",
+    "province": "GA",
+    "country": "United States",
+    "zip": "31401",
+    "phone": "(311) 555-4398"
+   }
+  ],
+  "tags": [
+   "local",
+   "repeat"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-05-30T09:47:19.179Z"
+ },
+ {
+  "id": "c_147",
+  "firstName": "Oscar",
+  "lastName": "Castellano",
+  "email": "oscar.castellano@example.com",
+  "phone": "(391) 555-2537",
+  "defaultAddress": {
+   "firstName": "Oscar",
+   "lastName": "Castellano",
+   "address1": "1910 Noble Ct",
+   "city": "Savannah",
+   "province": "GA",
+   "country": "United States",
+   "zip": "31401",
+   "phone": "(391) 555-2537"
+  },
+  "addresses": [
+   {
+    "firstName": "Oscar",
+    "lastName": "Castellano",
+    "address1": "1910 Noble Ct",
+    "city": "Savannah",
+    "province": "GA",
+    "country": "United States",
+    "zip": "31401",
+    "phone": "(391) 555-2537"
+   }
+  ],
+  "tags": [],
+  "note": "Prefers email contact. Repeat wholesale buyer.",
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-06-22T09:47:19.179Z"
+ },
+ {
+  "id": "c_148",
+  "firstName": "Ravi",
+  "lastName": "Fitzgerald",
+  "email": "ravi.fitzgerald@example.com",
+  "phone": "(381) 555-7983",
+  "defaultAddress": {
+   "firstName": "Ravi",
+   "lastName": "Fitzgerald",
+   "address1": "635 Oakmont Dr",
+   "city": "Seattle",
+   "province": "WA",
+   "country": "United States",
+   "zip": "98101",
+   "phone": "(381) 555-7983"
+  },
+  "addresses": [
+   {
+    "firstName": "Ravi",
+    "lastName": "Fitzgerald",
+    "address1": "635 Oakmont Dr",
+    "city": "Seattle",
+    "province": "WA",
+    "country": "United States",
+    "zip": "98101",
+    "phone": "(381) 555-7983"
+   }
+  ],
+  "tags": [
+   "newsletter"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-09-16T09:47:19.179Z"
+ },
+ {
+  "id": "c_149",
+  "firstName": "Leo",
+  "lastName": "Rossi",
+  "email": "leo.rossi@example.com",
+  "phone": "(432) 555-9080",
+  "defaultAddress": {
+   "firstName": "Leo",
+   "lastName": "Rossi",
+   "address1": "2350 Birchwood Ave",
+   "city": "Savannah",
+   "province": "GA",
+   "country": "United States",
+   "zip": "31401",
+   "phone": "(432) 555-9080"
+  },
+  "addresses": [
+   {
+    "firstName": "Leo",
+    "lastName": "Rossi",
+    "address1": "2350 Birchwood Ave",
+    "city": "Savannah",
+    "province": "GA",
+    "country": "United States",
+    "zip": "31401",
+    "phone": "(432) 555-9080"
+   }
+  ],
+  "tags": [
+   "repeat"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-04-11T09:47:19.179Z"
+ },
+ {
+  "id": "c_150",
+  "firstName": "Rowan",
+  "lastName": "Bennett",
+  "email": "rowan.bennett@example.com",
+  "phone": "(845) 555-7797",
+  "defaultAddress": {
+   "firstName": "Rowan",
+   "lastName": "Bennett",
+   "address1": "6029 Juniper Way",
+   "city": "Boulder",
+   "province": "CO",
+   "country": "United States",
+   "zip": "80302",
+   "phone": "(845) 555-7797"
+  },
+  "addresses": [
+   {
+    "firstName": "Rowan",
+    "lastName": "Bennett",
+    "address1": "6029 Juniper Way",
+    "city": "Boulder",
+    "province": "CO",
+    "country": "United States",
+    "zip": "80302",
+    "phone": "(845) 555-7797"
+   }
+  ],
+  "tags": [
+   "high-value"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-08-31T09:47:19.179Z"
+ },
+ {
+  "id": "c_151",
+  "firstName": "Sadie",
+  "lastName": "Nguyen",
+  "email": "sadie.nguyen@example.com",
+  "phone": "(713) 555-0823",
+  "defaultAddress": {
+   "firstName": "Sadie",
+   "lastName": "Nguyen",
+   "address1": "1246 Ridgeway Ave",
+   "city": "Austin",
+   "province": "TX",
+   "country": "United States",
+   "zip": "73301",
+   "phone": "(713) 555-0823"
+  },
+  "addresses": [
+   {
+    "firstName": "Sadie",
+    "lastName": "Nguyen",
+    "address1": "1246 Ridgeway Ave",
+    "city": "Austin",
+    "province": "TX",
+    "country": "United States",
+    "zip": "73301",
+    "phone": "(713) 555-0823"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2024-10-23T09:47:19.179Z"
+ },
+ {
+  "id": "c_152",
+  "firstName": "Owen",
+  "lastName": "Dubois",
+  "email": "owen.dubois@example.com",
+  "phone": "(607) 555-5743",
+  "defaultAddress": {
+   "firstName": "Owen",
+   "lastName": "Dubois",
+   "address1": "7066 Birchwood Ave",
+   "city": "Portland",
+   "province": "OR",
+   "country": "United States",
+   "zip": "97201",
+   "phone": "(607) 555-5743"
+  },
+  "addresses": [
+   {
+    "firstName": "Owen",
+    "lastName": "Dubois",
+    "address1": "7066 Birchwood Ave",
+    "city": "Portland",
+    "province": "OR",
+    "country": "United States",
+    "zip": "97201",
+    "phone": "(607) 555-5743"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-10-16T09:47:19.179Z"
+ },
+ {
+  "id": "c_153",
+  "firstName": "Sadie",
+  "lastName": "Baptiste",
+  "email": "sadie.baptiste@example.com",
+  "phone": "(312) 555-0299",
+  "defaultAddress": {
+   "firstName": "Sadie",
+   "lastName": "Baptiste",
+   "address1": "8178 Hazelwood Ave",
+   "city": "Toronto",
+   "province": "ON",
+   "country": "Canada",
+   "zip": "M5V 2H1",
+   "phone": "(312) 555-0299"
+  },
+  "addresses": [
+   {
+    "firstName": "Sadie",
+    "lastName": "Baptiste",
+    "address1": "8178 Hazelwood Ave",
+    "city": "Toronto",
+    "province": "ON",
+    "country": "Canada",
+    "zip": "M5V 2H1",
+    "phone": "(312) 555-0299"
+   }
+  ],
+  "tags": [
+   "repeat"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-07-01T09:47:19.179Z"
+ },
+ {
+  "id": "c_154",
+  "firstName": "Aisha",
+  "lastName": "Ramirez",
+  "email": "aisha.ramirez@example.com",
+  "phone": "(826) 555-1320",
+  "defaultAddress": {
+   "firstName": "Aisha",
+   "lastName": "Ramirez",
+   "address1": "3620 Kestrel Rd",
+   "city": "Nashville",
+   "province": "TN",
+   "country": "United States",
+   "zip": "37201",
+   "phone": "(826) 555-1320"
+  },
+  "addresses": [
+   {
+    "firstName": "Aisha",
+    "lastName": "Ramirez",
+    "address1": "3620 Kestrel Rd",
+    "city": "Nashville",
+    "province": "TN",
+    "country": "United States",
+    "zip": "37201",
+    "phone": "(826) 555-1320"
+   }
+  ],
+  "tags": [
+   "high-value"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-11-20T09:47:19.179Z"
+ },
+ {
+  "id": "c_155",
+  "firstName": "Amos",
+  "lastName": "Bennett",
+  "email": "amos.bennett@example.com",
+  "phone": "(947) 555-4881",
+  "defaultAddress": {
+   "firstName": "Amos",
+   "lastName": "Bennett",
+   "address1": "5749 Pine Hollow Rd",
+   "city": "Minneapolis",
+   "province": "MN",
+   "country": "United States",
+   "zip": "55401",
+   "phone": "(947) 555-4881"
+  },
+  "addresses": [
+   {
+    "firstName": "Amos",
+    "lastName": "Bennett",
+    "address1": "5749 Pine Hollow Rd",
+    "city": "Minneapolis",
+    "province": "MN",
+    "country": "United States",
+    "zip": "55401",
+    "phone": "(947) 555-4881"
+   }
+  ],
+  "tags": [
+   "repeat",
+   "newsletter"
+  ],
+  "note": "Local pickup preferred at Portland Flagship.",
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-05-31T09:47:19.179Z"
+ },
+ {
+  "id": "c_156",
+  "firstName": "Nora",
+  "lastName": "Novak",
+  "email": "nora.novak@example.com",
+  "phone": "(232) 555-7565",
+  "defaultAddress": {
+   "firstName": "Nora",
+   "lastName": "Novak",
+   "address1": "3667 Cedar Ln",
+   "city": "Seattle",
+   "province": "WA",
+   "country": "United States",
+   "zip": "98101",
+   "phone": "(232) 555-7565"
+  },
+  "addresses": [
+   {
+    "firstName": "Nora",
+    "lastName": "Novak",
+    "address1": "3667 Cedar Ln",
+    "city": "Seattle",
+    "province": "WA",
+    "country": "United States",
+    "zip": "98101",
+    "phone": "(232) 555-7565"
+   }
+  ],
+  "tags": [],
+  "note": "Local pickup preferred at Portland Flagship.",
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-03-02T09:47:19.179Z"
+ },
+ {
+  "id": "c_157",
+  "firstName": "Sadie",
+  "lastName": "Moreau",
+  "email": "sadie.moreau@example.com",
+  "phone": "(595) 555-1880",
+  "defaultAddress": {
+   "firstName": "Sadie",
+   "lastName": "Moreau",
+   "address1": "7325 Alder St",
+   "city": "Minneapolis",
+   "province": "MN",
+   "country": "United States",
+   "zip": "55401",
+   "phone": "(595) 555-1880"
+  },
+  "addresses": [
+   {
+    "firstName": "Sadie",
+    "lastName": "Moreau",
+    "address1": "7325 Alder St",
+    "city": "Minneapolis",
+    "province": "MN",
+    "country": "United States",
+    "zip": "55401",
+    "phone": "(595) 555-1880"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-05-24T09:47:19.179Z"
+ },
+ {
+  "id": "c_158",
+  "firstName": "Ravi",
+  "lastName": "Reyes",
+  "email": "ravi.reyes@example.com",
+  "phone": "(453) 555-1250",
+  "defaultAddress": {
+   "firstName": "Ravi",
+   "lastName": "Reyes",
+   "address1": "6467 Grove St",
+   "city": "Minneapolis",
+   "province": "MN",
+   "country": "United States",
+   "zip": "55401",
+   "phone": "(453) 555-1250"
+  },
+  "addresses": [
+   {
+    "firstName": "Ravi",
+    "lastName": "Reyes",
+    "address1": "6467 Grove St",
+    "city": "Minneapolis",
+    "province": "MN",
+    "country": "United States",
+    "zip": "55401",
+    "phone": "(453) 555-1250"
+   }
+  ],
+  "tags": [
+   "local"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-06-03T09:47:19.179Z"
+ },
+ {
+  "id": "c_159",
+  "firstName": "Noah",
+  "lastName": "Fontaine",
+  "email": "noah.fontaine@example.com",
+  "phone": "(717) 555-1665",
+  "defaultAddress": {
+   "firstName": "Noah",
+   "lastName": "Fontaine",
+   "address1": "8757 Noble Ct",
+   "city": "Brooklyn",
+   "province": "NY",
+   "country": "United States",
+   "zip": "11201",
+   "phone": "(717) 555-1665"
+  },
+  "addresses": [
+   {
+    "firstName": "Noah",
+    "lastName": "Fontaine",
+    "address1": "8757 Noble Ct",
+    "city": "Brooklyn",
+    "province": "NY",
+    "country": "United States",
+    "zip": "11201",
+    "phone": "(717) 555-1665"
+   }
+  ],
+  "tags": [
+   "vip",
+   "wholesale"
+  ],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2026-03-21T09:47:19.179Z"
+ },
+ {
+  "id": "c_160",
+  "firstName": "Hana",
+  "lastName": "Costa",
+  "email": "hana.costa@example.com",
+  "phone": "(616) 555-2799",
+  "defaultAddress": {
+   "firstName": "Hana",
+   "lastName": "Costa",
+   "address1": "6954 Maple Ave",
+   "city": "Chicago",
+   "province": "IL",
+   "country": "United States",
+   "zip": "60601",
+   "phone": "(616) 555-2799"
+  },
+  "addresses": [
+   {
+    "firstName": "Hana",
+    "lastName": "Costa",
+    "address1": "6954 Maple Ave",
+    "city": "Chicago",
+    "province": "IL",
+    "country": "United States",
+    "zip": "60601",
+    "phone": "(616) 555-2799"
+   }
+  ],
+  "tags": [],
+  "emailMarketingConsent": "not_subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-03-07T09:47:19.179Z"
+ },
+ {
+  "id": "c_161",
+  "firstName": "Hana",
+  "lastName": "Moreau",
+  "email": "hana.moreau@example.com",
+  "phone": "(451) 555-0506",
+  "defaultAddress": {
+   "firstName": "Hana",
+   "lastName": "Moreau",
+   "address1": "9224 Oakmont Dr",
+   "city": "Savannah",
+   "province": "GA",
+   "country": "United States",
+   "zip": "31401",
+   "phone": "(451) 555-0506"
+  },
+  "addresses": [
+   {
+    "firstName": "Hana",
+    "lastName": "Moreau",
+    "address1": "9224 Oakmont Dr",
+    "city": "Savannah",
+    "province": "GA",
+    "country": "United States",
+    "zip": "31401",
+    "phone": "(451) 555-0506"
+   }
+  ],
+  "tags": [
+   "wholesale",
+   "repeat"
+  ],
+  "emailMarketingConsent": "subscribed",
+  "taxExempt": false,
+  "createdAt": "2025-09-02T09:47:19.179Z"
+ }
+]

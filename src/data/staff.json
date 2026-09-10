@@ -1,0 +1,298 @@
+[
+ {
+  "id": "staff_owner",
+  "name": "Ava Chen",
+  "email": "ava@northstargoods.com",
+  "role": "owner",
+  "status": "active",
+  "lastActiveAt": "2026-09-04T09:28:43.228Z",
+  "permissions": {
+   "products": [
+    "view",
+    "create",
+    "edit",
+    "delete"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund",
+    "cancel"
+   ],
+   "customers": [
+    "view",
+    "edit",
+    "delete"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": [
+    "view",
+    "edit"
+   ]
+  }
+ },
+ {
+  "id": "staff_1",
+  "name": "Noah Kim",
+  "email": "noah@northstargoods.com",
+  "role": "admin",
+  "status": "active",
+  "lastActiveAt": "2026-09-07T19:36:39.019Z",
+  "permissions": {
+   "products": [
+    "view",
+    "create",
+    "edit",
+    "delete"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund",
+    "cancel"
+   ],
+   "customers": [
+    "view",
+    "edit"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": [
+    "view"
+   ]
+  }
+ },
+ {
+  "id": "staff_2",
+  "name": "Maya Patel",
+  "email": "maya@northstargoods.com",
+  "role": "staff",
+  "status": "active",
+  "lastActiveAt": "2026-09-07T11:27:25.439Z",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_3",
+  "name": "Leo Fischer",
+  "email": "leo@northstargoods.com",
+  "role": "staff",
+  "status": "active",
+  "lastActiveAt": "2026-09-09T02:39:43.370Z",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_4",
+  "name": "Sofia Marino",
+  "email": "sofia@northstargoods.com",
+  "role": "staff",
+  "status": "active",
+  "lastActiveAt": "2026-09-05T10:28:40.474Z",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_5",
+  "name": "Elias Warner",
+  "email": "elias@northstargoods.com",
+  "role": "staff",
+  "status": "invited",
+  "lastActiveAt": "",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_6",
+  "name": "Priya Nair",
+  "email": "priya@northstargoods.com",
+  "role": "staff",
+  "status": "active",
+  "lastActiveAt": "2026-09-08T05:30:14.818Z",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_7",
+  "name": "Omar Haddad",
+  "email": "omar@northstargoods.com",
+  "role": "staff",
+  "status": "deactivated",
+  "lastActiveAt": "2026-08-29T20:36:54.928Z",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_8",
+  "name": "June Park",
+  "email": "june@northstargoods.com",
+  "role": "staff",
+  "status": "active",
+  "lastActiveAt": "2026-09-08T13:49:53.019Z",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_9",
+  "name": "Ruby Osei",
+  "email": "ruby@northstargoods.com",
+  "role": "staff",
+  "status": "invited",
+  "lastActiveAt": "",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": []
+  }
+ },
+ {
+  "id": "staff_10",
+  "name": "Kenji Sato",
+  "email": "kenji@northstargoods.com",
+  "role": "staff",
+  "status": "active",
+  "lastActiveAt": "2026-09-08T16:15:47.463Z",
+  "permissions": {
+   "products": [
+    "view",
+    "edit"
+   ],
+   "orders": [
+    "view",
+    "edit",
+    "refund"
+   ],
+   "customers": [
+    "view"
+   ],
+   "analytics": [
+    "view"
+   ],
+   "settings": []
+  }
+ }
+]

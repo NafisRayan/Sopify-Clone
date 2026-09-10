@@ -1,0 +1,104 @@
+[
+ {
+  "id": "app_klaviyo-email",
+  "name": "Klaviyo Email",
+  "description": "Email & SMS marketing automation",
+  "iconBg": "#232426",
+  "iconChar": "K",
+  "permissions": [
+   "Email marketing",
+   "Customer data"
+  ],
+  "category": "Marketing",
+  "status": "installed"
+ },
+ {
+  "id": "app_judge-me-reviews",
+  "name": "Judge.me Reviews",
+  "description": "Photo reviews & ratings",
+  "iconBg": "#4c8bf5",
+  "iconChar": "J",
+  "permissions": [
+   "Products read",
+   "Orders read"
+  ],
+  "category": "Reviews",
+  "status": "installed"
+ },
+ {
+  "id": "app_shipstation",
+  "name": "ShipStation",
+  "description": "Multi-carrier shipping labels",
+  "iconBg": "#3b6fb5",
+  "iconChar": "S",
+  "permissions": [
+   "Orders read/write",
+   "Fulfillments write"
+  ],
+  "category": "Shipping",
+  "status": "installed"
+ },
+ {
+  "id": "app_loyaltylion",
+  "name": "LoyaltyLion",
+  "description": "Points & rewards program",
+  "iconBg": "#e8674a",
+  "iconChar": "L",
+  "permissions": [
+   "Customers read/write"
+  ],
+  "category": "Retention",
+  "status": "installed"
+ },
+ {
+  "id": "app_stocky-inventory",
+  "name": "Stocky Inventory",
+  "description": "Purchase orders & forecasting",
+  "iconBg": "#5b6d8f",
+  "iconChar": "St",
+  "permissions": [
+   "Inventory read/write"
+  ],
+  "category": "Inventory",
+  "status": "disabled"
+ },
+ {
+  "id": "app_google-youtube",
+  "name": "Google & YouTube",
+  "description": "Free product listings & ads",
+  "iconBg": "#4285f4",
+  "iconChar": "G",
+  "permissions": [
+   "Products read",
+   "Orders read"
+  ],
+  "category": "Sales channel",
+  "status": "installed"
+ },
+ {
+  "id": "app_meta-ads",
+  "name": "Meta Ads",
+  "description": "Facebook & Instagram ads",
+  "iconBg": "#0866ff",
+  "iconChar": "M",
+  "permissions": [
+   "Products read",
+   "Customer data"
+  ],
+  "category": "Marketing",
+  "status": "installed"
+ },
+ {
+  "id": "app_tidio-live-chat",
+  "name": "Tidio Live Chat",
+  "description": "Live chat & chatbots",
+  "iconBg": "#2f9cff",
+  "iconChar": "T",
+  "permissions": [
+   "Orders read",
+   "Customer data"
+  ],
+  "category": "Support",
+  "status": "disabled"
+ }
+]

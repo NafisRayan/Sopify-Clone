@@ -1,0 +1,62 @@
+[
+ {
+  "id": "loc_1",
+  "name": "Portland Warehouse",
+  "address1": "4218 Alder St",
+  "city": "Portland",
+  "province": "OR",
+  "country": "United States",
+  "zip": "97201",
+  "phone": "(503) 555-0142",
+  "active": true,
+  "createdAt": "2024-10-10T09:47:19.178Z"
+ },
+ {
+  "id": "loc_2",
+  "name": "Portland Flagship",
+  "address1": "112 SW Pine St",
+  "city": "Portland",
+  "province": "OR",
+  "country": "United States",
+  "zip": "97204",
+  "phone": "(503) 555-0198",
+  "active": true,
+  "createdAt": "2024-11-09T09:47:19.178Z"
+ },
+ {
+  "id": "loc_3",
+  "name": "Brooklyn Studio",
+  "address1": "77 Greenpoint Ave",
+  "city": "Brooklyn",
+  "province": "NY",
+  "country": "United States",
+  "zip": "11222",
+  "phone": "(718) 555-0117",
+  "active": true,
+  "createdAt": "2024-12-09T09:47:19.178Z"
+ },
+ {
+  "id": "loc_4",
+  "name": "Austin Market",
+  "address1": "1900 Barton Springs Rd",
+  "city": "Austin",
+  "province": "TX",
+  "country": "United States",
+  "zip": "78704",
+  "phone": "(512) 555-0163",
+  "active": true,
+  "createdAt": "2025-01-08T09:47:19.178Z"
+ },
+ {
+  "id": "loc_5",
+  "name": "Return Center",
+  "address1": "9 Quarry industrial Park",
+  "city": "Minneapolis",
+  "province": "MN",
+  "country": "United States",
+  "zip": "55413",
+  "phone": "(612) 555-0184",
+  "active": true,
+  "createdAt": "2025-02-07T09:47:19.178Z"
+ }
+]

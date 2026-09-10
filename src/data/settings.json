@@ -1,0 +1,105 @@
+{
+ "storeName": "Northstar Goods",
+ "legalName": "Northstar Goods LLC",
+ "email": "hello@northstargoods.com",
+ "phone": "(503) 555-0100",
+ "storeAddress": {
+  "firstName": "Ava",
+  "lastName": "Chen",
+  "company": "Northstar Goods LLC",
+  "address1": "4218 Alder St",
+  "city": "Portland",
+  "province": "OR",
+  "country": "United States",
+  "zip": "97201",
+  "phone": "(503) 555-0100"
+ },
+ "currency": "USD",
+ "timezone": "(GMT-08:00) Pacific Time",
+ "unitSystem": "imperial",
+ "weightUnit": "lb",
+ "orderPrefix": "",
+ "checkout": {
+  "customerAccounts": "optional",
+  "emailReceipts": true,
+  "tipLine": false,
+  "abandonedRecovery": true
+ },
+ "payments": [
+  {
+   "id": "pay_1",
+   "provider": "Shopify Payments",
+   "enabled": true,
+   "testMode": false
+  },
+  {
+   "id": "pay_2",
+   "provider": "PayPal",
+   "enabled": true,
+   "testMode": false
+  },
+  {
+   "id": "pay_3",
+   "provider": "Apple Pay",
+   "enabled": true,
+   "testMode": false
+  },
+  {
+   "id": "pay_4",
+   "provider": "Klarna",
+   "enabled": false,
+   "testMode": false
+  },
+  {
+   "id": "pay_5",
+   "provider": "Manual bank transfer",
+   "enabled": false,
+   "testMode": false
+  }
+ ],
+ "shipping": [
+  {
+   "id": "ship_1",
+   "name": "Standard shipping",
+   "regions": "United States",
+   "rate": 6.99,
+   "freeOver": 75
+  },
+  {
+   "id": "ship_2",
+   "name": "Express shipping",
+   "regions": "United States",
+   "rate": 18.99
+  },
+  {
+   "id": "ship_3",
+   "name": "International tracked",
+   "regions": "Rest of world",
+   "rate": 24.99,
+   "freeOver": 250
+  },
+  {
+   "id": "ship_4",
+   "name": "Local pickup",
+   "regions": "Portland Flagship",
+   "rate": 0
+  }
+ ],
+ "taxes": {
+  "chargeTaxOnShipping": false,
+  "includeTaxInPrices": false,
+  "taxRate": 8
+ },
+ "policies": {
+  "refund": "Return any unused item within 60 days for a full refund. Refunds are issued to the original payment method within 5 business days.",
+  "privacy": "We collect only what we need to fulfill your order. We never sell personal data. Analytics are anonymized.",
+  "terms": "By placing an order you agree to our terms: prices include applicable duties for US orders; international duties are the recipient’s responsibility.",
+  "shipping": "Orders ship within 1–2 business days from Portland OR or Brooklyn NY. Free US shipping over $75."
+ },
+ "notifications": {
+  "orderConfirmation": true,
+  "shippingConfirmation": true,
+  "abandonedCheckout": true,
+  "customerWelcome": false
+ }
+}

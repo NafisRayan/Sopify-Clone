@@ -1,0 +1,55 @@
+[
+ {
+  "id": "n_1",
+  "kind": "critical",
+  "title": "3 products are out of stock",
+  "body": "Restock before the weekend promo.",
+  "createdAt": "2026-09-09T22:10:10.046Z",
+  "read": false,
+  "link": "/inventory?stock=0"
+ },
+ {
+  "id": "n_2",
+  "kind": "warning",
+  "title": "Abandoned checkouts up 18%",
+  "body": "Recovery email could recover ~$1,200.",
+  "createdAt": "2026-09-10T06:50:08.119Z",
+  "read": false,
+  "link": "/orders?tab=abandoned"
+ },
+ {
+  "id": "n_3",
+  "kind": "info",
+  "title": "Holiday Gift Guide campaign scheduled",
+  "body": "Launches in 5 days.",
+  "createdAt": "2026-09-08T07:17:02.629Z",
+  "read": false,
+  "link": "/marketing"
+ },
+ {
+  "id": "n_4",
+  "kind": "info",
+  "title": "Payout of $4,812.40 sent",
+  "body": "Shopify Payments · arrives in 2 days.",
+  "createdAt": "2026-09-06T17:56:43.020Z",
+  "read": true
+ },
+ {
+  "id": "n_5",
+  "kind": "warning",
+  "title": "2 staff invitations pending",
+  "body": "Elias Warner and Ruby Osei haven’t accepted.",
+  "createdAt": "2026-09-07T15:15:11.031Z",
+  "read": true,
+  "link": "/settings/users"
+ },
+ {
+  "id": "n_6",
+  "kind": "info",
+  "title": "New app suggestion",
+  "body": "Back in Stock Alerts matches your store.",
+  "createdAt": "2026-09-06T01:52:33.557Z",
+  "read": true,
+  "link": "/apps"
+ }
+]

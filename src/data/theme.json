@@ -1,0 +1,17 @@
+{
+ "activeTheme": "Northstar",
+ "colors": {
+  "primary": "#303030",
+  "background": "#ffffff",
+  "text": "#303030",
+  "accent": "#005bd3"
+ },
+ "typography": {
+  "headingFont": "Inter",
+  "bodyFont": "Inter",
+  "baseSize": 15
+ },
+ "productGridColumns": 3,
+ "showVendor": true,
+ "showQuantitySelector": true
+}

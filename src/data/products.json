@@ -1,0 +1,6012 @@
+[
+ {
+  "id": "p_classic-cotton-t-shirt",
+  "title": "Classic Cotton T-Shirt",
+  "descriptionHtml": "<p>Our bestselling everyday tee, cut from 220gsm organic cotton with a relaxed fit that holds its shape wash after wash. Pre-shrunk, garment-dyed, and finished with a ribbed collar.</p><ul><li>100% organic cotton</li><li>Relaxed unisex fit</li><li>Machine washable</li></ul>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing > Shirts",
+  "status": "archived",
+  "tags": [
+   "staff-pick",
+   "unisex",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_3"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Black",
+     "White",
+     "Navy",
+     "Olive"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_classic-cotton-t-shirt_v1",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Black / S",
+    "sku": "CCT10-BLAC-S",
+    "barcode": "0842709903261",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "S"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v2",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Black / M",
+    "sku": "CCT10-BLAC-M",
+    "barcode": "0848294247930",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "M"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v3",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Black / L",
+    "sku": "CCT10-BLAC-L",
+    "barcode": "0846793739399",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "L"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v4",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Black / XL",
+    "sku": "CCT10-BLAC-XL",
+    "barcode": "0844876971540",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "XL"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v5",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "White / S",
+    "sku": "CCT10-WHIT-S",
+    "barcode": "0844429413073",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "White",
+     "Size": "S"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v6",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "White / M",
+    "sku": "CCT10-WHIT-M",
+    "barcode": "0845739063839",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "White",
+     "Size": "M"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v7",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "White / L",
+    "sku": "CCT10-WHIT-L",
+    "barcode": "0845937277348",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "White",
+     "Size": "L"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v8",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "White / XL",
+    "sku": "CCT10-WHIT-XL",
+    "barcode": "0845896044713",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "White",
+     "Size": "XL"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v9",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Navy / S",
+    "sku": "CCT10-NAVY-S",
+    "barcode": "0845892611785",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Navy",
+     "Size": "S"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v10",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Navy / M",
+    "sku": "CCT10-NAVY-M",
+    "barcode": "0846944893815",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Navy",
+     "Size": "M"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v11",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Navy / L",
+    "sku": "CCT10-NAVY-L",
+    "barcode": "0842716243830",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Navy",
+     "Size": "L"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v12",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Navy / XL",
+    "sku": "CCT10-NAVY-XL",
+    "barcode": "0845096158316",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Navy",
+     "Size": "XL"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v13",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Olive / S",
+    "sku": "CCT10-OLIV-S",
+    "barcode": "0844556224504",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Olive",
+     "Size": "S"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v14",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Olive / M",
+    "sku": "CCT10-OLIV-M",
+    "barcode": "0842822505971",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Olive",
+     "Size": "M"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v15",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Olive / L",
+    "sku": "CCT10-OLIV-L",
+    "barcode": "0848183230249",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Olive",
+     "Size": "L"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v16",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Olive / XL",
+    "sku": "CCT10-OLIV-XL",
+    "barcode": "0846086953022",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Olive",
+     "Size": "XL"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_classic-cotton-t-shirt_1",
+    "productId": "p_classic-cotton-t-shirt",
+    "type": "image",
+    "src": "/images/products/classic-cotton-t-shirt.svg",
+    "alt": "Classic Cotton T-Shirt"
+   },
+   {
+    "id": "m_classic-cotton-t-shirt_2",
+    "productId": "p_classic-cotton-t-shirt",
+    "type": "image",
+    "src": "/images/products/classic-cotton-t-shirt-alt.svg",
+    "alt": "Classic Cotton T-Shirt detail"
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_m3",
+    "productId": "p_classic-cotton-t-shirt",
+    "type": "image",
+    "src": "/images/products/p_classic-cotton-t-shirt-3.svg",
+    "alt": "Classic Cotton T-Shirt lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Classic Cotton T-Shirt",
+   "description": "Our bestselling everyday tee, cut from 220gsm organic cotton with a relaxed fit that holds its shape wash after wash. Pre-shrunk, garment-dyed, and fi",
+   "handle": "classic-cotton-t-shirt"
+  },
+  "weightGrams": 180,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-01-26T09:47:19.041Z",
+  "updatedAt": "2026-08-17T09:49:54.697Z"
+ },
+ {
+  "id": "p_everyday-hoodie",
+  "title": "Everyday Hoodie",
+  "descriptionHtml": "<p>A midweight brushed-fleece hoodie with a double-lined hood and hidden interior pocket. Runs true to size with a slightly boxy silhouette.</p><ul><li>80% cotton / 20% recycled poly</li><li>Kangaroo pocket</li><li>Reinforced side gussets</li></ul>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing > Hoodies",
+  "status": "active",
+  "tags": [
+   "fleece",
+   "essential",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_3"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Charcoal",
+     "Oatmeal",
+     "Forest",
+     "Dusty Rose"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_everyday-hoodie_v1",
+    "productId": "p_everyday-hoodie",
+    "title": "Charcoal / S",
+    "sku": "EH11-CHAR-S",
+    "barcode": "0842101953211",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Charcoal",
+     "Size": "S"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v2",
+    "productId": "p_everyday-hoodie",
+    "title": "Charcoal / M",
+    "sku": "EH11-CHAR-M",
+    "barcode": "0847066363733",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Charcoal",
+     "Size": "M"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v3",
+    "productId": "p_everyday-hoodie",
+    "title": "Charcoal / L",
+    "sku": "EH11-CHAR-L",
+    "barcode": "0842641496444",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Charcoal",
+     "Size": "L"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v4",
+    "productId": "p_everyday-hoodie",
+    "title": "Charcoal / XL",
+    "sku": "EH11-CHAR-XL",
+    "barcode": "0847700483969",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Charcoal",
+     "Size": "XL"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v5",
+    "productId": "p_everyday-hoodie",
+    "title": "Oatmeal / S",
+    "sku": "EH11-OATM-S",
+    "barcode": "0842808563186",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Oatmeal",
+     "Size": "S"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v6",
+    "productId": "p_everyday-hoodie",
+    "title": "Oatmeal / M",
+    "sku": "EH11-OATM-M",
+    "barcode": "0848224074863",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Oatmeal",
+     "Size": "M"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v7",
+    "productId": "p_everyday-hoodie",
+    "title": "Oatmeal / L",
+    "sku": "EH11-OATM-L",
+    "barcode": "0841308071870",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Oatmeal",
+     "Size": "L"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v8",
+    "productId": "p_everyday-hoodie",
+    "title": "Oatmeal / XL",
+    "sku": "EH11-OATM-XL",
+    "barcode": "0846078280334",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Oatmeal",
+     "Size": "XL"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v9",
+    "productId": "p_everyday-hoodie",
+    "title": "Forest / S",
+    "sku": "EH11-FORE-S",
+    "barcode": "0844923977792",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Forest",
+     "Size": "S"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v10",
+    "productId": "p_everyday-hoodie",
+    "title": "Forest / M",
+    "sku": "EH11-FORE-M",
+    "barcode": "0844482464405",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Forest",
+     "Size": "M"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v11",
+    "productId": "p_everyday-hoodie",
+    "title": "Forest / L",
+    "sku": "EH11-FORE-L",
+    "barcode": "0843457653663",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Forest",
+     "Size": "L"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v12",
+    "productId": "p_everyday-hoodie",
+    "title": "Forest / XL",
+    "sku": "EH11-FORE-XL",
+    "barcode": "0841095016359",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Forest",
+     "Size": "XL"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v13",
+    "productId": "p_everyday-hoodie",
+    "title": "Dusty Rose / S",
+    "sku": "EH11-DUST-S",
+    "barcode": "0842282478017",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Dusty Rose",
+     "Size": "S"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v14",
+    "productId": "p_everyday-hoodie",
+    "title": "Dusty Rose / M",
+    "sku": "EH11-DUST-M",
+    "barcode": "0843272934902",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Dusty Rose",
+     "Size": "M"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v15",
+    "productId": "p_everyday-hoodie",
+    "title": "Dusty Rose / L",
+    "sku": "EH11-DUST-L",
+    "barcode": "0843928432935",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Dusty Rose",
+     "Size": "L"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   },
+   {
+    "id": "p_everyday-hoodie_v16",
+    "productId": "p_everyday-hoodie",
+    "title": "Dusty Rose / XL",
+    "sku": "EH11-DUST-XL",
+    "barcode": "0846127853120",
+    "price": 54,
+    "compareAtPrice": 68,
+    "costPerItem": 19,
+    "optionValues": {
+     "Color": "Dusty Rose",
+     "Size": "XL"
+    },
+    "weightGrams": 520,
+    "imageId": "m_everyday-hoodie_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_everyday-hoodie_1",
+    "productId": "p_everyday-hoodie",
+    "type": "image",
+    "src": "/images/products/everyday-hoodie.svg",
+    "alt": "Everyday Hoodie"
+   },
+   {
+    "id": "m_everyday-hoodie_2",
+    "productId": "p_everyday-hoodie",
+    "type": "image",
+    "src": "/images/products/everyday-hoodie-alt.svg",
+    "alt": "Everyday Hoodie detail"
+   }
+  ],
+  "seo": {
+   "title": "Everyday Hoodie",
+   "description": "A midweight brushed-fleece hoodie with a double-lined hood and hidden interior pocket. Runs true to size with a slightly boxy silhouette.80% cotton / ",
+   "handle": "everyday-hoodie"
+  },
+  "weightGrams": 520,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-01-22T09:47:19.046Z",
+  "updatedAt": "2026-09-05T19:05:16.636Z"
+ },
+ {
+  "id": "p_canvas-backpack",
+  "title": "Canvas Backpack",
+  "descriptionHtml": "<p>A 22L waxed-canvas daypack with a padded 15\" laptop sleeve, brass hardware, and a roll-top closure that expands when you need it.</p><ul><li>Waxed 18oz canvas</li><li>Padded laptop sleeve</li><li>Water-resistant base</li></ul>",
+  "vendor": "Trailhead Supply",
+  "productType": "Bags",
+  "category": "Apparel & Accessories > Luggage > Backpacks",
+  "status": "active",
+  "tags": [
+   "travel",
+   "staff-pick"
+  ],
+  "collectionIds": [
+   "col_5"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Field Green",
+     "Charcoal",
+     "Tan"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_canvas-backpack_v1",
+    "productId": "p_canvas-backpack",
+    "title": "Field Green",
+    "sku": "CB12-FIEL",
+    "barcode": "0842172497959",
+    "price": 68,
+    "costPerItem": 24,
+    "optionValues": {
+     "Color": "Field Green"
+    },
+    "weightGrams": 890,
+    "imageId": "m_canvas-backpack_1",
+    "available": true
+   },
+   {
+    "id": "p_canvas-backpack_v2",
+    "productId": "p_canvas-backpack",
+    "title": "Charcoal",
+    "sku": "CB12-CHAR",
+    "barcode": "0843335997121",
+    "price": 68,
+    "costPerItem": 24,
+    "optionValues": {
+     "Color": "Charcoal"
+    },
+    "weightGrams": 890,
+    "imageId": "m_canvas-backpack_1",
+    "available": true
+   },
+   {
+    "id": "p_canvas-backpack_v3",
+    "productId": "p_canvas-backpack",
+    "title": "Tan",
+    "sku": "CB12-TAN",
+    "barcode": "0843957925540",
+    "price": 68,
+    "costPerItem": 24,
+    "optionValues": {
+     "Color": "Tan"
+    },
+    "weightGrams": 890,
+    "imageId": "m_canvas-backpack_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_canvas-backpack_1",
+    "productId": "p_canvas-backpack",
+    "type": "image",
+    "src": "/images/products/canvas-backpack.svg",
+    "alt": "Canvas Backpack"
+   },
+   {
+    "id": "m_canvas-backpack_2",
+    "productId": "p_canvas-backpack",
+    "type": "image",
+    "src": "/images/products/canvas-backpack-alt.svg",
+    "alt": "Canvas Backpack detail"
+   }
+  ],
+  "seo": {
+   "title": "Canvas Backpack",
+   "description": "A 22L waxed-canvas daypack with a padded 15\" laptop sleeve, brass hardware, and a roll-top closure that expands when you need it.Waxed 18oz canvasPadd",
+   "handle": "canvas-backpack"
+  },
+  "weightGrams": 890,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-03-01T09:47:19.048Z",
+  "updatedAt": "2026-09-07T21:51:34.642Z"
+ },
+ {
+  "id": "p_minimal-sneakers",
+  "title": "Minimal Sneakers",
+  "descriptionHtml": "<p>Clean-lined low-top sneakers in full-grain leather with a cushioned cork insole and natural rubber cupsole. Unlined heel for easy break-in.</p>",
+  "vendor": "Alder & Oak",
+  "productType": "Footwear",
+  "category": "Apparel & Accessories > Shoes",
+  "status": "archived",
+  "tags": [
+   "limited",
+   "new-arrival",
+   "footwear"
+  ],
+  "collectionIds": [
+   "col_1"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "White",
+     "Slate",
+     "Sand"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_minimal-sneakers_v1",
+    "productId": "p_minimal-sneakers",
+    "title": "White / 7",
+    "sku": "MS13-WHIT-7",
+    "barcode": "0848503371198",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "White",
+     "Size": "7"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v2",
+    "productId": "p_minimal-sneakers",
+    "title": "White / 8",
+    "sku": "MS13-WHIT-8",
+    "barcode": "0843017781030",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "White",
+     "Size": "8"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v3",
+    "productId": "p_minimal-sneakers",
+    "title": "White / 9",
+    "sku": "MS13-WHIT-9",
+    "barcode": "0843540170857",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "White",
+     "Size": "9"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v4",
+    "productId": "p_minimal-sneakers",
+    "title": "White / 10",
+    "sku": "MS13-WHIT-10",
+    "barcode": "0845730666920",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "White",
+     "Size": "10"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v5",
+    "productId": "p_minimal-sneakers",
+    "title": "White / 11",
+    "sku": "MS13-WHIT-11",
+    "barcode": "0846442904702",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "White",
+     "Size": "11"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v6",
+    "productId": "p_minimal-sneakers",
+    "title": "Slate / 7",
+    "sku": "MS13-SLAT-7",
+    "barcode": "0846390965518",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Slate",
+     "Size": "7"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v7",
+    "productId": "p_minimal-sneakers",
+    "title": "Slate / 8",
+    "sku": "MS13-SLAT-8",
+    "barcode": "0847734958484",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Slate",
+     "Size": "8"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v8",
+    "productId": "p_minimal-sneakers",
+    "title": "Slate / 9",
+    "sku": "MS13-SLAT-9",
+    "barcode": "0848689781931",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Slate",
+     "Size": "9"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v9",
+    "productId": "p_minimal-sneakers",
+    "title": "Slate / 10",
+    "sku": "MS13-SLAT-10",
+    "barcode": "0842261204782",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Slate",
+     "Size": "10"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v10",
+    "productId": "p_minimal-sneakers",
+    "title": "Slate / 11",
+    "sku": "MS13-SLAT-11",
+    "barcode": "0848811567309",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Slate",
+     "Size": "11"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v11",
+    "productId": "p_minimal-sneakers",
+    "title": "Sand / 7",
+    "sku": "MS13-SAND-7",
+    "barcode": "0846799048138",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Sand",
+     "Size": "7"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v12",
+    "productId": "p_minimal-sneakers",
+    "title": "Sand / 8",
+    "sku": "MS13-SAND-8",
+    "barcode": "0843822993778",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Sand",
+     "Size": "8"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v13",
+    "productId": "p_minimal-sneakers",
+    "title": "Sand / 9",
+    "sku": "MS13-SAND-9",
+    "barcode": "0844561236343",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Sand",
+     "Size": "9"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v14",
+    "productId": "p_minimal-sneakers",
+    "title": "Sand / 10",
+    "sku": "MS13-SAND-10",
+    "barcode": "0847997785930",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Sand",
+     "Size": "10"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   },
+   {
+    "id": "p_minimal-sneakers_v15",
+    "productId": "p_minimal-sneakers",
+    "title": "Sand / 11",
+    "sku": "MS13-SAND-11",
+    "barcode": "0848518077897",
+    "price": 89,
+    "compareAtPrice": 110,
+    "costPerItem": 31,
+    "optionValues": {
+     "Color": "Sand",
+     "Size": "11"
+    },
+    "weightGrams": 740,
+    "imageId": "m_minimal-sneakers_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_minimal-sneakers_1",
+    "productId": "p_minimal-sneakers",
+    "type": "image",
+    "src": "/images/products/minimal-sneakers.svg",
+    "alt": "Minimal Sneakers"
+   },
+   {
+    "id": "m_minimal-sneakers_2",
+    "productId": "p_minimal-sneakers",
+    "type": "image",
+    "src": "/images/products/minimal-sneakers-alt.svg",
+    "alt": "Minimal Sneakers detail"
+   }
+  ],
+  "seo": {
+   "title": "Minimal Sneakers",
+   "description": "Clean-lined low-top sneakers in full-grain leather with a cushioned cork insole and natural rubber cupsole. Unlined heel for easy break-in.",
+   "handle": "minimal-sneakers"
+  },
+  "weightGrams": 740,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-12-10T09:47:19.050Z",
+  "updatedAt": "2026-08-07T14:06:51.243Z"
+ },
+ {
+  "id": "p_ceramic-coffee-mug",
+  "title": "Ceramic Coffee Mug",
+  "descriptionHtml": "<p>Hand-glazed stoneware mug with a comfortable thumb rest and a 12oz capacity. Dishwasher and microwave safe; slight glaze variation makes each one unique.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Drinkware",
+  "status": "draft",
+  "tags": [
+   "new-arrival",
+   "staff-pick",
+   "ceramic",
+   "sustainable"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_6"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Cream",
+     "Ink Blue",
+     "Sage",
+     "Clay"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_ceramic-coffee-mug_v1",
+    "productId": "p_ceramic-coffee-mug",
+    "title": "Cream",
+    "sku": "CCM14-CREA",
+    "barcode": "0846529227104",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Cream"
+    },
+    "weightGrams": 380,
+    "imageId": "m_ceramic-coffee-mug_1",
+    "available": true
+   },
+   {
+    "id": "p_ceramic-coffee-mug_v2",
+    "productId": "p_ceramic-coffee-mug",
+    "title": "Ink Blue",
+    "sku": "CCM14-INKB",
+    "barcode": "0842670913540",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Ink Blue"
+    },
+    "weightGrams": 380,
+    "imageId": "m_ceramic-coffee-mug_1",
+    "available": true
+   },
+   {
+    "id": "p_ceramic-coffee-mug_v3",
+    "productId": "p_ceramic-coffee-mug",
+    "title": "Sage",
+    "sku": "CCM14-SAGE",
+    "barcode": "0842640812784",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sage"
+    },
+    "weightGrams": 380,
+    "imageId": "m_ceramic-coffee-mug_1",
+    "available": true
+   },
+   {
+    "id": "p_ceramic-coffee-mug_v4",
+    "productId": "p_ceramic-coffee-mug",
+    "title": "Clay",
+    "sku": "CCM14-CLAY",
+    "barcode": "0845421282498",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Clay"
+    },
+    "weightGrams": 380,
+    "imageId": "m_ceramic-coffee-mug_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_ceramic-coffee-mug_1",
+    "productId": "p_ceramic-coffee-mug",
+    "type": "image",
+    "src": "/images/products/ceramic-coffee-mug.svg",
+    "alt": "Ceramic Coffee Mug"
+   },
+   {
+    "id": "m_ceramic-coffee-mug_2",
+    "productId": "p_ceramic-coffee-mug",
+    "type": "image",
+    "src": "/images/products/ceramic-coffee-mug-alt.svg",
+    "alt": "Ceramic Coffee Mug detail"
+   }
+  ],
+  "seo": {
+   "title": "Ceramic Coffee Mug",
+   "description": "Hand-glazed stoneware mug with a comfortable thumb rest and a 12oz capacity. Dishwasher and microwave safe; slight glaze variation makes each one uniq",
+   "handle": "ceramic-coffee-mug"
+  },
+  "weightGrams": 380,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-10-29T09:47:19.052Z",
+  "updatedAt": "2026-08-18T17:40:36.101Z"
+ },
+ {
+  "id": "p_leather-wallet",
+  "title": "Leather Bifold Wallet",
+  "descriptionHtml": "<p>Six-card bifold cut from vegetable-tanned leather that patinas beautifully. Slim 9mm profile with a reinforced center pocket.</p>",
+  "vendor": "Alder & Oak",
+  "productType": "Accessories",
+  "category": "Apparel & Accessories > Wallets",
+  "status": "active",
+  "tags": [
+   "sustainable",
+   "limited"
+  ],
+  "collectionIds": [],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Chestnut",
+     "Black",
+     "Navy"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_leather-wallet_v1",
+    "productId": "p_leather-wallet",
+    "title": "Chestnut",
+    "sku": "LW15-CHES",
+    "barcode": "0844689013432",
+    "price": 42,
+    "costPerItem": 14,
+    "optionValues": {
+     "Color": "Chestnut"
+    },
+    "weightGrams": 90,
+    "imageId": "m_leather-wallet_1",
+    "available": true
+   },
+   {
+    "id": "p_leather-wallet_v2",
+    "productId": "p_leather-wallet",
+    "title": "Black",
+    "sku": "LW15-BLAC",
+    "barcode": "0847085422098",
+    "price": 42,
+    "costPerItem": 14,
+    "optionValues": {
+     "Color": "Black"
+    },
+    "weightGrams": 90,
+    "imageId": "m_leather-wallet_1",
+    "available": true
+   },
+   {
+    "id": "p_leather-wallet_v3",
+    "productId": "p_leather-wallet",
+    "title": "Navy",
+    "sku": "LW15-NAVY",
+    "barcode": "0841954356508",
+    "price": 42,
+    "costPerItem": 14,
+    "optionValues": {
+     "Color": "Navy"
+    },
+    "weightGrams": 90,
+    "imageId": "m_leather-wallet_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_leather-wallet_1",
+    "productId": "p_leather-wallet",
+    "type": "image",
+    "src": "/images/products/leather-wallet.svg",
+    "alt": "Leather Bifold Wallet"
+   },
+   {
+    "id": "m_leather-wallet_2",
+    "productId": "p_leather-wallet",
+    "type": "image",
+    "src": "/images/products/leather-wallet-alt.svg",
+    "alt": "Leather Bifold Wallet detail"
+   },
+   {
+    "id": "p_leather-wallet_m3",
+    "productId": "p_leather-wallet",
+    "type": "image",
+    "src": "/images/products/p_leather-wallet-3.svg",
+    "alt": "Leather Bifold Wallet lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Leather Bifold Wallet",
+   "description": "Six-card bifold cut from vegetable-tanned leather that patinas beautifully. Slim 9mm profile with a reinforced center pocket.",
+   "handle": "leather-wallet"
+  },
+  "weightGrams": 90,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-08-17T09:47:19.054Z",
+  "updatedAt": "2026-08-29T14:16:38.751Z"
+ },
+ {
+  "id": "p_oversized-shirt",
+  "title": "Oversized Linen Shirt",
+  "descriptionHtml": "<p>Breezy washed-linen shirt with a camp collar and boxy fit. Garment-washed for softness; wears well tucked or loose.</p>",
+  "vendor": "Alder & Oak",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing > Shirts",
+  "status": "active",
+  "tags": [
+   "new-arrival",
+   "linen",
+   "summer",
+   "staff-pick"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_3",
+   "col_10"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "White",
+     "Sky",
+     "Terracotta"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "XS/S",
+     "M/L",
+     "XL/2XL"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_oversized-shirt_v1",
+    "productId": "p_oversized-shirt",
+    "title": "White / XS/S",
+    "sku": "OS16-WHIT-XSS",
+    "barcode": "0843293620714",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "White",
+     "Size": "XS/S"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v2",
+    "productId": "p_oversized-shirt",
+    "title": "White / M/L",
+    "sku": "OS16-WHIT-ML",
+    "barcode": "0844664782484",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "White",
+     "Size": "M/L"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v3",
+    "productId": "p_oversized-shirt",
+    "title": "White / XL/2XL",
+    "sku": "OS16-WHIT-XL2X",
+    "barcode": "0844824350277",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "White",
+     "Size": "XL/2XL"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v4",
+    "productId": "p_oversized-shirt",
+    "title": "Sky / XS/S",
+    "sku": "OS16-SKY-XSS",
+    "barcode": "0848936894969",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "Sky",
+     "Size": "XS/S"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v5",
+    "productId": "p_oversized-shirt",
+    "title": "Sky / M/L",
+    "sku": "OS16-SKY-ML",
+    "barcode": "0842012505997",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "Sky",
+     "Size": "M/L"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v6",
+    "productId": "p_oversized-shirt",
+    "title": "Sky / XL/2XL",
+    "sku": "OS16-SKY-XL2X",
+    "barcode": "0842943055514",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "Sky",
+     "Size": "XL/2XL"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v7",
+    "productId": "p_oversized-shirt",
+    "title": "Terracotta / XS/S",
+    "sku": "OS16-TERR-XSS",
+    "barcode": "0844990249447",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "Terracotta",
+     "Size": "XS/S"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v8",
+    "productId": "p_oversized-shirt",
+    "title": "Terracotta / M/L",
+    "sku": "OS16-TERR-ML",
+    "barcode": "0847270703644",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "Terracotta",
+     "Size": "M/L"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_oversized-shirt_v9",
+    "productId": "p_oversized-shirt",
+    "title": "Terracotta / XL/2XL",
+    "sku": "OS16-TERR-XL2X",
+    "barcode": "0849038723815",
+    "price": 58,
+    "costPerItem": 20,
+    "optionValues": {
+     "Color": "Terracotta",
+     "Size": "XL/2XL"
+    },
+    "weightGrams": 240,
+    "imageId": "m_oversized-shirt_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_oversized-shirt_1",
+    "productId": "p_oversized-shirt",
+    "type": "image",
+    "src": "/images/products/oversized-shirt.svg",
+    "alt": "Oversized Linen Shirt"
+   },
+   {
+    "id": "m_oversized-shirt_2",
+    "productId": "p_oversized-shirt",
+    "type": "image",
+    "src": "/images/products/oversized-shirt-alt.svg",
+    "alt": "Oversized Linen Shirt detail"
+   }
+  ],
+  "seo": {
+   "title": "Oversized Linen Shirt",
+   "description": "Breezy washed-linen shirt with a camp collar and boxy fit. Garment-washed for softness; wears well tucked or loose.",
+   "handle": "oversized-shirt"
+  },
+  "weightGrams": 240,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-02-19T09:47:19.056Z",
+  "updatedAt": "2026-09-09T04:59:30.400Z"
+ },
+ {
+  "id": "p_running-cap",
+  "title": "Running Cap",
+  "descriptionHtml": "<p>Lightweight five-panel running cap with laser-cut vents, a sweat-wicking band, and reflective heel tabs for low-light visibility.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Accessories",
+  "category": "Apparel & Accessories > Clothing Accessories > Hats",
+  "status": "active",
+  "tags": [
+   "staff-pick",
+   "limited",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Black",
+     "Highlight Yellow",
+     "Storm Blue"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_running-cap_v1",
+    "productId": "p_running-cap",
+    "title": "Black",
+    "sku": "RC17-BLAC",
+    "barcode": "0847266244407",
+    "price": 28,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Black"
+    },
+    "weightGrams": 80,
+    "imageId": "m_running-cap_1",
+    "available": true
+   },
+   {
+    "id": "p_running-cap_v2",
+    "productId": "p_running-cap",
+    "title": "Highlight Yellow",
+    "sku": "RC17-HIGH",
+    "barcode": "0846874186533",
+    "price": 28,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Highlight Yellow"
+    },
+    "weightGrams": 80,
+    "imageId": "m_running-cap_1",
+    "available": true
+   },
+   {
+    "id": "p_running-cap_v3",
+    "productId": "p_running-cap",
+    "title": "Storm Blue",
+    "sku": "RC17-STOR",
+    "barcode": "0845436280470",
+    "price": 28,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Storm Blue"
+    },
+    "weightGrams": 80,
+    "imageId": "m_running-cap_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_running-cap_1",
+    "productId": "p_running-cap",
+    "type": "image",
+    "src": "/images/products/running-cap.svg",
+    "alt": "Running Cap"
+   },
+   {
+    "id": "m_running-cap_2",
+    "productId": "p_running-cap",
+    "type": "image",
+    "src": "/images/products/running-cap-alt.svg",
+    "alt": "Running Cap detail"
+   }
+  ],
+  "seo": {
+   "title": "Running Cap",
+   "description": "Lightweight five-panel running cap with laser-cut vents, a sweat-wicking band, and reflective heel tabs for low-light visibility.",
+   "handle": "running-cap"
+  },
+  "weightGrams": 80,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-11-25T09:47:19.057Z",
+  "updatedAt": "2026-08-10T17:05:49.218Z"
+ },
+ {
+  "id": "p_yoga-mat",
+  "title": "Pro Yoga Mat 6mm",
+  "descriptionHtml": "<p>6mm natural-rubber mat with an alignment-guiding texture and a non-slip moisture-wicking surface. Includes carry strap.</p>",
+  "vendor": "Northstar Goods",
+  "productType": "Fitness",
+  "category": "Sporting Goods > Exercise & Fitness > Yoga",
+  "status": "active",
+  "tags": [
+   "limited",
+   "staff-pick",
+   "fitness",
+   "sustainable"
+  ],
+  "collectionIds": [
+   "col_10"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Moss",
+     "Graphite",
+     "Blush"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_yoga-mat_v1",
+    "productId": "p_yoga-mat",
+    "title": "Moss",
+    "sku": "YM18-MOSS",
+    "barcode": "0842978459887",
+    "price": 48,
+    "costPerItem": 17,
+    "optionValues": {
+     "Color": "Moss"
+    },
+    "weightGrams": 1100,
+    "imageId": "m_yoga-mat_1",
+    "available": true
+   },
+   {
+    "id": "p_yoga-mat_v2",
+    "productId": "p_yoga-mat",
+    "title": "Graphite",
+    "sku": "YM18-GRAP",
+    "barcode": "0843018677573",
+    "price": 48,
+    "costPerItem": 17,
+    "optionValues": {
+     "Color": "Graphite"
+    },
+    "weightGrams": 1100,
+    "imageId": "m_yoga-mat_1",
+    "available": true
+   },
+   {
+    "id": "p_yoga-mat_v3",
+    "productId": "p_yoga-mat",
+    "title": "Blush",
+    "sku": "YM18-BLUS",
+    "barcode": "0846742828444",
+    "price": 48,
+    "costPerItem": 17,
+    "optionValues": {
+     "Color": "Blush"
+    },
+    "weightGrams": 1100,
+    "imageId": "m_yoga-mat_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_yoga-mat_1",
+    "productId": "p_yoga-mat",
+    "type": "image",
+    "src": "/images/products/yoga-mat.svg",
+    "alt": "Pro Yoga Mat 6mm"
+   },
+   {
+    "id": "m_yoga-mat_2",
+    "productId": "p_yoga-mat",
+    "type": "image",
+    "src": "/images/products/yoga-mat-alt.svg",
+    "alt": "Pro Yoga Mat 6mm detail"
+   }
+  ],
+  "seo": {
+   "title": "Pro Yoga Mat 6mm",
+   "description": "6mm natural-rubber mat with an alignment-guiding texture and a non-slip moisture-wicking surface. Includes carry strap.",
+   "handle": "yoga-mat"
+  },
+  "weightGrams": 1100,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-03-14T09:47:19.059Z",
+  "updatedAt": "2026-08-13T17:11:44.141Z"
+ },
+ {
+  "id": "p_insulated-water-bottle",
+  "title": "Insulated Water Bottle 750ml",
+  "descriptionHtml": "<p>Double-walled 18/8 stainless bottle that keeps drinks cold 24h or hot 12h. Powder-coated grip finish, leakproof twist cap.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Outdoor",
+  "category": "Sporting Goods > Outdoor > Hydration",
+  "status": "draft",
+  "tags": [
+   "gift",
+   "staff-pick",
+   "sustainable",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_7"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Brushed Steel",
+     "Matte Black",
+     "Juniper",
+     "Sandstone"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_insulated-water-bottle_v1",
+    "productId": "p_insulated-water-bottle",
+    "title": "Brushed Steel",
+    "sku": "IWB19-BRUS",
+    "barcode": "0846595167823",
+    "price": 32,
+    "compareAtPrice": 40,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Brushed Steel"
+    },
+    "weightGrams": 420,
+    "imageId": "m_insulated-water-bottle_1",
+    "available": true
+   },
+   {
+    "id": "p_insulated-water-bottle_v2",
+    "productId": "p_insulated-water-bottle",
+    "title": "Matte Black",
+    "sku": "IWB19-MATT",
+    "barcode": "0845538788931",
+    "price": 32,
+    "compareAtPrice": 40,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Matte Black"
+    },
+    "weightGrams": 420,
+    "imageId": "m_insulated-water-bottle_1",
+    "available": true
+   },
+   {
+    "id": "p_insulated-water-bottle_v3",
+    "productId": "p_insulated-water-bottle",
+    "title": "Juniper",
+    "sku": "IWB19-JUNI",
+    "barcode": "0846965879349",
+    "price": 32,
+    "compareAtPrice": 40,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Juniper"
+    },
+    "weightGrams": 420,
+    "imageId": "m_insulated-water-bottle_1",
+    "available": true
+   },
+   {
+    "id": "p_insulated-water-bottle_v4",
+    "productId": "p_insulated-water-bottle",
+    "title": "Sandstone",
+    "sku": "IWB19-SAND",
+    "barcode": "0841611775205",
+    "price": 32,
+    "compareAtPrice": 40,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Sandstone"
+    },
+    "weightGrams": 420,
+    "imageId": "m_insulated-water-bottle_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_insulated-water-bottle_1",
+    "productId": "p_insulated-water-bottle",
+    "type": "image",
+    "src": "/images/products/insulated-water-bottle.svg",
+    "alt": "Insulated Water Bottle 750ml"
+   },
+   {
+    "id": "m_insulated-water-bottle_2",
+    "productId": "p_insulated-water-bottle",
+    "type": "image",
+    "src": "/images/products/insulated-water-bottle-alt.svg",
+    "alt": "Insulated Water Bottle 750ml detail"
+   }
+  ],
+  "seo": {
+   "title": "Insulated Water Bottle 750ml",
+   "description": "Double-walled 18/8 stainless bottle that keeps drinks cold 24h or hot 12h. Powder-coated grip finish, leakproof twist cap.",
+   "handle": "insulated-water-bottle"
+  },
+  "weightGrams": 420,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-04-05T09:47:19.061Z",
+  "updatedAt": "2026-08-02T04:03:35.892Z"
+ },
+ {
+  "id": "p_desk-organizer",
+  "title": "Walnut Desk Organizer",
+  "descriptionHtml": "<p>Solid-walnut desktop tray with a phone stand, pen channel, and two felt-lined compartments. Finished with food-safe hardwax oil.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Decor > Desk Accessories",
+  "status": "active",
+  "tags": [
+   "sustainable",
+   "staff-pick",
+   "office",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_12"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_desk-organizer_v1",
+    "productId": "p_desk-organizer",
+    "title": "Default Title",
+    "sku": "DO20",
+    "barcode": "0845968130712",
+    "price": 46,
+    "costPerItem": 16,
+    "optionValues": {},
+    "weightGrams": 750,
+    "imageId": "m_desk-organizer_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_desk-organizer_1",
+    "productId": "p_desk-organizer",
+    "type": "image",
+    "src": "/images/products/desk-organizer.svg",
+    "alt": "Walnut Desk Organizer"
+   },
+   {
+    "id": "m_desk-organizer_2",
+    "productId": "p_desk-organizer",
+    "type": "image",
+    "src": "/images/products/desk-organizer-alt.svg",
+    "alt": "Walnut Desk Organizer detail"
+   },
+   {
+    "id": "p_desk-organizer_m3",
+    "productId": "p_desk-organizer",
+    "type": "image",
+    "src": "/images/products/p_desk-organizer-3.svg",
+    "alt": "Walnut Desk Organizer lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Walnut Desk Organizer",
+   "description": "Solid-walnut desktop tray with a phone stand, pen channel, and two felt-lined compartments. Finished with food-safe hardwax oil.",
+   "handle": "desk-organizer"
+  },
+  "weightGrams": 750,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-10-11T09:47:19.063Z",
+  "updatedAt": "2026-09-03T18:14:02.397Z"
+ },
+ {
+  "id": "p_wool-throw-blanket",
+  "title": "Wool Throw Blanket",
+  "descriptionHtml": "<p>Loom-woven merino throw with hand-twisted fringe. Warm, breathable, and generously sized at 130 × 180cm.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Linens > Blankets",
+  "status": "active",
+  "tags": [
+   "limited",
+   "home",
+   "gift",
+   "sustainable"
+  ],
+  "collectionIds": [
+   "col_7"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Heather Grey",
+     "Mustard",
+     "Rust"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_wool-throw-blanket_v1",
+    "productId": "p_wool-throw-blanket",
+    "title": "Heather Grey",
+    "sku": "WTB21-HEAT",
+    "barcode": "0849576340364",
+    "price": 78,
+    "compareAtPrice": 95,
+    "costPerItem": 28,
+    "optionValues": {
+     "Color": "Heather Grey"
+    },
+    "weightGrams": 1300,
+    "imageId": "m_wool-throw-blanket_1",
+    "available": true
+   },
+   {
+    "id": "p_wool-throw-blanket_v2",
+    "productId": "p_wool-throw-blanket",
+    "title": "Mustard",
+    "sku": "WTB21-MUST",
+    "barcode": "0844926180562",
+    "price": 78,
+    "compareAtPrice": 95,
+    "costPerItem": 28,
+    "optionValues": {
+     "Color": "Mustard"
+    },
+    "weightGrams": 1300,
+    "imageId": "m_wool-throw-blanket_1",
+    "available": true
+   },
+   {
+    "id": "p_wool-throw-blanket_v3",
+    "productId": "p_wool-throw-blanket",
+    "title": "Rust",
+    "sku": "WTB21-RUST",
+    "barcode": "0843081245821",
+    "price": 78,
+    "compareAtPrice": 95,
+    "costPerItem": 28,
+    "optionValues": {
+     "Color": "Rust"
+    },
+    "weightGrams": 1300,
+    "imageId": "m_wool-throw-blanket_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_wool-throw-blanket_1",
+    "productId": "p_wool-throw-blanket",
+    "type": "image",
+    "src": "/images/products/wool-throw-blanket.svg",
+    "alt": "Wool Throw Blanket"
+   },
+   {
+    "id": "m_wool-throw-blanket_2",
+    "productId": "p_wool-throw-blanket",
+    "type": "image",
+    "src": "/images/products/wool-throw-blanket-alt.svg",
+    "alt": "Wool Throw Blanket detail"
+   }
+  ],
+  "seo": {
+   "title": "Wool Throw Blanket",
+   "description": "Loom-woven merino throw with hand-twisted fringe. Warm, breathable, and generously sized at 130 × 180cm.",
+   "handle": "wool-throw-blanket"
+  },
+  "weightGrams": 1300,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-04-25T09:47:19.065Z",
+  "updatedAt": "2026-08-26T14:37:34.150Z"
+ },
+ {
+  "id": "p_soy-candle-set",
+  "title": "Soy Candle Trio",
+  "descriptionHtml": "<p>Three 6oz soy-wax candles: Cedar & Smoke, Fig & Sea Salt, and Golden Hour. 30-hour burn time each, cotton wicks, reusable glass.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Decor > Home Fragrance",
+  "status": "active",
+  "tags": [
+   "gift",
+   "bestseller",
+   "home",
+   "sustainable"
+  ],
+  "collectionIds": [
+   "col_2",
+   "col_7",
+   "col_12"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_soy-candle-set_v1",
+    "productId": "p_soy-candle-set",
+    "title": "Default Title",
+    "sku": "SCS22",
+    "barcode": "0844286133080",
+    "price": 38,
+    "costPerItem": 12,
+    "optionValues": {},
+    "weightGrams": 900,
+    "imageId": "m_soy-candle-set_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_soy-candle-set_1",
+    "productId": "p_soy-candle-set",
+    "type": "image",
+    "src": "/images/products/soy-candle-set.svg",
+    "alt": "Soy Candle Trio"
+   },
+   {
+    "id": "m_soy-candle-set_2",
+    "productId": "p_soy-candle-set",
+    "type": "image",
+    "src": "/images/products/soy-candle-set-alt.svg",
+    "alt": "Soy Candle Trio detail"
+   }
+  ],
+  "seo": {
+   "title": "Soy Candle Trio",
+   "description": "Three 6oz soy-wax candles: Cedar & Smoke, Fig & Sea Salt, and Golden Hour. 30-hour burn time each, cotton wicks, reusable glass.",
+   "handle": "soy-candle-set"
+  },
+  "weightGrams": 900,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-01-12T09:47:19.067Z",
+  "updatedAt": "2026-08-28T16:13:50.660Z"
+ },
+ {
+  "id": "p_linen-notebook",
+  "title": "Linen-Bound Notebook",
+  "descriptionHtml": "<p>192 pages of 120gsm dot-grid paper in a linen hardcover with lay-flat binding and an elastic closure.</p>",
+  "vendor": "Northstar Goods",
+  "productType": "Stationery",
+  "category": "Office & School Supplies > Paper > Notebooks",
+  "status": "active",
+  "tags": [
+   "stationery",
+   "staff-pick",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_11",
+   "col_12"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Slate",
+     "Rust",
+     "Sage"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_linen-notebook_v1",
+    "productId": "p_linen-notebook",
+    "title": "Slate",
+    "sku": "LN23-SLAT",
+    "barcode": "0849480052879",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Slate"
+    },
+    "weightGrams": 260,
+    "imageId": "m_linen-notebook_1",
+    "available": true
+   },
+   {
+    "id": "p_linen-notebook_v2",
+    "productId": "p_linen-notebook",
+    "title": "Rust",
+    "sku": "LN23-RUST",
+    "barcode": "0846426717421",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Rust"
+    },
+    "weightGrams": 260,
+    "imageId": "m_linen-notebook_1",
+    "available": true
+   },
+   {
+    "id": "p_linen-notebook_v3",
+    "productId": "p_linen-notebook",
+    "title": "Sage",
+    "sku": "LN23-SAGE",
+    "barcode": "0847326135993",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Sage"
+    },
+    "weightGrams": 260,
+    "imageId": "m_linen-notebook_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_linen-notebook_1",
+    "productId": "p_linen-notebook",
+    "type": "image",
+    "src": "/images/products/linen-notebook.svg",
+    "alt": "Linen-Bound Notebook"
+   },
+   {
+    "id": "m_linen-notebook_2",
+    "productId": "p_linen-notebook",
+    "type": "image",
+    "src": "/images/products/linen-notebook-alt.svg",
+    "alt": "Linen-Bound Notebook detail"
+   }
+  ],
+  "seo": {
+   "title": "Linen-Bound Notebook",
+   "description": "192 pages of 120gsm dot-grid paper in a linen hardcover with lay-flat binding and an elastic closure.",
+   "handle": "linen-notebook"
+  },
+  "weightGrams": 260,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-10-25T09:47:19.068Z",
+  "updatedAt": "2026-08-16T11:16:11.470Z"
+ },
+ {
+  "id": "p_canvas-tote",
+  "title": "Heavy Canvas Tote",
+  "descriptionHtml": "<p>16oz canvas tote with an interior zip pocket and reinforced webbing handles rated to 40lbs. Screen-printed Northstar mark.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Bags",
+  "category": "Apparel & Accessories > Luggage > Totes",
+  "status": "active",
+  "tags": [
+   "canvas",
+   "essential"
+  ],
+  "collectionIds": [],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Natural",
+     "Navy",
+     "Black"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_canvas-tote_v1",
+    "productId": "p_canvas-tote",
+    "title": "Natural",
+    "sku": "CT24-NATU",
+    "barcode": "0844606143332",
+    "price": 26,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Natural"
+    },
+    "weightGrams": 340,
+    "imageId": "m_canvas-tote_1",
+    "available": true
+   },
+   {
+    "id": "p_canvas-tote_v2",
+    "productId": "p_canvas-tote",
+    "title": "Navy",
+    "sku": "CT24-NAVY",
+    "barcode": "0845418544222",
+    "price": 26,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Navy"
+    },
+    "weightGrams": 340,
+    "imageId": "m_canvas-tote_1",
+    "available": true
+   },
+   {
+    "id": "p_canvas-tote_v3",
+    "productId": "p_canvas-tote",
+    "title": "Black",
+    "sku": "CT24-BLAC",
+    "barcode": "0848398978016",
+    "price": 26,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Black"
+    },
+    "weightGrams": 340,
+    "imageId": "m_canvas-tote_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_canvas-tote_1",
+    "productId": "p_canvas-tote",
+    "type": "image",
+    "src": "/images/products/canvas-tote.svg",
+    "alt": "Heavy Canvas Tote"
+   },
+   {
+    "id": "m_canvas-tote_2",
+    "productId": "p_canvas-tote",
+    "type": "image",
+    "src": "/images/products/canvas-tote-alt.svg",
+    "alt": "Heavy Canvas Tote detail"
+   }
+  ],
+  "seo": {
+   "title": "Heavy Canvas Tote",
+   "description": "16oz canvas tote with an interior zip pocket and reinforced webbing handles rated to 40lbs. Screen-printed Northstar mark.",
+   "handle": "canvas-tote"
+  },
+  "weightGrams": 340,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-05-02T09:47:19.070Z",
+  "updatedAt": "2026-09-08T04:55:19.573Z"
+ },
+ {
+  "id": "p_merino-beanie",
+  "title": "Merino Beanie",
+  "descriptionHtml": "<p>Double-layer merino rib knit that fits without squeezing. Tagless, machine washable.</p>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing Accessories > Hats",
+  "status": "archived",
+  "tags": [
+   "staff-pick",
+   "winter",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_3"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Charcoal",
+     "Oat",
+     "Ink Blue",
+     "Rust"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_merino-beanie_v1",
+    "productId": "p_merino-beanie",
+    "title": "Charcoal",
+    "sku": "MB25-CHAR",
+    "barcode": "0841900091344",
+    "price": 30,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Charcoal"
+    },
+    "weightGrams": 100,
+    "imageId": "m_merino-beanie_1",
+    "available": true
+   },
+   {
+    "id": "p_merino-beanie_v2",
+    "productId": "p_merino-beanie",
+    "title": "Oat",
+    "sku": "MB25-OAT",
+    "barcode": "0845297304574",
+    "price": 30,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Oat"
+    },
+    "weightGrams": 100,
+    "imageId": "m_merino-beanie_1",
+    "available": true
+   },
+   {
+    "id": "p_merino-beanie_v3",
+    "productId": "p_merino-beanie",
+    "title": "Ink Blue",
+    "sku": "MB25-INKB",
+    "barcode": "0845908316594",
+    "price": 30,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Ink Blue"
+    },
+    "weightGrams": 100,
+    "imageId": "m_merino-beanie_1",
+    "available": true
+   },
+   {
+    "id": "p_merino-beanie_v4",
+    "productId": "p_merino-beanie",
+    "title": "Rust",
+    "sku": "MB25-RUST",
+    "barcode": "0844848240438",
+    "price": 30,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Rust"
+    },
+    "weightGrams": 100,
+    "imageId": "m_merino-beanie_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_merino-beanie_1",
+    "productId": "p_merino-beanie",
+    "type": "image",
+    "src": "/images/products/merino-beanie.svg",
+    "alt": "Merino Beanie"
+   },
+   {
+    "id": "m_merino-beanie_2",
+    "productId": "p_merino-beanie",
+    "type": "image",
+    "src": "/images/products/merino-beanie-alt.svg",
+    "alt": "Merino Beanie detail"
+   },
+   {
+    "id": "p_merino-beanie_m3",
+    "productId": "p_merino-beanie",
+    "type": "image",
+    "src": "/images/products/p_merino-beanie-3.svg",
+    "alt": "Merino Beanie lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Merino Beanie",
+   "description": "Double-layer merino rib knit that fits without squeezing. Tagless, machine washable.",
+   "handle": "merino-beanie"
+  },
+  "weightGrams": 100,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-10-30T09:47:19.072Z",
+  "updatedAt": "2026-09-10T08:01:07.000Z"
+ },
+ {
+  "id": "p_trail-socks",
+  "title": "Trail Socks 3-Pack",
+  "descriptionHtml": "<p>Cushioned merino-blend hiking socks with arch support and seamless toes. Three colorways per pack.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing Accessories > Socks",
+  "status": "active",
+  "tags": [
+   "sustainable",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_3",
+   "col_9"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_trail-socks_v1",
+    "productId": "p_trail-socks",
+    "title": "Default Title",
+    "sku": "TS26",
+    "barcode": "0846515941318",
+    "price": 24,
+    "costPerItem": 8,
+    "optionValues": {},
+    "weightGrams": 190,
+    "imageId": "m_trail-socks_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_trail-socks_1",
+    "productId": "p_trail-socks",
+    "type": "image",
+    "src": "/images/products/trail-socks.svg",
+    "alt": "Trail Socks 3-Pack"
+   },
+   {
+    "id": "m_trail-socks_2",
+    "productId": "p_trail-socks",
+    "type": "image",
+    "src": "/images/products/trail-socks-alt.svg",
+    "alt": "Trail Socks 3-Pack detail"
+   }
+  ],
+  "seo": {
+   "title": "Trail Socks 3-Pack",
+   "description": "Cushioned merino-blend hiking socks with arch support and seamless toes. Three colorways per pack.",
+   "handle": "trail-socks"
+  },
+  "weightGrams": 190,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-06-22T09:47:19.074Z",
+  "updatedAt": "2026-08-28T01:23:03.053Z"
+ },
+ {
+  "id": "p_french-press",
+  "title": "Stoneware French Press",
+  "descriptionHtml": "<p>34oz stoneware press with a double steel filter that keeps grit out of your cup. Dishwasher-safe carafe.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Coffee",
+  "status": "active",
+  "tags": [
+   "staff-pick",
+   "kitchen",
+   "sustainable",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_6"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_french-press_v1",
+    "productId": "p_french-press",
+    "title": "Default Title",
+    "sku": "FP27",
+    "barcode": "0844958653100",
+    "price": 52,
+    "costPerItem": 18,
+    "optionValues": {},
+    "weightGrams": 1200,
+    "imageId": "m_french-press_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_french-press_1",
+    "productId": "p_french-press",
+    "type": "image",
+    "src": "/images/products/french-press.svg",
+    "alt": "Stoneware French Press"
+   },
+   {
+    "id": "m_french-press_2",
+    "productId": "p_french-press",
+    "type": "image",
+    "src": "/images/products/french-press-alt.svg",
+    "alt": "Stoneware French Press detail"
+   }
+  ],
+  "seo": {
+   "title": "Stoneware French Press",
+   "description": "34oz stoneware press with a double steel filter that keeps grit out of your cup. Dishwasher-safe carafe.",
+   "handle": "french-press"
+  },
+  "weightGrams": 1200,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-04-18T09:47:19.076Z",
+  "updatedAt": "2026-08-10T07:13:47.379Z"
+ },
+ {
+  "id": "p_serving-board",
+  "title": "Oak Serving Board",
+  "descriptionHtml": "<p>Edge-grain white oak board with an angled handle and juice groove. Hand-finished with food-safe oil and beeswax.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Serveware",
+  "status": "active",
+  "tags": [
+   "gift",
+   "sustainable",
+   "kitchen"
+  ],
+  "collectionIds": [
+   "col_4",
+   "col_6",
+   "col_7"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_serving-board_v1",
+    "productId": "p_serving-board",
+    "title": "Default Title",
+    "sku": "SB28",
+    "barcode": "0843198471349",
+    "price": 36,
+    "costPerItem": 12,
+    "optionValues": {},
+    "weightGrams": 850,
+    "imageId": "m_serving-board_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_serving-board_1",
+    "productId": "p_serving-board",
+    "type": "image",
+    "src": "/images/products/serving-board.svg",
+    "alt": "Oak Serving Board"
+   },
+   {
+    "id": "m_serving-board_2",
+    "productId": "p_serving-board",
+    "type": "image",
+    "src": "/images/products/serving-board-alt.svg",
+    "alt": "Oak Serving Board detail"
+   }
+  ],
+  "seo": {
+   "title": "Oak Serving Board",
+   "description": "Edge-grain white oak board with an angled handle and juice groove. Hand-finished with food-safe oil and beeswax.",
+   "handle": "serving-board"
+  },
+  "weightGrams": 850,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-08-24T09:47:19.078Z",
+  "updatedAt": "2026-09-06T02:07:13.805Z"
+ },
+ {
+  "id": "p_desk-lamp",
+  "title": "Brass Task Lamp",
+  "descriptionHtml": "<p>Adjustable brass task lamp with a weighted base, inline dimmer, and warm 2700K LED included.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Lighting > Lamps",
+  "status": "active",
+  "tags": [
+   "limited",
+   "sustainable",
+   "lighting",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_12"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Aged Brass",
+     "Matte Black"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_desk-lamp_v1",
+    "productId": "p_desk-lamp",
+    "title": "Aged Brass",
+    "sku": "DL29-AGED",
+    "barcode": "0847390112310",
+    "price": 92,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Aged Brass"
+    },
+    "weightGrams": 1600,
+    "imageId": "m_desk-lamp_1",
+    "available": true
+   },
+   {
+    "id": "p_desk-lamp_v2",
+    "productId": "p_desk-lamp",
+    "title": "Matte Black",
+    "sku": "DL29-MATT",
+    "barcode": "0842119067179",
+    "price": 92,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Matte Black"
+    },
+    "weightGrams": 1600,
+    "imageId": "m_desk-lamp_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_desk-lamp_1",
+    "productId": "p_desk-lamp",
+    "type": "image",
+    "src": "/images/products/desk-lamp.svg",
+    "alt": "Brass Task Lamp"
+   },
+   {
+    "id": "m_desk-lamp_2",
+    "productId": "p_desk-lamp",
+    "type": "image",
+    "src": "/images/products/desk-lamp-alt.svg",
+    "alt": "Brass Task Lamp detail"
+   }
+  ],
+  "seo": {
+   "title": "Brass Task Lamp",
+   "description": "Adjustable brass task lamp with a weighted base, inline dimmer, and warm 2700K LED included.",
+   "handle": "desk-lamp"
+  },
+  "weightGrams": 1600,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-10-10T09:47:19.080Z",
+  "updatedAt": "2026-09-10T04:13:25.241Z"
+ },
+ {
+  "id": "p_field-journal",
+  "title": "Waterproof Field Journal",
+  "descriptionHtml": "<p>48 pages of all-weather paper in a sewn vinyl cover. Writes in rain, survives the pack.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Stationery",
+  "category": "Office & School Supplies > Paper > Notebooks",
+  "status": "active",
+  "tags": [
+   "staff-pick",
+   "outdoor",
+   "stationery",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_5",
+   "col_11",
+   "col_12"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Olive",
+     "Tan",
+     "Black"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_field-journal_v1",
+    "productId": "p_field-journal",
+    "title": "Olive",
+    "sku": "FJ30-OLIV",
+    "barcode": "0841428182855",
+    "price": 22,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Olive"
+    },
+    "weightGrams": 210,
+    "imageId": "m_field-journal_1",
+    "available": true
+   },
+   {
+    "id": "p_field-journal_v2",
+    "productId": "p_field-journal",
+    "title": "Tan",
+    "sku": "FJ30-TAN",
+    "barcode": "0844969687027",
+    "price": 22,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Tan"
+    },
+    "weightGrams": 210,
+    "imageId": "m_field-journal_1",
+    "available": true
+   },
+   {
+    "id": "p_field-journal_v3",
+    "productId": "p_field-journal",
+    "title": "Black",
+    "sku": "FJ30-BLAC",
+    "barcode": "0845297084951",
+    "price": 22,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Black"
+    },
+    "weightGrams": 210,
+    "imageId": "m_field-journal_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_field-journal_1",
+    "productId": "p_field-journal",
+    "type": "image",
+    "src": "/images/products/field-journal.svg",
+    "alt": "Waterproof Field Journal"
+   },
+   {
+    "id": "m_field-journal_2",
+    "productId": "p_field-journal",
+    "type": "image",
+    "src": "/images/products/field-journal-alt.svg",
+    "alt": "Waterproof Field Journal detail"
+   },
+   {
+    "id": "p_field-journal_m3",
+    "productId": "p_field-journal",
+    "type": "image",
+    "src": "/images/products/p_field-journal-3.svg",
+    "alt": "Waterproof Field Journal lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Waterproof Field Journal",
+   "description": "48 pages of all-weather paper in a sewn vinyl cover. Writes in rain, survives the pack.",
+   "handle": "field-journal"
+  },
+  "weightGrams": 210,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-09-03T09:47:19.082Z",
+  "updatedAt": "2026-09-07T14:38:14.537Z"
+ },
+ {
+  "id": "p_passport-holder",
+  "title": "Leather Passport Holder",
+  "descriptionHtml": "<p>Vegetable-tanned passport sleeve with two card slots and a ticket pocket. Ages into a rich patina.</p>",
+  "vendor": "Alder & Oak",
+  "productType": "Accessories",
+  "category": "Apparel & Accessories > Luggage > Passport Covers",
+  "status": "active",
+  "tags": [
+   "staff-pick",
+   "new-arrival",
+   "sustainable",
+   "leather"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_8",
+   "col_12"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Chestnut",
+     "Black"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_passport-holder_v1",
+    "productId": "p_passport-holder",
+    "title": "Chestnut",
+    "sku": "PH31-CHES",
+    "barcode": "0848535045465",
+    "price": 34,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Chestnut"
+    },
+    "weightGrams": 95,
+    "imageId": "m_passport-holder_1",
+    "available": true
+   },
+   {
+    "id": "p_passport-holder_v2",
+    "productId": "p_passport-holder",
+    "title": "Black",
+    "sku": "PH31-BLAC",
+    "barcode": "0844706782239",
+    "price": 34,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Black"
+    },
+    "weightGrams": 95,
+    "imageId": "m_passport-holder_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_passport-holder_1",
+    "productId": "p_passport-holder",
+    "type": "image",
+    "src": "/images/products/passport-holder.svg",
+    "alt": "Leather Passport Holder"
+   },
+   {
+    "id": "m_passport-holder_2",
+    "productId": "p_passport-holder",
+    "type": "image",
+    "src": "/images/products/passport-holder-alt.svg",
+    "alt": "Leather Passport Holder detail"
+   }
+  ],
+  "seo": {
+   "title": "Leather Passport Holder",
+   "description": "Vegetable-tanned passport sleeve with two card slots and a ticket pocket. Ages into a rich patina.",
+   "handle": "passport-holder"
+  },
+  "weightGrams": 95,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-02-06T09:47:19.084Z",
+  "updatedAt": "2026-09-01T08:12:29.322Z"
+ },
+ {
+  "id": "p_woven-belt",
+  "title": "Woven Canvas Belt",
+  "descriptionHtml": "<p>Adjustable webbing belt with a low-profile anodized buckle. Trims to size without fraying.</p>",
+  "vendor": "Meridian Basics",
+  "productType": "Accessories",
+  "category": "Apparel & Accessories > Belts",
+  "status": "active",
+  "tags": [
+   "essential",
+   "sustainable",
+   "limited",
+   "accessories"
+  ],
+  "collectionIds": [
+   "col_4"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Olive",
+     "Navy",
+     "Khaki"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "S (30-33\")",
+     "M (33-36\")",
+     "L (36-39\")"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_woven-belt_v1",
+    "productId": "p_woven-belt",
+    "title": "Olive / S (30-33\")",
+    "sku": "WB32-OLIV-S303",
+    "barcode": "0849647579167",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Olive",
+     "Size": "S (30-33\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v2",
+    "productId": "p_woven-belt",
+    "title": "Olive / M (33-36\")",
+    "sku": "WB32-OLIV-M333",
+    "barcode": "0847518667632",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Olive",
+     "Size": "M (33-36\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v3",
+    "productId": "p_woven-belt",
+    "title": "Olive / L (36-39\")",
+    "sku": "WB32-OLIV-L363",
+    "barcode": "0847085319070",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Olive",
+     "Size": "L (36-39\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v4",
+    "productId": "p_woven-belt",
+    "title": "Navy / S (30-33\")",
+    "sku": "WB32-NAVY-S303",
+    "barcode": "0844718151830",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Navy",
+     "Size": "S (30-33\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v5",
+    "productId": "p_woven-belt",
+    "title": "Navy / M (33-36\")",
+    "sku": "WB32-NAVY-M333",
+    "barcode": "0843355253875",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Navy",
+     "Size": "M (33-36\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v6",
+    "productId": "p_woven-belt",
+    "title": "Navy / L (36-39\")",
+    "sku": "WB32-NAVY-L363",
+    "barcode": "0849407302861",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Navy",
+     "Size": "L (36-39\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v7",
+    "productId": "p_woven-belt",
+    "title": "Khaki / S (30-33\")",
+    "sku": "WB32-KHAK-S303",
+    "barcode": "0846710892957",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Khaki",
+     "Size": "S (30-33\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v8",
+    "productId": "p_woven-belt",
+    "title": "Khaki / M (33-36\")",
+    "sku": "WB32-KHAK-M333",
+    "barcode": "0841532687984",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Khaki",
+     "Size": "M (33-36\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   },
+   {
+    "id": "p_woven-belt_v9",
+    "productId": "p_woven-belt",
+    "title": "Khaki / L (36-39\")",
+    "sku": "WB32-KHAK-L363",
+    "barcode": "0842629062454",
+    "price": 29,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Khaki",
+     "Size": "L (36-39\")"
+    },
+    "weightGrams": 130,
+    "imageId": "m_woven-belt_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_woven-belt_1",
+    "productId": "p_woven-belt",
+    "type": "image",
+    "src": "/images/products/woven-belt.svg",
+    "alt": "Woven Canvas Belt"
+   },
+   {
+    "id": "m_woven-belt_2",
+    "productId": "p_woven-belt",
+    "type": "image",
+    "src": "/images/products/woven-belt-alt.svg",
+    "alt": "Woven Canvas Belt detail"
+   }
+  ],
+  "seo": {
+   "title": "Woven Canvas Belt",
+   "description": "Adjustable webbing belt with a low-profile anodized buckle. Trims to size without fraying.",
+   "handle": "woven-belt"
+  },
+  "weightGrams": 130,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-03-01T09:47:19.086Z",
+  "updatedAt": "2026-08-28T22:24:34.382Z"
+ },
+ {
+  "id": "p_picnic-blanket",
+  "title": "Waterproof Picnic Blanket",
+  "descriptionHtml": "<p>Acrylic-top blanket with a welded PEVA backing that wipes clean. Folds into a carry strap at 140 × 200cm.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Outdoor",
+  "category": "Sporting Goods > Outdoor > Camping",
+  "status": "draft",
+  "tags": [
+   "new-arrival",
+   "sustainable"
+  ],
+  "collectionIds": [
+   "col_1"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Scratch Stripe",
+     "Juniper"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_picnic-blanket_v1",
+    "productId": "p_picnic-blanket",
+    "title": "Scratch Stripe",
+    "sku": "PB33-SCRA",
+    "barcode": "0842528628416",
+    "price": 44,
+    "costPerItem": 15,
+    "optionValues": {
+     "Color": "Scratch Stripe"
+    },
+    "weightGrams": 980,
+    "imageId": "m_picnic-blanket_1",
+    "available": true
+   },
+   {
+    "id": "p_picnic-blanket_v2",
+    "productId": "p_picnic-blanket",
+    "title": "Juniper",
+    "sku": "PB33-JUNI",
+    "barcode": "0845908337868",
+    "price": 44,
+    "costPerItem": 15,
+    "optionValues": {
+     "Color": "Juniper"
+    },
+    "weightGrams": 980,
+    "imageId": "m_picnic-blanket_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_picnic-blanket_1",
+    "productId": "p_picnic-blanket",
+    "type": "image",
+    "src": "/images/products/picnic-blanket.svg",
+    "alt": "Waterproof Picnic Blanket"
+   },
+   {
+    "id": "m_picnic-blanket_2",
+    "productId": "p_picnic-blanket",
+    "type": "image",
+    "src": "/images/products/picnic-blanket-alt.svg",
+    "alt": "Waterproof Picnic Blanket detail"
+   }
+  ],
+  "seo": {
+   "title": "Waterproof Picnic Blanket",
+   "description": "Acrylic-top blanket with a welded PEVA backing that wipes clean. Folds into a carry strap at 140 × 200cm.",
+   "handle": "picnic-blanket"
+  },
+  "weightGrams": 980,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-10-18T09:47:19.088Z",
+  "updatedAt": "2026-08-05T02:52:16.070Z"
+ },
+ {
+  "id": "p_hammock",
+  "title": "Packable Hammock",
+  "descriptionHtml": "<p>Ripstop nylon hammock with tree-friendly slotted straps, rated to 400lbs, packs to the size of a water bottle.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Outdoor",
+  "category": "Sporting Goods > Outdoor > Camping",
+  "status": "active",
+  "tags": [
+   "staff-pick",
+   "sustainable",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_hammock_v1",
+    "productId": "p_hammock",
+    "title": "Default Title",
+    "sku": "H34",
+    "barcode": "0843853663547",
+    "price": 58,
+    "compareAtPrice": 72,
+    "costPerItem": 20,
+    "optionValues": {},
+    "weightGrams": 620,
+    "imageId": "m_hammock_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_hammock_1",
+    "productId": "p_hammock",
+    "type": "image",
+    "src": "/images/products/hammock.svg",
+    "alt": "Packable Hammock"
+   },
+   {
+    "id": "m_hammock_2",
+    "productId": "p_hammock",
+    "type": "image",
+    "src": "/images/products/hammock-alt.svg",
+    "alt": "Packable Hammock detail"
+   }
+  ],
+  "seo": {
+   "title": "Packable Hammock",
+   "description": "Ripstop nylon hammock with tree-friendly slotted straps, rated to 400lbs, packs to the size of a water bottle.",
+   "handle": "hammock"
+  },
+  "weightGrams": 620,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-11-18T09:47:19.090Z",
+  "updatedAt": "2026-08-24T07:05:22.456Z"
+ },
+ {
+  "id": "p_plant-pot",
+  "title": "Speckled Stoneware Planter",
+  "descriptionHtml": "<p>Hand-thrown planter with a drainage hole and matching saucer. 6\" diameter fits most shelf plants.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Lawn & Garden > Pots",
+  "status": "draft",
+  "tags": [
+   "new-arrival",
+   "ceramic"
+  ],
+  "collectionIds": [
+   "col_1"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Cream",
+     "Ink Blue"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_plant-pot_v1",
+    "productId": "p_plant-pot",
+    "title": "Cream",
+    "sku": "PP35-CREA",
+    "barcode": "0846446105826",
+    "price": 28,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Cream"
+    },
+    "weightGrams": 1100,
+    "imageId": "m_plant-pot_1",
+    "available": true
+   },
+   {
+    "id": "p_plant-pot_v2",
+    "productId": "p_plant-pot",
+    "title": "Ink Blue",
+    "sku": "PP35-INKB",
+    "barcode": "0845016241911",
+    "price": 28,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Ink Blue"
+    },
+    "weightGrams": 1100,
+    "imageId": "m_plant-pot_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_plant-pot_1",
+    "productId": "p_plant-pot",
+    "type": "image",
+    "src": "/images/products/plant-pot.svg",
+    "alt": "Speckled Stoneware Planter"
+   },
+   {
+    "id": "m_plant-pot_2",
+    "productId": "p_plant-pot",
+    "type": "image",
+    "src": "/images/products/plant-pot-alt.svg",
+    "alt": "Speckled Stoneware Planter detail"
+   },
+   {
+    "id": "p_plant-pot_m3",
+    "productId": "p_plant-pot",
+    "type": "image",
+    "src": "/images/products/p_plant-pot-3.svg",
+    "alt": "Speckled Stoneware Planter lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Speckled Stoneware Planter",
+   "description": "Hand-thrown planter with a drainage hole and matching saucer. 6\" diameter fits most shelf plants.",
+   "handle": "plant-pot"
+  },
+  "weightGrams": 1100,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-10-27T09:47:19.091Z",
+  "updatedAt": "2026-09-09T12:59:41.387Z"
+ },
+ {
+  "id": "p_keychain-tool",
+  "title": "Titanium Keychain Tool",
+  "descriptionHtml": "<p>Bottle opener, box cutter, and flathead in a 12g titanium body with a lanyard hole.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Accessories",
+  "category": "Tools & Home Improvement > Hardware",
+  "status": "active",
+  "tags": [
+   "limited",
+   "staff-pick",
+   "everyday-carry",
+   "gift"
+  ],
+  "collectionIds": [
+   "col_7",
+   "col_9"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_keychain-tool_v1",
+    "productId": "p_keychain-tool",
+    "title": "Default Title",
+    "sku": "KT36",
+    "barcode": "0843911633403",
+    "price": 24,
+    "costPerItem": 8,
+    "optionValues": {},
+    "weightGrams": 30,
+    "imageId": "m_keychain-tool_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_keychain-tool_1",
+    "productId": "p_keychain-tool",
+    "type": "image",
+    "src": "/images/products/keychain-tool.svg",
+    "alt": "Titanium Keychain Tool"
+   },
+   {
+    "id": "m_keychain-tool_2",
+    "productId": "p_keychain-tool",
+    "type": "image",
+    "src": "/images/products/keychain-tool-alt.svg",
+    "alt": "Titanium Keychain Tool detail"
+   }
+  ],
+  "seo": {
+   "title": "Titanium Keychain Tool",
+   "description": "Bottle opener, box cutter, and flathead in a 12g titanium body with a lanyard hole.",
+   "handle": "keychain-tool"
+  },
+  "weightGrams": 30,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-06-20T09:47:19.093Z",
+  "updatedAt": "2026-08-18T21:03:50.168Z"
+ },
+ {
+  "id": "p_phone-sling",
+  "title": "Everyday Phone Sling",
+  "descriptionHtml": "<p>Minimal crossbody sling sized for a large phone, cards, and keys. Weatherproof zips, adjustable webbing.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Bags",
+  "category": "Apparel & Accessories > Luggage > Waist Packs",
+  "status": "archived",
+  "tags": [
+   "new-arrival",
+   "travel"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_5"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Black",
+     "Field Green",
+     "Tan"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_phone-sling_v1",
+    "productId": "p_phone-sling",
+    "title": "Black",
+    "sku": "PS37-BLAC",
+    "barcode": "0848563867785",
+    "price": 38,
+    "costPerItem": 13,
+    "optionValues": {
+     "Color": "Black"
+    },
+    "weightGrams": 180,
+    "imageId": "m_phone-sling_1",
+    "available": true
+   },
+   {
+    "id": "p_phone-sling_v2",
+    "productId": "p_phone-sling",
+    "title": "Field Green",
+    "sku": "PS37-FIEL",
+    "barcode": "0842057057286",
+    "price": 38,
+    "costPerItem": 13,
+    "optionValues": {
+     "Color": "Field Green"
+    },
+    "weightGrams": 180,
+    "imageId": "m_phone-sling_1",
+    "available": true
+   },
+   {
+    "id": "p_phone-sling_v3",
+    "productId": "p_phone-sling",
+    "title": "Tan",
+    "sku": "PS37-TAN",
+    "barcode": "0846844794527",
+    "price": 38,
+    "costPerItem": 13,
+    "optionValues": {
+     "Color": "Tan"
+    },
+    "weightGrams": 180,
+    "imageId": "m_phone-sling_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_phone-sling_1",
+    "productId": "p_phone-sling",
+    "type": "image",
+    "src": "/images/products/phone-sling.svg",
+    "alt": "Everyday Phone Sling"
+   },
+   {
+    "id": "m_phone-sling_2",
+    "productId": "p_phone-sling",
+    "type": "image",
+    "src": "/images/products/phone-sling-alt.svg",
+    "alt": "Everyday Phone Sling detail"
+   }
+  ],
+  "seo": {
+   "title": "Everyday Phone Sling",
+   "description": "Minimal crossbody sling sized for a large phone, cards, and keys. Weatherproof zips, adjustable webbing.",
+   "handle": "phone-sling"
+  },
+  "weightGrams": 180,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-01-04T09:47:19.095Z",
+  "updatedAt": "2026-08-15T09:41:01.380Z"
+ },
+ {
+  "id": "p_matcha-whisk-set",
+  "title": "Matcha Whisk Set",
+  "descriptionHtml": "<p>Bamboo chasen whisk, ceramic whisk holder, and bamboo scoop in a gift-ready box.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Tea",
+  "status": "archived",
+  "tags": [
+   "staff-pick",
+   "new-arrival",
+   "gift"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_6",
+   "col_7"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_matcha-whisk-set_v1",
+    "productId": "p_matcha-whisk-set",
+    "title": "Default Title",
+    "sku": "MWS38",
+    "barcode": "0844808146076",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {},
+    "weightGrams": 320,
+    "imageId": "m_matcha-whisk-set_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_matcha-whisk-set_1",
+    "productId": "p_matcha-whisk-set",
+    "type": "image",
+    "src": "/images/products/matcha-whisk-set.svg",
+    "alt": "Matcha Whisk Set"
+   },
+   {
+    "id": "m_matcha-whisk-set_2",
+    "productId": "p_matcha-whisk-set",
+    "type": "image",
+    "src": "/images/products/matcha-whisk-set-alt.svg",
+    "alt": "Matcha Whisk Set detail"
+   }
+  ],
+  "seo": {
+   "title": "Matcha Whisk Set",
+   "description": "Bamboo chasen whisk, ceramic whisk holder, and bamboo scoop in a gift-ready box.",
+   "handle": "matcha-whisk-set"
+  },
+  "weightGrams": 320,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-02-10T09:47:19.096Z",
+  "updatedAt": "2026-08-04T03:52:02.113Z"
+ },
+ {
+  "id": "p_shower-steamer-set",
+  "title": "Shower Steamer Set",
+  "descriptionHtml": "<p>Six aromatherapy steamers: eucalyptus, lavender, and citrus. Effervesce on the shower floor, not in your eyes.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Health & Beauty > Personal Care > Bath",
+  "status": "draft",
+  "tags": [
+   "gift",
+   "sustainable",
+   "limited",
+   "staff-pick"
+  ],
+  "collectionIds": [
+   "col_7"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_shower-steamer-set_v1",
+    "productId": "p_shower-steamer-set",
+    "title": "Default Title",
+    "sku": "SSS39",
+    "barcode": "0849313748110",
+    "price": 22,
+    "costPerItem": 7,
+    "optionValues": {},
+    "weightGrams": 420,
+    "imageId": "m_shower-steamer-set_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_shower-steamer-set_1",
+    "productId": "p_shower-steamer-set",
+    "type": "image",
+    "src": "/images/products/shower-steamer-set.svg",
+    "alt": "Shower Steamer Set"
+   },
+   {
+    "id": "m_shower-steamer-set_2",
+    "productId": "p_shower-steamer-set",
+    "type": "image",
+    "src": "/images/products/shower-steamer-set-alt.svg",
+    "alt": "Shower Steamer Set detail"
+   }
+  ],
+  "seo": {
+   "title": "Shower Steamer Set",
+   "description": "Six aromatherapy steamers: eucalyptus, lavender, and citrus. Effervesce on the shower floor, not in your eyes.",
+   "handle": "shower-steamer-set"
+  },
+  "weightGrams": 420,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-12-27T09:47:19.098Z",
+  "updatedAt": "2026-09-10T07:38:49.513Z"
+ },
+ {
+  "id": "p_packable-rain-jacket",
+  "title": "Packable Rain Jacket",
+  "descriptionHtml": "<p>2.5-layer waterproof shell that packs into its own chest pocket. Fully taped seams, 10k/10k rating.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing > Outerwear",
+  "status": "active",
+  "tags": [
+   "rain",
+   "staff-pick",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_3",
+   "col_10"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Storm Blue",
+     "Moss",
+     "Black"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "S",
+     "M",
+     "L",
+     "XL"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_packable-rain-jacket_v1",
+    "productId": "p_packable-rain-jacket",
+    "title": "Storm Blue / S",
+    "sku": "PRJ40-STOR-S",
+    "barcode": "0841382826741",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Storm Blue",
+     "Size": "S"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v2",
+    "productId": "p_packable-rain-jacket",
+    "title": "Storm Blue / M",
+    "sku": "PRJ40-STOR-M",
+    "barcode": "0846439438781",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Storm Blue",
+     "Size": "M"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v3",
+    "productId": "p_packable-rain-jacket",
+    "title": "Storm Blue / L",
+    "sku": "PRJ40-STOR-L",
+    "barcode": "0844520077974",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Storm Blue",
+     "Size": "L"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v4",
+    "productId": "p_packable-rain-jacket",
+    "title": "Storm Blue / XL",
+    "sku": "PRJ40-STOR-XL",
+    "barcode": "0842633764456",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Storm Blue",
+     "Size": "XL"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v5",
+    "productId": "p_packable-rain-jacket",
+    "title": "Moss / S",
+    "sku": "PRJ40-MOSS-S",
+    "barcode": "0848552094965",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Moss",
+     "Size": "S"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v6",
+    "productId": "p_packable-rain-jacket",
+    "title": "Moss / M",
+    "sku": "PRJ40-MOSS-M",
+    "barcode": "0841139230879",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Moss",
+     "Size": "M"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v7",
+    "productId": "p_packable-rain-jacket",
+    "title": "Moss / L",
+    "sku": "PRJ40-MOSS-L",
+    "barcode": "0843373500616",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Moss",
+     "Size": "L"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v8",
+    "productId": "p_packable-rain-jacket",
+    "title": "Moss / XL",
+    "sku": "PRJ40-MOSS-XL",
+    "barcode": "0841309449945",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Moss",
+     "Size": "XL"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v9",
+    "productId": "p_packable-rain-jacket",
+    "title": "Black / S",
+    "sku": "PRJ40-BLAC-S",
+    "barcode": "0848178154296",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "S"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v10",
+    "productId": "p_packable-rain-jacket",
+    "title": "Black / M",
+    "sku": "PRJ40-BLAC-M",
+    "barcode": "0841886974083",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "M"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v11",
+    "productId": "p_packable-rain-jacket",
+    "title": "Black / L",
+    "sku": "PRJ40-BLAC-L",
+    "barcode": "0846122829774",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "L"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   },
+   {
+    "id": "p_packable-rain-jacket_v12",
+    "productId": "p_packable-rain-jacket",
+    "title": "Black / XL",
+    "sku": "PRJ40-BLAC-XL",
+    "barcode": "0842601526833",
+    "price": 98,
+    "compareAtPrice": 128,
+    "costPerItem": 34,
+    "optionValues": {
+     "Color": "Black",
+     "Size": "XL"
+    },
+    "weightGrams": 380,
+    "imageId": "m_packable-rain-jacket_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_packable-rain-jacket_1",
+    "productId": "p_packable-rain-jacket",
+    "type": "image",
+    "src": "/images/products/packable-rain-jacket.svg",
+    "alt": "Packable Rain Jacket"
+   },
+   {
+    "id": "m_packable-rain-jacket_2",
+    "productId": "p_packable-rain-jacket",
+    "type": "image",
+    "src": "/images/products/packable-rain-jacket-alt.svg",
+    "alt": "Packable Rain Jacket detail"
+   },
+   {
+    "id": "p_packable-rain-jacket_m3",
+    "productId": "p_packable-rain-jacket",
+    "type": "image",
+    "src": "/images/products/p_packable-rain-jacket-3.svg",
+    "alt": "Packable Rain Jacket lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Packable Rain Jacket",
+   "description": "2.5-layer waterproof shell that packs into its own chest pocket. Fully taped seams, 10k/10k rating.",
+   "handle": "packable-rain-jacket"
+  },
+  "weightGrams": 380,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-12-28T09:47:19.100Z",
+  "updatedAt": "2026-08-03T01:00:06.577Z"
+ },
+ {
+  "id": "p_carry-on-duffel",
+  "title": "Carry-On Duffel 40L",
+  "descriptionHtml": "<p>Airline-compliant 40L duffel with stowable backpack straps, a lay-flat opening, and five external pockets.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Bags",
+  "category": "Apparel & Accessories > Luggage > Duffels",
+  "status": "archived",
+  "tags": [
+   "limited",
+   "new-arrival",
+   "staff-pick",
+   "travel"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_5"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Field Green",
+     "Charcoal"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_carry-on-duffel_v1",
+    "productId": "p_carry-on-duffel",
+    "title": "Field Green",
+    "sku": "COD41-FIEL",
+    "barcode": "0847104500689",
+    "price": 84,
+    "costPerItem": 29,
+    "optionValues": {
+     "Color": "Field Green"
+    },
+    "weightGrams": 1150,
+    "imageId": "m_carry-on-duffel_1",
+    "available": true
+   },
+   {
+    "id": "p_carry-on-duffel_v2",
+    "productId": "p_carry-on-duffel",
+    "title": "Charcoal",
+    "sku": "COD41-CHAR",
+    "barcode": "0843943576834",
+    "price": 84,
+    "costPerItem": 29,
+    "optionValues": {
+     "Color": "Charcoal"
+    },
+    "weightGrams": 1150,
+    "imageId": "m_carry-on-duffel_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_carry-on-duffel_1",
+    "productId": "p_carry-on-duffel",
+    "type": "image",
+    "src": "/images/products/carry-on-duffel.svg",
+    "alt": "Carry-On Duffel 40L"
+   },
+   {
+    "id": "m_carry-on-duffel_2",
+    "productId": "p_carry-on-duffel",
+    "type": "image",
+    "src": "/images/products/carry-on-duffel-alt.svg",
+    "alt": "Carry-On Duffel 40L detail"
+   }
+  ],
+  "seo": {
+   "title": "Carry-On Duffel 40L",
+   "description": "Airline-compliant 40L duffel with stowable backpack straps, a lay-flat opening, and five external pockets.",
+   "handle": "carry-on-duffel"
+  },
+  "weightGrams": 1150,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-11-23T09:47:19.102Z",
+  "updatedAt": "2026-09-09T03:37:47.674Z"
+ },
+ {
+  "id": "p_wool-scarf",
+  "title": "Recycled Wool Scarf",
+  "descriptionHtml": "<p>Bruhed recycled-wool twill scarf with hand-knotted fringe. 200 × 35cm.</p>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing Accessories > Scarves",
+  "status": "active",
+  "tags": [
+   "winter",
+   "sustainable"
+  ],
+  "collectionIds": [
+   "col_3"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Heather Grey",
+     "Rust",
+     "Ink Blue"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_wool-scarf_v1",
+    "productId": "p_wool-scarf",
+    "title": "Heather Grey",
+    "sku": "WS42-HEAT",
+    "barcode": "0844499637760",
+    "price": 38,
+    "costPerItem": 13,
+    "optionValues": {
+     "Color": "Heather Grey"
+    },
+    "weightGrams": 220,
+    "imageId": "m_wool-scarf_1",
+    "available": true
+   },
+   {
+    "id": "p_wool-scarf_v2",
+    "productId": "p_wool-scarf",
+    "title": "Rust",
+    "sku": "WS42-RUST",
+    "barcode": "0841323285028",
+    "price": 38,
+    "costPerItem": 13,
+    "optionValues": {
+     "Color": "Rust"
+    },
+    "weightGrams": 220,
+    "imageId": "m_wool-scarf_1",
+    "available": true
+   },
+   {
+    "id": "p_wool-scarf_v3",
+    "productId": "p_wool-scarf",
+    "title": "Ink Blue",
+    "sku": "WS42-INKB",
+    "barcode": "0841433729089",
+    "price": 38,
+    "costPerItem": 13,
+    "optionValues": {
+     "Color": "Ink Blue"
+    },
+    "weightGrams": 220,
+    "imageId": "m_wool-scarf_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_wool-scarf_1",
+    "productId": "p_wool-scarf",
+    "type": "image",
+    "src": "/images/products/wool-scarf.svg",
+    "alt": "Recycled Wool Scarf"
+   },
+   {
+    "id": "m_wool-scarf_2",
+    "productId": "p_wool-scarf",
+    "type": "image",
+    "src": "/images/products/wool-scarf-alt.svg",
+    "alt": "Recycled Wool Scarf detail"
+   }
+  ],
+  "seo": {
+   "title": "Recycled Wool Scarf",
+   "description": "Bruhed recycled-wool twill scarf with hand-knotted fringe. 200 × 35cm.",
+   "handle": "wool-scarf"
+  },
+  "weightGrams": 220,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-04-05T09:47:19.104Z",
+  "updatedAt": "2026-08-13T11:49:39.946Z"
+ },
+ {
+  "id": "p_canvas-dopp-kit",
+  "title": "Canvas Dopp Kit",
+  "descriptionHtml": "<p>Waxed-canvas toiletry bag with a wipe-clean lining, wide-mouth zip, and a leather pull.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Bags",
+  "category": "Apparel & Accessories > Luggage > Toiletry Bags",
+  "status": "active",
+  "tags": [
+   "limited",
+   "staff-pick"
+  ],
+  "collectionIds": [],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Natural",
+     "Field Green"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_canvas-dopp-kit_v1",
+    "productId": "p_canvas-dopp-kit",
+    "title": "Natural",
+    "sku": "CDK43-NATU",
+    "barcode": "0842189783398",
+    "price": 32,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Natural"
+    },
+    "weightGrams": 240,
+    "imageId": "m_canvas-dopp-kit_1",
+    "available": true
+   },
+   {
+    "id": "p_canvas-dopp-kit_v2",
+    "productId": "p_canvas-dopp-kit",
+    "title": "Field Green",
+    "sku": "CDK43-FIEL",
+    "barcode": "0848848269228",
+    "price": 32,
+    "costPerItem": 11,
+    "optionValues": {
+     "Color": "Field Green"
+    },
+    "weightGrams": 240,
+    "imageId": "m_canvas-dopp-kit_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_canvas-dopp-kit_1",
+    "productId": "p_canvas-dopp-kit",
+    "type": "image",
+    "src": "/images/products/canvas-dopp-kit.svg",
+    "alt": "Canvas Dopp Kit"
+   },
+   {
+    "id": "m_canvas-dopp-kit_2",
+    "productId": "p_canvas-dopp-kit",
+    "type": "image",
+    "src": "/images/products/canvas-dopp-kit-alt.svg",
+    "alt": "Canvas Dopp Kit detail"
+   }
+  ],
+  "seo": {
+   "title": "Canvas Dopp Kit",
+   "description": "Waxed-canvas toiletry bag with a wipe-clean lining, wide-mouth zip, and a leather pull.",
+   "handle": "canvas-dopp-kit"
+  },
+  "weightGrams": 240,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-07-21T09:47:19.107Z",
+  "updatedAt": "2026-09-09T13:40:22.800Z"
+ },
+ {
+  "id": "p_kids-organic-tee",
+  "title": "Kids Organic Tee",
+  "descriptionHtml": "<p>The Classic Cotton Tee, shrunk down. Same 220gsm organic cotton, playful colors, tagless neck.</p>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing > Kids",
+  "status": "draft",
+  "tags": [
+   "essential",
+   "staff-pick",
+   "cotton",
+   "new-arrival"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_3"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Sunshine",
+     "Sky",
+     "Sage"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "2T",
+     "4T",
+     "6Y"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_kids-organic-tee_v1",
+    "productId": "p_kids-organic-tee",
+    "title": "Sunshine / 2T",
+    "sku": "KOT44-SUNS-2T",
+    "barcode": "0847118602476",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sunshine",
+     "Size": "2T"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v2",
+    "productId": "p_kids-organic-tee",
+    "title": "Sunshine / 4T",
+    "sku": "KOT44-SUNS-4T",
+    "barcode": "0847114923644",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sunshine",
+     "Size": "4T"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v3",
+    "productId": "p_kids-organic-tee",
+    "title": "Sunshine / 6Y",
+    "sku": "KOT44-SUNS-6Y",
+    "barcode": "0841869786793",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sunshine",
+     "Size": "6Y"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v4",
+    "productId": "p_kids-organic-tee",
+    "title": "Sky / 2T",
+    "sku": "KOT44-SKY-2T",
+    "barcode": "0846948683370",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sky",
+     "Size": "2T"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v5",
+    "productId": "p_kids-organic-tee",
+    "title": "Sky / 4T",
+    "sku": "KOT44-SKY-4T",
+    "barcode": "0844122163126",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sky",
+     "Size": "4T"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v6",
+    "productId": "p_kids-organic-tee",
+    "title": "Sky / 6Y",
+    "sku": "KOT44-SKY-6Y",
+    "barcode": "0844920428290",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sky",
+     "Size": "6Y"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v7",
+    "productId": "p_kids-organic-tee",
+    "title": "Sage / 2T",
+    "sku": "KOT44-SAGE-2T",
+    "barcode": "0847377667074",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sage",
+     "Size": "2T"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v8",
+    "productId": "p_kids-organic-tee",
+    "title": "Sage / 4T",
+    "sku": "KOT44-SAGE-4T",
+    "barcode": "0843537685298",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sage",
+     "Size": "4T"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-organic-tee_v9",
+    "productId": "p_kids-organic-tee",
+    "title": "Sage / 6Y",
+    "sku": "KOT44-SAGE-6Y",
+    "barcode": "0842356092500",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {
+     "Color": "Sage",
+     "Size": "6Y"
+    },
+    "weightGrams": 120,
+    "imageId": "m_kids-organic-tee_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_kids-organic-tee_1",
+    "productId": "p_kids-organic-tee",
+    "type": "image",
+    "src": "/images/products/kids-organic-tee.svg",
+    "alt": "Kids Organic Tee"
+   },
+   {
+    "id": "m_kids-organic-tee_2",
+    "productId": "p_kids-organic-tee",
+    "type": "image",
+    "src": "/images/products/kids-organic-tee-alt.svg",
+    "alt": "Kids Organic Tee detail"
+   }
+  ],
+  "seo": {
+   "title": "Kids Organic Tee",
+   "description": "The Classic Cotton Tee, shrunk down. Same 220gsm organic cotton, playful colors, tagless neck.",
+   "handle": "kids-organic-tee"
+  },
+  "weightGrams": 120,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-06-06T09:47:19.109Z",
+  "updatedAt": "2026-09-02T18:02:43.033Z"
+ },
+ {
+  "id": "p_kids-fleece-pullover",
+  "title": "Kids Fleece Pullover",
+  "descriptionHtml": "<p>Half-zip micro-fleece pullover with thumb loops and a kangaroo pocket. Playground-approved.</p>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing > Kids",
+  "status": "active",
+  "tags": [
+   "fleece",
+   "kids"
+  ],
+  "collectionIds": [
+   "col_3"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Oatmeal",
+     "Forest"
+    ]
+   },
+   {
+    "name": "Size",
+    "values": [
+     "2T",
+     "4T",
+     "6Y"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_kids-fleece-pullover_v1",
+    "productId": "p_kids-fleece-pullover",
+    "title": "Oatmeal / 2T",
+    "sku": "KFP45-OATM-2T",
+    "barcode": "0844799625087",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Oatmeal",
+     "Size": "2T"
+    },
+    "weightGrams": 300,
+    "imageId": "m_kids-fleece-pullover_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-fleece-pullover_v2",
+    "productId": "p_kids-fleece-pullover",
+    "title": "Oatmeal / 4T",
+    "sku": "KFP45-OATM-4T",
+    "barcode": "0846506774798",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Oatmeal",
+     "Size": "4T"
+    },
+    "weightGrams": 300,
+    "imageId": "m_kids-fleece-pullover_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-fleece-pullover_v3",
+    "productId": "p_kids-fleece-pullover",
+    "title": "Oatmeal / 6Y",
+    "sku": "KFP45-OATM-6Y",
+    "barcode": "0844599523873",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Oatmeal",
+     "Size": "6Y"
+    },
+    "weightGrams": 300,
+    "imageId": "m_kids-fleece-pullover_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-fleece-pullover_v4",
+    "productId": "p_kids-fleece-pullover",
+    "title": "Forest / 2T",
+    "sku": "KFP45-FORE-2T",
+    "barcode": "0847807481698",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Forest",
+     "Size": "2T"
+    },
+    "weightGrams": 300,
+    "imageId": "m_kids-fleece-pullover_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-fleece-pullover_v5",
+    "productId": "p_kids-fleece-pullover",
+    "title": "Forest / 4T",
+    "sku": "KFP45-FORE-4T",
+    "barcode": "0849159991042",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Forest",
+     "Size": "4T"
+    },
+    "weightGrams": 300,
+    "imageId": "m_kids-fleece-pullover_1",
+    "available": true
+   },
+   {
+    "id": "p_kids-fleece-pullover_v6",
+    "productId": "p_kids-fleece-pullover",
+    "title": "Forest / 6Y",
+    "sku": "KFP45-FORE-6Y",
+    "barcode": "0841506538317",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Forest",
+     "Size": "6Y"
+    },
+    "weightGrams": 300,
+    "imageId": "m_kids-fleece-pullover_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_kids-fleece-pullover_1",
+    "productId": "p_kids-fleece-pullover",
+    "type": "image",
+    "src": "/images/products/kids-fleece-pullover.svg",
+    "alt": "Kids Fleece Pullover"
+   },
+   {
+    "id": "m_kids-fleece-pullover_2",
+    "productId": "p_kids-fleece-pullover",
+    "type": "image",
+    "src": "/images/products/kids-fleece-pullover-alt.svg",
+    "alt": "Kids Fleece Pullover detail"
+   },
+   {
+    "id": "p_kids-fleece-pullover_m3",
+    "productId": "p_kids-fleece-pullover",
+    "type": "image",
+    "src": "/images/products/p_kids-fleece-pullover-3.svg",
+    "alt": "Kids Fleece Pullover lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Kids Fleece Pullover",
+   "description": "Half-zip micro-fleece pullover with thumb loops and a kangaroo pocket. Playground-approved.",
+   "handle": "kids-fleece-pullover"
+  },
+  "weightGrams": 300,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-09-15T09:47:19.111Z",
+  "updatedAt": "2026-08-09T23:55:41.133Z"
+ },
+ {
+  "id": "p_enamel-camping-mug",
+  "title": "Enamel Camping Mug",
+  "descriptionHtml": "<p>Classic speckled enamel mug, 16oz, campfire-safe rolled rim. The one you will inevitably lose and re-buy.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Outdoor",
+  "category": "Sporting Goods > Outdoor > Camp Kitchen",
+  "status": "active",
+  "tags": [
+   "staff-pick",
+   "outdoor",
+   "gift"
+  ],
+  "collectionIds": [
+   "col_5",
+   "col_7",
+   "col_9"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Cream",
+     "Forest"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_enamel-camping-mug_v1",
+    "productId": "p_enamel-camping-mug",
+    "title": "Cream",
+    "sku": "ECM46-CREA",
+    "barcode": "0848830368287",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Cream"
+    },
+    "weightGrams": 210,
+    "imageId": "m_enamel-camping-mug_1",
+    "available": true
+   },
+   {
+    "id": "p_enamel-camping-mug_v2",
+    "productId": "p_enamel-camping-mug",
+    "title": "Forest",
+    "sku": "ECM46-FORE",
+    "barcode": "0843008552586",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Forest"
+    },
+    "weightGrams": 210,
+    "imageId": "m_enamel-camping-mug_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_enamel-camping-mug_1",
+    "productId": "p_enamel-camping-mug",
+    "type": "image",
+    "src": "/images/products/enamel-camping-mug.svg",
+    "alt": "Enamel Camping Mug"
+   },
+   {
+    "id": "m_enamel-camping-mug_2",
+    "productId": "p_enamel-camping-mug",
+    "type": "image",
+    "src": "/images/products/enamel-camping-mug-alt.svg",
+    "alt": "Enamel Camping Mug detail"
+   }
+  ],
+  "seo": {
+   "title": "Enamel Camping Mug",
+   "description": "Classic speckled enamel mug, 16oz, campfire-safe rolled rim. The one you will inevitably lose and re-buy.",
+   "handle": "enamel-camping-mug"
+  },
+  "weightGrams": 210,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-02-14T09:47:19.115Z",
+  "updatedAt": "2026-09-09T17:09:41.154Z"
+ },
+ {
+  "id": "p_cast-iron-skillet",
+  "title": "Pre-Seasoned Cast Iron Skillet",
+  "descriptionHtml": "<p>10.25\" cast iron skillet, pre-seasoned with flaxseed oil. Oven-, grill-, and campfire-safe with a helper handle.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Cookware",
+  "status": "archived",
+  "tags": [
+   "new-arrival",
+   "sustainable",
+   "staff-pick",
+   "kitchen"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_6"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_cast-iron-skillet_v1",
+    "productId": "p_cast-iron-skillet",
+    "title": "Default Title",
+    "sku": "CIS47",
+    "barcode": "0845772563006",
+    "price": 42,
+    "costPerItem": 15,
+    "optionValues": {},
+    "weightGrams": 2300,
+    "imageId": "m_cast-iron-skillet_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_cast-iron-skillet_1",
+    "productId": "p_cast-iron-skillet",
+    "type": "image",
+    "src": "/images/products/cast-iron-skillet.svg",
+    "alt": "Pre-Seasoned Cast Iron Skillet"
+   },
+   {
+    "id": "m_cast-iron-skillet_2",
+    "productId": "p_cast-iron-skillet",
+    "type": "image",
+    "src": "/images/products/cast-iron-skillet-alt.svg",
+    "alt": "Pre-Seasoned Cast Iron Skillet detail"
+   }
+  ],
+  "seo": {
+   "title": "Pre-Seasoned Cast Iron Skillet",
+   "description": "10.25\" cast iron skillet, pre-seasoned with flaxseed oil. Oven-, grill-, and campfire-safe with a helper handle.",
+   "handle": "cast-iron-skillet"
+  },
+  "weightGrams": 2300,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-07-11T09:47:19.119Z",
+  "updatedAt": "2026-09-09T13:06:45.161Z"
+ },
+ {
+  "id": "p_ceramic-vase",
+  "title": "Matte Ceramic Vase",
+  "descriptionHtml": "<p>Wheel-thrown vase with a soft matte glaze, 8\" tall. Watertight; loves branches as much as blooms.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Decor > Vases",
+  "status": "archived",
+  "tags": [
+   "limited",
+   "home"
+  ],
+  "collectionIds": [],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Cream",
+     "Ink Blue",
+     "Clay"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_ceramic-vase_v1",
+    "productId": "p_ceramic-vase",
+    "title": "Cream",
+    "sku": "CV48-CREA",
+    "barcode": "0844848629920",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Cream"
+    },
+    "weightGrams": 980,
+    "imageId": "m_ceramic-vase_1",
+    "available": true
+   },
+   {
+    "id": "p_ceramic-vase_v2",
+    "productId": "p_ceramic-vase",
+    "title": "Ink Blue",
+    "sku": "CV48-INKB",
+    "barcode": "0848715044275",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Ink Blue"
+    },
+    "weightGrams": 980,
+    "imageId": "m_ceramic-vase_1",
+    "available": true
+   },
+   {
+    "id": "p_ceramic-vase_v3",
+    "productId": "p_ceramic-vase",
+    "title": "Clay",
+    "sku": "CV48-CLAY",
+    "barcode": "0841157972553",
+    "price": 34,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Clay"
+    },
+    "weightGrams": 980,
+    "imageId": "m_ceramic-vase_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_ceramic-vase_1",
+    "productId": "p_ceramic-vase",
+    "type": "image",
+    "src": "/images/products/ceramic-vase.svg",
+    "alt": "Matte Ceramic Vase"
+   },
+   {
+    "id": "m_ceramic-vase_2",
+    "productId": "p_ceramic-vase",
+    "type": "image",
+    "src": "/images/products/ceramic-vase-alt.svg",
+    "alt": "Matte Ceramic Vase detail"
+   }
+  ],
+  "seo": {
+   "title": "Matte Ceramic Vase",
+   "description": "Wheel-thrown vase with a soft matte glaze, 8\" tall. Watertight; loves branches as much as blooms.",
+   "handle": "ceramic-vase"
+  },
+  "weightGrams": 980,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-10-27T09:47:19.122Z",
+  "updatedAt": "2026-08-30T08:18:02.815Z"
+ },
+ {
+  "id": "p_linen-apron",
+  "title": "Stonewashed Linen Apron",
+  "descriptionHtml": "<p>Cross-back linen apron with an adjustable chest strap and a generous front pocket. Gets better every wash.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Aprons",
+  "status": "active",
+  "tags": [
+   "new-arrival",
+   "staff-pick"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_4",
+   "col_6"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Natural",
+     "Ink Blue"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_linen-apron_v1",
+    "productId": "p_linen-apron",
+    "title": "Natural",
+    "sku": "LA49-NATU",
+    "barcode": "0842939065221",
+    "price": 36,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Natural"
+    },
+    "weightGrams": 310,
+    "imageId": "m_linen-apron_1",
+    "available": true
+   },
+   {
+    "id": "p_linen-apron_v2",
+    "productId": "p_linen-apron",
+    "title": "Ink Blue",
+    "sku": "LA49-INKB",
+    "barcode": "0843481675286",
+    "price": 36,
+    "costPerItem": 12,
+    "optionValues": {
+     "Color": "Ink Blue"
+    },
+    "weightGrams": 310,
+    "imageId": "m_linen-apron_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_linen-apron_1",
+    "productId": "p_linen-apron",
+    "type": "image",
+    "src": "/images/products/linen-apron.svg",
+    "alt": "Stonewashed Linen Apron"
+   },
+   {
+    "id": "m_linen-apron_2",
+    "productId": "p_linen-apron",
+    "type": "image",
+    "src": "/images/products/linen-apron-alt.svg",
+    "alt": "Stonewashed Linen Apron detail"
+   }
+  ],
+  "seo": {
+   "title": "Stonewashed Linen Apron",
+   "description": "Cross-back linen apron with an adjustable chest strap and a generous front pocket. Gets better every wash.",
+   "handle": "linen-apron"
+  },
+  "weightGrams": 310,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-03-26T09:47:19.126Z",
+  "updatedAt": "2026-09-05T12:55:42.744Z"
+ },
+ {
+  "id": "p_bamboo-cutlery-set",
+  "title": "Travel Bamboo Cutlery Set",
+  "descriptionHtml": "<p>Fork, knife, spoon, chopsticks, and straw in a rolled hemp sleeve. Dishwasher-safe bamboo.</p>",
+  "vendor": "Northstar Goods",
+  "productType": "Outdoor",
+  "category": "Sporting Goods > Outdoor > Camp Kitchen",
+  "status": "active",
+  "tags": [
+   "sustainable",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_4"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_bamboo-cutlery-set_v1",
+    "productId": "p_bamboo-cutlery-set",
+    "title": "Default Title",
+    "sku": "BCS50",
+    "barcode": "0848599459639",
+    "price": 14,
+    "costPerItem": 4,
+    "optionValues": {},
+    "weightGrams": 90,
+    "imageId": "m_bamboo-cutlery-set_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_bamboo-cutlery-set_1",
+    "productId": "p_bamboo-cutlery-set",
+    "type": "image",
+    "src": "/images/products/bamboo-cutlery-set.svg",
+    "alt": "Travel Bamboo Cutlery Set"
+   },
+   {
+    "id": "m_bamboo-cutlery-set_2",
+    "productId": "p_bamboo-cutlery-set",
+    "type": "image",
+    "src": "/images/products/bamboo-cutlery-set-alt.svg",
+    "alt": "Travel Bamboo Cutlery Set detail"
+   },
+   {
+    "id": "p_bamboo-cutlery-set_m3",
+    "productId": "p_bamboo-cutlery-set",
+    "type": "image",
+    "src": "/images/products/p_bamboo-cutlery-set-3.svg",
+    "alt": "Travel Bamboo Cutlery Set lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Travel Bamboo Cutlery Set",
+   "description": "Fork, knife, spoon, chopsticks, and straw in a rolled hemp sleeve. Dishwasher-safe bamboo.",
+   "handle": "bamboo-cutlery-set"
+  },
+  "weightGrams": 90,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-12-26T09:47:19.130Z",
+  "updatedAt": "2026-08-30T23:37:10.644Z"
+ },
+ {
+  "id": "p_fingerless-gloves",
+  "title": "Merino Fingerless Gloves",
+  "descriptionHtml": "<p>Touchscreen-friendly merino gloves with a long cuff. For runs, commutes, and cold offices.</p>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing Accessories > Gloves",
+  "status": "archived",
+  "tags": [
+   "winter",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_3"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Charcoal",
+     "Oat"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_fingerless-gloves_v1",
+    "productId": "p_fingerless-gloves",
+    "title": "Charcoal",
+    "sku": "FG51-CHAR",
+    "barcode": "0846943384379",
+    "price": 26,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Charcoal"
+    },
+    "weightGrams": 80,
+    "imageId": "m_fingerless-gloves_1",
+    "available": true
+   },
+   {
+    "id": "p_fingerless-gloves_v2",
+    "productId": "p_fingerless-gloves",
+    "title": "Oat",
+    "sku": "FG51-OAT",
+    "barcode": "0841901097248",
+    "price": 26,
+    "costPerItem": 9,
+    "optionValues": {
+     "Color": "Oat"
+    },
+    "weightGrams": 80,
+    "imageId": "m_fingerless-gloves_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_fingerless-gloves_1",
+    "productId": "p_fingerless-gloves",
+    "type": "image",
+    "src": "/images/products/fingerless-gloves.svg",
+    "alt": "Merino Fingerless Gloves"
+   },
+   {
+    "id": "m_fingerless-gloves_2",
+    "productId": "p_fingerless-gloves",
+    "type": "image",
+    "src": "/images/products/fingerless-gloves-alt.svg",
+    "alt": "Merino Fingerless Gloves detail"
+   }
+  ],
+  "seo": {
+   "title": "Merino Fingerless Gloves",
+   "description": "Touchscreen-friendly merino gloves with a long cuff. For runs, commutes, and cold offices.",
+   "handle": "fingerless-gloves"
+  },
+  "weightGrams": 80,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-08-01T09:47:19.135Z",
+  "updatedAt": "2026-08-27T22:10:46.360Z"
+ },
+ {
+  "id": "p_stainless-lunch-box",
+  "title": "Stainless Lunch Box",
+  "descriptionHtml": "<p>Two-tier 1.2L stainless lunch box with a clip-lock lid. Leak-resistant, plastic-free, dishwasher-safe.</p>",
+  "vendor": "Northstar Goods",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Food Storage",
+  "status": "active",
+  "tags": [
+   "sustainable",
+   "kitchen",
+   "staff-pick"
+  ],
+  "collectionIds": [
+   "col_4",
+   "col_6",
+   "col_12"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Brushed Steel",
+     "Matte Black"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_stainless-lunch-box_v1",
+    "productId": "p_stainless-lunch-box",
+    "title": "Brushed Steel",
+    "sku": "SLB52-BRUS",
+    "barcode": "0841742899728",
+    "price": 28,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Brushed Steel"
+    },
+    "weightGrams": 520,
+    "imageId": "m_stainless-lunch-box_1",
+    "available": true
+   },
+   {
+    "id": "p_stainless-lunch-box_v2",
+    "productId": "p_stainless-lunch-box",
+    "title": "Matte Black",
+    "sku": "SLB52-MATT",
+    "barcode": "0849752440602",
+    "price": 28,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Matte Black"
+    },
+    "weightGrams": 520,
+    "imageId": "m_stainless-lunch-box_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_stainless-lunch-box_1",
+    "productId": "p_stainless-lunch-box",
+    "type": "image",
+    "src": "/images/products/stainless-lunch-box.svg",
+    "alt": "Stainless Lunch Box"
+   },
+   {
+    "id": "m_stainless-lunch-box_2",
+    "productId": "p_stainless-lunch-box",
+    "type": "image",
+    "src": "/images/products/stainless-lunch-box-alt.svg",
+    "alt": "Stainless Lunch Box detail"
+   }
+  ],
+  "seo": {
+   "title": "Stainless Lunch Box",
+   "description": "Two-tier 1.2L stainless lunch box with a clip-lock lid. Leak-resistant, plastic-free, dishwasher-safe.",
+   "handle": "stainless-lunch-box"
+  },
+  "weightGrams": 520,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-02-17T09:47:19.138Z",
+  "updatedAt": "2026-09-10T06:33:05.525Z"
+ },
+ {
+  "id": "p_bar-soap-trio",
+  "title": "Cold-Process Bar Soap Trio",
+  "descriptionHtml": "<p>Three 4.5oz bars — pine tar, oat milk, and citrus hop — cured 6 weeks in small batches.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Health & Beauty > Personal Care > Bath",
+  "status": "active",
+  "tags": [
+   "handmade",
+   "sustainable"
+  ],
+  "collectionIds": [],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_bar-soap-trio_v1",
+    "productId": "p_bar-soap-trio",
+    "title": "Default Title",
+    "sku": "BST53",
+    "barcode": "0841699155085",
+    "price": 18,
+    "costPerItem": 6,
+    "optionValues": {},
+    "weightGrams": 380,
+    "imageId": "m_bar-soap-trio_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_bar-soap-trio_1",
+    "productId": "p_bar-soap-trio",
+    "type": "image",
+    "src": "/images/products/bar-soap-trio.svg",
+    "alt": "Cold-Process Bar Soap Trio"
+   },
+   {
+    "id": "m_bar-soap-trio_2",
+    "productId": "p_bar-soap-trio",
+    "type": "image",
+    "src": "/images/products/bar-soap-trio-alt.svg",
+    "alt": "Cold-Process Bar Soap Trio detail"
+   }
+  ],
+  "seo": {
+   "title": "Cold-Process Bar Soap Trio",
+   "description": "Three 4.5oz bars — pine tar, oat milk, and citrus hop — cured 6 weeks in small batches.",
+   "handle": "bar-soap-trio"
+  },
+  "weightGrams": 380,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-01-28T09:47:19.141Z",
+  "updatedAt": "2026-08-27T01:36:18.199Z"
+ },
+ {
+  "id": "p_room-spray",
+  "title": "Botanical Room Spray",
+  "descriptionHtml": "<p>8oz fine-mist room spray with essential oils and zero synthetic fragrance. Two sprays, whole room.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Decor > Home Fragrance",
+  "status": "active",
+  "tags": [
+   "staff-pick",
+   "limited"
+  ],
+  "collectionIds": [],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Cedar",
+     "Lavender",
+     "Citrus"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_room-spray_v1",
+    "productId": "p_room-spray",
+    "title": "Cedar",
+    "sku": "RS54-CEDA",
+    "barcode": "0842760560858",
+    "price": 20,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Cedar"
+    },
+    "weightGrams": 280,
+    "imageId": "m_room-spray_1",
+    "available": true
+   },
+   {
+    "id": "p_room-spray_v2",
+    "productId": "p_room-spray",
+    "title": "Lavender",
+    "sku": "RS54-LAVE",
+    "barcode": "0847405211829",
+    "price": 20,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Lavender"
+    },
+    "weightGrams": 280,
+    "imageId": "m_room-spray_1",
+    "available": true
+   },
+   {
+    "id": "p_room-spray_v3",
+    "productId": "p_room-spray",
+    "title": "Citrus",
+    "sku": "RS54-CITR",
+    "barcode": "0842851444416",
+    "price": 20,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Citrus"
+    },
+    "weightGrams": 280,
+    "imageId": "m_room-spray_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_room-spray_1",
+    "productId": "p_room-spray",
+    "type": "image",
+    "src": "/images/products/room-spray.svg",
+    "alt": "Botanical Room Spray"
+   },
+   {
+    "id": "m_room-spray_2",
+    "productId": "p_room-spray",
+    "type": "image",
+    "src": "/images/products/room-spray-alt.svg",
+    "alt": "Botanical Room Spray detail"
+   }
+  ],
+  "seo": {
+   "title": "Botanical Room Spray",
+   "description": "8oz fine-mist room spray with essential oils and zero synthetic fragrance. Two sprays, whole room.",
+   "handle": "room-spray"
+  },
+  "weightGrams": 280,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-04-20T09:47:19.143Z",
+  "updatedAt": "2026-09-05T05:33:34.798Z"
+ },
+ {
+  "id": "p_postcard-pack",
+  "title": "Northstar Postcard Pack",
+  "descriptionHtml": "<p>Eight letterpress postcards printed on cotton paper — one for each product family that started it all.</p>",
+  "vendor": "Northstar Goods",
+  "productType": "Stationery",
+  "category": "Office & School Supplies > Paper > Postcards",
+  "status": "active",
+  "tags": [
+   "new-arrival",
+   "sustainable",
+   "gift",
+   "staff-pick"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_7",
+   "col_11",
+   "col_12"
+  ],
+  "channels": [
+   "online_store",
+   "point_of_sale"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_postcard-pack_v1",
+    "productId": "p_postcard-pack",
+    "title": "Default Title",
+    "sku": "PP55",
+    "barcode": "0846658179388",
+    "price": 12,
+    "costPerItem": 4,
+    "optionValues": {},
+    "weightGrams": 110,
+    "imageId": "m_postcard-pack_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_postcard-pack_1",
+    "productId": "p_postcard-pack",
+    "type": "image",
+    "src": "/images/products/postcard-pack.svg",
+    "alt": "Northstar Postcard Pack"
+   },
+   {
+    "id": "m_postcard-pack_2",
+    "productId": "p_postcard-pack",
+    "type": "image",
+    "src": "/images/products/postcard-pack-alt.svg",
+    "alt": "Northstar Postcard Pack detail"
+   },
+   {
+    "id": "p_postcard-pack_m3",
+    "productId": "p_postcard-pack",
+    "type": "image",
+    "src": "/images/products/p_postcard-pack-3.svg",
+    "alt": "Northstar Postcard Pack lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Northstar Postcard Pack",
+   "description": "Eight letterpress postcards printed on cotton paper — one for each product family that started it all.",
+   "handle": "postcard-pack"
+  },
+  "weightGrams": 110,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-09-06T09:47:19.145Z",
+  "updatedAt": "2026-09-01T17:35:00.437Z"
+ },
+ {
+  "id": "p_dog-rope-leash",
+  "title": "Braided Rope Dog Leash",
+  "descriptionHtml": "<p>6ft climbing-rope leash with a brass trigger snap and a woven handle wrap. 250lb breaking strength.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Outdoor",
+  "category": "Animals & Pet Supplies > Pet Supplies > Dog",
+  "status": "active",
+  "tags": [
+   "outdoor",
+   "pets"
+  ],
+  "collectionIds": [
+   "col_5",
+   "col_9",
+   "col_10"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Field Green",
+     "Rust"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_dog-rope-leash_v1",
+    "productId": "p_dog-rope-leash",
+    "title": "Field Green",
+    "sku": "DRL56-FIEL",
+    "barcode": "0846439932397",
+    "price": 30,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Field Green"
+    },
+    "weightGrams": 260,
+    "imageId": "m_dog-rope-leash_1",
+    "available": true
+   },
+   {
+    "id": "p_dog-rope-leash_v2",
+    "productId": "p_dog-rope-leash",
+    "title": "Rust",
+    "sku": "DRL56-RUST",
+    "barcode": "0847956229133",
+    "price": 30,
+    "costPerItem": 10,
+    "optionValues": {
+     "Color": "Rust"
+    },
+    "weightGrams": 260,
+    "imageId": "m_dog-rope-leash_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_dog-rope-leash_1",
+    "productId": "p_dog-rope-leash",
+    "type": "image",
+    "src": "/images/products/dog-rope-leash.svg",
+    "alt": "Braided Rope Dog Leash"
+   },
+   {
+    "id": "m_dog-rope-leash_2",
+    "productId": "p_dog-rope-leash",
+    "type": "image",
+    "src": "/images/products/dog-rope-leash-alt.svg",
+    "alt": "Braided Rope Dog Leash detail"
+   }
+  ],
+  "seo": {
+   "title": "Braided Rope Dog Leash",
+   "description": "6ft climbing-rope leash with a brass trigger snap and a woven handle wrap. 250lb breaking strength.",
+   "handle": "dog-rope-leash"
+  },
+  "weightGrams": 260,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-12-19T09:47:19.148Z",
+  "updatedAt": "2026-08-17T15:32:29.609Z"
+ },
+ {
+  "id": "p_olive-oil-cruet",
+  "title": "Stoneware Olive Oil Cruet",
+  "descriptionHtml": "<p>Matte stoneware cruet with a drip-free spout and cork stopper. 10oz.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Kitchen",
+  "category": "Home & Garden > Kitchen & Dining > Serveware",
+  "status": "archived",
+  "tags": [
+   "kitchen",
+   "new-arrival",
+   "staff-pick"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_6"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_olive-oil-cruet_v1",
+    "productId": "p_olive-oil-cruet",
+    "title": "Default Title",
+    "sku": "OOC57",
+    "barcode": "0848696523477",
+    "price": 24,
+    "costPerItem": 8,
+    "optionValues": {},
+    "weightGrams": 420,
+    "imageId": "m_olive-oil-cruet_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_olive-oil-cruet_1",
+    "productId": "p_olive-oil-cruet",
+    "type": "image",
+    "src": "/images/products/olive-oil-cruet.svg",
+    "alt": "Stoneware Olive Oil Cruet"
+   },
+   {
+    "id": "m_olive-oil-cruet_2",
+    "productId": "p_olive-oil-cruet",
+    "type": "image",
+    "src": "/images/products/olive-oil-cruet-alt.svg",
+    "alt": "Stoneware Olive Oil Cruet detail"
+   }
+  ],
+  "seo": {
+   "title": "Stoneware Olive Oil Cruet",
+   "description": "Matte stoneware cruet with a drip-free spout and cork stopper. 10oz.",
+   "handle": "olive-oil-cruet"
+  },
+  "weightGrams": 420,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-11-30T09:47:19.150Z",
+  "updatedAt": "2026-08-18T16:18:14.442Z"
+ },
+ {
+  "id": "p_pothos-care-kit",
+  "title": "Plant Care Kit",
+  "descriptionHtml": "<p>Brass mister, bamboo tags, snips, and a 200ml nutrient concentrate — everything a shelf garden needs.</p>",
+  "vendor": "Northstar Goods",
+  "productType": "Home",
+  "category": "Home & Garden > Lawn & Garden > Tools",
+  "status": "active",
+  "tags": [
+   "gift",
+   "home",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_7"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_pothos-care-kit_v1",
+    "productId": "p_pothos-care-kit",
+    "title": "Default Title",
+    "sku": "PCK58",
+    "barcode": "0848301045303",
+    "price": 26,
+    "costPerItem": 9,
+    "optionValues": {},
+    "weightGrams": 540,
+    "imageId": "m_pothos-care-kit_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_pothos-care-kit_1",
+    "productId": "p_pothos-care-kit",
+    "type": "image",
+    "src": "/images/products/pothos-care-kit.svg",
+    "alt": "Plant Care Kit"
+   },
+   {
+    "id": "m_pothos-care-kit_2",
+    "productId": "p_pothos-care-kit",
+    "type": "image",
+    "src": "/images/products/pothos-care-kit-alt.svg",
+    "alt": "Plant Care Kit detail"
+   }
+  ],
+  "seo": {
+   "title": "Plant Care Kit",
+   "description": "Brass mister, bamboo tags, snips, and a 200ml nutrient concentrate — everything a shelf garden needs.",
+   "handle": "pothos-care-kit"
+  },
+  "weightGrams": 540,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2024-11-12T09:47:19.153Z",
+  "updatedAt": "2026-09-10T08:47:49.071Z"
+ },
+ {
+  "id": "p_waffle-towel-set",
+  "title": "Waffle Weave Towel Set",
+  "descriptionHtml": "<p>Two bath towels and two hand towels in airy waffle-weave organic cotton. Dries twice as fast as terry.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Linens > Towels",
+  "status": "active",
+  "tags": [
+   "bath",
+   "home"
+  ],
+  "collectionIds": [],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Cream",
+     "Sage"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_waffle-towel-set_v1",
+    "productId": "p_waffle-towel-set",
+    "title": "Cream",
+    "sku": "WTS59-CREA",
+    "barcode": "0846455750777",
+    "price": 44,
+    "compareAtPrice": 52,
+    "costPerItem": 15,
+    "optionValues": {
+     "Color": "Cream"
+    },
+    "weightGrams": 720,
+    "imageId": "m_waffle-towel-set_1",
+    "available": true
+   },
+   {
+    "id": "p_waffle-towel-set_v2",
+    "productId": "p_waffle-towel-set",
+    "title": "Sage",
+    "sku": "WTS59-SAGE",
+    "barcode": "0842442816335",
+    "price": 44,
+    "compareAtPrice": 52,
+    "costPerItem": 15,
+    "optionValues": {
+     "Color": "Sage"
+    },
+    "weightGrams": 720,
+    "imageId": "m_waffle-towel-set_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_waffle-towel-set_1",
+    "productId": "p_waffle-towel-set",
+    "type": "image",
+    "src": "/images/products/waffle-towel-set.svg",
+    "alt": "Waffle Weave Towel Set"
+   },
+   {
+    "id": "m_waffle-towel-set_2",
+    "productId": "p_waffle-towel-set",
+    "type": "image",
+    "src": "/images/products/waffle-towel-set-alt.svg",
+    "alt": "Waffle Weave Towel Set detail"
+   }
+  ],
+  "seo": {
+   "title": "Waffle Weave Towel Set",
+   "description": "Two bath towels and two hand towels in airy waffle-weave organic cotton. Dries twice as fast as terry.",
+   "handle": "waffle-towel-set"
+  },
+  "weightGrams": 720,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-01-06T09:47:19.156Z",
+  "updatedAt": "2026-09-06T07:17:41.274Z"
+ },
+ {
+  "id": "p_slate-coasters",
+  "title": "Slate Coaster Set",
+  "descriptionHtml": "<p>Four 4\" natural-slate coasters with felted undersides. Chalk-friendly for marking your glass.</p>",
+  "vendor": "Hearthstone",
+  "productType": "Home",
+  "category": "Home & Garden > Kitchen & Dining > Tableware",
+  "status": "active",
+  "tags": [
+   "sustainable",
+   "new-arrival",
+   "limited",
+   "gift"
+  ],
+  "collectionIds": [
+   "col_1",
+   "col_7"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [],
+  "variants": [
+   {
+    "id": "p_slate-coasters_v1",
+    "productId": "p_slate-coasters",
+    "title": "Default Title",
+    "sku": "SC60",
+    "barcode": "0846344143063",
+    "price": 22,
+    "costPerItem": 7,
+    "optionValues": {},
+    "weightGrams": 640,
+    "imageId": "m_slate-coasters_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_slate-coasters_1",
+    "productId": "p_slate-coasters",
+    "type": "image",
+    "src": "/images/products/slate-coasters.svg",
+    "alt": "Slate Coaster Set"
+   },
+   {
+    "id": "m_slate-coasters_2",
+    "productId": "p_slate-coasters",
+    "type": "image",
+    "src": "/images/products/slate-coasters-alt.svg",
+    "alt": "Slate Coaster Set detail"
+   },
+   {
+    "id": "p_slate-coasters_m3",
+    "productId": "p_slate-coasters",
+    "type": "image",
+    "src": "/images/products/p_slate-coasters-3.svg",
+    "alt": "Slate Coaster Set lifestyle"
+   }
+  ],
+  "seo": {
+   "title": "Slate Coaster Set",
+   "description": "Four 4\" natural-slate coasters with felted undersides. Chalk-friendly for marking your glass.",
+   "handle": "slate-coasters"
+  },
+  "weightGrams": 640,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-01-13T09:47:19.159Z",
+  "updatedAt": "2026-08-24T05:21:42.614Z"
+ },
+ {
+  "id": "p_trail-water-flask",
+  "title": "Collapsible Trail Flask",
+  "descriptionHtml": "<p>500ml silicone flask that rolls up when empty. Bite valve, tumble-dryer safe (no), taste-neutral.</p>",
+  "vendor": "Trailhead Supply",
+  "productType": "Outdoor",
+  "category": "Sporting Goods > Outdoor > Hydration",
+  "status": "archived",
+  "tags": [
+   "new-arrival",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_1"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Juniper",
+     "Sandstone"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_trail-water-flask_v1",
+    "productId": "p_trail-water-flask",
+    "title": "Juniper",
+    "sku": "TWF61-JUNI",
+    "barcode": "0842643594859",
+    "price": 22,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Juniper"
+    },
+    "weightGrams": 120,
+    "imageId": "m_trail-water-flask_1",
+    "available": true
+   },
+   {
+    "id": "p_trail-water-flask_v2",
+    "productId": "p_trail-water-flask",
+    "title": "Sandstone",
+    "sku": "TWF61-SAND",
+    "barcode": "0845750579520",
+    "price": 22,
+    "costPerItem": 7,
+    "optionValues": {
+     "Color": "Sandstone"
+    },
+    "weightGrams": 120,
+    "imageId": "m_trail-water-flask_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_trail-water-flask_1",
+    "productId": "p_trail-water-flask",
+    "type": "image",
+    "src": "/images/products/trail-water-flask.svg",
+    "alt": "Collapsible Trail Flask"
+   },
+   {
+    "id": "m_trail-water-flask_2",
+    "productId": "p_trail-water-flask",
+    "type": "image",
+    "src": "/images/products/trail-water-flask-alt.svg",
+    "alt": "Collapsible Trail Flask detail"
+   }
+  ],
+  "seo": {
+   "title": "Collapsible Trail Flask",
+   "description": "500ml silicone flask that rolls up when empty. Bite valve, tumble-dryer safe (no), taste-neutral.",
+   "handle": "trail-water-flask"
+  },
+  "weightGrams": 120,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2025-07-03T09:47:19.161Z",
+  "updatedAt": "2026-08-13T23:28:34.742Z"
+ },
+ {
+  "id": "p_merino-crew-socks",
+  "title": "Merino Crew Socks",
+  "descriptionHtml": "<p>Everyday merino crew socks — temperature-regulating, odor-resistant, cushioned heel. One size.</p>",
+  "vendor": "Meridian Basics",
+  "productType": "Apparel",
+  "category": "Apparel & Accessories > Clothing Accessories > Socks",
+  "status": "active",
+  "tags": [
+   "essential",
+   "wool",
+   "limited"
+  ],
+  "collectionIds": [
+   "col_3"
+  ],
+  "channels": [
+   "online_store"
+  ],
+  "options": [
+   {
+    "name": "Color",
+    "values": [
+     "Charcoal",
+     "Oat",
+     "Rust"
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "id": "p_merino-crew-socks_v1",
+    "productId": "p_merino-crew-socks",
+    "title": "Charcoal",
+    "sku": "MCS62-CHAR",
+    "barcode": "0847862367829",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Charcoal"
+    },
+    "weightGrams": 70,
+    "imageId": "m_merino-crew-socks_1",
+    "available": true
+   },
+   {
+    "id": "p_merino-crew-socks_v2",
+    "productId": "p_merino-crew-socks",
+    "title": "Oat",
+    "sku": "MCS62-OAT",
+    "barcode": "0847373784545",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Oat"
+    },
+    "weightGrams": 70,
+    "imageId": "m_merino-crew-socks_1",
+    "available": true
+   },
+   {
+    "id": "p_merino-crew-socks_v3",
+    "productId": "p_merino-crew-socks",
+    "title": "Rust",
+    "sku": "MCS62-RUST",
+    "barcode": "0845206751804",
+    "price": 16,
+    "costPerItem": 5,
+    "optionValues": {
+     "Color": "Rust"
+    },
+    "weightGrams": 70,
+    "imageId": "m_merino-crew-socks_1",
+    "available": true
+   }
+  ],
+  "media": [
+   {
+    "id": "m_merino-crew-socks_1",
+    "productId": "p_merino-crew-socks",
+    "type": "image",
+    "src": "/images/products/merino-crew-socks.svg",
+    "alt": "Merino Crew Socks"
+   },
+   {
+    "id": "m_merino-crew-socks_2",
+    "productId": "p_merino-crew-socks",
+    "type": "image",
+    "src": "/images/products/merino-crew-socks-alt.svg",
+    "alt": "Merino Crew Socks detail"
+   }
+  ],
+  "seo": {
+   "title": "Merino Crew Socks",
+   "description": "Everyday merino crew socks — temperature-regulating, odor-resistant, cushioned heel. One size.",
+   "handle": "merino-crew-socks"
+  },
+  "weightGrams": 70,
+  "requiresShipping": true,
+  "trackQuantity": true,
+  "createdAt": "2026-01-13T09:47:19.163Z",
+  "updatedAt": "2026-08-28T13:23:37.474Z"
+ }
+]

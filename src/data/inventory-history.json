@@ -1,0 +1,402 @@
+[
+ {
+  "id": "ih_1",
+  "variantId": "p_kids-fleece-pullover_v6",
+  "locationId": "loc_1",
+  "change": -10,
+  "resultingAvailable": 43,
+  "reason": "Received stock",
+  "createdAt": "2026-09-10T04:06:27.655Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_2",
+  "variantId": "p_fingerless-gloves_v2",
+  "locationId": "loc_1",
+  "change": 10,
+  "resultingAvailable": 16,
+  "reason": "Cycle count correction",
+  "createdAt": "2026-07-18T05:51:45.839Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_3",
+  "variantId": "p_field-journal_v1",
+  "locationId": "loc_1",
+  "change": -10,
+  "resultingAvailable": 24,
+  "reason": "Opening stock",
+  "createdAt": "2026-07-21T18:10:45.771Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_4",
+  "variantId": "p_waffle-towel-set_v1",
+  "locationId": "loc_2",
+  "change": 50,
+  "resultingAvailable": 78,
+  "reason": "Received stock",
+  "createdAt": "2026-09-07T09:11:14.197Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_5",
+  "variantId": "p_ceramic-vase_v1",
+  "locationId": "loc_4",
+  "change": -5,
+  "resultingAvailable": 36,
+  "reason": "Manual adjustment",
+  "createdAt": "2026-09-09T07:05:46.768Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_6",
+  "variantId": "p_packable-rain-jacket_v7",
+  "locationId": "loc_1",
+  "change": 25,
+  "resultingAvailable": 73,
+  "reason": "Opening stock",
+  "createdAt": "2026-08-26T18:40:49.174Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_7",
+  "variantId": "p_plant-pot_v2",
+  "locationId": "loc_2",
+  "change": 50,
+  "resultingAvailable": 63,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-07-17T13:48:55.003Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_8",
+  "variantId": "p_everyday-hoodie_v5",
+  "locationId": "loc_4",
+  "change": -10,
+  "resultingAvailable": 26,
+  "reason": "Opening stock",
+  "createdAt": "2026-08-27T00:32:08.966Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_9",
+  "variantId": "p_canvas-dopp-kit_v2",
+  "locationId": "loc_3",
+  "change": 25,
+  "resultingAvailable": 71,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-09-09T13:42:48.591Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_10",
+  "variantId": "p_kids-organic-tee_v7",
+  "locationId": "loc_2",
+  "change": 10,
+  "resultingAvailable": 19,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-08-04T18:54:18.775Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_11",
+  "variantId": "p_everyday-hoodie_v5",
+  "locationId": "loc_4",
+  "change": 25,
+  "resultingAvailable": 61,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-08-23T01:15:47.613Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_12",
+  "variantId": "p_ceramic-vase_v3",
+  "locationId": "loc_1",
+  "change": 20,
+  "resultingAvailable": 58,
+  "reason": "Opening stock",
+  "createdAt": "2026-08-11T04:13:10.192Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_13",
+  "variantId": "p_packable-rain-jacket_v12",
+  "locationId": "loc_1",
+  "change": 25,
+  "resultingAvailable": 32,
+  "reason": "Manual adjustment",
+  "createdAt": "2026-09-05T18:22:01.238Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_14",
+  "variantId": "p_merino-crew-socks_v2",
+  "locationId": "loc_2",
+  "change": 25,
+  "resultingAvailable": 36,
+  "reason": "Opening stock",
+  "createdAt": "2026-07-26T04:13:01.098Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_15",
+  "variantId": "p_stainless-lunch-box_v2",
+  "locationId": "loc_3",
+  "change": 20,
+  "resultingAvailable": 78,
+  "reason": "Opening stock",
+  "createdAt": "2026-07-24T11:28:12.499Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_16",
+  "variantId": "p_french-press_v1",
+  "locationId": "loc_4",
+  "change": 20,
+  "resultingAvailable": 62,
+  "reason": "Cycle count correction",
+  "createdAt": "2026-07-21T06:47:01.447Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_17",
+  "variantId": "p_ceramic-coffee-mug_v2",
+  "locationId": "loc_2",
+  "change": 10,
+  "resultingAvailable": 23,
+  "reason": "Manual adjustment",
+  "createdAt": "2026-08-16T07:21:00.961Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_18",
+  "variantId": "p_fingerless-gloves_v2",
+  "locationId": "loc_1",
+  "change": -10,
+  "resultingAvailable": 0,
+  "reason": "Cycle count correction",
+  "createdAt": "2026-08-23T09:38:45.533Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_19",
+  "variantId": "p_packable-rain-jacket_v3",
+  "locationId": "loc_4",
+  "change": 20,
+  "resultingAvailable": 33,
+  "reason": "Opening stock",
+  "createdAt": "2026-08-16T13:42:26.390Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_20",
+  "variantId": "p_field-journal_v3",
+  "locationId": "loc_1",
+  "change": 50,
+  "resultingAvailable": 104,
+  "reason": "Opening stock",
+  "createdAt": "2026-09-09T21:31:10.509Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_21",
+  "variantId": "p_minimal-sneakers_v10",
+  "locationId": "loc_3",
+  "change": -5,
+  "resultingAvailable": 1,
+  "reason": "Manual adjustment",
+  "createdAt": "2026-08-21T20:54:17.448Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_22",
+  "variantId": "p_classic-cotton-t-shirt_v1",
+  "locationId": "loc_1",
+  "change": 50,
+  "resultingAvailable": 107,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-07-21T19:51:48.189Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_23",
+  "variantId": "p_minimal-sneakers_v12",
+  "locationId": "loc_1",
+  "change": 20,
+  "resultingAvailable": 45,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-08-20T03:12:07.589Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_24",
+  "variantId": "p_wool-scarf_v2",
+  "locationId": "loc_1",
+  "change": 25,
+  "resultingAvailable": 77,
+  "reason": "Received stock",
+  "createdAt": "2026-09-09T22:16:27.528Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_25",
+  "variantId": "p_ceramic-vase_v1",
+  "locationId": "loc_4",
+  "change": 25,
+  "resultingAvailable": 66,
+  "reason": "Manual adjustment",
+  "createdAt": "2026-08-25T15:22:50.128Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_26",
+  "variantId": "p_minimal-sneakers_v15",
+  "locationId": "loc_3",
+  "change": 25,
+  "resultingAvailable": 56,
+  "reason": "Opening stock",
+  "createdAt": "2026-08-17T20:03:18.452Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_27",
+  "variantId": "p_woven-belt_v5",
+  "locationId": "loc_1",
+  "change": 50,
+  "resultingAvailable": 105,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-08-26T02:53:57.925Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_28",
+  "variantId": "p_woven-belt_v6",
+  "locationId": "loc_1",
+  "change": 10,
+  "resultingAvailable": 22,
+  "reason": "Received stock",
+  "createdAt": "2026-08-01T06:04:46.292Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_29",
+  "variantId": "p_merino-crew-socks_v2",
+  "locationId": "loc_2",
+  "change": 20,
+  "resultingAvailable": 31,
+  "reason": "Cycle count correction",
+  "createdAt": "2026-09-01T13:20:34.489Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_30",
+  "variantId": "p_merino-beanie_v2",
+  "locationId": "loc_4",
+  "change": -5,
+  "resultingAvailable": 13,
+  "reason": "Received stock",
+  "createdAt": "2026-08-25T17:41:00.013Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_31",
+  "variantId": "p_linen-notebook_v3",
+  "locationId": "loc_1",
+  "change": -5,
+  "resultingAvailable": 7,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-08-13T01:51:28.232Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_32",
+  "variantId": "p_classic-cotton-t-shirt_v15",
+  "locationId": "loc_1",
+  "change": 20,
+  "resultingAvailable": 69,
+  "reason": "Cycle count correction",
+  "createdAt": "2026-09-06T15:15:07.557Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_33",
+  "variantId": "p_packable-rain-jacket_v2",
+  "locationId": "loc_1",
+  "change": -5,
+  "resultingAvailable": 0,
+  "reason": "Cycle count correction",
+  "createdAt": "2026-09-03T07:45:05.420Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_34",
+  "variantId": "p_classic-cotton-t-shirt_v4",
+  "locationId": "loc_1",
+  "change": -5,
+  "resultingAvailable": 3,
+  "reason": "Damage adjustment",
+  "createdAt": "2026-09-10T08:16:18.368Z",
+  "author": "Ava Chen"
+ },
+ {
+  "id": "ih_35",
+  "variantId": "p_classic-cotton-t-shirt_v12",
+  "locationId": "loc_1",
+  "change": -5,
+  "resultingAvailable": 41,
+  "reason": "Received stock",
+  "createdAt": "2026-09-09T20:57:59.174Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_36",
+  "variantId": "p_carry-on-duffel_v1",
+  "locationId": "loc_1",
+  "change": -5,
+  "resultingAvailable": 2,
+  "reason": "Cycle count correction",
+  "createdAt": "2026-08-15T14:09:51.232Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_37",
+  "variantId": "p_minimal-sneakers_v2",
+  "locationId": "loc_2",
+  "change": -5,
+  "resultingAvailable": 39,
+  "reason": "Manual adjustment",
+  "createdAt": "2026-08-08T09:20:53.617Z",
+  "author": "Maya Patel"
+ },
+ {
+  "id": "ih_38",
+  "variantId": "p_phone-sling_v3",
+  "locationId": "loc_1",
+  "change": -5,
+  "resultingAvailable": 0,
+  "reason": "Received stock",
+  "createdAt": "2026-09-10T04:24:20.516Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_39",
+  "variantId": "p_canvas-tote_v2",
+  "locationId": "loc_4",
+  "change": 10,
+  "resultingAvailable": 29,
+  "reason": "Received stock",
+  "createdAt": "2026-08-06T16:47:54.671Z",
+  "author": "Noah Kim"
+ },
+ {
+  "id": "ih_40",
+  "variantId": "p_olive-oil-cruet_v1",
+  "locationId": "loc_1",
+  "change": 50,
+  "resultingAvailable": 50,
+  "reason": "Received stock",
+  "createdAt": "2026-08-11T02:26:44.849Z",
+  "author": "Noah Kim"
+ }
+]

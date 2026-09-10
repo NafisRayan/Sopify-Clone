@@ -1,0 +1,284 @@
+[
+ {
+  "id": "file_1",
+  "name": "classic-cotton-t-shirt.svg",
+  "type": "image",
+  "sizeKb": 115,
+  "src": "/images/products/classic-cotton-t-shirt.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-08-17T11:13:11.726Z",
+  "alt": "classic cotton t shirt"
+ },
+ {
+  "id": "file_2",
+  "name": "everyday-hoodie.svg",
+  "type": "image",
+  "sizeKb": 157,
+  "src": "/images/products/everyday-hoodie.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-09-07T00:46:22.347Z",
+  "alt": "everyday hoodie"
+ },
+ {
+  "id": "file_3",
+  "name": "canvas-backpack.svg",
+  "type": "image",
+  "sizeKb": 244,
+  "src": "/images/products/canvas-backpack.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-08-01T21:30:46.033Z",
+  "alt": "canvas backpack"
+ },
+ {
+  "id": "file_4",
+  "name": "minimal-sneakers.svg",
+  "type": "image",
+  "sizeKb": 254,
+  "src": "/images/products/minimal-sneakers.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-08-06T12:46:27.681Z",
+  "alt": "minimal sneakers"
+ },
+ {
+  "id": "file_5",
+  "name": "ceramic-coffee-mug.svg",
+  "type": "image",
+  "sizeKb": 274,
+  "src": "/images/products/ceramic-coffee-mug.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-06-12T12:46:45.320Z",
+  "alt": "ceramic coffee mug"
+ },
+ {
+  "id": "file_6",
+  "name": "leather-wallet.svg",
+  "type": "image",
+  "sizeKb": 240,
+  "src": "/images/products/leather-wallet.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-07-28T19:19:19.763Z",
+  "alt": "leather wallet"
+ },
+ {
+  "id": "file_7",
+  "name": "oversized-shirt.svg",
+  "type": "image",
+  "sizeKb": 61,
+  "src": "/images/products/oversized-shirt.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-07-21T12:45:52.257Z",
+  "alt": "oversized shirt"
+ },
+ {
+  "id": "file_8",
+  "name": "running-cap.svg",
+  "type": "image",
+  "sizeKb": 256,
+  "src": "/images/products/running-cap.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-06-16T23:31:54.638Z",
+  "alt": "running cap"
+ },
+ {
+  "id": "file_9",
+  "name": "yoga-mat.svg",
+  "type": "image",
+  "sizeKb": 167,
+  "src": "/images/products/yoga-mat.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-09-03T15:55:21.285Z",
+  "alt": "yoga mat"
+ },
+ {
+  "id": "file_10",
+  "name": "insulated-water-bottle.svg",
+  "type": "image",
+  "sizeKb": 267,
+  "src": "/images/products/insulated-water-bottle.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-05-11T01:14:23.266Z",
+  "alt": "insulated water bottle"
+ },
+ {
+  "id": "file_11",
+  "name": "desk-organizer.svg",
+  "type": "image",
+  "sizeKb": 102,
+  "src": "/images/products/desk-organizer.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-09-01T15:24:45.286Z",
+  "alt": "desk organizer"
+ },
+ {
+  "id": "file_12",
+  "name": "wool-throw-blanket.svg",
+  "type": "image",
+  "sizeKb": 131,
+  "src": "/images/products/wool-throw-blanket.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-08-14T19:45:05.000Z",
+  "alt": "wool throw blanket"
+ },
+ {
+  "id": "file_13",
+  "name": "soy-candle-set.svg",
+  "type": "image",
+  "sizeKb": 156,
+  "src": "/images/products/soy-candle-set.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-06-19T18:18:19.097Z",
+  "alt": "soy candle set"
+ },
+ {
+  "id": "file_14",
+  "name": "linen-notebook.svg",
+  "type": "image",
+  "sizeKb": 299,
+  "src": "/images/products/linen-notebook.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-09-03T20:37:37.244Z",
+  "alt": "linen notebook"
+ },
+ {
+  "id": "file_15",
+  "name": "hero-banner-spring.svg",
+  "type": "image",
+  "sizeKb": 186,
+  "src": "/images/banners/hero-banner-spring.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-04-17T05:59:46.808Z",
+  "alt": "hero banner spring"
+ },
+ {
+  "id": "file_16",
+  "name": "promo-giftguide.svg",
+  "type": "image",
+  "sizeKb": 154,
+  "src": "/images/banners/promo-giftguide.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-08-23T01:09:20.549Z",
+  "alt": "promo giftguide"
+ },
+ {
+  "id": "file_17",
+  "name": "email-header-holiday.svg",
+  "type": "image",
+  "sizeKb": 98,
+  "src": "/images/banners/email-header-holiday.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-07-20T16:43:47.892Z",
+  "alt": "email header holiday"
+ },
+ {
+  "id": "file_18",
+  "name": "team-photo-studio.svg",
+  "type": "image",
+  "sizeKb": 512,
+  "src": "/images/products/team-photo-studio.svg",
+  "dimensions": {
+   "width": 640,
+   "height": 640
+  },
+  "uploadedAt": "2026-07-24T01:37:13.458Z",
+  "alt": "team photo studio"
+ },
+ {
+  "id": "file_19",
+  "name": "wholesale-line-sheet.pdf",
+  "type": "document",
+  "sizeKb": 842,
+  "src": "",
+  "uploadedAt": "2026-07-20T17:38:01.502Z"
+ },
+ {
+  "id": "file_20",
+  "name": "returns-form.pdf",
+  "type": "document",
+  "sizeKb": 120,
+  "src": "",
+  "uploadedAt": "2026-05-31T15:44:17.090Z"
+ },
+ {
+  "id": "file_21",
+  "name": "brand-guidelines-2026.pdf",
+  "type": "document",
+  "sizeKb": 2410,
+  "src": "",
+  "uploadedAt": "2026-07-19T13:55:21.445Z"
+ },
+ {
+  "id": "file_22",
+  "name": "license-agreement.docx",
+  "type": "document",
+  "sizeKb": 64,
+  "src": "",
+  "uploadedAt": "2026-05-10T17:05:19.314Z"
+ },
+ {
+  "id": "file_23",
+  "name": "launch-teaser.mp4",
+  "type": "video",
+  "sizeKb": 8200,
+  "src": "",
+  "uploadedAt": "2026-03-14T11:46:54.213Z"
+ },
+ {
+  "id": "file_24",
+  "name": "studio-timelapse.mp4",
+  "type": "video",
+  "sizeKb": 15400,
+  "src": "",
+  "uploadedAt": "2026-08-26T15:06:26.184Z"
+ }
+]

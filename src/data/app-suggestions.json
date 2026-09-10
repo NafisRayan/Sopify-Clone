@@ -1,0 +1,42 @@
+[
+ {
+  "id": "appsug_print-on-demand",
+  "name": "Printful Print on Demand",
+  "description": "Custom prints, shipped on demand",
+  "iconBg": "#0f3443",
+  "iconChar": "P",
+  "permissions": [],
+  "category": "Sales",
+  "status": "disabled"
+ },
+ {
+  "id": "appsug_payments",
+  "name": "Sezzle Pay in 4",
+  "description": "Buy now, pay later checkout",
+  "iconBg": "#f271a3",
+  "iconChar": "Se",
+  "permissions": [],
+  "category": "Payments",
+  "status": "disabled"
+ },
+ {
+  "id": "appsug_optimization",
+  "name": "SEO Manager",
+  "description": "Structured data & keyword tools",
+  "iconBg": "#37b37e",
+  "iconChar": "Se",
+  "permissions": [],
+  "category": "SEO",
+  "status": "disabled"
+ },
+ {
+  "id": "appsug_retention",
+  "name": "Back in Stock Alerts",
+  "description": "Notify shoppers when items restock",
+  "iconBg": "#8c6fe8",
+  "iconChar": "B",
+  "permissions": [],
+  "category": "Alerts",
+  "status": "disabled"
+ }
+]
