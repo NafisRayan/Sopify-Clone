@@ -275,7 +275,7 @@ export const FAMILIES: FamilyDef[] = [
     slug: 'wool-scarf', title: 'Recycled Wool Scarf', type: 'Apparel', vendor: 'Meridian Basics',
     category: 'Apparel & Accessories > Clothing Accessories > Scarves', price: 38, cost: 13, weight: 220,
     tags: ['winter', 'sustainable', 'gift'], colors: ['Heather Grey', 'Rust', 'Ink Blue'],
-    description: '<p>Bruhed recycled-wool twill scarf with hand-knotted fringe. 200 × 35cm.</p>',
+    description: '<p>Brushed recycled-wool twill scarf with hand-knotted fringe. 200 × 35cm.</p>',
   },
   {
     slug: 'canvas-dopp-kit', title: 'Canvas Dopp Kit', type: 'Bags', vendor: 'Trailhead Supply',
