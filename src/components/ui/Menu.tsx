@@ -47,7 +47,7 @@ export function Menu({
       {open && (
         <div
           role="menu"
-          className={`absolute z-40 mt-1 min-w-[180px] overflow-hidden rounded-lg border border-border bg-surface py-1 shadow-lg ${
+          className={`absolute z-40 mt-1 min-w-[180px] overflow-hidden rounded-lg border border-border bg-surface py-1 text-text shadow-lg ${
             align === 'right' ? 'right-0' : 'left-0'
           }`}
         >
@@ -108,7 +108,7 @@ export function Popover({
       <div onClick={() => setOpen((v) => !v)}>{trigger}</div>
       {open && (
         <div
-          className={`absolute z-40 mt-1.5 rounded-xl border border-border bg-surface p-3 shadow-lg ${
+          className={`absolute z-40 mt-1.5 rounded-xl border border-border bg-surface p-3 text-text shadow-lg ${
             align === 'right' ? 'right-0' : 'left-0'
           } ${panelClassName}`}
         >
@@ -167,7 +167,7 @@ export function PortalMenu({
           <div
             role="menu"
             style={{ top: pos.top, left: pos.left, right: pos.right }}
-            className="fixed z-50 min-w-[180px] overflow-hidden rounded-lg border border-border bg-surface py-1 shadow-lg"
+            className="fixed z-50 min-w-[180px] overflow-hidden rounded-lg border border-border bg-surface py-1 text-text shadow-lg"
           >
             {items.map((item, i) => (
               <div key={i}>
