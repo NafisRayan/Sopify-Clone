@@ -5,7 +5,7 @@
   "email": "ava@northstargoods.com",
   "role": "owner",
   "status": "active",
-  "lastActiveAt": "2026-09-04T09:37:48.122Z",
+  "lastActiveAt": "2026-09-09T20:44:44.016Z",
   "permissions": {
    "products": [
     "view",
@@ -39,7 +39,7 @@
   "email": "noah@northstargoods.com",
   "role": "admin",
   "status": "active",
-  "lastActiveAt": "2026-09-07T19:45:43.913Z",
+  "lastActiveAt": "2026-09-07T17:49:21.688Z",
   "permissions": {
    "products": [
     "view",
@@ -71,7 +71,7 @@
   "email": "maya@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-07T11:36:30.333Z",
+  "lastActiveAt": "2026-09-09T00:29:02.011Z",
   "permissions": {
    "products": [
     "view",
@@ -85,9 +85,7 @@
    "customers": [
     "view"
    ],
-   "analytics": [
-    "view"
-   ],
+   "analytics": [],
    "settings": []
   }
  },
@@ -97,7 +95,7 @@
   "email": "leo@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-09T02:48:48.264Z",
+  "lastActiveAt": "2026-09-09T21:44:58.610Z",
   "permissions": {
    "products": [
     "view",
@@ -111,9 +109,7 @@
    "customers": [
     "view"
    ],
-   "analytics": [
-    "view"
-   ],
+   "analytics": [],
    "settings": []
   }
  },
@@ -123,7 +119,7 @@
   "email": "sofia@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-05T10:37:45.368Z",
+  "lastActiveAt": "2026-09-08T17:18:41.142Z",
   "permissions": {
    "products": [
     "view",
@@ -161,7 +157,9 @@
    "customers": [
     "view"
    ],
-   "analytics": [],
+   "analytics": [
+    "view"
+   ],
    "settings": []
   }
  },
@@ -171,7 +169,7 @@
   "email": "priya@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-08T05:39:19.712Z",
+  "lastActiveAt": "2026-09-09T15:04:37.912Z",
   "permissions": {
    "products": [
     "view",
@@ -197,7 +195,7 @@
   "email": "omar@northstargoods.com",
   "role": "staff",
   "status": "deactivated",
-  "lastActiveAt": "2026-08-29T20:45:59.822Z",
+  "lastActiveAt": "2026-08-09T11:28:18.751Z",
   "permissions": {
    "products": [
     "view",
@@ -223,7 +221,7 @@
   "email": "june@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-08T13:58:57.913Z",
+  "lastActiveAt": "2026-09-03T20:58:56.456Z",
   "permissions": {
    "products": [
     "view",
@@ -263,9 +261,7 @@
    "customers": [
     "view"
    ],
-   "analytics": [
-    "view"
-   ],
+   "analytics": [],
    "settings": []
   }
  },
@@ -275,7 +271,7 @@
   "email": "kenji@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-08T16:24:52.357Z",
+  "lastActiveAt": "2026-09-09T19:27:47.350Z",
   "permissions": {
    "products": [
     "view",

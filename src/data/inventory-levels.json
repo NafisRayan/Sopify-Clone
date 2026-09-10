@@ -2,1260 +2,1316 @@
  {
   "variantId": "p_classic-cotton-t-shirt_v1",
   "locationId": "loc_1",
-  "available": 57,
+  "available": 42,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v1",
+  "locationId": "loc_2",
+  "available": 46,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v2",
   "locationId": "loc_1",
-  "available": 59,
+  "available": 11,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v2",
+  "locationId": "loc_4",
+  "available": 2,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v3",
   "locationId": "loc_1",
-  "available": 3,
+  "available": 22,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v4",
   "locationId": "loc_1",
-  "available": 7,
-  "committed": 1,
+  "available": 44,
+  "committed": 2,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v4",
   "locationId": "loc_2",
-  "available": 28,
+  "available": 23,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v5",
   "locationId": "loc_1",
-  "available": 0,
+  "available": 51,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v6",
   "locationId": "loc_1",
-  "available": 24,
-  "committed": 1,
+  "available": 26,
+  "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v7",
   "locationId": "loc_1",
-  "available": 3,
-  "committed": 1,
+  "available": 10,
+  "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v8",
   "locationId": "loc_1",
-  "available": 0,
-  "committed": 3,
+  "available": 22,
+  "committed": 1,
   "unavailable": 0
  },
  {
-  "variantId": "p_classic-cotton-t-shirt_v8",
-  "locationId": "loc_2",
-  "available": 47,
+  "variantId": "p_classic-cotton-t-shirt_v9",
+  "locationId": "loc_1",
+  "available": 54,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v9",
-  "locationId": "loc_1",
-  "available": 36,
-  "committed": 4,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v9",
   "locationId": "loc_2",
-  "available": 6,
+  "available": 39,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v10",
   "locationId": "loc_1",
-  "available": 2,
-  "committed": 0,
+  "available": 21,
+  "committed": 2,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v11",
   "locationId": "loc_1",
-  "available": 7,
+  "available": 25,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v11",
+  "locationId": "loc_3",
+  "available": 47,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v12",
   "locationId": "loc_1",
-  "available": 46,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v12",
-  "locationId": "loc_3",
-  "available": 4,
-  "committed": 0,
+  "available": 43,
+  "committed": 1,
   "unavailable": 0
  },
  {
   "variantId": "p_classic-cotton-t-shirt_v13",
-  "locationId": "loc_1",
-  "available": 33,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v13",
-  "locationId": "loc_4",
-  "available": 43,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v14",
-  "locationId": "loc_1",
-  "available": 34,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v14",
-  "locationId": "loc_3",
-  "available": 60,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v15",
-  "locationId": "loc_1",
-  "available": 48,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v15",
-  "locationId": "loc_4",
-  "available": 51,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v16",
-  "locationId": "loc_1",
-  "available": 22,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_classic-cotton-t-shirt_v16",
-  "locationId": "loc_2",
-  "available": 0,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v1",
-  "locationId": "loc_1",
-  "available": 59,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v2",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v2",
-  "locationId": "loc_2",
-  "available": 15,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v3",
-  "locationId": "loc_1",
-  "available": 18,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v4",
-  "locationId": "loc_1",
-  "available": 23,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v4",
-  "locationId": "loc_4",
-  "available": 4,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v5",
-  "locationId": "loc_1",
-  "available": 41,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v5",
-  "locationId": "loc_4",
-  "available": 36,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v6",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v7",
-  "locationId": "loc_1",
-  "available": 29,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v7",
-  "locationId": "loc_2",
-  "available": 41,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v8",
-  "locationId": "loc_1",
-  "available": 51,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v9",
-  "locationId": "loc_1",
-  "available": 12,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v9",
-  "locationId": "loc_3",
-  "available": 45,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v10",
-  "locationId": "loc_1",
-  "available": 28,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v10",
-  "locationId": "loc_4",
-  "available": 17,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v11",
-  "locationId": "loc_1",
-  "available": 39,
-  "committed": 2,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v12",
-  "locationId": "loc_1",
-  "available": 31,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v13",
-  "locationId": "loc_1",
-  "available": 47,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v14",
-  "locationId": "loc_1",
-  "available": 6,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v15",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 4,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v16",
-  "locationId": "loc_1",
-  "available": 29,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_everyday-hoodie_v16",
-  "locationId": "loc_3",
-  "available": 1,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-backpack_v1",
-  "locationId": "loc_1",
-  "available": 6,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-backpack_v1",
-  "locationId": "loc_4",
-  "available": 22,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-backpack_v2",
-  "locationId": "loc_1",
-  "available": 8,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-backpack_v2",
-  "locationId": "loc_2",
-  "available": 7,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-backpack_v3",
-  "locationId": "loc_1",
-  "available": 50,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v1",
-  "locationId": "loc_1",
-  "available": 34,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v2",
-  "locationId": "loc_1",
-  "available": 6,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v2",
-  "locationId": "loc_2",
-  "available": 44,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v3",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v3",
-  "locationId": "loc_4",
-  "available": 34,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v4",
-  "locationId": "loc_1",
-  "available": 35,
-  "committed": 2,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v4",
-  "locationId": "loc_4",
-  "available": 2,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v5",
-  "locationId": "loc_1",
-  "available": 12,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v6",
-  "locationId": "loc_1",
-  "available": 49,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v6",
-  "locationId": "loc_2",
-  "available": 23,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v7",
-  "locationId": "loc_1",
-  "available": 44,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v7",
-  "locationId": "loc_2",
-  "available": 34,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v8",
-  "locationId": "loc_1",
-  "available": 41,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v8",
-  "locationId": "loc_2",
-  "available": 42,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v9",
-  "locationId": "loc_1",
-  "available": 50,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v10",
-  "locationId": "loc_1",
-  "available": 5,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v10",
-  "locationId": "loc_3",
-  "available": 6,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v11",
-  "locationId": "loc_1",
-  "available": 55,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v11",
-  "locationId": "loc_4",
-  "available": 36,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v12",
-  "locationId": "loc_1",
-  "available": 24,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v12",
-  "locationId": "loc_2",
-  "available": 37,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v13",
-  "locationId": "loc_1",
-  "available": 5,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v13",
-  "locationId": "loc_4",
-  "available": 48,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v14",
-  "locationId": "loc_1",
-  "available": 40,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v15",
-  "locationId": "loc_1",
-  "available": 8,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_minimal-sneakers_v15",
-  "locationId": "loc_3",
-  "available": 31,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_ceramic-coffee-mug_v1",
-  "locationId": "loc_1",
-  "available": 34,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_ceramic-coffee-mug_v1",
-  "locationId": "loc_3",
-  "available": 7,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_ceramic-coffee-mug_v2",
-  "locationId": "loc_1",
-  "available": 37,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_ceramic-coffee-mug_v2",
-  "locationId": "loc_2",
-  "available": 13,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_ceramic-coffee-mug_v3",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_ceramic-coffee-mug_v4",
-  "locationId": "loc_1",
-  "available": 26,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_ceramic-coffee-mug_v4",
-  "locationId": "loc_2",
-  "available": 53,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_leather-wallet_v1",
-  "locationId": "loc_1",
-  "available": 1,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_leather-wallet_v1",
-  "locationId": "loc_3",
-  "available": 3,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_leather-wallet_v2",
-  "locationId": "loc_1",
-  "available": 20,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_leather-wallet_v2",
-  "locationId": "loc_2",
-  "available": 24,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_leather-wallet_v3",
-  "locationId": "loc_1",
-  "available": 47,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v1",
-  "locationId": "loc_1",
-  "available": 40,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v1",
-  "locationId": "loc_2",
-  "available": 55,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v2",
-  "locationId": "loc_1",
-  "available": 33,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v3",
-  "locationId": "loc_1",
-  "available": 12,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v3",
-  "locationId": "loc_4",
-  "available": 43,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v4",
-  "locationId": "loc_1",
-  "available": 36,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v5",
-  "locationId": "loc_1",
-  "available": 46,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v6",
-  "locationId": "loc_1",
-  "available": 30,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v7",
-  "locationId": "loc_1",
-  "available": 51,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v7",
-  "locationId": "loc_4",
-  "available": 35,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v8",
-  "locationId": "loc_1",
-  "available": 25,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v9",
-  "locationId": "loc_1",
-  "available": 1,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_oversized-shirt_v9",
-  "locationId": "loc_2",
-  "available": 26,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_running-cap_v1",
-  "locationId": "loc_1",
-  "available": 26,
-  "committed": 2,
-  "unavailable": 0
- },
- {
-  "variantId": "p_running-cap_v1",
-  "locationId": "loc_2",
-  "available": 54,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_running-cap_v2",
-  "locationId": "loc_1",
-  "available": 28,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_running-cap_v2",
-  "locationId": "loc_4",
-  "available": 29,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_running-cap_v3",
-  "locationId": "loc_1",
-  "available": 52,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_yoga-mat_v1",
-  "locationId": "loc_1",
-  "available": 41,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_yoga-mat_v1",
-  "locationId": "loc_4",
-  "available": 7,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_yoga-mat_v2",
-  "locationId": "loc_1",
-  "available": 27,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_yoga-mat_v2",
-  "locationId": "loc_3",
-  "available": 15,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_yoga-mat_v3",
-  "locationId": "loc_1",
-  "available": 19,
-  "committed": 2,
-  "unavailable": 0
- },
- {
-  "variantId": "p_insulated-water-bottle_v1",
-  "locationId": "loc_1",
-  "available": 18,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_insulated-water-bottle_v2",
-  "locationId": "loc_1",
-  "available": 42,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_insulated-water-bottle_v2",
-  "locationId": "loc_4",
-  "available": 58,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_insulated-water-bottle_v3",
-  "locationId": "loc_1",
-  "available": 27,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_insulated-water-bottle_v4",
-  "locationId": "loc_1",
-  "available": 25,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_desk-organizer_v1",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_desk-organizer_v1",
-  "locationId": "loc_4",
-  "available": 32,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-throw-blanket_v1",
-  "locationId": "loc_1",
-  "available": 18,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-throw-blanket_v1",
-  "locationId": "loc_4",
-  "available": 2,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-throw-blanket_v2",
-  "locationId": "loc_1",
-  "available": 32,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-throw-blanket_v3",
-  "locationId": "loc_1",
-  "available": 44,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_soy-candle-set_v1",
-  "locationId": "loc_1",
-  "available": 38,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_soy-candle-set_v1",
-  "locationId": "loc_3",
-  "available": 29,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_linen-notebook_v1",
-  "locationId": "loc_1",
-  "available": 57,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_linen-notebook_v2",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 7,
-  "unavailable": 0
- },
- {
-  "variantId": "p_linen-notebook_v3",
-  "locationId": "loc_1",
-  "available": 12,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-tote_v1",
-  "locationId": "loc_1",
-  "available": 55,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-tote_v2",
-  "locationId": "loc_1",
-  "available": 51,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-tote_v2",
-  "locationId": "loc_4",
-  "available": 19,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-tote_v3",
-  "locationId": "loc_1",
-  "available": 5,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v1",
-  "locationId": "loc_1",
-  "available": 31,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v1",
-  "locationId": "loc_4",
-  "available": 4,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v2",
-  "locationId": "loc_1",
-  "available": 30,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v2",
-  "locationId": "loc_4",
-  "available": 18,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v3",
-  "locationId": "loc_1",
-  "available": 52,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v3",
-  "locationId": "loc_2",
-  "available": 3,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v4",
-  "locationId": "loc_1",
-  "available": 59,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-beanie_v4",
-  "locationId": "loc_2",
-  "available": 7,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_trail-socks_v1",
-  "locationId": "loc_1",
-  "available": 19,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_french-press_v1",
-  "locationId": "loc_1",
-  "available": 13,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_french-press_v1",
-  "locationId": "loc_4",
-  "available": 42,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_serving-board_v1",
-  "locationId": "loc_1",
-  "available": 26,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_serving-board_v1",
-  "locationId": "loc_2",
-  "available": 59,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_desk-lamp_v1",
-  "locationId": "loc_1",
-  "available": 25,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_desk-lamp_v2",
-  "locationId": "loc_1",
-  "available": 12,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_field-journal_v1",
-  "locationId": "loc_1",
-  "available": 34,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_field-journal_v1",
-  "locationId": "loc_4",
-  "available": 18,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_field-journal_v2",
-  "locationId": "loc_1",
-  "available": 28,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_field-journal_v2",
-  "locationId": "loc_3",
-  "available": 9,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_field-journal_v3",
   "locationId": "loc_1",
   "available": 54,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_passport-holder_v1",
+  "variantId": "p_classic-cotton-t-shirt_v14",
   "locationId": "loc_1",
-  "available": 52,
-  "committed": 0,
+  "available": 21,
+  "committed": 6,
   "unavailable": 0
  },
  {
-  "variantId": "p_passport-holder_v1",
+  "variantId": "p_classic-cotton-t-shirt_v14",
   "locationId": "loc_3",
-  "available": 23,
+  "available": 36,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_passport-holder_v2",
-  "locationId": "loc_1",
-  "available": 0,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_passport-holder_v2",
-  "locationId": "loc_2",
-  "available": 53,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v1",
-  "locationId": "loc_1",
-  "available": 44,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v2",
-  "locationId": "loc_1",
-  "available": 23,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v3",
-  "locationId": "loc_1",
-  "available": 25,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v3",
-  "locationId": "loc_4",
-  "available": 49,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v4",
-  "locationId": "loc_1",
-  "available": 31,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v4",
-  "locationId": "loc_2",
-  "available": 2,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v5",
-  "locationId": "loc_1",
-  "available": 55,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v5",
-  "locationId": "loc_2",
-  "available": 52,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v6",
-  "locationId": "loc_1",
-  "available": 12,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v7",
-  "locationId": "loc_1",
-  "available": 45,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v8",
-  "locationId": "loc_1",
-  "available": 18,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v9",
-  "locationId": "loc_1",
-  "available": 47,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_woven-belt_v9",
-  "locationId": "loc_2",
-  "available": 25,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_picnic-blanket_v1",
-  "locationId": "loc_1",
-  "available": 6,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_picnic-blanket_v1",
-  "locationId": "loc_3",
-  "available": 7,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_picnic-blanket_v2",
+  "variantId": "p_classic-cotton-t-shirt_v15",
   "locationId": "loc_1",
   "available": 56,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_hammock_v1",
+  "variantId": "p_classic-cotton-t-shirt_v16",
   "locationId": "loc_1",
-  "available": 40,
+  "available": 48,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_plant-pot_v1",
-  "locationId": "loc_1",
-  "available": 57,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_plant-pot_v1",
+  "variantId": "p_classic-cotton-t-shirt_v16",
   "locationId": "loc_2",
-  "available": 6,
+  "available": 12,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_plant-pot_v2",
+  "variantId": "p_classic-cotton-t-shirt_v17",
+  "locationId": "loc_1",
+  "available": 20,
+  "committed": 6,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v17",
+  "locationId": "loc_4",
+  "available": 59,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v18",
+  "locationId": "loc_1",
+  "available": 9,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v19",
+  "locationId": "loc_1",
+  "available": 24,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v19",
+  "locationId": "loc_4",
+  "available": 13,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_classic-cotton-t-shirt_v20",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 3,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v1",
+  "locationId": "loc_1",
+  "available": 47,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v2",
+  "locationId": "loc_1",
+  "available": 7,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v2",
+  "locationId": "loc_3",
+  "available": 22,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v3",
+  "locationId": "loc_1",
+  "available": 47,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v4",
   "locationId": "loc_1",
   "available": 5,
   "committed": 0,
   "unavailable": 0
  },
  {
+  "variantId": "p_everyday-hoodie_v4",
+  "locationId": "loc_4",
+  "available": 42,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v5",
+  "locationId": "loc_1",
+  "available": 54,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v5",
+  "locationId": "loc_4",
+  "available": 13,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v6",
+  "locationId": "loc_1",
+  "available": 9,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v6",
+  "locationId": "loc_3",
+  "available": 17,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v7",
+  "locationId": "loc_1",
+  "available": 30,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v7",
+  "locationId": "loc_3",
+  "available": 15,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v8",
+  "locationId": "loc_1",
+  "available": 49,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v9",
+  "locationId": "loc_1",
+  "available": 1,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v10",
+  "locationId": "loc_1",
+  "available": 42,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v10",
+  "locationId": "loc_3",
+  "available": 22,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v11",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v11",
+  "locationId": "loc_4",
+  "available": 2,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v12",
+  "locationId": "loc_1",
+  "available": 33,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v12",
+  "locationId": "loc_4",
+  "available": 48,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v13",
+  "locationId": "loc_1",
+  "available": 8,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v14",
+  "locationId": "loc_1",
+  "available": 37,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v14",
+  "locationId": "loc_4",
+  "available": 14,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v15",
+  "locationId": "loc_1",
+  "available": 50,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v16",
+  "locationId": "loc_1",
+  "available": 59,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_everyday-hoodie_v16",
+  "locationId": "loc_3",
+  "available": 58,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-backpack_v1",
+  "locationId": "loc_1",
+  "available": 36,
+  "committed": 3,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-backpack_v1",
+  "locationId": "loc_2",
+  "available": 46,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-backpack_v2",
+  "locationId": "loc_1",
+  "available": 30,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-backpack_v3",
+  "locationId": "loc_1",
+  "available": 6,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v1",
+  "locationId": "loc_1",
+  "available": 25,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v2",
+  "locationId": "loc_1",
+  "available": 25,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v3",
+  "locationId": "loc_1",
+  "available": 44,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v3",
+  "locationId": "loc_4",
+  "available": 40,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v4",
+  "locationId": "loc_1",
+  "available": 9,
+  "committed": 11,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v5",
+  "locationId": "loc_1",
+  "available": 26,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v5",
+  "locationId": "loc_4",
+  "available": 22,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v6",
+  "locationId": "loc_1",
+  "available": 19,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v7",
+  "locationId": "loc_1",
+  "available": 40,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v8",
+  "locationId": "loc_1",
+  "available": 34,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v9",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v10",
+  "locationId": "loc_1",
+  "available": 35,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v11",
+  "locationId": "loc_1",
+  "available": 53,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v11",
+  "locationId": "loc_2",
+  "available": 55,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v12",
+  "locationId": "loc_1",
+  "available": 50,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v13",
+  "locationId": "loc_1",
+  "available": 52,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v13",
+  "locationId": "loc_2",
+  "available": 60,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v14",
+  "locationId": "loc_1",
+  "available": 3,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v14",
+  "locationId": "loc_3",
+  "available": 43,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_minimal-sneakers_v15",
+  "locationId": "loc_1",
+  "available": 29,
+  "committed": 3,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-coffee-mug_v1",
+  "locationId": "loc_1",
+  "available": 55,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-coffee-mug_v1",
+  "locationId": "loc_4",
+  "available": 4,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-coffee-mug_v2",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-coffee-mug_v3",
+  "locationId": "loc_1",
+  "available": 3,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-coffee-mug_v3",
+  "locationId": "loc_2",
+  "available": 32,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-coffee-mug_v4",
+  "locationId": "loc_1",
+  "available": 10,
+  "committed": 3,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_leather-wallet_v1",
+  "locationId": "loc_1",
+  "available": 9,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_leather-wallet_v1",
+  "locationId": "loc_4",
+  "available": 52,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_leather-wallet_v2",
+  "locationId": "loc_1",
+  "available": 41,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_leather-wallet_v2",
+  "locationId": "loc_3",
+  "available": 27,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_leather-wallet_v3",
+  "locationId": "loc_1",
+  "available": 59,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v1",
+  "locationId": "loc_1",
+  "available": 24,
+  "committed": 3,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v2",
+  "locationId": "loc_1",
+  "available": 60,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v3",
+  "locationId": "loc_1",
+  "available": 49,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v3",
+  "locationId": "loc_4",
+  "available": 24,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v4",
+  "locationId": "loc_1",
+  "available": 34,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v4",
+  "locationId": "loc_2",
+  "available": 46,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v5",
+  "locationId": "loc_1",
+  "available": 35,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v5",
+  "locationId": "loc_4",
+  "available": 10,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v6",
+  "locationId": "loc_1",
+  "available": 40,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v7",
+  "locationId": "loc_1",
+  "available": 9,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v7",
+  "locationId": "loc_3",
+  "available": 5,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v8",
+  "locationId": "loc_1",
+  "available": 38,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v8",
+  "locationId": "loc_2",
+  "available": 4,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v9",
+  "locationId": "loc_1",
+  "available": 34,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_oversized-shirt_v9",
+  "locationId": "loc_2",
+  "available": 9,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_running-cap_v1",
+  "locationId": "loc_1",
+  "available": 21,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_running-cap_v2",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_running-cap_v3",
+  "locationId": "loc_1",
+  "available": 6,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_running-cap_v3",
+  "locationId": "loc_4",
+  "available": 20,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_yoga-mat_v1",
+  "locationId": "loc_1",
+  "available": 32,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_yoga-mat_v1",
+  "locationId": "loc_3",
+  "available": 10,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_yoga-mat_v2",
+  "locationId": "loc_1",
+  "available": 35,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_yoga-mat_v3",
+  "locationId": "loc_1",
+  "available": 31,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_yoga-mat_v3",
+  "locationId": "loc_4",
+  "available": 40,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_insulated-water-bottle_v1",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_insulated-water-bottle_v1",
+  "locationId": "loc_3",
+  "available": 16,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_insulated-water-bottle_v2",
+  "locationId": "loc_1",
+  "available": 4,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_insulated-water-bottle_v2",
+  "locationId": "loc_4",
+  "available": 4,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_insulated-water-bottle_v3",
+  "locationId": "loc_1",
+  "available": 54,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_insulated-water-bottle_v4",
+  "locationId": "loc_1",
+  "available": 41,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_desk-organizer_v1",
+  "locationId": "loc_1",
+  "available": 13,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_desk-organizer_v1",
+  "locationId": "loc_3",
+  "available": 31,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_wool-throw-blanket_v1",
+  "locationId": "loc_1",
+  "available": 16,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_wool-throw-blanket_v1",
+  "locationId": "loc_2",
+  "available": 17,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_wool-throw-blanket_v2",
+  "locationId": "loc_1",
+  "available": 1,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_wool-throw-blanket_v3",
+  "locationId": "loc_1",
+  "available": 6,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_soy-candle-set_v1",
+  "locationId": "loc_1",
+  "available": 43,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_soy-candle-set_v1",
+  "locationId": "loc_2",
+  "available": 57,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_linen-notebook_v1",
+  "locationId": "loc_1",
+  "available": 3,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_linen-notebook_v2",
+  "locationId": "loc_1",
+  "available": 45,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_linen-notebook_v2",
+  "locationId": "loc_2",
+  "available": 8,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_linen-notebook_v3",
+  "locationId": "loc_1",
+  "available": 11,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_linen-notebook_v3",
+  "locationId": "loc_2",
+  "available": 25,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-tote_v1",
+  "locationId": "loc_1",
+  "available": 4,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-tote_v1",
+  "locationId": "loc_4",
+  "available": 23,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-tote_v2",
+  "locationId": "loc_1",
+  "available": 33,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-tote_v2",
+  "locationId": "loc_2",
+  "available": 60,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_canvas-tote_v3",
+  "locationId": "loc_1",
+  "available": 55,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-beanie_v1",
+  "locationId": "loc_1",
+  "available": 17,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-beanie_v2",
+  "locationId": "loc_1",
+  "available": 50,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-beanie_v2",
+  "locationId": "loc_3",
+  "available": 15,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-beanie_v3",
+  "locationId": "loc_1",
+  "available": 48,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-beanie_v4",
+  "locationId": "loc_1",
+  "available": 3,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-beanie_v4",
+  "locationId": "loc_4",
+  "available": 44,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_trail-socks_v1",
+  "locationId": "loc_1",
+  "available": 53,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_french-press_v1",
+  "locationId": "loc_1",
+  "available": 38,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_french-press_v1",
+  "locationId": "loc_3",
+  "available": 5,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_serving-board_v1",
+  "locationId": "loc_1",
+  "available": 19,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_serving-board_v1",
+  "locationId": "loc_4",
+  "available": 57,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_desk-lamp_v1",
+  "locationId": "loc_1",
+  "available": 30,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_desk-lamp_v1",
+  "locationId": "loc_4",
+  "available": 59,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_desk-lamp_v2",
+  "locationId": "loc_1",
+  "available": 50,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_desk-lamp_v2",
+  "locationId": "loc_2",
+  "available": 17,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_field-journal_v1",
+  "locationId": "loc_1",
+  "available": 6,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_field-journal_v1",
+  "locationId": "loc_2",
+  "available": 3,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_field-journal_v2",
+  "locationId": "loc_1",
+  "available": 8,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_field-journal_v2",
+  "locationId": "loc_3",
+  "available": 37,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_field-journal_v3",
+  "locationId": "loc_1",
+  "available": 45,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_field-journal_v3",
+  "locationId": "loc_3",
+  "available": 14,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_passport-holder_v1",
+  "locationId": "loc_1",
+  "available": 26,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_passport-holder_v2",
+  "locationId": "loc_1",
+  "available": 25,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_passport-holder_v2",
+  "locationId": "loc_2",
+  "available": 45,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v1",
+  "locationId": "loc_1",
+  "available": 15,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v1",
+  "locationId": "loc_4",
+  "available": 42,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v2",
+  "locationId": "loc_1",
+  "available": 10,
+  "committed": 4,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v2",
+  "locationId": "loc_3",
+  "available": 52,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v3",
+  "locationId": "loc_1",
+  "available": 22,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v4",
+  "locationId": "loc_1",
+  "available": 58,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v4",
+  "locationId": "loc_4",
+  "available": 59,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v5",
+  "locationId": "loc_1",
+  "available": 2,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v6",
+  "locationId": "loc_1",
+  "available": 52,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v6",
+  "locationId": "loc_4",
+  "available": 7,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v7",
+  "locationId": "loc_1",
+  "available": 2,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v7",
+  "locationId": "loc_2",
+  "available": 47,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v8",
+  "locationId": "loc_1",
+  "available": 36,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v8",
+  "locationId": "loc_2",
+  "available": 5,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v9",
+  "locationId": "loc_1",
+  "available": 57,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_woven-belt_v9",
+  "locationId": "loc_4",
+  "available": 37,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_picnic-blanket_v1",
+  "locationId": "loc_1",
+  "available": 13,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_picnic-blanket_v2",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_hammock_v1",
+  "locationId": "loc_1",
+  "available": 14,
+  "committed": 5,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_hammock_v1",
+  "locationId": "loc_3",
+  "available": 46,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_plant-pot_v1",
+  "locationId": "loc_1",
+  "available": 41,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_plant-pot_v1",
+  "locationId": "loc_2",
+  "available": 3,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_plant-pot_v2",
+  "locationId": "loc_1",
+  "available": 25,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
   "variantId": "p_plant-pot_v2",
   "locationId": "loc_2",
-  "available": 13,
+  "available": 11,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_keychain-tool_v1",
   "locationId": "loc_1",
-  "available": 29,
+  "available": 51,
   "committed": 1,
   "unavailable": 0
  },
  {
   "variantId": "p_phone-sling_v1",
   "locationId": "loc_1",
-  "available": 49,
+  "available": 9,
   "committed": 0,
   "unavailable": 0
  },
@@ -1269,497 +1325,490 @@
  {
   "variantId": "p_phone-sling_v3",
   "locationId": "loc_1",
-  "available": 3,
+  "available": 21,
   "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_phone-sling_v3",
+  "locationId": "loc_4",
+  "available": 34,
+  "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_matcha-whisk-set_v1",
   "locationId": "loc_1",
-  "available": 42,
-  "committed": 0,
+  "available": 47,
+  "committed": 1,
   "unavailable": 0
  },
  {
   "variantId": "p_shower-steamer-set_v1",
   "locationId": "loc_1",
-  "available": 39,
+  "available": 3,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_shower-steamer-set_v1",
+  "locationId": "loc_3",
+  "available": 28,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v1",
   "locationId": "loc_1",
-  "available": 12,
+  "available": 36,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v2",
   "locationId": "loc_1",
-  "available": 0,
-  "committed": 3,
+  "available": 6,
+  "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_packable-rain-jacket_v3",
-  "locationId": "loc_1",
-  "available": 31,
+  "variantId": "p_packable-rain-jacket_v2",
+  "locationId": "loc_4",
+  "available": 36,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v3",
-  "locationId": "loc_4",
-  "available": 13,
+  "locationId": "loc_1",
+  "available": 52,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v4",
   "locationId": "loc_1",
-  "available": 4,
+  "available": 5,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v5",
   "locationId": "loc_1",
-  "available": 24,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v5",
-  "locationId": "loc_2",
-  "available": 41,
+  "available": 12,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v6",
   "locationId": "loc_1",
-  "available": 32,
-  "committed": 2,
+  "available": 38,
+  "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v6",
-  "locationId": "loc_4",
-  "available": 40,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v7",
-  "locationId": "loc_1",
-  "available": 48,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v7",
-  "locationId": "loc_2",
-  "available": 27,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v8",
-  "locationId": "loc_1",
-  "available": 11,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v8",
   "locationId": "loc_3",
-  "available": 34,
+  "available": 7,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_packable-rain-jacket_v7",
+  "locationId": "loc_1",
+  "available": 2,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_packable-rain-jacket_v7",
+  "locationId": "loc_4",
+  "available": 50,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_packable-rain-jacket_v8",
+  "locationId": "loc_1",
+  "available": 0,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v9",
   "locationId": "loc_1",
-  "available": 30,
+  "available": 0,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_packable-rain-jacket_v9",
+  "locationId": "loc_2",
+  "available": 33,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v10",
   "locationId": "loc_1",
-  "available": 48,
+  "available": 40,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_packable-rain-jacket_v10",
+  "locationId": "loc_3",
+  "available": 50,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_packable-rain-jacket_v11",
-  "locationId": "loc_1",
-  "available": 2,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v11",
-  "locationId": "loc_3",
-  "available": 37,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v12",
-  "locationId": "loc_1",
-  "available": 7,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_packable-rain-jacket_v12",
-  "locationId": "loc_4",
-  "available": 22,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_carry-on-duffel_v1",
-  "locationId": "loc_1",
-  "available": 7,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_carry-on-duffel_v1",
-  "locationId": "loc_4",
-  "available": 5,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_carry-on-duffel_v2",
-  "locationId": "loc_1",
-  "available": 45,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_carry-on-duffel_v2",
-  "locationId": "loc_3",
-  "available": 9,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-scarf_v1",
-  "locationId": "loc_1",
-  "available": 7,
-  "committed": 2,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-scarf_v1",
-  "locationId": "loc_4",
-  "available": 13,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-scarf_v2",
-  "locationId": "loc_1",
-  "available": 52,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_wool-scarf_v3",
-  "locationId": "loc_1",
-  "available": 14,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-dopp-kit_v1",
-  "locationId": "loc_1",
-  "available": 34,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-dopp-kit_v1",
-  "locationId": "loc_2",
-  "available": 39,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-dopp-kit_v2",
-  "locationId": "loc_1",
-  "available": 52,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_canvas-dopp-kit_v2",
-  "locationId": "loc_3",
-  "available": 46,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v1",
-  "locationId": "loc_1",
-  "available": 1,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v1",
-  "locationId": "loc_2",
-  "available": 1,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v2",
-  "locationId": "loc_1",
-  "available": 42,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v2",
-  "locationId": "loc_2",
-  "available": 28,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v3",
-  "locationId": "loc_1",
-  "available": 58,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v4",
-  "locationId": "loc_1",
-  "available": 45,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v5",
-  "locationId": "loc_1",
-  "available": 26,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v6",
-  "locationId": "loc_1",
-  "available": 34,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v6",
-  "locationId": "loc_4",
-  "available": 46,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v7",
-  "locationId": "loc_1",
-  "available": 1,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v7",
-  "locationId": "loc_2",
-  "available": 9,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v8",
-  "locationId": "loc_1",
-  "available": 26,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v9",
-  "locationId": "loc_1",
-  "available": 41,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-organic-tee_v9",
-  "locationId": "loc_2",
-  "available": 49,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v1",
-  "locationId": "loc_1",
-  "available": 3,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v1",
-  "locationId": "loc_3",
-  "available": 9,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v2",
-  "locationId": "loc_1",
-  "available": 21,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v3",
-  "locationId": "loc_1",
-  "available": 5,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v4",
-  "locationId": "loc_1",
-  "available": 17,
-  "committed": 2,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v5",
-  "locationId": "loc_1",
-  "available": 18,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v6",
-  "locationId": "loc_1",
-  "available": 53,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_kids-fleece-pullover_v6",
-  "locationId": "loc_3",
-  "available": 11,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_enamel-camping-mug_v1",
   "locationId": "loc_1",
   "available": 19,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_enamel-camping-mug_v2",
+  "variantId": "p_packable-rain-jacket_v11",
+  "locationId": "loc_2",
+  "available": 42,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_packable-rain-jacket_v12",
+  "locationId": "loc_1",
+  "available": 38,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_packable-rain-jacket_v12",
+  "locationId": "loc_3",
+  "available": 27,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_carry-on-duffel_v1",
+  "locationId": "loc_1",
+  "available": 50,
+  "committed": 3,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_carry-on-duffel_v1",
+  "locationId": "loc_3",
+  "available": 16,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_carry-on-duffel_v2",
+  "locationId": "loc_1",
+  "available": 21,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_wool-scarf_v1",
   "locationId": "loc_1",
   "available": 2,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_cast-iron-skillet_v1",
+  "variantId": "p_wool-scarf_v1",
+  "locationId": "loc_3",
+  "available": 1,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_wool-scarf_v2",
   "locationId": "loc_1",
-  "available": 34,
-  "committed": 1,
-  "unavailable": 0
- },
- {
-  "variantId": "p_cast-iron-skillet_v1",
-  "locationId": "loc_2",
-  "available": 45,
+  "available": 6,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_ceramic-vase_v1",
+  "variantId": "p_wool-scarf_v3",
   "locationId": "loc_1",
-  "available": 33,
+  "available": 4,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_ceramic-vase_v1",
-  "locationId": "loc_4",
-  "available": 41,
+  "variantId": "p_canvas-dopp-kit_v1",
+  "locationId": "loc_1",
+  "available": 40,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_ceramic-vase_v2",
+  "variantId": "p_canvas-dopp-kit_v2",
+  "locationId": "loc_1",
+  "available": 35,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v1",
   "locationId": "loc_1",
   "available": 3,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_ceramic-vase_v2",
+  "variantId": "p_kids-organic-tee_v1",
   "locationId": "loc_2",
+  "available": 53,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v2",
+  "locationId": "loc_1",
+  "available": 19,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v2",
+  "locationId": "loc_4",
+  "available": 59,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v3",
+  "locationId": "loc_1",
+  "available": 32,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v4",
+  "locationId": "loc_1",
+  "available": 55,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v4",
+  "locationId": "loc_4",
+  "available": 38,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v5",
+  "locationId": "loc_1",
+  "available": 53,
+  "committed": 4,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v5",
+  "locationId": "loc_4",
+  "available": 43,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v6",
+  "locationId": "loc_1",
+  "available": 30,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v6",
+  "locationId": "loc_3",
+  "available": 10,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v7",
+  "locationId": "loc_1",
+  "available": 0,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v7",
+  "locationId": "loc_4",
+  "available": 47,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v8",
+  "locationId": "loc_1",
+  "available": 40,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v8",
+  "locationId": "loc_3",
+  "available": 30,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-organic-tee_v9",
+  "locationId": "loc_1",
+  "available": 9,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v1",
+  "locationId": "loc_1",
+  "available": 39,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v2",
+  "locationId": "loc_1",
   "available": 54,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v2",
+  "locationId": "loc_2",
+  "available": 20,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v3",
+  "locationId": "loc_1",
+  "available": 26,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v4",
+  "locationId": "loc_1",
+  "available": 7,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v5",
+  "locationId": "loc_1",
+  "available": 19,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v6",
+  "locationId": "loc_1",
+  "available": 41,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_kids-fleece-pullover_v6",
+  "locationId": "loc_4",
+  "available": 18,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_enamel-camping-mug_v1",
+  "locationId": "loc_1",
+  "available": 32,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_enamel-camping-mug_v2",
+  "locationId": "loc_1",
+  "available": 42,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_enamel-camping-mug_v2",
+  "locationId": "loc_4",
+  "available": 15,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_cast-iron-skillet_v1",
+  "locationId": "loc_1",
+  "available": 4,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-vase_v1",
+  "locationId": "loc_1",
+  "available": 38,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-vase_v1",
+  "locationId": "loc_3",
+  "available": 7,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_ceramic-vase_v2",
+  "locationId": "loc_1",
+  "available": 53,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_ceramic-vase_v3",
   "locationId": "loc_1",
-  "available": 37,
-  "committed": 1,
+  "available": 25,
+  "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_linen-apron_v1",
   "locationId": "loc_1",
-  "available": 28,
-  "committed": 3,
+  "available": 6,
+  "committed": 1,
   "unavailable": 0
  },
  {
   "variantId": "p_linen-apron_v2",
   "locationId": "loc_1",
-  "available": 28,
-  "committed": 4,
+  "available": 19,
+  "committed": 1,
   "unavailable": 0
  },
  {
   "variantId": "p_linen-apron_v2",
-  "locationId": "loc_4",
-  "available": 49,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_bamboo-cutlery-set_v1",
-  "locationId": "loc_1",
-  "available": 8,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_bamboo-cutlery-set_v1",
   "locationId": "loc_3",
-  "available": 5,
+  "available": 27,
   "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_bamboo-cutlery-set_v1",
+  "locationId": "loc_1",
+  "available": 30,
+  "committed": 1,
   "unavailable": 0
  },
  {
   "variantId": "p_fingerless-gloves_v1",
   "locationId": "loc_1",
-  "available": 41,
+  "available": 11,
   "committed": 0,
   "unavailable": 0
  },
@@ -1773,105 +1822,112 @@
  {
   "variantId": "p_fingerless-gloves_v2",
   "locationId": "loc_1",
-  "available": 3,
-  "committed": 3,
+  "available": 32,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_fingerless-gloves_v2",
+  "locationId": "loc_2",
+  "available": 39,
+  "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_stainless-lunch-box_v1",
   "locationId": "loc_1",
-  "available": 17,
-  "committed": 4,
-  "unavailable": 0
- },
- {
-  "variantId": "p_stainless-lunch-box_v2",
-  "locationId": "loc_1",
-  "available": 13,
+  "available": 55,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_stainless-lunch-box_v2",
-  "locationId": "loc_3",
-  "available": 58,
+  "locationId": "loc_1",
+  "available": 12,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_bar-soap-trio_v1",
   "locationId": "loc_1",
-  "available": 38,
+  "available": 49,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_bar-soap-trio_v1",
+  "locationId": "loc_4",
+  "available": 31,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_room-spray_v1",
-  "locationId": "loc_1",
-  "available": 29,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_room-spray_v1",
-  "locationId": "loc_2",
-  "available": 53,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_room-spray_v2",
-  "locationId": "loc_1",
-  "available": 22,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_room-spray_v3",
-  "locationId": "loc_1",
-  "available": 27,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_postcard-pack_v1",
-  "locationId": "loc_1",
-  "available": 46,
-  "committed": 3,
-  "unavailable": 0
- },
- {
-  "variantId": "p_postcard-pack_v1",
-  "locationId": "loc_3",
-  "available": 47,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_dog-rope-leash_v1",
-  "locationId": "loc_1",
-  "available": 30,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_dog-rope-leash_v2",
   "locationId": "loc_1",
   "available": 28,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_olive-oil-cruet_v1",
+  "variantId": "p_room-spray_v1",
+  "locationId": "loc_4",
+  "available": 3,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_room-spray_v2",
   "locationId": "loc_1",
-  "available": 0,
+  "available": 40,
+  "committed": 1,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_room-spray_v3",
+  "locationId": "loc_1",
+  "available": 4,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_postcard-pack_v1",
+  "locationId": "loc_1",
+  "available": 44,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_postcard-pack_v1",
+  "locationId": "loc_2",
+  "available": 22,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_dog-rope-leash_v1",
+  "locationId": "loc_1",
+  "available": 4,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_dog-rope-leash_v1",
+  "locationId": "loc_4",
+  "available": 7,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_dog-rope-leash_v2",
+  "locationId": "loc_1",
+  "available": 40,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_olive-oil-cruet_v1",
-  "locationId": "loc_2",
-  "available": 57,
+  "locationId": "loc_1",
+  "available": 33,
   "committed": 0,
   "unavailable": 0
  },
@@ -1879,97 +1935,104 @@
   "variantId": "p_pothos-care-kit_v1",
   "locationId": "loc_1",
   "available": 23,
-  "committed": 1,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_pothos-care-kit_v1",
+  "locationId": "loc_4",
+  "available": 23,
+  "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_waffle-towel-set_v1",
   "locationId": "loc_1",
-  "available": 25,
-  "committed": 1,
+  "available": 0,
+  "committed": 2,
   "unavailable": 0
  },
  {
   "variantId": "p_waffle-towel-set_v1",
-  "locationId": "loc_2",
-  "available": 28,
+  "locationId": "loc_3",
+  "available": 43,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_waffle-towel-set_v2",
   "locationId": "loc_1",
-  "available": 39,
-  "committed": 1,
+  "available": 14,
+  "committed": 2,
   "unavailable": 0
  },
  {
   "variantId": "p_waffle-towel-set_v2",
-  "locationId": "loc_4",
-  "available": 37,
+  "locationId": "loc_2",
+  "available": 51,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_slate-coasters_v1",
   "locationId": "loc_1",
-  "available": 11,
+  "available": 37,
+  "committed": 2,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_slate-coasters_v1",
+  "locationId": "loc_2",
+  "available": 28,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_trail-water-flask_v1",
   "locationId": "loc_1",
-  "available": 6,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_trail-water-flask_v1",
-  "locationId": "loc_2",
-  "available": 44,
-  "committed": 0,
+  "available": 31,
+  "committed": 1,
   "unavailable": 0
  },
  {
   "variantId": "p_trail-water-flask_v2",
   "locationId": "loc_1",
-  "available": 13,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-crew-socks_v1",
-  "locationId": "loc_1",
-  "available": 50,
-  "committed": 0,
-  "unavailable": 0
- },
- {
-  "variantId": "p_merino-crew-socks_v1",
-  "locationId": "loc_2",
   "available": 40,
   "committed": 0,
   "unavailable": 0
  },
  {
-  "variantId": "p_merino-crew-socks_v2",
+  "variantId": "p_trail-water-flask_v2",
+  "locationId": "loc_4",
+  "available": 24,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-crew-socks_v1",
   "locationId": "loc_1",
-  "available": 38,
+  "available": 11,
+  "committed": 0,
+  "unavailable": 0
+ },
+ {
+  "variantId": "p_merino-crew-socks_v1",
+  "locationId": "loc_4",
+  "available": 15,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_merino-crew-socks_v2",
-  "locationId": "loc_2",
-  "available": 11,
+  "locationId": "loc_1",
+  "available": 40,
   "committed": 0,
   "unavailable": 0
  },
  {
   "variantId": "p_merino-crew-socks_v3",
   "locationId": "loc_1",
-  "available": 30,
+  "available": 15,
   "committed": 0,
   "unavailable": 0
  }

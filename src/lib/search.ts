@@ -24,15 +24,27 @@ export interface SearchGroup {
 export function globalSearch(query: string, state = useStore.getState()): SearchGroup[] {
   const q = query.trim().toLowerCase()
   if (!q) return []
+  // token AND-match: "blue shirt" matches "Classic Blue Shirt" (spec §8)
+  const tokens = q.split(/\s+/)
+
+  const matches = (...fields: (string | undefined | string[])[]) =>
+    tokens.every((t) =>
+      fields.some((f) =>
+        Array.isArray(f) ? f.some((x) => x.toLowerCase().includes(t)) : f?.toLowerCase().includes(t),
+      ),
+    )
 
   const products: SearchResult[] = state.products
-    .filter(
-      (p) =>
-        p.title.toLowerCase().includes(q) ||
-        p.vendor.toLowerCase().includes(q) ||
-        p.productType.toLowerCase().includes(q) ||
-        p.tags.some((t) => t.includes(q)) ||
-        p.seo.handle.includes(q),
+    .filter((p) =>
+      matches(
+        p.title,
+        p.vendor,
+        p.productType,
+        p.tags,
+        p.seo.handle,
+        p.variants.map((v) => v.title),
+        p.variants.map((v) => v.sku),
+      ),
     )
     .slice(0, 5)
     .map((p) => ({
@@ -49,12 +61,7 @@ export function globalSearch(query: string, state = useStore.getState()): Search
   const orders: SearchResult[] = state.orders
     .filter((o) => {
       const cust = state.customers.find((c) => c.id === o.customerId)
-      return (
-        o.name.toLowerCase().includes(q) ||
-        o.email.toLowerCase().includes(q) ||
-        (cust && customerName(cust).includes(q)) ||
-        o.tags.some((t) => t.includes(q))
-      )
+      return matches(o.name, o.email, cust && customerName(cust), cust && `${cust.firstName} ${cust.lastName}`, o.tags)
     })
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
     .slice(0, 5)
@@ -70,13 +77,7 @@ export function globalSearch(query: string, state = useStore.getState()): Search
     })
 
   const customers: SearchResult[] = state.customers
-    .filter(
-      (c) =>
-        customerName(c).includes(q) ||
-        c.email.toLowerCase().includes(q) ||
-        c.phone?.includes(q) ||
-        c.defaultAddress?.city.toLowerCase().includes(q),
-    )
+    .filter((c) => matches(customerName(c), c.email, c.phone, c.defaultAddress?.city))
     .slice(0, 5)
     .map((c) => ({
       id: c.id,

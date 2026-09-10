@@ -11,8 +11,9 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-08-24T09:56:24.127Z",
-  "status": "draft"
+  "startsAt": "2026-07-21T10:13:58.517Z",
+  "endsAt": "2026-10-14T10:13:58.517Z",
+  "status": "scheduled"
  },
  {
   "id": "disc_2",
@@ -25,9 +26,9 @@
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usedCount": 31,
-  "startsAt": "2026-08-25T09:56:24.127Z",
-  "status": "active"
+  "usedCount": 0,
+  "startsAt": "2026-08-10T10:13:58.517Z",
+  "status": "draft"
  },
  {
   "id": "disc_3",
@@ -39,10 +40,9 @@
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usedCount": 0,
-  "startsAt": "2026-07-09T09:56:24.127Z",
-  "endsAt": "2026-10-12T09:56:24.127Z",
-  "status": "draft"
+  "usedCount": 6,
+  "startsAt": "2026-08-15T10:13:58.517Z",
+  "status": "active"
  },
  {
   "id": "disc_4",
@@ -59,16 +59,16 @@
   "customerEligibility": "all",
   "productEligibility": "specific",
   "productIds": [
-   "p_kids-fleece-pullover",
-   "p_packable-rain-jacket",
-   "p_cast-iron-skillet",
-   "p_room-spray"
+   "p_ceramic-coffee-mug",
+   "p_linen-notebook",
+   "p_phone-sling",
+   "p_enamel-camping-mug"
   ],
-  "usageLimit": 100,
-  "usedCount": 0,
-  "startsAt": "2026-06-13T09:56:24.127Z",
-  "endsAt": "2026-10-14T09:56:24.127Z",
-  "status": "scheduled"
+  "usageLimit": 250,
+  "usedCount": 38,
+  "startsAt": "2026-07-02T10:13:58.517Z",
+  "endsAt": "2026-11-05T10:13:58.517Z",
+  "status": "active"
  },
  {
   "id": "disc_5",
@@ -81,9 +81,10 @@
   "customerEligibility": "email_subscribers",
   "productEligibility": "all",
   "productIds": [],
-  "usedCount": 52,
-  "startsAt": "2026-08-25T09:56:24.127Z",
-  "endsAt": "2026-09-09T09:56:24.127Z",
+  "usageLimit": 500,
+  "usedCount": 19,
+  "startsAt": "2026-07-25T10:13:58.517Z",
+  "endsAt": "2026-09-07T10:13:58.517Z",
   "status": "expired"
  },
  {
@@ -96,26 +97,26 @@
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usageLimit": 500,
-  "usedCount": 44,
-  "startsAt": "2026-06-17T09:56:24.127Z",
-  "endsAt": "2026-11-12T09:56:24.127Z",
-  "status": "active"
+  "usedCount": 54,
+  "startsAt": "2026-08-01T10:13:58.517Z",
+  "endsAt": "2026-09-07T10:13:58.517Z",
+  "status": "expired"
  },
  {
   "id": "disc_7",
   "code": "HOLIDAY25",
   "title": "Holiday 2025 teaser",
   "type": "percentage",
-  "method": "code",
+  "method": "automatic",
   "value": 25,
   "minPurchase": 150,
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usageLimit": 250,
-  "usedCount": 74,
-  "startsAt": "2026-08-18T09:56:24.127Z",
+  "usageLimit": 500,
+  "usedCount": 90,
+  "startsAt": "2026-08-11T10:13:58.517Z",
+  "endsAt": "2026-11-18T10:13:58.517Z",
   "status": "active"
  },
  {
@@ -133,13 +134,14 @@
   "customerEligibility": "all",
   "productEligibility": "specific",
   "productIds": [
-   "p_passport-holder",
-   "p_plant-pot",
    "p_olive-oil-cruet",
-   "p_wool-throw-blanket"
+   "p_room-spray",
+   "p_pothos-care-kit",
+   "p_running-cap"
   ],
   "usedCount": 0,
-  "startsAt": "2026-07-19T09:56:24.127Z",
+  "startsAt": "2026-07-18T10:13:58.517Z",
+  "endsAt": "2026-12-07T10:13:58.517Z",
   "status": "draft"
  },
  {
@@ -147,16 +149,16 @@
   "code": "SOCK3PACK",
   "title": "Socks trio saver",
   "type": "percentage",
-  "method": "code",
+  "method": "automatic",
   "value": 12,
   "minPurchase": 30,
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usedCount": 0,
-  "startsAt": "2026-08-24T09:56:24.127Z",
-  "endsAt": "2026-10-01T09:56:24.127Z",
-  "status": "scheduled"
+  "usedCount": 22,
+  "startsAt": "2026-07-30T10:13:58.517Z",
+  "endsAt": "2026-09-07T10:13:58.517Z",
+  "status": "expired"
  },
  {
   "id": "disc_10",
@@ -168,10 +170,11 @@
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usedCount": 0,
-  "startsAt": "2026-07-18T09:56:24.127Z",
-  "endsAt": "2026-10-05T09:56:24.127Z",
-  "status": "scheduled"
+  "usageLimit": 250,
+  "usedCount": 72,
+  "startsAt": "2026-07-25T10:13:58.517Z",
+  "endsAt": "2026-09-07T10:13:58.517Z",
+  "status": "expired"
  },
  {
   "id": "disc_11",
@@ -184,31 +187,33 @@
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usageLimit": 250,
-  "usedCount": 29,
-  "startsAt": "2026-06-18T09:56:24.127Z",
-  "status": "active"
+  "usageLimit": 100,
+  "usedCount": 0,
+  "startsAt": "2026-06-26T10:13:58.517Z",
+  "endsAt": "2026-10-24T10:13:58.517Z",
+  "status": "scheduled"
  },
  {
   "id": "disc_12",
   "code": "GIFTSHIP",
   "title": "Free gift shipping",
   "type": "free_shipping",
-  "method": "automatic",
+  "method": "code",
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usedCount": 65,
-  "startsAt": "2026-07-02T09:56:24.128Z",
-  "endsAt": "2026-10-01T09:56:24.128Z",
-  "status": "active"
+  "usageLimit": 500,
+  "usedCount": 0,
+  "startsAt": "2026-08-23T10:13:58.517Z",
+  "endsAt": "2026-09-24T10:13:58.517Z",
+  "status": "scheduled"
  },
  {
   "id": "disc_13",
   "code": "TEES2FOR30",
   "title": "Two tees for $30 logic test",
   "type": "bxgy",
-  "method": "code",
+  "method": "automatic",
   "bxgy": {
    "customerBuysQuantity": 1,
    "customerBuysAmount": 68,
@@ -218,14 +223,15 @@
   "customerEligibility": "all",
   "productEligibility": "specific",
   "productIds": [
-   "p_minimal-sneakers",
-   "p_linen-apron",
-   "p_waffle-towel-set",
-   "p_shower-steamer-set"
+   "p_insulated-water-bottle",
+   "p_trail-water-flask",
+   "p_soy-candle-set",
+   "p_yoga-mat"
   ],
-  "usedCount": 46,
-  "startsAt": "2026-06-14T09:56:24.128Z",
-  "endsAt": "2026-09-07T09:56:24.128Z",
+  "usageLimit": 100,
+  "usedCount": 74,
+  "startsAt": "2026-07-26T10:13:58.517Z",
+  "endsAt": "2026-09-09T10:13:58.517Z",
   "status": "expired"
  },
  {
@@ -238,8 +244,9 @@
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usedCount": 63,
-  "startsAt": "2026-07-26T09:56:24.128Z",
+  "usedCount": 43,
+  "startsAt": "2026-08-11T10:13:58.517Z",
+  "endsAt": "2026-10-20T10:13:58.517Z",
   "status": "active"
  },
  {
@@ -247,17 +254,16 @@
   "code": "ANNIVERSARY30",
   "title": "Store anniversary — 30% weekend",
   "type": "percentage",
-  "method": "automatic",
+  "method": "code",
   "value": 30,
   "minPurchase": 200,
   "customerEligibility": "all",
   "productEligibility": "all",
   "productIds": [],
-  "usageLimit": 500,
-  "usedCount": 88,
-  "startsAt": "2026-06-19T09:56:24.128Z",
-  "endsAt": "2026-09-08T09:56:24.128Z",
-  "status": "expired"
+  "usedCount": 0,
+  "startsAt": "2026-08-16T10:13:58.517Z",
+  "endsAt": "2026-10-23T10:13:58.517Z",
+  "status": "scheduled"
  },
  {
   "id": "disc_16",
@@ -271,9 +277,9 @@
   "productEligibility": "all",
   "productIds": [],
   "usageLimit": 100,
-  "usedCount": 21,
-  "startsAt": "2026-08-02T09:56:24.128Z",
-  "endsAt": "2026-12-05T09:56:24.128Z",
-  "status": "active"
+  "usedCount": 73,
+  "startsAt": "2026-08-10T10:13:58.517Z",
+  "endsAt": "2026-09-09T10:13:58.517Z",
+  "status": "expired"
  }
 ]

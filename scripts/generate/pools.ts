@@ -67,7 +67,7 @@ export const FAMILIES: FamilyDef[] = [
   {
     slug: 'classic-cotton-t-shirt', title: 'Classic Cotton T-Shirt', type: 'Apparel', vendor: 'Meridian Basics',
     category: 'Apparel & Accessories > Clothing > Shirts', price: 24, compareAt: 32, cost: 8, weight: 180,
-    tags: ['essential', 'cotton', 'unisex'], colors: ['Black', 'White', 'Navy', 'Olive'], sizes: ['S', 'M', 'L', 'XL'],
+    tags: ['essential', 'cotton', 'unisex'], colors: ['Black', 'White', 'Navy', 'Blue', 'Olive'], sizes: ['S', 'M', 'L', 'XL'],
     description:
       '<p>Our bestselling everyday tee, cut from 220gsm organic cotton with a relaxed fit that holds its shape wash after wash. Pre-shrunk, garment-dyed, and finished with a ribbed collar.</p><ul><li>100% organic cotton</li><li>Relaxed unisex fit</li><li>Machine washable</li></ul>',
   },

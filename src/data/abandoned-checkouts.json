@@ -1,382 +1,369 @@
 [
  {
   "id": "ab_1",
-  "customerId": "c_100",
-  "email": "paulo.fontaine@example.com",
-  "createdAt": "2026-09-01T11:10:34.499Z",
+  "customerId": "c_137",
+  "email": "noah.kimura@example.com",
+  "createdAt": "2026-08-30T18:00:38.225Z",
   "lineItems": [
    {
-    "id": "li_hqrb1",
-    "productId": "p_bar-soap-trio",
-    "variantId": "p_bar-soap-trio_v1",
-    "title": "Cold-Process Bar Soap Trio",
-    "variantTitle": "",
-    "sku": "BST53",
-    "quantity": 1,
+    "id": "li_hcvjc",
+    "productId": "p_kids-organic-tee",
+    "variantId": "p_kids-organic-tee_v6",
+    "title": "Kids Organic Tee",
+    "variantTitle": "Sky / 6Y",
+    "sku": "KOT44-SKY-6Y",
+    "quantity": 2,
     "price": 18,
-    "totalDiscount": 3.6,
+    "totalDiscount": 0,
     "requiresShipping": true,
-    "imageSrc": "/images/products/bar-soap-trio.svg"
+    "imageSrc": "/images/products/kids-organic-tee.svg"
    },
    {
-    "id": "li_hrtcr",
+    "id": "li_hd1v7",
+    "productId": "p_room-spray",
+    "variantId": "p_room-spray_v1",
+    "title": "Botanical Room Spray",
+    "variantTitle": "Cedar",
+    "sku": "RS54-CEDA",
+    "quantity": 1,
+    "price": 20,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/room-spray.svg"
+   }
+  ],
+  "total": 60.48,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_2",
+  "customerId": "c_145",
+  "email": "leo.haddad@example.com",
+  "createdAt": "2026-09-07T02:59:01.123Z",
+  "lineItems": [
+   {
+    "id": "li_hewpu",
+    "productId": "p_woven-belt",
+    "variantId": "p_woven-belt_v5",
+    "title": "Woven Canvas Belt",
+    "variantTitle": "Navy / M (33-36\")",
+    "sku": "WB32-NAVY-M333",
+    "quantity": 1,
+    "price": 29,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/woven-belt.svg"
+   }
+  ],
+  "total": 31.32,
+  "recoveryStatus": "email_sent"
+ },
+ {
+  "id": "ab_3",
+  "customerId": "c_116",
+  "email": "noah.nguyen@example.com",
+  "createdAt": "2026-09-08T22:37:59.575Z",
+  "lineItems": [
+   {
+    "id": "li_hfh35",
+    "productId": "p_minimal-sneakers",
+    "variantId": "p_minimal-sneakers_v15",
+    "title": "Minimal Sneakers",
+    "variantTitle": "Sand / 11",
+    "sku": "MS13-SAND-11",
+    "quantity": 1,
+    "price": 89,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/minimal-sneakers.svg"
+   }
+  ],
+  "total": 96.12,
+  "recoveryStatus": "email_sent"
+ },
+ {
+  "id": "ab_4",
+  "customerId": "c_144",
+  "email": "dmitri.larsen@example.com",
+  "createdAt": "2026-09-03T12:32:57.737Z",
+  "lineItems": [
+   {
+    "id": "li_hgl54",
+    "productId": "p_room-spray",
+    "variantId": "p_room-spray_v3",
+    "title": "Botanical Room Spray",
+    "variantTitle": "Citrus",
+    "sku": "RS54-CITR",
+    "quantity": 2,
+    "price": 20,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/room-spray.svg"
+   },
+   {
+    "id": "li_hhkr3",
+    "productId": "p_kids-organic-tee",
+    "variantId": "p_kids-organic-tee_v7",
+    "title": "Kids Organic Tee",
+    "variantTitle": "Sage / 2T",
+    "sku": "KOT44-SAGE-2T",
+    "quantity": 3,
+    "price": 18,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/kids-organic-tee.svg"
+   }
+  ],
+  "total": 101.52,
+  "recoveryStatus": "email_sent"
+ },
+ {
+  "id": "ab_5",
+  "customerId": "c_108",
+  "email": "chloe.moreau@example.com",
+  "createdAt": "2026-08-31T07:15:08.259Z",
+  "lineItems": [
+   {
+    "id": "li_himc2",
+    "productId": "p_minimal-sneakers",
+    "variantId": "p_minimal-sneakers_v14",
+    "title": "Minimal Sneakers",
+    "variantTitle": "Sand / 10",
+    "sku": "MS13-SAND-10",
+    "quantity": 2,
+    "price": 89,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/minimal-sneakers.svg"
+   },
+   {
+    "id": "li_hj4xn",
     "productId": "p_cast-iron-skillet",
     "variantId": "p_cast-iron-skillet_v1",
     "title": "Pre-Seasoned Cast Iron Skillet",
     "variantTitle": "",
     "sku": "CIS47",
-    "quantity": 3,
+    "quantity": 2,
     "price": 42,
     "totalDiscount": 0,
     "requiresShipping": true,
     "imageSrc": "/images/products/cast-iron-skillet.svg"
    }
   ],
-  "total": 155.52,
-  "recoveryStatus": "not_recovered"
- },
- {
-  "id": "ab_2",
-  "customerId": "c_161",
-  "email": "hana.moreau@example.com",
-  "createdAt": "2026-08-15T08:39:33.006Z",
-  "lineItems": [
-   {
-    "id": "li_hsw3d",
-    "productId": "p_everyday-hoodie",
-    "variantId": "p_everyday-hoodie_v1",
-    "title": "Everyday Hoodie",
-    "variantTitle": "Charcoal / S",
-    "sku": "EH11-CHAR-S",
-    "quantity": 1,
-    "price": 54,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/everyday-hoodie.svg"
-   }
-  ],
-  "total": 58.32,
-  "recoveryStatus": "not_recovered"
- },
- {
-  "id": "ab_3",
-  "customerId": "c_133",
-  "email": "iris.mendoza@example.com",
-  "createdAt": "2026-08-24T06:13:27.112Z",
-  "lineItems": [
-   {
-    "id": "li_ht7ub",
-    "productId": "p_ceramic-vase",
-    "variantId": "p_ceramic-vase_v3",
-    "title": "Matte Ceramic Vase",
-    "variantTitle": "Clay",
-    "sku": "CV48-CLAY",
-    "quantity": 1,
-    "price": 34,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/ceramic-vase.svg"
-   }
-  ],
-  "total": 36.72,
-  "recoveryStatus": "not_recovered"
- },
- {
-  "id": "ab_4",
-  "customerId": "c_147",
-  "email": "oscar.castellano@example.com",
-  "createdAt": "2026-08-16T10:50:18.894Z",
-  "lineItems": [
-   {
-    "id": "li_hupsf",
-    "productId": "p_minimal-sneakers",
-    "variantId": "p_minimal-sneakers_v9",
-    "title": "Minimal Sneakers",
-    "variantTitle": "Slate / 10",
-    "sku": "MS13-SLAT-10",
-    "quantity": 4,
-    "price": 89,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/minimal-sneakers.svg"
-   },
-   {
-    "id": "li_hvrb2",
-    "productId": "p_leather-wallet",
-    "variantId": "p_leather-wallet_v1",
-    "title": "Leather Bifold Wallet",
-    "variantTitle": "Chestnut",
-    "sku": "LW15-CHES",
-    "quantity": 1,
-    "price": 42,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/leather-wallet.svg"
-   }
-  ],
-  "total": 429.84,
-  "recoveryStatus": "not_recovered"
- },
- {
-  "id": "ab_5",
-  "customerId": "c_106",
-  "email": "mei.mendoza@example.com",
-  "createdAt": "2026-09-01T05:28:21.573Z",
-  "lineItems": [
-   {
-    "id": "li_hwhcw",
-    "productId": "p_hammock",
-    "variantId": "p_hammock_v1",
-    "title": "Packable Hammock",
-    "variantTitle": "",
-    "sku": "H34",
-    "quantity": 1,
-    "price": 58,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/hammock.svg"
-   }
-  ],
-  "total": 62.64,
-  "recoveryStatus": "not_recovered"
+  "total": 282.96,
+  "recoveryStatus": "recovered"
  },
  {
   "id": "ab_6",
-  "customerId": "c_115",
-  "email": "arjun.moreau@example.com",
-  "createdAt": "2026-09-03T17:06:59.613Z",
+  "customerId": "c_108",
+  "email": "chloe.moreau@example.com",
+  "createdAt": "2026-08-13T00:17:19.434Z",
   "lineItems": [
    {
-    "id": "li_hxhub",
-    "productId": "p_woven-belt",
-    "variantId": "p_woven-belt_v6",
-    "title": "Woven Canvas Belt",
-    "variantTitle": "Navy / L (36-39\")",
-    "sku": "WB32-NAVY-L363",
-    "quantity": 1,
-    "price": 29,
-    "totalDiscount": 2.9,
+    "id": "li_hktgf",
+    "productId": "p_ceramic-coffee-mug",
+    "variantId": "p_ceramic-coffee-mug_v3",
+    "title": "Ceramic Coffee Mug",
+    "variantTitle": "Sage",
+    "sku": "CCM14-SAGE",
+    "quantity": 2,
+    "price": 18,
+    "totalDiscount": 0,
     "requiresShipping": true,
-    "imageSrc": "/images/products/woven-belt.svg"
+    "imageSrc": "/images/products/ceramic-coffee-mug.svg"
+   },
+   {
+    "id": "li_hlpwv",
+    "productId": "p_oversized-shirt",
+    "variantId": "p_oversized-shirt_v2",
+    "title": "Oversized Linen Shirt",
+    "variantTitle": "White / M/L",
+    "sku": "OS16-WHIT-ML",
+    "quantity": 1,
+    "price": 58,
+    "totalDiscount": 5.8,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/oversized-shirt.svg"
    }
   ],
-  "total": 31.32,
-  "recoveryStatus": "not_recovered"
+  "total": 101.52,
+  "recoveryStatus": "recovered"
  },
  {
   "id": "ab_7",
-  "customerId": "c_118",
-  "email": "theo.oseibonsu@example.com",
-  "createdAt": "2026-09-08T08:02:55.040Z",
+  "customerId": "c_110",
+  "email": "andre.delgado@example.com",
+  "createdAt": "2026-08-29T17:18:30.315Z",
   "lineItems": [
    {
-    "id": "li_hykfi",
-    "productId": "p_canvas-tote",
-    "variantId": "p_canvas-tote_v2",
-    "title": "Heavy Canvas Tote",
-    "variantTitle": "Navy",
-    "sku": "CT24-NAVY",
-    "quantity": 2,
-    "price": 26,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/canvas-tote.svg"
-   },
-   {
-    "id": "li_hzcju",
-    "productId": "p_woven-belt",
-    "variantId": "p_woven-belt_v3",
-    "title": "Woven Canvas Belt",
-    "variantTitle": "Olive / L (36-39\")",
-    "sku": "WB32-OLIV-L363",
-    "quantity": 1,
-    "price": 29,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/woven-belt.svg"
-   }
-  ],
-  "total": 87.48,
-  "recoveryStatus": "email_sent"
- },
- {
-  "id": "ab_8",
-  "customerId": "c_103",
-  "email": "maya.larsen@example.com",
-  "createdAt": "2026-08-11T18:09:10.723Z",
-  "lineItems": [
-   {
-    "id": "li_i0ar8",
+    "id": "li_hmpsn",
     "productId": "p_linen-notebook",
-    "variantId": "p_linen-notebook_v2",
+    "variantId": "p_linen-notebook_v3",
     "title": "Linen-Bound Notebook",
-    "variantTitle": "Rust",
-    "sku": "LN23-RUST",
+    "variantTitle": "Sage",
+    "sku": "LN23-SAGE",
     "quantity": 2,
     "price": 16,
     "totalDiscount": 0,
     "requiresShipping": true,
     "imageSrc": "/images/products/linen-notebook.svg"
-   },
-   {
-    "id": "li_i1ege",
-    "productId": "p_field-journal",
-    "variantId": "p_field-journal_v1",
-    "title": "Waterproof Field Journal",
-    "variantTitle": "Olive",
-    "sku": "FJ30-OLIV",
-    "quantity": 1,
-    "price": 22,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/field-journal.svg"
    }
   ],
-  "total": 58.32,
-  "recoveryStatus": "email_sent"
+  "total": 34.56,
+  "recoveryStatus": "not_recovered"
  },
  {
-  "id": "ab_9",
-  "customerId": "c_113",
-  "email": "cole.vasquez@example.com",
-  "createdAt": "2026-08-21T06:20:18.073Z",
+  "id": "ab_8",
+  "customerId": "c_106",
+  "email": "isla.larsen@example.com",
+  "createdAt": "2026-08-27T17:57:43.336Z",
   "lineItems": [
    {
-    "id": "li_i2ud0",
-    "productId": "p_ceramic-vase",
-    "variantId": "p_ceramic-vase_v2",
-    "title": "Matte Ceramic Vase",
-    "variantTitle": "Ink Blue",
-    "sku": "CV48-INKB",
+    "id": "li_hnonp",
+    "productId": "p_passport-holder",
+    "variantId": "p_passport-holder_v2",
+    "title": "Leather Passport Holder",
+    "variantTitle": "Black",
+    "sku": "PH31-BLAC",
     "quantity": 1,
     "price": 34,
     "totalDiscount": 0,
     "requiresShipping": true,
-    "imageSrc": "/images/products/ceramic-vase.svg"
+    "imageSrc": "/images/products/passport-holder.svg"
    },
    {
-    "id": "li_i3jbm",
-    "productId": "p_minimal-sneakers",
-    "variantId": "p_minimal-sneakers_v7",
-    "title": "Minimal Sneakers",
-    "variantTitle": "Slate / 8",
-    "sku": "MS13-SLAT-8",
+    "id": "li_hocit",
+    "productId": "p_cast-iron-skillet",
+    "variantId": "p_cast-iron-skillet_v1",
+    "title": "Pre-Seasoned Cast Iron Skillet",
+    "variantTitle": "",
+    "sku": "CIS47",
     "quantity": 1,
-    "price": 89,
+    "price": 42,
     "totalDiscount": 0,
     "requiresShipping": true,
-    "imageSrc": "/images/products/minimal-sneakers.svg"
+    "imageSrc": "/images/products/cast-iron-skillet.svg"
    }
   ],
-  "total": 132.84,
-  "recoveryStatus": "not_recovered"
- },
- {
-  "id": "ab_10",
-  "customerId": "c_106",
-  "email": "mei.mendoza@example.com",
-  "createdAt": "2026-09-02T23:50:12.674Z",
-  "lineItems": [
-   {
-    "id": "li_i4wkv",
-    "productId": "p_oversized-shirt",
-    "variantId": "p_oversized-shirt_v6",
-    "title": "Oversized Linen Shirt",
-    "variantTitle": "Sky / XL/2XL",
-    "sku": "OS16-SKY-XL2X",
-    "quantity": 2,
-    "price": 58,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/oversized-shirt.svg"
-   },
-   {
-    "id": "li_i55em",
-    "productId": "p_woven-belt",
-    "variantId": "p_woven-belt_v2",
-    "title": "Woven Canvas Belt",
-    "variantTitle": "Olive / M (33-36\")",
-    "sku": "WB32-OLIV-M333",
-    "quantity": 4,
-    "price": 29,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/woven-belt.svg"
-   }
-  ],
-  "total": 250.56,
+  "total": 82.08,
   "recoveryStatus": "email_sent"
  },
  {
-  "id": "ab_11",
+  "id": "ab_9",
   "customerId": "c_144",
-  "email": "freya.ramirez@example.com",
-  "createdAt": "2026-08-25T06:21:36.302Z",
+  "email": "dmitri.larsen@example.com",
+  "createdAt": "2026-09-06T17:04:56.695Z",
   "lineItems": [
    {
-    "id": "li_i6acw",
-    "productId": "p_dog-rope-leash",
-    "variantId": "p_dog-rope-leash_v1",
-    "title": "Braided Rope Dog Leash",
-    "variantTitle": "Field Green",
-    "sku": "DRL56-FIEL",
-    "quantity": 1,
-    "price": 30,
+    "id": "li_hp1rg",
+    "productId": "p_room-spray",
+    "variantId": "p_room-spray_v3",
+    "title": "Botanical Room Spray",
+    "variantTitle": "Citrus",
+    "sku": "RS54-CITR",
+    "quantity": 2,
+    "price": 20,
     "totalDiscount": 0,
     "requiresShipping": true,
-    "imageSrc": "/images/products/dog-rope-leash.svg"
-   },
-   {
-    "id": "li_i7vny",
-    "productId": "p_dog-rope-leash",
-    "variantId": "p_dog-rope-leash_v2",
-    "title": "Braided Rope Dog Leash",
-    "variantTitle": "Rust",
-    "sku": "DRL56-RUST",
-    "quantity": 1,
-    "price": 30,
-    "totalDiscount": 0,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/dog-rope-leash.svg"
+    "imageSrc": "/images/products/room-spray.svg"
    }
   ],
-  "total": 64.8,
+  "total": 43.2,
+  "recoveryStatus": "recovered"
+ },
+ {
+  "id": "ab_10",
+  "customerId": "c_107",
+  "email": "diego.ibrahim@example.com",
+  "createdAt": "2026-08-19T07:50:21.081Z",
+  "lineItems": [
+   {
+    "id": "li_hqfrm",
+    "productId": "p_insulated-water-bottle",
+    "variantId": "p_insulated-water-bottle_v1",
+    "title": "Insulated Water Bottle 750ml",
+    "variantTitle": "Brushed Steel",
+    "sku": "IWB19-BRUS",
+    "quantity": 3,
+    "price": 32,
+    "totalDiscount": 14.4,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/insulated-water-bottle.svg"
+   },
+   {
+    "id": "li_hrkyy",
+    "productId": "p_oversized-shirt",
+    "variantId": "p_oversized-shirt_v2",
+    "title": "Oversized Linen Shirt",
+    "variantTitle": "White / M/L",
+    "sku": "OS16-WHIT-ML",
+    "quantity": 1,
+    "price": 58,
+    "totalDiscount": 8.7,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/oversized-shirt.svg"
+   }
+  ],
+  "total": 166.32,
+  "recoveryStatus": "not_recovered"
+ },
+ {
+  "id": "ab_11",
+  "customerId": "c_101",
+  "email": "tariq.osei@example.com",
+  "createdAt": "2026-08-11T13:14:13.330Z",
+  "lineItems": [
+   {
+    "id": "li_hs8td",
+    "productId": "p_carry-on-duffel",
+    "variantId": "p_carry-on-duffel_v2",
+    "title": "Carry-On Duffel 40L",
+    "variantTitle": "Charcoal",
+    "sku": "COD41-CHAR",
+    "quantity": 2,
+    "price": 84,
+    "totalDiscount": 0,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/carry-on-duffel.svg"
+   },
+   {
+    "id": "li_htwa0",
+    "productId": "p_oversized-shirt",
+    "variantId": "p_oversized-shirt_v8",
+    "title": "Oversized Linen Shirt",
+    "variantTitle": "Terracotta / M/L",
+    "sku": "OS16-TERR-ML",
+    "quantity": 1,
+    "price": 58,
+    "totalDiscount": 11.6,
+    "requiresShipping": true,
+    "imageSrc": "/images/products/oversized-shirt.svg"
+   }
+  ],
+  "total": 244.08,
   "recoveryStatus": "not_recovered"
  },
  {
   "id": "ab_12",
-  "customerId": "c_133",
-  "email": "iris.mendoza@example.com",
-  "createdAt": "2026-09-04T02:17:32.537Z",
+  "customerId": "c_129",
+  "email": "leo.oseibonsu@example.com",
+  "createdAt": "2026-08-19T02:41:23.648Z",
   "lineItems": [
    {
-    "id": "li_i81vq",
-    "productId": "p_merino-beanie",
-    "variantId": "p_merino-beanie_v3",
-    "title": "Merino Beanie",
-    "variantTitle": "Ink Blue",
-    "sku": "MB25-INKB",
-    "quantity": 1,
-    "price": 30,
-    "totalDiscount": 4.5,
-    "requiresShipping": true,
-    "imageSrc": "/images/products/merino-beanie.svg"
-   },
-   {
-    "id": "li_i9wzp",
-    "productId": "p_canvas-tote",
-    "variantId": "p_canvas-tote_v1",
-    "title": "Heavy Canvas Tote",
-    "variantTitle": "Natural",
-    "sku": "CT24-NATU",
-    "quantity": 1,
-    "price": 26,
+    "id": "li_hu1ub",
+    "productId": "p_merino-crew-socks",
+    "variantId": "p_merino-crew-socks_v1",
+    "title": "Merino Crew Socks",
+    "variantTitle": "Charcoal",
+    "sku": "MCS62-CHAR",
+    "quantity": 3,
+    "price": 16,
     "totalDiscount": 0,
     "requiresShipping": true,
-    "imageSrc": "/images/products/canvas-tote.svg"
+    "imageSrc": "/images/products/merino-crew-socks.svg"
    }
   ],
-  "total": 60.48,
-  "recoveryStatus": "not_recovered"
+  "total": 51.84,
+  "recoveryStatus": "email_sent"
  }
 ]

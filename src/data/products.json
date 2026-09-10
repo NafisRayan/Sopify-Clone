@@ -6,11 +6,11 @@
   "vendor": "Meridian Basics",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing > Shirts",
-  "status": "archived",
+  "status": "active",
   "tags": [
-   "staff-pick",
-   "unisex",
-   "limited"
+   "cotton",
+   "sustainable",
+   "essential"
   ],
   "collectionIds": [
    "col_3"
@@ -25,6 +25,7 @@
      "Black",
      "White",
      "Navy",
+     "Blue",
      "Olive"
     ]
    },
@@ -246,9 +247,77 @@
    {
     "id": "p_classic-cotton-t-shirt_v13",
     "productId": "p_classic-cotton-t-shirt",
+    "title": "Blue / S",
+    "sku": "CCT10-BLUE-S",
+    "barcode": "0844556224504",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Blue",
+     "Size": "S"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v14",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Blue / M",
+    "sku": "CCT10-BLUE-M",
+    "barcode": "0842822505971",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Blue",
+     "Size": "M"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v15",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Blue / L",
+    "sku": "CCT10-BLUE-L",
+    "barcode": "0848183230249",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Blue",
+     "Size": "L"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v16",
+    "productId": "p_classic-cotton-t-shirt",
+    "title": "Blue / XL",
+    "sku": "CCT10-BLUE-XL",
+    "barcode": "0846086953022",
+    "price": 24,
+    "compareAtPrice": 32,
+    "costPerItem": 8,
+    "optionValues": {
+     "Color": "Blue",
+     "Size": "XL"
+    },
+    "weightGrams": 180,
+    "imageId": "m_classic-cotton-t-shirt_1",
+    "available": true
+   },
+   {
+    "id": "p_classic-cotton-t-shirt_v17",
+    "productId": "p_classic-cotton-t-shirt",
     "title": "Olive / S",
     "sku": "CCT10-OLIV-S",
-    "barcode": "0844556224504",
+    "barcode": "0849351059930",
     "price": 24,
     "compareAtPrice": 32,
     "costPerItem": 8,
@@ -261,11 +330,11 @@
     "available": true
    },
    {
-    "id": "p_classic-cotton-t-shirt_v14",
+    "id": "p_classic-cotton-t-shirt_v18",
     "productId": "p_classic-cotton-t-shirt",
     "title": "Olive / M",
     "sku": "CCT10-OLIV-M",
-    "barcode": "0842822505971",
+    "barcode": "0846678827096",
     "price": 24,
     "compareAtPrice": 32,
     "costPerItem": 8,
@@ -278,11 +347,11 @@
     "available": true
    },
    {
-    "id": "p_classic-cotton-t-shirt_v15",
+    "id": "p_classic-cotton-t-shirt_v19",
     "productId": "p_classic-cotton-t-shirt",
     "title": "Olive / L",
     "sku": "CCT10-OLIV-L",
-    "barcode": "0848183230249",
+    "barcode": "0841769480175",
     "price": 24,
     "compareAtPrice": 32,
     "costPerItem": 8,
@@ -295,11 +364,11 @@
     "available": true
    },
    {
-    "id": "p_classic-cotton-t-shirt_v16",
+    "id": "p_classic-cotton-t-shirt_v20",
     "productId": "p_classic-cotton-t-shirt",
     "title": "Olive / XL",
     "sku": "CCT10-OLIV-XL",
-    "barcode": "0846086953022",
+    "barcode": "0842792548435",
     "price": 24,
     "compareAtPrice": 32,
     "costPerItem": 8,
@@ -343,8 +412,8 @@
   "weightGrams": 180,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-26T09:56:23.947Z",
-  "updatedAt": "2026-08-17T09:58:59.602Z"
+  "createdAt": "2026-01-26T10:13:58.368Z",
+  "updatedAt": "2026-09-07T19:09:23.210Z"
  },
  {
   "id": "p_everyday-hoodie",
@@ -353,14 +422,14 @@
   "vendor": "Meridian Basics",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing > Hoodies",
-  "status": "active",
+  "status": "draft",
   "tags": [
-   "fleece",
-   "essential",
-   "new-arrival"
+   "staff-pick",
+   "unisex",
+   "limited",
+   "fleece"
   ],
   "collectionIds": [
-   "col_1",
    "col_3"
   ],
   "channels": [
@@ -392,7 +461,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Charcoal / S",
     "sku": "EH11-CHAR-S",
-    "barcode": "0842101953211",
+    "barcode": "0842808563186",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -409,7 +478,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Charcoal / M",
     "sku": "EH11-CHAR-M",
-    "barcode": "0847066363733",
+    "barcode": "0848224074863",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -426,7 +495,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Charcoal / L",
     "sku": "EH11-CHAR-L",
-    "barcode": "0842641496444",
+    "barcode": "0841308071870",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -443,7 +512,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Charcoal / XL",
     "sku": "EH11-CHAR-XL",
-    "barcode": "0847700483969",
+    "barcode": "0846078280334",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -460,7 +529,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Oatmeal / S",
     "sku": "EH11-OATM-S",
-    "barcode": "0842808563186",
+    "barcode": "0844923977792",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -477,7 +546,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Oatmeal / M",
     "sku": "EH11-OATM-M",
-    "barcode": "0848224074863",
+    "barcode": "0844482464405",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -494,7 +563,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Oatmeal / L",
     "sku": "EH11-OATM-L",
-    "barcode": "0841308071870",
+    "barcode": "0843457653663",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -511,7 +580,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Oatmeal / XL",
     "sku": "EH11-OATM-XL",
-    "barcode": "0846078280334",
+    "barcode": "0841095016359",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -528,7 +597,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Forest / S",
     "sku": "EH11-FORE-S",
-    "barcode": "0844923977792",
+    "barcode": "0842282478017",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -545,7 +614,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Forest / M",
     "sku": "EH11-FORE-M",
-    "barcode": "0844482464405",
+    "barcode": "0843272934902",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -562,7 +631,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Forest / L",
     "sku": "EH11-FORE-L",
-    "barcode": "0843457653663",
+    "barcode": "0843928432935",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -579,7 +648,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Forest / XL",
     "sku": "EH11-FORE-XL",
-    "barcode": "0841095016359",
+    "barcode": "0846127853120",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -596,7 +665,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Dusty Rose / S",
     "sku": "EH11-DUST-S",
-    "barcode": "0842282478017",
+    "barcode": "0843635369567",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -613,7 +682,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Dusty Rose / M",
     "sku": "EH11-DUST-M",
-    "barcode": "0843272934902",
+    "barcode": "0846139790493",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -630,7 +699,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Dusty Rose / L",
     "sku": "EH11-DUST-L",
-    "barcode": "0843928432935",
+    "barcode": "0844995161270",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -647,7 +716,7 @@
     "productId": "p_everyday-hoodie",
     "title": "Dusty Rose / XL",
     "sku": "EH11-DUST-XL",
-    "barcode": "0846127853120",
+    "barcode": "0845244843662",
     "price": 54,
     "compareAtPrice": 68,
     "costPerItem": 19,
@@ -684,8 +753,8 @@
   "weightGrams": 520,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-22T09:56:23.951Z",
-  "updatedAt": "2026-09-05T19:14:21.540Z"
+  "createdAt": "2025-03-07T10:13:58.373Z",
+  "updatedAt": "2026-09-03T16:24:05.326Z"
  },
  {
   "id": "p_canvas-backpack",
@@ -696,11 +765,14 @@
   "category": "Apparel & Accessories > Luggage > Backpacks",
   "status": "active",
   "tags": [
-   "travel",
-   "staff-pick"
+   "bestseller",
+   "canvas",
+   "new-arrival"
   ],
   "collectionIds": [
-   "col_5"
+   "col_1",
+   "col_2",
+   "col_4"
   ],
   "channels": [
    "online_store"
@@ -721,7 +793,7 @@
     "productId": "p_canvas-backpack",
     "title": "Field Green",
     "sku": "CB12-FIEL",
-    "barcode": "0842172497959",
+    "barcode": "0842407356591",
     "price": 68,
     "costPerItem": 24,
     "optionValues": {
@@ -736,7 +808,7 @@
     "productId": "p_canvas-backpack",
     "title": "Charcoal",
     "sku": "CB12-CHAR",
-    "barcode": "0843335997121",
+    "barcode": "0842423436729",
     "price": 68,
     "costPerItem": 24,
     "optionValues": {
@@ -751,7 +823,7 @@
     "productId": "p_canvas-backpack",
     "title": "Tan",
     "sku": "CB12-TAN",
-    "barcode": "0843957925540",
+    "barcode": "0847601806151",
     "price": 68,
     "costPerItem": 24,
     "optionValues": {
@@ -786,8 +858,8 @@
   "weightGrams": 890,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-03-01T09:56:23.952Z",
-  "updatedAt": "2026-09-07T22:00:39.545Z"
+  "createdAt": "2026-01-01T10:13:58.375Z",
+  "updatedAt": "2026-09-05T03:23:26.310Z"
  },
  {
   "id": "p_minimal-sneakers",
@@ -796,14 +868,13 @@
   "vendor": "Alder & Oak",
   "productType": "Footwear",
   "category": "Apparel & Accessories > Shoes",
-  "status": "archived",
+  "status": "active",
   "tags": [
-   "limited",
-   "new-arrival",
-   "footwear"
+   "footwear",
+   "limited"
   ],
   "collectionIds": [
-   "col_1"
+   "col_12"
   ],
   "channels": [
    "online_store"
@@ -834,7 +905,7 @@
     "productId": "p_minimal-sneakers",
     "title": "White / 7",
     "sku": "MS13-WHIT-7",
-    "barcode": "0848503371198",
+    "barcode": "0846442904702",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -851,7 +922,7 @@
     "productId": "p_minimal-sneakers",
     "title": "White / 8",
     "sku": "MS13-WHIT-8",
-    "barcode": "0843017781030",
+    "barcode": "0846390965518",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -868,7 +939,7 @@
     "productId": "p_minimal-sneakers",
     "title": "White / 9",
     "sku": "MS13-WHIT-9",
-    "barcode": "0843540170857",
+    "barcode": "0847734958484",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -885,7 +956,7 @@
     "productId": "p_minimal-sneakers",
     "title": "White / 10",
     "sku": "MS13-WHIT-10",
-    "barcode": "0845730666920",
+    "barcode": "0848689781931",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -902,7 +973,7 @@
     "productId": "p_minimal-sneakers",
     "title": "White / 11",
     "sku": "MS13-WHIT-11",
-    "barcode": "0846442904702",
+    "barcode": "0842261204782",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -919,7 +990,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Slate / 7",
     "sku": "MS13-SLAT-7",
-    "barcode": "0846390965518",
+    "barcode": "0848811567309",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -936,7 +1007,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Slate / 8",
     "sku": "MS13-SLAT-8",
-    "barcode": "0847734958484",
+    "barcode": "0846799048138",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -953,7 +1024,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Slate / 9",
     "sku": "MS13-SLAT-9",
-    "barcode": "0848689781931",
+    "barcode": "0843822993778",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -970,7 +1041,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Slate / 10",
     "sku": "MS13-SLAT-10",
-    "barcode": "0842261204782",
+    "barcode": "0844561236343",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -987,7 +1058,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Slate / 11",
     "sku": "MS13-SLAT-11",
-    "barcode": "0848811567309",
+    "barcode": "0847997785930",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -1004,7 +1075,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Sand / 7",
     "sku": "MS13-SAND-7",
-    "barcode": "0846799048138",
+    "barcode": "0848518077897",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -1021,7 +1092,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Sand / 8",
     "sku": "MS13-SAND-8",
-    "barcode": "0843822993778",
+    "barcode": "0849709209730",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -1038,7 +1109,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Sand / 9",
     "sku": "MS13-SAND-9",
-    "barcode": "0844561236343",
+    "barcode": "0846789453156",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -1055,7 +1126,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Sand / 10",
     "sku": "MS13-SAND-10",
-    "barcode": "0847997785930",
+    "barcode": "0846243242404",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -1072,7 +1143,7 @@
     "productId": "p_minimal-sneakers",
     "title": "Sand / 11",
     "sku": "MS13-SAND-11",
-    "barcode": "0848518077897",
+    "barcode": "0845367320419",
     "price": 89,
     "compareAtPrice": 110,
     "costPerItem": 31,
@@ -1109,8 +1180,8 @@
   "weightGrams": 740,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-12-10T09:56:23.953Z",
-  "updatedAt": "2026-08-07T14:15:56.146Z"
+  "createdAt": "2025-07-12T10:13:58.377Z",
+  "updatedAt": "2026-09-07T19:11:54.514Z"
  },
  {
   "id": "p_ceramic-coffee-mug",
@@ -1119,12 +1190,11 @@
   "vendor": "Hearthstone",
   "productType": "Kitchen",
   "category": "Home & Garden > Kitchen & Dining > Drinkware",
-  "status": "draft",
+  "status": "active",
   "tags": [
-   "new-arrival",
-   "staff-pick",
-   "ceramic",
-   "sustainable"
+   "limited",
+   "kitchen",
+   "new-arrival"
   ],
   "collectionIds": [
    "col_1",
@@ -1150,7 +1220,7 @@
     "productId": "p_ceramic-coffee-mug",
     "title": "Cream",
     "sku": "CCM14-CREA",
-    "barcode": "0846529227104",
+    "barcode": "0848377161703",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -1165,7 +1235,7 @@
     "productId": "p_ceramic-coffee-mug",
     "title": "Ink Blue",
     "sku": "CCM14-INKB",
-    "barcode": "0842670913540",
+    "barcode": "0849272239019",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -1180,7 +1250,7 @@
     "productId": "p_ceramic-coffee-mug",
     "title": "Sage",
     "sku": "CCM14-SAGE",
-    "barcode": "0842640812784",
+    "barcode": "0841537728146",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -1195,7 +1265,7 @@
     "productId": "p_ceramic-coffee-mug",
     "title": "Clay",
     "sku": "CCM14-CLAY",
-    "barcode": "0845421282498",
+    "barcode": "0841279189501",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -1230,8 +1300,8 @@
   "weightGrams": 380,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-29T09:56:23.955Z",
-  "updatedAt": "2026-08-18T17:49:41.005Z"
+  "createdAt": "2025-08-01T10:13:58.378Z",
+  "updatedAt": "2026-09-09T07:44:47.931Z"
  },
  {
   "id": "p_leather-wallet",
@@ -1242,10 +1312,15 @@
   "category": "Apparel & Accessories > Wallets",
   "status": "active",
   "tags": [
-   "sustainable",
-   "limited"
+   "limited",
+   "new-arrival",
+   "gift"
   ],
-  "collectionIds": [],
+  "collectionIds": [
+   "col_1",
+   "col_7",
+   "col_9"
+  ],
   "channels": [
    "online_store"
   ],
@@ -1265,7 +1340,7 @@
     "productId": "p_leather-wallet",
     "title": "Chestnut",
     "sku": "LW15-CHES",
-    "barcode": "0844689013432",
+    "barcode": "0841510475385",
     "price": 42,
     "costPerItem": 14,
     "optionValues": {
@@ -1280,7 +1355,7 @@
     "productId": "p_leather-wallet",
     "title": "Black",
     "sku": "LW15-BLAC",
-    "barcode": "0847085422098",
+    "barcode": "0842105994927",
     "price": 42,
     "costPerItem": 14,
     "optionValues": {
@@ -1295,7 +1370,7 @@
     "productId": "p_leather-wallet",
     "title": "Navy",
     "sku": "LW15-NAVY",
-    "barcode": "0841954356508",
+    "barcode": "0844756504032",
     "price": 42,
     "costPerItem": 14,
     "optionValues": {
@@ -1337,8 +1412,8 @@
   "weightGrams": 90,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-08-17T09:56:23.957Z",
-  "updatedAt": "2026-08-29T14:25:43.656Z"
+  "createdAt": "2025-03-17T10:13:58.380Z",
+  "updatedAt": "2026-08-31T06:07:42.802Z"
  },
  {
   "id": "p_oversized-shirt",
@@ -1347,17 +1422,16 @@
   "vendor": "Alder & Oak",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing > Shirts",
-  "status": "active",
+  "status": "archived",
   "tags": [
-   "new-arrival",
-   "linen",
+   "sustainable",
    "summer",
-   "staff-pick"
+   "staff-pick",
+   "new-arrival"
   ],
   "collectionIds": [
    "col_1",
-   "col_3",
-   "col_10"
+   "col_3"
   ],
   "channels": [
    "online_store"
@@ -1386,7 +1460,7 @@
     "productId": "p_oversized-shirt",
     "title": "White / XS/S",
     "sku": "OS16-WHIT-XSS",
-    "barcode": "0843293620714",
+    "barcode": "0842012505997",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1402,7 +1476,7 @@
     "productId": "p_oversized-shirt",
     "title": "White / M/L",
     "sku": "OS16-WHIT-ML",
-    "barcode": "0844664782484",
+    "barcode": "0842943055514",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1418,7 +1492,7 @@
     "productId": "p_oversized-shirt",
     "title": "White / XL/2XL",
     "sku": "OS16-WHIT-XL2X",
-    "barcode": "0844824350277",
+    "barcode": "0844990249447",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1434,7 +1508,7 @@
     "productId": "p_oversized-shirt",
     "title": "Sky / XS/S",
     "sku": "OS16-SKY-XSS",
-    "barcode": "0848936894969",
+    "barcode": "0847270703644",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1450,7 +1524,7 @@
     "productId": "p_oversized-shirt",
     "title": "Sky / M/L",
     "sku": "OS16-SKY-ML",
-    "barcode": "0842012505997",
+    "barcode": "0849038723815",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1466,7 +1540,7 @@
     "productId": "p_oversized-shirt",
     "title": "Sky / XL/2XL",
     "sku": "OS16-SKY-XL2X",
-    "barcode": "0842943055514",
+    "barcode": "0844558388503",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1482,7 +1556,7 @@
     "productId": "p_oversized-shirt",
     "title": "Terracotta / XS/S",
     "sku": "OS16-TERR-XSS",
-    "barcode": "0844990249447",
+    "barcode": "0848645283420",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1498,7 +1572,7 @@
     "productId": "p_oversized-shirt",
     "title": "Terracotta / M/L",
     "sku": "OS16-TERR-ML",
-    "barcode": "0847270703644",
+    "barcode": "0844268447857",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1514,7 +1588,7 @@
     "productId": "p_oversized-shirt",
     "title": "Terracotta / XL/2XL",
     "sku": "OS16-TERR-XL2X",
-    "barcode": "0849038723815",
+    "barcode": "0844407524673",
     "price": 58,
     "costPerItem": 20,
     "optionValues": {
@@ -1550,8 +1624,8 @@
   "weightGrams": 240,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-02-19T09:56:23.960Z",
-  "updatedAt": "2026-09-09T05:08:35.304Z"
+  "createdAt": "2024-12-17T10:13:58.382Z",
+  "updatedAt": "2026-08-28T12:41:42.512Z"
  },
  {
   "id": "p_running-cap",
@@ -1560,15 +1634,12 @@
   "vendor": "Trailhead Supply",
   "productType": "Accessories",
   "category": "Apparel & Accessories > Clothing Accessories > Hats",
-  "status": "active",
+  "status": "draft",
   "tags": [
-   "staff-pick",
    "limited",
-   "new-arrival"
+   "staff-pick"
   ],
-  "collectionIds": [
-   "col_1"
-  ],
+  "collectionIds": [],
   "channels": [
    "online_store"
   ],
@@ -1588,7 +1659,7 @@
     "productId": "p_running-cap",
     "title": "Black",
     "sku": "RC17-BLAC",
-    "barcode": "0847266244407",
+    "barcode": "0846280057105",
     "price": 28,
     "costPerItem": 9,
     "optionValues": {
@@ -1603,7 +1674,7 @@
     "productId": "p_running-cap",
     "title": "Highlight Yellow",
     "sku": "RC17-HIGH",
-    "barcode": "0846874186533",
+    "barcode": "0843826689845",
     "price": 28,
     "costPerItem": 9,
     "optionValues": {
@@ -1618,7 +1689,7 @@
     "productId": "p_running-cap",
     "title": "Storm Blue",
     "sku": "RC17-STOR",
-    "barcode": "0845436280470",
+    "barcode": "0841238325921",
     "price": 28,
     "costPerItem": 9,
     "optionValues": {
@@ -1653,8 +1724,8 @@
   "weightGrams": 80,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-11-25T09:56:23.961Z",
-  "updatedAt": "2026-08-10T17:14:54.122Z"
+  "createdAt": "2026-03-23T10:13:58.384Z",
+  "updatedAt": "2026-08-21T22:24:23.963Z"
  },
  {
   "id": "p_yoga-mat",
@@ -1663,19 +1734,16 @@
   "vendor": "Northstar Goods",
   "productType": "Fitness",
   "category": "Sporting Goods > Exercise & Fitness > Yoga",
-  "status": "active",
+  "status": "draft",
   "tags": [
    "limited",
-   "staff-pick",
-   "fitness",
-   "sustainable"
+   "bestseller"
   ],
   "collectionIds": [
-   "col_10"
+   "col_2"
   ],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [
    {
@@ -1693,7 +1761,7 @@
     "productId": "p_yoga-mat",
     "title": "Moss",
     "sku": "YM18-MOSS",
-    "barcode": "0842978459887",
+    "barcode": "0848482362475",
     "price": 48,
     "costPerItem": 17,
     "optionValues": {
@@ -1708,7 +1776,7 @@
     "productId": "p_yoga-mat",
     "title": "Graphite",
     "sku": "YM18-GRAP",
-    "barcode": "0843018677573",
+    "barcode": "0843583294406",
     "price": 48,
     "costPerItem": 17,
     "optionValues": {
@@ -1723,7 +1791,7 @@
     "productId": "p_yoga-mat",
     "title": "Blush",
     "sku": "YM18-BLUS",
-    "barcode": "0846742828444",
+    "barcode": "0848485138891",
     "price": 48,
     "costPerItem": 17,
     "optionValues": {
@@ -1758,8 +1826,8 @@
   "weightGrams": 1100,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-03-14T09:56:23.963Z",
-  "updatedAt": "2026-08-13T17:20:49.044Z"
+  "createdAt": "2025-10-22T10:13:58.385Z",
+  "updatedAt": "2026-08-20T16:59:49.612Z"
  },
  {
   "id": "p_insulated-water-bottle",
@@ -1768,16 +1836,14 @@
   "vendor": "Trailhead Supply",
   "productType": "Outdoor",
   "category": "Sporting Goods > Outdoor > Hydration",
-  "status": "draft",
+  "status": "active",
   "tags": [
-   "gift",
-   "staff-pick",
+   "limited",
    "sustainable",
-   "new-arrival"
+   "bestseller"
   ],
   "collectionIds": [
-   "col_1",
-   "col_7"
+   "col_2"
   ],
   "channels": [
    "online_store"
@@ -1799,7 +1865,7 @@
     "productId": "p_insulated-water-bottle",
     "title": "Brushed Steel",
     "sku": "IWB19-BRUS",
-    "barcode": "0846595167823",
+    "barcode": "0848808254462",
     "price": 32,
     "compareAtPrice": 40,
     "costPerItem": 11,
@@ -1815,7 +1881,7 @@
     "productId": "p_insulated-water-bottle",
     "title": "Matte Black",
     "sku": "IWB19-MATT",
-    "barcode": "0845538788931",
+    "barcode": "0849278623177",
     "price": 32,
     "compareAtPrice": 40,
     "costPerItem": 11,
@@ -1831,7 +1897,7 @@
     "productId": "p_insulated-water-bottle",
     "title": "Juniper",
     "sku": "IWB19-JUNI",
-    "barcode": "0846965879349",
+    "barcode": "0842472931553",
     "price": 32,
     "compareAtPrice": 40,
     "costPerItem": 11,
@@ -1847,7 +1913,7 @@
     "productId": "p_insulated-water-bottle",
     "title": "Sandstone",
     "sku": "IWB19-SAND",
-    "barcode": "0841611775205",
+    "barcode": "0843770976812",
     "price": 32,
     "compareAtPrice": 40,
     "costPerItem": 11,
@@ -1883,8 +1949,8 @@
   "weightGrams": 420,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-04-05T09:56:23.964Z",
-  "updatedAt": "2026-08-02T04:12:40.795Z"
+  "createdAt": "2026-04-04T10:13:58.387Z",
+  "updatedAt": "2026-08-08T20:43:45.320Z"
  },
  {
   "id": "p_desk-organizer",
@@ -1896,13 +1962,13 @@
   "status": "active",
   "tags": [
    "sustainable",
+   "gift",
    "staff-pick",
-   "office",
    "new-arrival"
   ],
   "collectionIds": [
    "col_1",
-   "col_12"
+   "col_7"
   ],
   "channels": [
    "online_store"
@@ -1914,7 +1980,7 @@
     "productId": "p_desk-organizer",
     "title": "Default Title",
     "sku": "DO20",
-    "barcode": "0845968130712",
+    "barcode": "0845029971343",
     "price": 46,
     "costPerItem": 16,
     "optionValues": {},
@@ -1954,8 +2020,8 @@
   "weightGrams": 750,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-11T09:56:23.966Z",
-  "updatedAt": "2026-09-03T18:23:07.299Z"
+  "createdAt": "2026-01-19T10:13:58.389Z",
+  "updatedAt": "2026-09-06T14:01:05.114Z"
  },
  {
   "id": "p_wool-throw-blanket",
@@ -1966,13 +2032,12 @@
   "category": "Home & Garden > Linens > Blankets",
   "status": "active",
   "tags": [
-   "limited",
+   "new-arrival",
    "home",
-   "gift",
-   "sustainable"
+   "staff-pick"
   ],
   "collectionIds": [
-   "col_7"
+   "col_1"
   ],
   "channels": [
    "online_store"
@@ -1993,7 +2058,7 @@
     "productId": "p_wool-throw-blanket",
     "title": "Heather Grey",
     "sku": "WTB21-HEAT",
-    "barcode": "0849576340364",
+    "barcode": "0848434763994",
     "price": 78,
     "compareAtPrice": 95,
     "costPerItem": 28,
@@ -2009,7 +2074,7 @@
     "productId": "p_wool-throw-blanket",
     "title": "Mustard",
     "sku": "WTB21-MUST",
-    "barcode": "0844926180562",
+    "barcode": "0845356517659",
     "price": 78,
     "compareAtPrice": 95,
     "costPerItem": 28,
@@ -2025,7 +2090,7 @@
     "productId": "p_wool-throw-blanket",
     "title": "Rust",
     "sku": "WTB21-RUST",
-    "barcode": "0843081245821",
+    "barcode": "0848806250398",
     "price": 78,
     "compareAtPrice": 95,
     "costPerItem": 28,
@@ -2061,8 +2126,8 @@
   "weightGrams": 1300,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-04-25T09:56:23.967Z",
-  "updatedAt": "2026-08-26T14:46:39.052Z"
+  "createdAt": "2025-10-28T10:13:58.391Z",
+  "updatedAt": "2026-08-13T22:52:04.674Z"
  },
  {
   "id": "p_soy-candle-set",
@@ -2073,19 +2138,16 @@
   "category": "Home & Garden > Decor > Home Fragrance",
   "status": "active",
   "tags": [
-   "gift",
-   "bestseller",
    "home",
-   "sustainable"
+   "new-arrival",
+   "staff-pick",
+   "limited"
   ],
   "collectionIds": [
-   "col_2",
-   "col_7",
-   "col_12"
+   "col_1"
   ],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [],
   "variants": [
@@ -2094,7 +2156,7 @@
     "productId": "p_soy-candle-set",
     "title": "Default Title",
     "sku": "SCS22",
-    "barcode": "0844286133080",
+    "barcode": "0846869456391",
     "price": 38,
     "costPerItem": 12,
     "optionValues": {},
@@ -2127,8 +2189,8 @@
   "weightGrams": 900,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-01-12T09:56:23.969Z",
-  "updatedAt": "2026-08-28T16:22:55.562Z"
+  "createdAt": "2024-10-21T10:13:58.393Z",
+  "updatedAt": "2026-08-18T16:05:30.455Z"
  },
  {
   "id": "p_linen-notebook",
@@ -2139,13 +2201,14 @@
   "category": "Office & School Supplies > Paper > Notebooks",
   "status": "active",
   "tags": [
+   "sustainable",
    "stationery",
-   "staff-pick",
-   "limited"
+   "new-arrival"
   ],
   "collectionIds": [
-   "col_11",
-   "col_12"
+   "col_1",
+   "col_9",
+   "col_11"
   ],
   "channels": [
    "online_store"
@@ -2166,7 +2229,7 @@
     "productId": "p_linen-notebook",
     "title": "Slate",
     "sku": "LN23-SLAT",
-    "barcode": "0849480052879",
+    "barcode": "0846394815722",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -2181,7 +2244,7 @@
     "productId": "p_linen-notebook",
     "title": "Rust",
     "sku": "LN23-RUST",
-    "barcode": "0846426717421",
+    "barcode": "0846852122799",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -2196,7 +2259,7 @@
     "productId": "p_linen-notebook",
     "title": "Sage",
     "sku": "LN23-SAGE",
-    "barcode": "0847326135993",
+    "barcode": "0849017109422",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -2231,8 +2294,8 @@
   "weightGrams": 260,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-25T09:56:23.970Z",
-  "updatedAt": "2026-08-16T11:25:16.371Z"
+  "createdAt": "2026-04-16T10:13:58.394Z",
+  "updatedAt": "2026-08-12T04:31:20.468Z"
  },
  {
   "id": "p_canvas-tote",
@@ -2243,13 +2306,16 @@
   "category": "Apparel & Accessories > Luggage > Totes",
   "status": "active",
   "tags": [
+   "limited",
+   "sustainable",
    "canvas",
    "essential"
   ],
-  "collectionIds": [],
+  "collectionIds": [
+   "col_12"
+  ],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [
    {
@@ -2267,7 +2333,7 @@
     "productId": "p_canvas-tote",
     "title": "Natural",
     "sku": "CT24-NATU",
-    "barcode": "0844606143332",
+    "barcode": "0842060379665",
     "price": 26,
     "costPerItem": 8,
     "optionValues": {
@@ -2282,7 +2348,7 @@
     "productId": "p_canvas-tote",
     "title": "Navy",
     "sku": "CT24-NAVY",
-    "barcode": "0845418544222",
+    "barcode": "0848985033607",
     "price": 26,
     "costPerItem": 8,
     "optionValues": {
@@ -2297,7 +2363,7 @@
     "productId": "p_canvas-tote",
     "title": "Black",
     "sku": "CT24-BLAC",
-    "barcode": "0848398978016",
+    "barcode": "0849926428739",
     "price": 26,
     "costPerItem": 8,
     "optionValues": {
@@ -2332,8 +2398,8 @@
   "weightGrams": 340,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-05-02T09:56:23.971Z",
-  "updatedAt": "2026-09-08T05:04:24.474Z"
+  "createdAt": "2026-04-14T10:13:58.396Z",
+  "updatedAt": "2026-08-26T06:20:18.695Z"
  },
  {
   "id": "p_merino-beanie",
@@ -2342,14 +2408,15 @@
   "vendor": "Meridian Basics",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing Accessories > Hats",
-  "status": "archived",
+  "status": "active",
   "tags": [
+   "sustainable",
    "staff-pick",
-   "winter",
-   "limited"
+   "wool"
   ],
   "collectionIds": [
-   "col_3"
+   "col_3",
+   "col_12"
   ],
   "channels": [
    "online_store"
@@ -2371,7 +2438,7 @@
     "productId": "p_merino-beanie",
     "title": "Charcoal",
     "sku": "MB25-CHAR",
-    "barcode": "0841900091344",
+    "barcode": "0849801259042",
     "price": 30,
     "costPerItem": 10,
     "optionValues": {
@@ -2386,7 +2453,7 @@
     "productId": "p_merino-beanie",
     "title": "Oat",
     "sku": "MB25-OAT",
-    "barcode": "0845297304574",
+    "barcode": "0844735774588",
     "price": 30,
     "costPerItem": 10,
     "optionValues": {
@@ -2401,7 +2468,7 @@
     "productId": "p_merino-beanie",
     "title": "Ink Blue",
     "sku": "MB25-INKB",
-    "barcode": "0845908316594",
+    "barcode": "0848058818934",
     "price": 30,
     "costPerItem": 10,
     "optionValues": {
@@ -2416,7 +2483,7 @@
     "productId": "p_merino-beanie",
     "title": "Rust",
     "sku": "MB25-RUST",
-    "barcode": "0844848240438",
+    "barcode": "0847334750202",
     "price": 30,
     "costPerItem": 10,
     "optionValues": {
@@ -2458,8 +2525,8 @@
   "weightGrams": 100,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-30T09:56:23.973Z",
-  "updatedAt": "2026-09-10T08:10:11.901Z"
+  "createdAt": "2025-09-07T10:13:58.397Z",
+  "updatedAt": "2026-09-04T19:34:45.779Z"
  },
  {
   "id": "p_trail-socks",
@@ -2470,13 +2537,11 @@
   "category": "Apparel & Accessories > Clothing Accessories > Socks",
   "status": "active",
   "tags": [
-   "sustainable",
-   "new-arrival"
+   "wool",
+   "limited"
   ],
   "collectionIds": [
-   "col_1",
-   "col_3",
-   "col_9"
+   "col_3"
   ],
   "channels": [
    "online_store"
@@ -2488,7 +2553,7 @@
     "productId": "p_trail-socks",
     "title": "Default Title",
     "sku": "TS26",
-    "barcode": "0846515941318",
+    "barcode": "0843403998424",
     "price": 24,
     "costPerItem": 8,
     "optionValues": {},
@@ -2521,8 +2586,8 @@
   "weightGrams": 190,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-06-22T09:56:23.975Z",
-  "updatedAt": "2026-08-28T01:32:07.954Z"
+  "createdAt": "2025-12-01T10:13:58.399Z",
+  "updatedAt": "2026-08-07T17:53:40.138Z"
  },
  {
   "id": "p_french-press",
@@ -2533,13 +2598,14 @@
   "category": "Home & Garden > Kitchen & Dining > Coffee",
   "status": "active",
   "tags": [
-   "staff-pick",
-   "kitchen",
-   "sustainable",
-   "limited"
+   "new-arrival",
+   "limited",
+   "coffee"
   ],
   "collectionIds": [
-   "col_6"
+   "col_1",
+   "col_6",
+   "col_10"
   ],
   "channels": [
    "online_store"
@@ -2551,7 +2617,7 @@
     "productId": "p_french-press",
     "title": "Default Title",
     "sku": "FP27",
-    "barcode": "0844958653100",
+    "barcode": "0849967266981",
     "price": 52,
     "costPerItem": 18,
     "optionValues": {},
@@ -2584,8 +2650,8 @@
   "weightGrams": 1200,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-04-18T09:56:23.977Z",
-  "updatedAt": "2026-08-10T07:22:52.280Z"
+  "createdAt": "2025-11-13T10:13:58.401Z",
+  "updatedAt": "2026-08-28T14:54:33.061Z"
  },
  {
   "id": "p_serving-board",
@@ -2596,18 +2662,19 @@
   "category": "Home & Garden > Kitchen & Dining > Serveware",
   "status": "active",
   "tags": [
-   "gift",
-   "sustainable",
-   "kitchen"
+   "new-arrival",
+   "limited",
+   "gift"
   ],
   "collectionIds": [
-   "col_4",
+   "col_1",
    "col_6",
-   "col_7"
+   "col_7",
+   "col_9",
+   "col_12"
   ],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [],
   "variants": [
@@ -2616,7 +2683,7 @@
     "productId": "p_serving-board",
     "title": "Default Title",
     "sku": "SB28",
-    "barcode": "0843198471349",
+    "barcode": "0842986300364",
     "price": 36,
     "costPerItem": 12,
     "optionValues": {},
@@ -2649,8 +2716,8 @@
   "weightGrams": 850,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-08-24T09:56:23.979Z",
-  "updatedAt": "2026-09-06T02:16:18.705Z"
+  "createdAt": "2025-01-18T10:13:58.402Z",
+  "updatedAt": "2026-08-21T19:25:45.860Z"
  },
  {
   "id": "p_desk-lamp",
@@ -2661,18 +2728,13 @@
   "category": "Home & Garden > Lighting > Lamps",
   "status": "active",
   "tags": [
-   "limited",
+   "staff-pick",
    "sustainable",
-   "lighting",
-   "new-arrival"
+   "limited"
   ],
-  "collectionIds": [
-   "col_1",
-   "col_12"
-  ],
+  "collectionIds": [],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [
    {
@@ -2689,7 +2751,7 @@
     "productId": "p_desk-lamp",
     "title": "Aged Brass",
     "sku": "DL29-AGED",
-    "barcode": "0847390112310",
+    "barcode": "0844608597453",
     "price": 92,
     "costPerItem": 34,
     "optionValues": {
@@ -2704,7 +2766,7 @@
     "productId": "p_desk-lamp",
     "title": "Matte Black",
     "sku": "DL29-MATT",
-    "barcode": "0842119067179",
+    "barcode": "0842244893372",
     "price": 92,
     "costPerItem": 34,
     "optionValues": {
@@ -2739,8 +2801,8 @@
   "weightGrams": 1600,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-10-10T09:56:23.980Z",
-  "updatedAt": "2026-09-10T04:22:30.140Z"
+  "createdAt": "2025-02-11T10:13:58.404Z",
+  "updatedAt": "2026-08-29T04:05:16.281Z"
  },
  {
   "id": "p_field-journal",
@@ -2749,18 +2811,15 @@
   "vendor": "Trailhead Supply",
   "productType": "Stationery",
   "category": "Office & School Supplies > Paper > Notebooks",
-  "status": "active",
+  "status": "draft",
   "tags": [
-   "staff-pick",
-   "outdoor",
+   "new-arrival",
    "stationery",
-   "new-arrival"
+   "sustainable"
   ],
   "collectionIds": [
    "col_1",
-   "col_5",
-   "col_11",
-   "col_12"
+   "col_11"
   ],
   "channels": [
    "online_store"
@@ -2781,7 +2840,7 @@
     "productId": "p_field-journal",
     "title": "Olive",
     "sku": "FJ30-OLIV",
-    "barcode": "0841428182855",
+    "barcode": "0848646241010",
     "price": 22,
     "costPerItem": 7,
     "optionValues": {
@@ -2796,7 +2855,7 @@
     "productId": "p_field-journal",
     "title": "Tan",
     "sku": "FJ30-TAN",
-    "barcode": "0844969687027",
+    "barcode": "0849095187301",
     "price": 22,
     "costPerItem": 7,
     "optionValues": {
@@ -2811,7 +2870,7 @@
     "productId": "p_field-journal",
     "title": "Black",
     "sku": "FJ30-BLAC",
-    "barcode": "0845297084951",
+    "barcode": "0847910466800",
     "price": 22,
     "costPerItem": 7,
     "optionValues": {
@@ -2853,8 +2912,8 @@
   "weightGrams": 210,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-09-03T09:56:23.981Z",
-  "updatedAt": "2026-09-07T14:47:19.435Z"
+  "createdAt": "2025-10-18T10:13:58.405Z",
+  "updatedAt": "2026-09-01T00:16:50.279Z"
  },
  {
   "id": "p_passport-holder",
@@ -2865,19 +2924,15 @@
   "category": "Apparel & Accessories > Luggage > Passport Covers",
   "status": "active",
   "tags": [
-   "staff-pick",
    "new-arrival",
-   "sustainable",
-   "leather"
+   "staff-pick"
   ],
   "collectionIds": [
    "col_1",
-   "col_8",
    "col_12"
   ],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [
    {
@@ -2894,7 +2949,7 @@
     "productId": "p_passport-holder",
     "title": "Chestnut",
     "sku": "PH31-CHES",
-    "barcode": "0848535045465",
+    "barcode": "0843691161335",
     "price": 34,
     "costPerItem": 11,
     "optionValues": {
@@ -2909,7 +2964,7 @@
     "productId": "p_passport-holder",
     "title": "Black",
     "sku": "PH31-BLAC",
-    "barcode": "0844706782239",
+    "barcode": "0844073415092",
     "price": 34,
     "costPerItem": 11,
     "optionValues": {
@@ -2944,8 +2999,8 @@
   "weightGrams": 95,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-02-06T09:56:23.982Z",
-  "updatedAt": "2026-09-01T08:21:34.220Z"
+  "createdAt": "2025-01-14T10:13:58.407Z",
+  "updatedAt": "2026-08-20T00:58:25.959Z"
  },
  {
   "id": "p_woven-belt",
@@ -2956,13 +3011,14 @@
   "category": "Apparel & Accessories > Belts",
   "status": "active",
   "tags": [
-   "essential",
+   "new-arrival",
+   "accessories",
    "sustainable",
-   "limited",
-   "accessories"
+   "essential"
   ],
   "collectionIds": [
-   "col_4"
+   "col_1",
+   "col_9"
   ],
   "channels": [
    "online_store"
@@ -2991,7 +3047,7 @@
     "productId": "p_woven-belt",
     "title": "Olive / S (30-33\")",
     "sku": "WB32-OLIV-S303",
-    "barcode": "0849647579167",
+    "barcode": "0843355253875",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3007,7 +3063,7 @@
     "productId": "p_woven-belt",
     "title": "Olive / M (33-36\")",
     "sku": "WB32-OLIV-M333",
-    "barcode": "0847518667632",
+    "barcode": "0849407302861",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3023,7 +3079,7 @@
     "productId": "p_woven-belt",
     "title": "Olive / L (36-39\")",
     "sku": "WB32-OLIV-L363",
-    "barcode": "0847085319070",
+    "barcode": "0846710892957",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3039,7 +3095,7 @@
     "productId": "p_woven-belt",
     "title": "Navy / S (30-33\")",
     "sku": "WB32-NAVY-S303",
-    "barcode": "0844718151830",
+    "barcode": "0841532687984",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3055,7 +3111,7 @@
     "productId": "p_woven-belt",
     "title": "Navy / M (33-36\")",
     "sku": "WB32-NAVY-M333",
-    "barcode": "0843355253875",
+    "barcode": "0842629062454",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3071,7 +3127,7 @@
     "productId": "p_woven-belt",
     "title": "Navy / L (36-39\")",
     "sku": "WB32-NAVY-L363",
-    "barcode": "0849407302861",
+    "barcode": "0841511047211",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3087,7 +3143,7 @@
     "productId": "p_woven-belt",
     "title": "Khaki / S (30-33\")",
     "sku": "WB32-KHAK-S303",
-    "barcode": "0846710892957",
+    "barcode": "0847216273284",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3103,7 +3159,7 @@
     "productId": "p_woven-belt",
     "title": "Khaki / M (33-36\")",
     "sku": "WB32-KHAK-M333",
-    "barcode": "0841532687984",
+    "barcode": "0848191589749",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3119,7 +3175,7 @@
     "productId": "p_woven-belt",
     "title": "Khaki / L (36-39\")",
     "sku": "WB32-KHAK-L363",
-    "barcode": "0842629062454",
+    "barcode": "0846101078430",
     "price": 29,
     "costPerItem": 9,
     "optionValues": {
@@ -3155,8 +3211,8 @@
   "weightGrams": 130,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-03-01T09:56:23.984Z",
-  "updatedAt": "2026-08-28T22:33:39.279Z"
+  "createdAt": "2025-09-15T10:13:58.409Z",
+  "updatedAt": "2026-08-10T07:30:10.398Z"
  },
  {
   "id": "p_picnic-blanket",
@@ -3165,10 +3221,11 @@
   "vendor": "Trailhead Supply",
   "productType": "Outdoor",
   "category": "Sporting Goods > Outdoor > Camping",
-  "status": "draft",
+  "status": "active",
   "tags": [
    "new-arrival",
-   "sustainable"
+   "limited",
+   "staff-pick"
   ],
   "collectionIds": [
    "col_1"
@@ -3191,7 +3248,7 @@
     "productId": "p_picnic-blanket",
     "title": "Scratch Stripe",
     "sku": "PB33-SCRA",
-    "barcode": "0842528628416",
+    "barcode": "0844124605411",
     "price": 44,
     "costPerItem": 15,
     "optionValues": {
@@ -3206,7 +3263,7 @@
     "productId": "p_picnic-blanket",
     "title": "Juniper",
     "sku": "PB33-JUNI",
-    "barcode": "0845908337868",
+    "barcode": "0846357903884",
     "price": 44,
     "costPerItem": 15,
     "optionValues": {
@@ -3241,8 +3298,8 @@
   "weightGrams": 980,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-18T09:56:23.985Z",
-  "updatedAt": "2026-08-05T03:01:20.966Z"
+  "createdAt": "2026-02-21T10:13:58.410Z",
+  "updatedAt": "2026-08-29T16:02:45.763Z"
  },
  {
   "id": "p_hammock",
@@ -3253,12 +3310,11 @@
   "category": "Sporting Goods > Outdoor > Camping",
   "status": "active",
   "tags": [
-   "staff-pick",
-   "sustainable",
-   "new-arrival"
+   "outdoor",
+   "sustainable"
   ],
   "collectionIds": [
-   "col_1"
+   "col_5"
   ],
   "channels": [
    "online_store"
@@ -3270,7 +3326,7 @@
     "productId": "p_hammock",
     "title": "Default Title",
     "sku": "H34",
-    "barcode": "0843853663547",
+    "barcode": "0842692238203",
     "price": 58,
     "compareAtPrice": 72,
     "costPerItem": 20,
@@ -3304,8 +3360,8 @@
   "weightGrams": 620,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-18T09:56:23.986Z",
-  "updatedAt": "2026-08-24T07:14:27.353Z"
+  "createdAt": "2025-12-26T10:13:58.412Z",
+  "updatedAt": "2026-08-09T19:28:15.570Z"
  },
  {
   "id": "p_plant-pot",
@@ -3314,13 +3370,16 @@
   "vendor": "Hearthstone",
   "productType": "Home",
   "category": "Home & Garden > Lawn & Garden > Pots",
-  "status": "draft",
+  "status": "active",
   "tags": [
+   "staff-pick",
+   "sustainable",
    "new-arrival",
-   "ceramic"
+   "home"
   ],
   "collectionIds": [
-   "col_1"
+   "col_1",
+   "col_12"
   ],
   "channels": [
    "online_store"
@@ -3340,7 +3399,7 @@
     "productId": "p_plant-pot",
     "title": "Cream",
     "sku": "PP35-CREA",
-    "barcode": "0846446105826",
+    "barcode": "0845972838762",
     "price": 28,
     "costPerItem": 9,
     "optionValues": {
@@ -3355,7 +3414,7 @@
     "productId": "p_plant-pot",
     "title": "Ink Blue",
     "sku": "PP35-INKB",
-    "barcode": "0845016241911",
+    "barcode": "0846989418849",
     "price": 28,
     "costPerItem": 9,
     "optionValues": {
@@ -3397,8 +3456,8 @@
   "weightGrams": 1100,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-27T09:56:23.988Z",
-  "updatedAt": "2026-09-09T13:08:46.283Z"
+  "createdAt": "2026-05-08T10:13:58.414Z",
+  "updatedAt": "2026-08-15T02:45:38.280Z"
  },
  {
   "id": "p_keychain-tool",
@@ -3409,14 +3468,13 @@
   "category": "Tools & Home Improvement > Hardware",
   "status": "active",
   "tags": [
-   "limited",
-   "staff-pick",
-   "everyday-carry",
+   "new-arrival",
    "gift"
   ],
   "collectionIds": [
-   "col_7",
-   "col_9"
+   "col_1",
+   "col_4",
+   "col_7"
   ],
   "channels": [
    "online_store"
@@ -3428,7 +3486,7 @@
     "productId": "p_keychain-tool",
     "title": "Default Title",
     "sku": "KT36",
-    "barcode": "0843911633403",
+    "barcode": "0848633853234",
     "price": 24,
     "costPerItem": 8,
     "optionValues": {},
@@ -3461,8 +3519,8 @@
   "weightGrams": 30,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-06-20T09:56:23.989Z",
-  "updatedAt": "2026-08-18T21:12:55.064Z"
+  "createdAt": "2025-04-29T10:13:58.416Z",
+  "updatedAt": "2026-08-21T09:02:44.701Z"
  },
  {
   "id": "p_phone-sling",
@@ -3471,17 +3529,20 @@
   "vendor": "Trailhead Supply",
   "productType": "Bags",
   "category": "Apparel & Accessories > Luggage > Waist Packs",
-  "status": "archived",
+  "status": "active",
   "tags": [
    "new-arrival",
-   "travel"
+   "travel",
+   "staff-pick",
+   "sustainable"
   ],
   "collectionIds": [
    "col_1",
    "col_5"
   ],
   "channels": [
-   "online_store"
+   "online_store",
+   "point_of_sale"
   ],
   "options": [
    {
@@ -3499,7 +3560,7 @@
     "productId": "p_phone-sling",
     "title": "Black",
     "sku": "PS37-BLAC",
-    "barcode": "0848563867785",
+    "barcode": "0841737270323",
     "price": 38,
     "costPerItem": 13,
     "optionValues": {
@@ -3514,7 +3575,7 @@
     "productId": "p_phone-sling",
     "title": "Field Green",
     "sku": "PS37-FIEL",
-    "barcode": "0842057057286",
+    "barcode": "0846413428819",
     "price": 38,
     "costPerItem": 13,
     "optionValues": {
@@ -3529,7 +3590,7 @@
     "productId": "p_phone-sling",
     "title": "Tan",
     "sku": "PS37-TAN",
-    "barcode": "0846844794527",
+    "barcode": "0844492289018",
     "price": 38,
     "costPerItem": 13,
     "optionValues": {
@@ -3564,8 +3625,8 @@
   "weightGrams": 180,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-01-04T09:56:23.991Z",
-  "updatedAt": "2026-08-15T09:50:06.279Z"
+  "createdAt": "2024-11-04T10:13:58.418Z",
+  "updatedAt": "2026-08-21T19:43:51.441Z"
  },
  {
   "id": "p_matcha-whisk-set",
@@ -3576,9 +3637,9 @@
   "category": "Home & Garden > Kitchen & Dining > Tea",
   "status": "archived",
   "tags": [
-   "staff-pick",
-   "new-arrival",
-   "gift"
+   "limited",
+   "gift",
+   "new-arrival"
   ],
   "collectionIds": [
    "col_1",
@@ -3586,7 +3647,8 @@
    "col_7"
   ],
   "channels": [
-   "online_store"
+   "online_store",
+   "point_of_sale"
   ],
   "options": [],
   "variants": [
@@ -3595,7 +3657,7 @@
     "productId": "p_matcha-whisk-set",
     "title": "Default Title",
     "sku": "MWS38",
-    "barcode": "0844808146076",
+    "barcode": "0841361535324",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {},
@@ -3628,8 +3690,8 @@
   "weightGrams": 320,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-02-10T09:56:23.996Z",
-  "updatedAt": "2026-08-04T04:01:07.012Z"
+  "createdAt": "2024-11-16T10:13:58.419Z",
+  "updatedAt": "2026-08-16T16:20:47.337Z"
  },
  {
   "id": "p_shower-steamer-set",
@@ -3638,15 +3700,13 @@
   "vendor": "Hearthstone",
   "productType": "Home",
   "category": "Health & Beauty > Personal Care > Bath",
-  "status": "draft",
+  "status": "active",
   "tags": [
-   "gift",
-   "sustainable",
    "limited",
    "staff-pick"
   ],
   "collectionIds": [
-   "col_7"
+   "col_12"
   ],
   "channels": [
    "online_store"
@@ -3658,7 +3718,7 @@
     "productId": "p_shower-steamer-set",
     "title": "Default Title",
     "sku": "SSS39",
-    "barcode": "0849313748110",
+    "barcode": "0849164906949",
     "price": 22,
     "costPerItem": 7,
     "optionValues": {},
@@ -3691,8 +3751,8 @@
   "weightGrams": 420,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-12-27T09:56:23.997Z",
-  "updatedAt": "2026-09-10T07:47:54.411Z"
+  "createdAt": "2026-02-28T10:13:58.421Z",
+  "updatedAt": "2026-09-01T12:27:10.777Z"
  },
  {
   "id": "p_packable-rain-jacket",
@@ -3701,16 +3761,14 @@
   "vendor": "Trailhead Supply",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing > Outerwear",
-  "status": "active",
+  "status": "draft",
   "tags": [
-   "rain",
-   "staff-pick",
-   "new-arrival"
+   "outdoor",
+   "limited"
   ],
   "collectionIds": [
-   "col_1",
    "col_3",
-   "col_10"
+   "col_5"
   ],
   "channels": [
    "online_store"
@@ -3740,7 +3798,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Storm Blue / S",
     "sku": "PRJ40-STOR-S",
-    "barcode": "0841382826741",
+    "barcode": "0848552094965",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3757,7 +3815,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Storm Blue / M",
     "sku": "PRJ40-STOR-M",
-    "barcode": "0846439438781",
+    "barcode": "0841139230879",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3774,7 +3832,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Storm Blue / L",
     "sku": "PRJ40-STOR-L",
-    "barcode": "0844520077974",
+    "barcode": "0843373500616",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3791,7 +3849,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Storm Blue / XL",
     "sku": "PRJ40-STOR-XL",
-    "barcode": "0842633764456",
+    "barcode": "0841309449945",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3808,7 +3866,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Moss / S",
     "sku": "PRJ40-MOSS-S",
-    "barcode": "0848552094965",
+    "barcode": "0848178154296",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3825,7 +3883,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Moss / M",
     "sku": "PRJ40-MOSS-M",
-    "barcode": "0841139230879",
+    "barcode": "0841886974083",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3842,7 +3900,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Moss / L",
     "sku": "PRJ40-MOSS-L",
-    "barcode": "0843373500616",
+    "barcode": "0846122829774",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3859,7 +3917,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Moss / XL",
     "sku": "PRJ40-MOSS-XL",
-    "barcode": "0841309449945",
+    "barcode": "0842601526833",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3876,7 +3934,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Black / S",
     "sku": "PRJ40-BLAC-S",
-    "barcode": "0848178154296",
+    "barcode": "0842918129186",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3893,7 +3951,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Black / M",
     "sku": "PRJ40-BLAC-M",
-    "barcode": "0841886974083",
+    "barcode": "0848291755774",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3910,7 +3968,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Black / L",
     "sku": "PRJ40-BLAC-L",
-    "barcode": "0846122829774",
+    "barcode": "0846547777025",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3927,7 +3985,7 @@
     "productId": "p_packable-rain-jacket",
     "title": "Black / XL",
     "sku": "PRJ40-BLAC-XL",
-    "barcode": "0842601526833",
+    "barcode": "0842300812114",
     "price": 98,
     "compareAtPrice": 128,
     "costPerItem": 34,
@@ -3971,8 +4029,8 @@
   "weightGrams": 380,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-12-28T09:56:23.998Z",
-  "updatedAt": "2026-08-03T01:09:11.474Z"
+  "createdAt": "2026-01-28T10:13:58.422Z",
+  "updatedAt": "2026-08-04T16:15:17.978Z"
  },
  {
   "id": "p_carry-on-duffel",
@@ -3981,16 +4039,18 @@
   "vendor": "Trailhead Supply",
   "productType": "Bags",
   "category": "Apparel & Accessories > Luggage > Duffels",
-  "status": "archived",
+  "status": "active",
   "tags": [
-   "limited",
+   "canvas",
+   "sustainable",
    "new-arrival",
-   "staff-pick",
    "travel"
   ],
   "collectionIds": [
    "col_1",
-   "col_5"
+   "col_4",
+   "col_5",
+   "col_12"
   ],
   "channels": [
    "online_store"
@@ -4010,7 +4070,7 @@
     "productId": "p_carry-on-duffel",
     "title": "Field Green",
     "sku": "COD41-FIEL",
-    "barcode": "0847104500689",
+    "barcode": "0842625140832",
     "price": 84,
     "costPerItem": 29,
     "optionValues": {
@@ -4025,7 +4085,7 @@
     "productId": "p_carry-on-duffel",
     "title": "Charcoal",
     "sku": "COD41-CHAR",
-    "barcode": "0843943576834",
+    "barcode": "0846461725519",
     "price": 84,
     "costPerItem": 29,
     "optionValues": {
@@ -4060,8 +4120,8 @@
   "weightGrams": 1150,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-23T09:56:23.999Z",
-  "updatedAt": "2026-09-09T03:46:52.570Z"
+  "createdAt": "2024-11-28T10:13:58.424Z",
+  "updatedAt": "2026-09-10T02:44:00.189Z"
  },
  {
   "id": "p_wool-scarf",
@@ -4072,11 +4132,15 @@
   "category": "Apparel & Accessories > Clothing Accessories > Scarves",
   "status": "active",
   "tags": [
+   "gift",
    "winter",
-   "sustainable"
+   "sustainable",
+   "limited"
   ],
   "collectionIds": [
-   "col_3"
+   "col_3",
+   "col_7",
+   "col_12"
   ],
   "channels": [
    "online_store",
@@ -4098,7 +4162,7 @@
     "productId": "p_wool-scarf",
     "title": "Heather Grey",
     "sku": "WS42-HEAT",
-    "barcode": "0844499637760",
+    "barcode": "0842750888645",
     "price": 38,
     "costPerItem": 13,
     "optionValues": {
@@ -4113,7 +4177,7 @@
     "productId": "p_wool-scarf",
     "title": "Rust",
     "sku": "WS42-RUST",
-    "barcode": "0841323285028",
+    "barcode": "0849348078099",
     "price": 38,
     "costPerItem": 13,
     "optionValues": {
@@ -4128,7 +4192,7 @@
     "productId": "p_wool-scarf",
     "title": "Ink Blue",
     "sku": "WS42-INKB",
-    "barcode": "0841433729089",
+    "barcode": "0843712229691",
     "price": 38,
     "costPerItem": 13,
     "optionValues": {
@@ -4163,8 +4227,8 @@
   "weightGrams": 220,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-04-05T09:56:24.001Z",
-  "updatedAt": "2026-08-13T11:58:44.841Z"
+  "createdAt": "2025-06-21T10:13:58.426Z",
+  "updatedAt": "2026-09-09T13:02:06.012Z"
  },
  {
   "id": "p_canvas-dopp-kit",
@@ -4175,13 +4239,14 @@
   "category": "Apparel & Accessories > Luggage > Toiletry Bags",
   "status": "active",
   "tags": [
-   "limited",
-   "staff-pick"
+   "staff-pick",
+   "gift"
   ],
-  "collectionIds": [],
+  "collectionIds": [
+   "col_7"
+  ],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [
    {
@@ -4198,7 +4263,7 @@
     "productId": "p_canvas-dopp-kit",
     "title": "Natural",
     "sku": "CDK43-NATU",
-    "barcode": "0842189783398",
+    "barcode": "0846693826491",
     "price": 32,
     "costPerItem": 11,
     "optionValues": {
@@ -4213,7 +4278,7 @@
     "productId": "p_canvas-dopp-kit",
     "title": "Field Green",
     "sku": "CDK43-FIEL",
-    "barcode": "0848848269228",
+    "barcode": "0843315499741",
     "price": 32,
     "costPerItem": 11,
     "optionValues": {
@@ -4248,8 +4313,8 @@
   "weightGrams": 240,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-07-21T09:56:24.002Z",
-  "updatedAt": "2026-09-09T13:49:27.694Z"
+  "createdAt": "2026-03-16T10:13:58.427Z",
+  "updatedAt": "2026-09-09T11:24:03.273Z"
  },
  {
   "id": "p_kids-organic-tee",
@@ -4258,16 +4323,15 @@
   "vendor": "Meridian Basics",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing > Kids",
-  "status": "draft",
+  "status": "active",
   "tags": [
-   "essential",
-   "staff-pick",
-   "cotton",
-   "new-arrival"
+   "new-arrival",
+   "kids"
   ],
   "collectionIds": [
    "col_1",
-   "col_3"
+   "col_3",
+   "col_10"
   ],
   "channels": [
    "online_store"
@@ -4296,7 +4360,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sunshine / 2T",
     "sku": "KOT44-SUNS-2T",
-    "barcode": "0847118602476",
+    "barcode": "0844122163126",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4312,7 +4376,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sunshine / 4T",
     "sku": "KOT44-SUNS-4T",
-    "barcode": "0847114923644",
+    "barcode": "0844920428290",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4328,7 +4392,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sunshine / 6Y",
     "sku": "KOT44-SUNS-6Y",
-    "barcode": "0841869786793",
+    "barcode": "0847377667074",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4344,7 +4408,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sky / 2T",
     "sku": "KOT44-SKY-2T",
-    "barcode": "0846948683370",
+    "barcode": "0843537685298",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4360,7 +4424,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sky / 4T",
     "sku": "KOT44-SKY-4T",
-    "barcode": "0844122163126",
+    "barcode": "0842356092500",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4376,7 +4440,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sky / 6Y",
     "sku": "KOT44-SKY-6Y",
-    "barcode": "0844920428290",
+    "barcode": "0848033123776",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4392,7 +4456,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sage / 2T",
     "sku": "KOT44-SAGE-2T",
-    "barcode": "0847377667074",
+    "barcode": "0848822726761",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4408,7 +4472,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sage / 4T",
     "sku": "KOT44-SAGE-4T",
-    "barcode": "0843537685298",
+    "barcode": "0849283473160",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4424,7 +4488,7 @@
     "productId": "p_kids-organic-tee",
     "title": "Sage / 6Y",
     "sku": "KOT44-SAGE-6Y",
-    "barcode": "0842356092500",
+    "barcode": "0847309055355",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {
@@ -4460,8 +4524,8 @@
   "weightGrams": 120,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-06-06T09:56:24.003Z",
-  "updatedAt": "2026-09-02T18:11:47.926Z"
+  "createdAt": "2025-04-24T10:13:58.428Z",
+  "updatedAt": "2026-09-01T04:40:51.897Z"
  },
  {
   "id": "p_kids-fleece-pullover",
@@ -4470,12 +4534,15 @@
   "vendor": "Meridian Basics",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing > Kids",
-  "status": "active",
+  "status": "archived",
   "tags": [
+   "new-arrival",
    "fleece",
-   "kids"
+   "kids",
+   "sustainable"
   ],
   "collectionIds": [
+   "col_1",
    "col_3"
   ],
   "channels": [
@@ -4504,7 +4571,7 @@
     "productId": "p_kids-fleece-pullover",
     "title": "Oatmeal / 2T",
     "sku": "KFP45-OATM-2T",
-    "barcode": "0844799625087",
+    "barcode": "0849159991042",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4520,7 +4587,7 @@
     "productId": "p_kids-fleece-pullover",
     "title": "Oatmeal / 4T",
     "sku": "KFP45-OATM-4T",
-    "barcode": "0846506774798",
+    "barcode": "0841506538317",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4536,7 +4603,7 @@
     "productId": "p_kids-fleece-pullover",
     "title": "Oatmeal / 6Y",
     "sku": "KFP45-OATM-6Y",
-    "barcode": "0844599523873",
+    "barcode": "0846923664663",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4552,7 +4619,7 @@
     "productId": "p_kids-fleece-pullover",
     "title": "Forest / 2T",
     "sku": "KFP45-FORE-2T",
-    "barcode": "0847807481698",
+    "barcode": "0843887862320",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4568,7 +4635,7 @@
     "productId": "p_kids-fleece-pullover",
     "title": "Forest / 4T",
     "sku": "KFP45-FORE-4T",
-    "barcode": "0849159991042",
+    "barcode": "0845924044152",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4584,7 +4651,7 @@
     "productId": "p_kids-fleece-pullover",
     "title": "Forest / 6Y",
     "sku": "KFP45-FORE-6Y",
-    "barcode": "0841506538317",
+    "barcode": "0846618173868",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4627,8 +4694,8 @@
   "weightGrams": 300,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-09-15T09:56:24.004Z",
-  "updatedAt": "2026-08-10T00:04:46.024Z"
+  "createdAt": "2025-02-28T10:13:58.430Z",
+  "updatedAt": "2026-09-07T21:18:05.149Z"
  },
  {
   "id": "p_enamel-camping-mug",
@@ -4637,16 +4704,14 @@
   "vendor": "Trailhead Supply",
   "productType": "Outdoor",
   "category": "Sporting Goods > Outdoor > Camp Kitchen",
-  "status": "active",
+  "status": "archived",
   "tags": [
    "staff-pick",
-   "outdoor",
-   "gift"
+   "gift",
+   "campfire"
   ],
   "collectionIds": [
-   "col_5",
-   "col_7",
-   "col_9"
+   "col_7"
   ],
   "channels": [
    "online_store",
@@ -4667,7 +4732,7 @@
     "productId": "p_enamel-camping-mug",
     "title": "Cream",
     "sku": "ECM46-CREA",
-    "barcode": "0848830368287",
+    "barcode": "0846214682835",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -4682,7 +4747,7 @@
     "productId": "p_enamel-camping-mug",
     "title": "Forest",
     "sku": "ECM46-FORE",
-    "barcode": "0843008552586",
+    "barcode": "0842573164548",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -4717,8 +4782,8 @@
   "weightGrams": 210,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-02-14T09:56:24.006Z",
-  "updatedAt": "2026-09-09T17:18:46.043Z"
+  "createdAt": "2025-07-30T10:13:58.431Z",
+  "updatedAt": "2026-08-11T10:45:56.912Z"
  },
  {
   "id": "p_cast-iron-skillet",
@@ -4727,16 +4792,17 @@
   "vendor": "Hearthstone",
   "productType": "Kitchen",
   "category": "Home & Garden > Kitchen & Dining > Cookware",
-  "status": "archived",
+  "status": "active",
   "tags": [
+   "limited",
    "new-arrival",
-   "sustainable",
    "staff-pick",
    "kitchen"
   ],
   "collectionIds": [
    "col_1",
-   "col_6"
+   "col_6",
+   "col_9"
   ],
   "channels": [
    "online_store",
@@ -4749,7 +4815,7 @@
     "productId": "p_cast-iron-skillet",
     "title": "Default Title",
     "sku": "CIS47",
-    "barcode": "0845772563006",
+    "barcode": "0843504945708",
     "price": 42,
     "costPerItem": 15,
     "optionValues": {},
@@ -4782,8 +4848,8 @@
   "weightGrams": 2300,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-07-11T09:56:24.008Z",
-  "updatedAt": "2026-09-09T13:15:50.048Z"
+  "createdAt": "2024-11-21T10:13:58.433Z",
+  "updatedAt": "2026-09-10T08:44:34.094Z"
  },
  {
   "id": "p_ceramic-vase",
@@ -4792,12 +4858,16 @@
   "vendor": "Hearthstone",
   "productType": "Home",
   "category": "Home & Garden > Decor > Vases",
-  "status": "archived",
+  "status": "draft",
   "tags": [
-   "limited",
-   "home"
+   "sustainable",
+   "new-arrival",
+   "staff-pick",
+   "limited"
   ],
-  "collectionIds": [],
+  "collectionIds": [
+   "col_1"
+  ],
   "channels": [
    "online_store"
   ],
@@ -4817,7 +4887,7 @@
     "productId": "p_ceramic-vase",
     "title": "Cream",
     "sku": "CV48-CREA",
-    "barcode": "0844848629920",
+    "barcode": "0843759889924",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4832,7 +4902,7 @@
     "productId": "p_ceramic-vase",
     "title": "Ink Blue",
     "sku": "CV48-INKB",
-    "barcode": "0848715044275",
+    "barcode": "0843042988382",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4847,7 +4917,7 @@
     "productId": "p_ceramic-vase",
     "title": "Clay",
     "sku": "CV48-CLAY",
-    "barcode": "0841157972553",
+    "barcode": "0844809702849",
     "price": 34,
     "costPerItem": 12,
     "optionValues": {
@@ -4882,8 +4952,8 @@
   "weightGrams": 980,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-10-27T09:56:24.009Z",
-  "updatedAt": "2026-08-30T08:27:07.700Z"
+  "createdAt": "2024-12-06T10:13:58.435Z",
+  "updatedAt": "2026-09-05T16:07:40.752Z"
  },
  {
   "id": "p_linen-apron",
@@ -4894,12 +4964,11 @@
   "category": "Home & Garden > Kitchen & Dining > Aprons",
   "status": "active",
   "tags": [
-   "new-arrival",
-   "staff-pick"
+   "limited",
+   "staff-pick",
+   "sustainable"
   ],
   "collectionIds": [
-   "col_1",
-   "col_4",
    "col_6"
   ],
   "channels": [
@@ -4920,7 +4989,7 @@
     "productId": "p_linen-apron",
     "title": "Natural",
     "sku": "LA49-NATU",
-    "barcode": "0842939065221",
+    "barcode": "0846988192533",
     "price": 36,
     "costPerItem": 12,
     "optionValues": {
@@ -4935,7 +5004,7 @@
     "productId": "p_linen-apron",
     "title": "Ink Blue",
     "sku": "LA49-INKB",
-    "barcode": "0843481675286",
+    "barcode": "0843960862521",
     "price": 36,
     "costPerItem": 12,
     "optionValues": {
@@ -4970,8 +5039,8 @@
   "weightGrams": 310,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-03-26T09:56:24.011Z",
-  "updatedAt": "2026-09-05T13:04:47.627Z"
+  "createdAt": "2026-05-12T10:13:58.437Z",
+  "updatedAt": "2026-09-05T01:34:44.528Z"
  },
  {
   "id": "p_bamboo-cutlery-set",
@@ -4982,11 +5051,14 @@
   "category": "Sporting Goods > Outdoor > Camp Kitchen",
   "status": "active",
   "tags": [
+   "outdoor",
+   "new-arrival",
    "sustainable",
    "limited"
   ],
   "collectionIds": [
-   "col_4"
+   "col_1",
+   "col_5"
   ],
   "channels": [
    "online_store"
@@ -4998,7 +5070,7 @@
     "productId": "p_bamboo-cutlery-set",
     "title": "Default Title",
     "sku": "BCS50",
-    "barcode": "0848599459639",
+    "barcode": "0849657242265",
     "price": 14,
     "costPerItem": 4,
     "optionValues": {},
@@ -5038,8 +5110,8 @@
   "weightGrams": 90,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-12-26T09:56:24.013Z",
-  "updatedAt": "2026-08-30T23:46:15.524Z"
+  "createdAt": "2026-04-05T10:13:58.438Z",
+  "updatedAt": "2026-08-06T16:46:52.084Z"
  },
  {
   "id": "p_fingerless-gloves",
@@ -5048,16 +5120,20 @@
   "vendor": "Meridian Basics",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing Accessories > Gloves",
-  "status": "archived",
+  "status": "draft",
   "tags": [
-   "winter",
-   "limited"
+   "wool",
+   "new-arrival",
+   "sustainable",
+   "staff-pick"
   ],
   "collectionIds": [
+   "col_1",
    "col_3"
   ],
   "channels": [
-   "online_store"
+   "online_store",
+   "point_of_sale"
   ],
   "options": [
    {
@@ -5074,7 +5150,7 @@
     "productId": "p_fingerless-gloves",
     "title": "Charcoal",
     "sku": "FG51-CHAR",
-    "barcode": "0846943384379",
+    "barcode": "0843628856168",
     "price": 26,
     "costPerItem": 9,
     "optionValues": {
@@ -5089,7 +5165,7 @@
     "productId": "p_fingerless-gloves",
     "title": "Oat",
     "sku": "FG51-OAT",
-    "barcode": "0841901097248",
+    "barcode": "0845526033514",
     "price": 26,
     "costPerItem": 9,
     "optionValues": {
@@ -5124,8 +5200,8 @@
   "weightGrams": 80,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-08-01T09:56:24.015Z",
-  "updatedAt": "2026-08-27T22:19:51.239Z"
+  "createdAt": "2026-04-28T10:13:58.440Z",
+  "updatedAt": "2026-09-09T04:18:56.207Z"
  },
  {
   "id": "p_stainless-lunch-box",
@@ -5134,16 +5210,16 @@
   "vendor": "Northstar Goods",
   "productType": "Kitchen",
   "category": "Home & Garden > Kitchen & Dining > Food Storage",
-  "status": "active",
+  "status": "archived",
   "tags": [
    "sustainable",
-   "kitchen",
-   "staff-pick"
+   "staff-pick",
+   "new-arrival",
+   "limited"
   ],
   "collectionIds": [
-   "col_4",
-   "col_6",
-   "col_12"
+   "col_1",
+   "col_6"
   ],
   "channels": [
    "online_store"
@@ -5163,7 +5239,7 @@
     "productId": "p_stainless-lunch-box",
     "title": "Brushed Steel",
     "sku": "SLB52-BRUS",
-    "barcode": "0841742899728",
+    "barcode": "0845929599487",
     "price": 28,
     "costPerItem": 10,
     "optionValues": {
@@ -5178,7 +5254,7 @@
     "productId": "p_stainless-lunch-box",
     "title": "Matte Black",
     "sku": "SLB52-MATT",
-    "barcode": "0849752440602",
+    "barcode": "0849759783277",
     "price": 28,
     "costPerItem": 10,
     "optionValues": {
@@ -5213,8 +5289,8 @@
   "weightGrams": 520,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-02-17T09:56:24.017Z",
-  "updatedAt": "2026-09-10T06:42:10.404Z"
+  "createdAt": "2025-06-07T10:13:58.441Z",
+  "updatedAt": "2026-09-03T23:33:51.060Z"
  },
  {
   "id": "p_bar-soap-trio",
@@ -5225,10 +5301,12 @@
   "category": "Health & Beauty > Personal Care > Bath",
   "status": "active",
   "tags": [
-   "handmade",
-   "sustainable"
+   "new-arrival",
+   "home"
   ],
-  "collectionIds": [],
+  "collectionIds": [
+   "col_1"
+  ],
   "channels": [
    "online_store"
   ],
@@ -5239,7 +5317,7 @@
     "productId": "p_bar-soap-trio",
     "title": "Default Title",
     "sku": "BST53",
-    "barcode": "0841699155085",
+    "barcode": "0845427787356",
     "price": 18,
     "costPerItem": 6,
     "optionValues": {},
@@ -5272,8 +5350,8 @@
   "weightGrams": 380,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-28T09:56:24.020Z",
-  "updatedAt": "2026-08-27T01:45:23.079Z"
+  "createdAt": "2025-10-18T10:13:58.442Z",
+  "updatedAt": "2026-09-07T05:45:40.603Z"
  },
  {
   "id": "p_room-spray",
@@ -5284,13 +5362,14 @@
   "category": "Home & Garden > Decor > Home Fragrance",
   "status": "active",
   "tags": [
-   "staff-pick",
-   "limited"
+   "home",
+   "staff-pick"
   ],
-  "collectionIds": [],
+  "collectionIds": [
+   "col_4"
+  ],
   "channels": [
-   "online_store",
-   "point_of_sale"
+   "online_store"
   ],
   "options": [
    {
@@ -5308,7 +5387,7 @@
     "productId": "p_room-spray",
     "title": "Cedar",
     "sku": "RS54-CEDA",
-    "barcode": "0842760560858",
+    "barcode": "0841533393640",
     "price": 20,
     "costPerItem": 7,
     "optionValues": {
@@ -5323,7 +5402,7 @@
     "productId": "p_room-spray",
     "title": "Lavender",
     "sku": "RS54-LAVE",
-    "barcode": "0847405211829",
+    "barcode": "0843673640463",
     "price": 20,
     "costPerItem": 7,
     "optionValues": {
@@ -5338,7 +5417,7 @@
     "productId": "p_room-spray",
     "title": "Citrus",
     "sku": "RS54-CITR",
-    "barcode": "0842851444416",
+    "barcode": "0846882078996",
     "price": 20,
     "costPerItem": 7,
     "optionValues": {
@@ -5373,8 +5452,8 @@
   "weightGrams": 280,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-04-20T09:56:24.023Z",
-  "updatedAt": "2026-09-05T05:42:39.678Z"
+  "createdAt": "2026-05-12T10:13:58.444Z",
+  "updatedAt": "2026-08-05T21:36:49.162Z"
  },
  {
   "id": "p_postcard-pack",
@@ -5385,16 +5464,14 @@
   "category": "Office & School Supplies > Paper > Postcards",
   "status": "active",
   "tags": [
-   "new-arrival",
+   "stationery",
    "sustainable",
-   "gift",
    "staff-pick"
   ],
   "collectionIds": [
-   "col_1",
-   "col_7",
-   "col_11",
-   "col_12"
+   "col_9",
+   "col_10",
+   "col_11"
   ],
   "channels": [
    "online_store",
@@ -5407,7 +5484,7 @@
     "productId": "p_postcard-pack",
     "title": "Default Title",
     "sku": "PP55",
-    "barcode": "0846658179388",
+    "barcode": "0841406770932",
     "price": 12,
     "costPerItem": 4,
     "optionValues": {},
@@ -5447,8 +5524,8 @@
   "weightGrams": 110,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-09-06T09:56:24.025Z",
-  "updatedAt": "2026-09-01T17:44:05.317Z"
+  "createdAt": "2026-03-04T10:13:58.446Z",
+  "updatedAt": "2026-08-16T22:55:13.376Z"
  },
  {
   "id": "p_dog-rope-leash",
@@ -5457,18 +5534,20 @@
   "vendor": "Trailhead Supply",
   "productType": "Outdoor",
   "category": "Animals & Pet Supplies > Pet Supplies > Dog",
-  "status": "active",
+  "status": "draft",
   "tags": [
+   "pets",
    "outdoor",
-   "pets"
+   "new-arrival",
+   "limited"
   ],
   "collectionIds": [
-   "col_5",
-   "col_9",
-   "col_10"
+   "col_1",
+   "col_5"
   ],
   "channels": [
-   "online_store"
+   "online_store",
+   "point_of_sale"
   ],
   "options": [
    {
@@ -5485,7 +5564,7 @@
     "productId": "p_dog-rope-leash",
     "title": "Field Green",
     "sku": "DRL56-FIEL",
-    "barcode": "0846439932397",
+    "barcode": "0848171932581",
     "price": 30,
     "costPerItem": 10,
     "optionValues": {
@@ -5500,7 +5579,7 @@
     "productId": "p_dog-rope-leash",
     "title": "Rust",
     "sku": "DRL56-RUST",
-    "barcode": "0847956229133",
+    "barcode": "0848086310124",
     "price": 30,
     "costPerItem": 10,
     "optionValues": {
@@ -5535,8 +5614,8 @@
   "weightGrams": 260,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-12-19T09:56:24.028Z",
-  "updatedAt": "2026-08-17T15:41:34.489Z"
+  "createdAt": "2026-02-12T10:13:58.447Z",
+  "updatedAt": "2026-08-28T18:48:41.764Z"
  },
  {
   "id": "p_olive-oil-cruet",
@@ -5545,14 +5624,14 @@
   "vendor": "Hearthstone",
   "productType": "Kitchen",
   "category": "Home & Garden > Kitchen & Dining > Serveware",
-  "status": "archived",
+  "status": "active",
   "tags": [
    "kitchen",
-   "new-arrival",
+   "limited",
+   "sustainable",
    "staff-pick"
   ],
   "collectionIds": [
-   "col_1",
    "col_6"
   ],
   "channels": [
@@ -5565,7 +5644,7 @@
     "productId": "p_olive-oil-cruet",
     "title": "Default Title",
     "sku": "OOC57",
-    "barcode": "0848696523477",
+    "barcode": "0847365362880",
     "price": 24,
     "costPerItem": 8,
     "optionValues": {},
@@ -5598,8 +5677,8 @@
   "weightGrams": 420,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-30T09:56:24.030Z",
-  "updatedAt": "2026-08-18T16:27:19.322Z"
+  "createdAt": "2025-07-23T10:13:58.449Z",
+  "updatedAt": "2026-08-28T13:35:44.120Z"
  },
  {
   "id": "p_pothos-care-kit",
@@ -5610,9 +5689,9 @@
   "category": "Home & Garden > Lawn & Garden > Tools",
   "status": "active",
   "tags": [
+   "limited",
    "gift",
-   "home",
-   "limited"
+   "sustainable"
   ],
   "collectionIds": [
    "col_7"
@@ -5627,7 +5706,7 @@
     "productId": "p_pothos-care-kit",
     "title": "Default Title",
     "sku": "PCK58",
-    "barcode": "0848301045303",
+    "barcode": "0847815459581",
     "price": 26,
     "costPerItem": 9,
     "optionValues": {},
@@ -5660,8 +5739,8 @@
   "weightGrams": 540,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-12T09:56:24.033Z",
-  "updatedAt": "2026-09-10T08:56:53.951Z"
+  "createdAt": "2025-07-06T10:13:58.450Z",
+  "updatedAt": "2026-08-28T17:41:16.655Z"
  },
  {
   "id": "p_waffle-towel-set",
@@ -5672,10 +5751,15 @@
   "category": "Home & Garden > Linens > Towels",
   "status": "active",
   "tags": [
-   "bath",
+   "staff-pick",
+   "new-arrival",
+   "sustainable",
    "home"
   ],
-  "collectionIds": [],
+  "collectionIds": [
+   "col_1",
+   "col_10"
+  ],
   "channels": [
    "online_store"
   ],
@@ -5694,7 +5778,7 @@
     "productId": "p_waffle-towel-set",
     "title": "Cream",
     "sku": "WTS59-CREA",
-    "barcode": "0846455750777",
+    "barcode": "0847581862733",
     "price": 44,
     "compareAtPrice": 52,
     "costPerItem": 15,
@@ -5710,7 +5794,7 @@
     "productId": "p_waffle-towel-set",
     "title": "Sage",
     "sku": "WTS59-SAGE",
-    "barcode": "0842442816335",
+    "barcode": "0847995389240",
     "price": 44,
     "compareAtPrice": 52,
     "costPerItem": 15,
@@ -5746,8 +5830,8 @@
   "weightGrams": 720,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-06T09:56:24.036Z",
-  "updatedAt": "2026-09-06T07:26:46.154Z"
+  "createdAt": "2026-05-02T10:13:58.452Z",
+  "updatedAt": "2026-08-09T16:52:01.729Z"
  },
  {
   "id": "p_slate-coasters",
@@ -5759,9 +5843,9 @@
   "status": "active",
   "tags": [
    "sustainable",
-   "new-arrival",
    "limited",
-   "gift"
+   "gift",
+   "new-arrival"
   ],
   "collectionIds": [
    "col_1",
@@ -5777,7 +5861,7 @@
     "productId": "p_slate-coasters",
     "title": "Default Title",
     "sku": "SC60",
-    "barcode": "0846344143063",
+    "barcode": "0841119753227",
     "price": 22,
     "costPerItem": 7,
     "optionValues": {},
@@ -5817,8 +5901,8 @@
   "weightGrams": 640,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-13T09:56:24.039Z",
-  "updatedAt": "2026-08-24T05:30:47.494Z"
+  "createdAt": "2025-09-06T10:13:58.453Z",
+  "updatedAt": "2026-08-04T13:30:22.154Z"
  },
  {
   "id": "p_trail-water-flask",
@@ -5827,13 +5911,18 @@
   "vendor": "Trailhead Supply",
   "productType": "Outdoor",
   "category": "Sporting Goods > Outdoor > Hydration",
-  "status": "archived",
+  "status": "active",
   "tags": [
+   "limited",
    "new-arrival",
-   "limited"
+   "outdoor",
+   "sustainable"
   ],
   "collectionIds": [
-   "col_1"
+   "col_1",
+   "col_4",
+   "col_5",
+   "col_12"
   ],
   "channels": [
    "online_store"
@@ -5853,7 +5942,7 @@
     "productId": "p_trail-water-flask",
     "title": "Juniper",
     "sku": "TWF61-JUNI",
-    "barcode": "0842643594859",
+    "barcode": "0846303712005",
     "price": 22,
     "costPerItem": 7,
     "optionValues": {
@@ -5868,7 +5957,7 @@
     "productId": "p_trail-water-flask",
     "title": "Sandstone",
     "sku": "TWF61-SAND",
-    "barcode": "0845750579520",
+    "barcode": "0843029564617",
     "price": 22,
     "costPerItem": 7,
     "optionValues": {
@@ -5903,8 +5992,8 @@
   "weightGrams": 120,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-07-03T09:56:24.041Z",
-  "updatedAt": "2026-08-13T23:37:39.622Z"
+  "createdAt": "2026-01-10T10:13:58.454Z",
+  "updatedAt": "2026-08-29T13:55:08.065Z"
  },
  {
   "id": "p_merino-crew-socks",
@@ -5913,13 +6002,15 @@
   "vendor": "Meridian Basics",
   "productType": "Apparel",
   "category": "Apparel & Accessories > Clothing Accessories > Socks",
-  "status": "active",
+  "status": "archived",
   "tags": [
-   "essential",
-   "wool",
+   "new-arrival",
+   "sustainable",
+   "staff-pick",
    "limited"
   ],
   "collectionIds": [
+   "col_1",
    "col_3"
   ],
   "channels": [
@@ -5941,7 +6032,7 @@
     "productId": "p_merino-crew-socks",
     "title": "Charcoal",
     "sku": "MCS62-CHAR",
-    "barcode": "0847862367829",
+    "barcode": "0846497009151",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -5956,7 +6047,7 @@
     "productId": "p_merino-crew-socks",
     "title": "Oat",
     "sku": "MCS62-OAT",
-    "barcode": "0847373784545",
+    "barcode": "0848370223598",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -5971,7 +6062,7 @@
     "productId": "p_merino-crew-socks",
     "title": "Rust",
     "sku": "MCS62-RUST",
-    "barcode": "0845206751804",
+    "barcode": "0845349260301",
     "price": 16,
     "costPerItem": 5,
     "optionValues": {
@@ -6006,7 +6097,7 @@
   "weightGrams": 70,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-13T09:56:24.043Z",
-  "updatedAt": "2026-08-28T13:32:42.355Z"
+  "createdAt": "2025-04-10T10:13:58.456Z",
+  "updatedAt": "2026-08-26T04:20:52.360Z"
  }
 ]

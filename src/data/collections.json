@@ -15,35 +15,42 @@
   ],
   "rulesMatch": "all",
   "productIds": [
-   "p_everyday-hoodie",
-   "p_minimal-sneakers",
+   "p_canvas-backpack",
    "p_ceramic-coffee-mug",
+   "p_leather-wallet",
    "p_oversized-shirt",
-   "p_running-cap",
-   "p_insulated-water-bottle",
    "p_desk-organizer",
-   "p_trail-socks",
-   "p_desk-lamp",
+   "p_wool-throw-blanket",
+   "p_soy-candle-set",
+   "p_linen-notebook",
+   "p_french-press",
+   "p_serving-board",
    "p_field-journal",
    "p_passport-holder",
+   "p_woven-belt",
    "p_picnic-blanket",
-   "p_hammock",
    "p_plant-pot",
+   "p_keychain-tool",
    "p_phone-sling",
    "p_matcha-whisk-set",
-   "p_packable-rain-jacket",
    "p_carry-on-duffel",
    "p_kids-organic-tee",
+   "p_kids-fleece-pullover",
    "p_cast-iron-skillet",
-   "p_linen-apron",
-   "p_postcard-pack",
-   "p_olive-oil-cruet",
+   "p_ceramic-vase",
+   "p_bamboo-cutlery-set",
+   "p_fingerless-gloves",
+   "p_stainless-lunch-box",
+   "p_bar-soap-trio",
+   "p_dog-rope-leash",
+   "p_waffle-towel-set",
    "p_slate-coasters",
-   "p_trail-water-flask"
+   "p_trail-water-flask",
+   "p_merino-crew-socks"
   ],
   "status": "active",
-  "publishedAt": "2026-01-16T09:56:24.110Z",
-  "createdAt": "2025-09-16T09:56:24.110Z",
+  "publishedAt": "2026-04-03T10:13:58.507Z",
+  "createdAt": "2025-12-14T10:13:58.507Z",
   "seoTitle": "New Arrivals",
   "seoDescription": "The latest additions to the Northstar shelf."
  },
@@ -63,11 +70,13 @@
   ],
   "rulesMatch": "all",
   "productIds": [
-   "p_soy-candle-set"
+   "p_canvas-backpack",
+   "p_yoga-mat",
+   "p_insulated-water-bottle"
   ],
   "status": "active",
-  "publishedAt": "2026-01-02T09:56:24.111Z",
-  "createdAt": "2025-07-18T09:56:24.111Z",
+  "publishedAt": "2026-06-19T10:13:58.508Z",
+  "createdAt": "2025-06-07T10:13:58.508Z",
   "seoTitle": "Bestsellers",
   "seoDescription": "What everyone is taking home."
  },
@@ -100,8 +109,8 @@
    "p_merino-crew-socks"
   ],
   "status": "active",
-  "publishedAt": "2026-04-26T09:56:24.113Z",
-  "createdAt": "2025-05-26T09:56:24.113Z",
+  "publishedAt": "2026-07-30T10:13:58.509Z",
+  "createdAt": "2025-10-13T10:13:58.509Z",
   "seoTitle": "Apparel",
   "seoDescription": "Everyday clothing, built to last."
  },
@@ -115,15 +124,15 @@
   "rules": [],
   "rulesMatch": "all",
   "productIds": [
-   "p_stainless-lunch-box",
-   "p_woven-belt",
-   "p_linen-apron",
-   "p_bamboo-cutlery-set",
-   "p_serving-board"
+   "p_keychain-tool",
+   "p_carry-on-duffel",
+   "p_trail-water-flask",
+   "p_canvas-backpack",
+   "p_room-spray"
   ],
   "status": "active",
-  "publishedAt": "2025-11-15T09:56:24.115Z",
-  "createdAt": "2025-10-24T09:56:24.115Z",
+  "publishedAt": "2026-01-19T10:13:58.510Z",
+  "createdAt": "2025-09-05T10:13:58.510Z",
   "seoTitle": "Home Goods",
   "seoDescription": "Objects for a warmer home — ceramics, textiles, and light."
  },
@@ -148,16 +157,17 @@
   ],
   "rulesMatch": "any",
   "productIds": [
-   "p_canvas-backpack",
-   "p_field-journal",
+   "p_hammock",
    "p_phone-sling",
+   "p_packable-rain-jacket",
    "p_carry-on-duffel",
-   "p_enamel-camping-mug",
-   "p_dog-rope-leash"
+   "p_bamboo-cutlery-set",
+   "p_dog-rope-leash",
+   "p_trail-water-flask"
   ],
   "status": "active",
-  "publishedAt": "2026-06-07T09:56:24.116Z",
-  "createdAt": "2026-06-09T09:56:24.116Z",
+  "publishedAt": "2025-12-21T10:13:58.511Z",
+  "createdAt": "2025-06-18T10:13:58.511Z",
   "seoTitle": "Outdoor & Travel",
   "seoDescription": "Gear for the trail, the commute, and the red-eye."
  },
@@ -187,8 +197,8 @@
    "p_olive-oil-cruet"
   ],
   "status": "active",
-  "publishedAt": "2026-07-27T09:56:24.117Z",
-  "createdAt": "2026-06-09T09:56:24.117Z",
+  "publishedAt": "2026-01-14T10:13:58.512Z",
+  "createdAt": "2026-05-01T10:13:58.512Z",
   "seoTitle": "Kitchen & Dining",
   "seoDescription": "Tools and tableware for slow mornings."
  },
@@ -208,21 +218,20 @@
   ],
   "rulesMatch": "all",
   "productIds": [
-   "p_insulated-water-bottle",
-   "p_wool-throw-blanket",
-   "p_soy-candle-set",
+   "p_leather-wallet",
+   "p_desk-organizer",
    "p_serving-board",
    "p_keychain-tool",
    "p_matcha-whisk-set",
-   "p_shower-steamer-set",
+   "p_wool-scarf",
+   "p_canvas-dopp-kit",
    "p_enamel-camping-mug",
-   "p_postcard-pack",
    "p_pothos-care-kit",
    "p_slate-coasters"
   ],
   "status": "active",
-  "publishedAt": "2026-05-29T09:56:24.119Z",
-  "createdAt": "2026-04-14T09:56:24.119Z",
+  "publishedAt": "2025-12-25T10:13:58.512Z",
+  "createdAt": "2026-05-30T10:13:58.512Z",
   "seoTitle": "Gift Guide",
   "seoDescription": "Hand-picked gifts under $100."
  },
@@ -241,12 +250,10 @@
    }
   ],
   "rulesMatch": "all",
-  "productIds": [
-   "p_passport-holder"
-  ],
+  "productIds": [],
   "status": "active",
-  "publishedAt": "2025-12-26T09:56:24.120Z",
-  "createdAt": "2025-07-06T09:56:24.120Z",
+  "publishedAt": "2026-04-22T10:13:58.513Z",
+  "createdAt": "2026-07-09T10:13:58.513Z",
   "seoTitle": "Leather Goods",
   "seoDescription": "Vegetable-tanned pieces that age well."
  },
@@ -260,14 +267,16 @@
   "rules": [],
   "rulesMatch": "all",
   "productIds": [
-   "p_trail-socks",
-   "p_keychain-tool",
-   "p_dog-rope-leash",
-   "p_enamel-camping-mug"
+   "p_postcard-pack",
+   "p_linen-notebook",
+   "p_serving-board",
+   "p_woven-belt",
+   "p_cast-iron-skillet",
+   "p_leather-wallet"
   ],
   "status": "active",
-  "publishedAt": "2026-01-22T09:56:24.121Z",
-  "createdAt": "2025-04-28T09:56:24.121Z",
+  "publishedAt": "2026-06-02T10:13:58.514Z",
+  "createdAt": "2025-12-29T10:13:58.514Z",
   "seoTitle": "Made in Portland",
   "seoDescription": "Designed and finished in our Portland workshop."
  },
@@ -281,14 +290,14 @@
   "rules": [],
   "rulesMatch": "all",
   "productIds": [
-   "p_oversized-shirt",
-   "p_yoga-mat",
-   "p_dog-rope-leash",
-   "p_packable-rain-jacket"
+   "p_waffle-towel-set",
+   "p_postcard-pack",
+   "p_french-press",
+   "p_kids-organic-tee"
   ],
   "status": "active",
-  "publishedAt": "2026-07-13T09:56:24.123Z",
-  "createdAt": "2025-08-26T09:56:24.123Z",
+  "publishedAt": "2026-07-18T10:13:58.515Z",
+  "createdAt": "2025-09-14T10:13:58.515Z",
   "seoTitle": "Office & Desk",
   "seoDescription": "Upgrade the nine-to-five surface."
  },
@@ -313,8 +322,8 @@
    "p_postcard-pack"
   ],
   "status": "active",
-  "publishedAt": "2026-01-09T09:56:24.124Z",
-  "createdAt": "2025-08-01T09:56:24.124Z",
+  "publishedAt": "2026-06-04T10:13:58.516Z",
+  "createdAt": "2025-08-06T10:13:58.516Z",
   "seoTitle": "Stationery",
   "seoDescription": "Paper goods worth writing on."
  },
@@ -328,18 +337,20 @@
   "rules": [],
   "rulesMatch": "all",
   "productIds": [
-   "p_postcard-pack",
-   "p_desk-lamp",
-   "p_linen-notebook",
-   "p_soy-candle-set",
-   "p_stainless-lunch-box",
-   "p_desk-organizer",
-   "p_field-journal",
-   "p_passport-holder"
+   "p_merino-beanie",
+   "p_carry-on-duffel",
+   "p_trail-water-flask",
+   "p_canvas-tote",
+   "p_shower-steamer-set",
+   "p_serving-board",
+   "p_plant-pot",
+   "p_passport-holder",
+   "p_wool-scarf",
+   "p_minimal-sneakers"
   ],
   "status": "active",
-  "publishedAt": "2026-01-18T09:56:24.126Z",
-  "createdAt": "2026-06-13T09:56:24.126Z",
+  "publishedAt": "2025-12-11T10:13:58.516Z",
+  "createdAt": "2025-07-14T10:13:58.516Z",
   "seoTitle": "Archive Sale",
   "seoDescription": "Final markdowns — while stock lasts."
  }
