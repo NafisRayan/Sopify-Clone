@@ -9,7 +9,7 @@ import {
 } from '@/components/ui'
 import { completeCampaign, createCampaign, deleteCampaign, launchCampaign } from '@/services/marketingService'
 import { useCan } from '@/lib/permissions'
-import type { Campaign, CampaignChannel, CampaignStatus } from '@/types'
+import type { Campaign, CampaignChannel } from '@/types'
 
 const channelIconBg: Record<CampaignChannel, string> = {
   email: 'bg-[#e0e7ff] text-[#4338ca]',
