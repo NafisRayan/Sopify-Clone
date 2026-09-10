@@ -11,7 +11,7 @@ import {
 import { formatRelative } from '@/lib/format'
 import { adjustInventory, historyFor, transferInventory } from '@/services/inventoryService'
 import { useCan } from '@/lib/permissions'
-import type { InventoryHistoryEntry, Product } from '@/types'
+import type { InventoryHistoryEntry } from '@/types'
 
 interface InventoryRow {
   variantId: string
@@ -66,7 +66,7 @@ export default function InventoryPage() {
   const [locationId, setLocationId] = useState<string>(locations[0]?.id ?? '')
   const rows = useInventoryRows()
   const { toast } = useToast()
-  const { confirm, confirmElement } = useConfirm()
+  const { confirmElement } = useConfirm()
   const canEdit = useCan('products', 'edit')
 
   const [adjustRow, setAdjustRow] = useState<InventoryRow | null>(null)
