@@ -1,0 +1,558 @@
+- generic [ref=f2e3]:
+  - navigation "Main navigation" [ref=f2e4]:
+    - button "Northstar Goods Demo store" [ref=f2e8]:
+      - generic [ref=f2e15]:
+        - generic [ref=f2e16]: Northstar Goods
+        - generic [ref=f2e17]: Demo store
+    - generic [ref=f2e20]:
+      - link "Home" [ref=f2e21] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f2e26]:
+        - button "Orders 48" [expanded] [ref=f2e27]:
+          - generic [ref=f2e32]: Orders
+          - generic [ref=f2e33]: "48"
+        - generic [ref=f2e36]:
+          - link "All orders" [ref=f2e37] [cursor=pointer]:
+            - /url: /orders
+          - link "Drafts8" [ref=f2e38] [cursor=pointer]:
+            - /url: /draft-orders
+          - link "Abandoned checkouts" [ref=f2e39] [cursor=pointer]:
+            - /url: /abandoned-checkouts
+      - generic [ref=f2e40]:
+        - button "Products" [expanded] [ref=f2e41]
+        - generic [ref=f2e48]:
+          - link "All products" [ref=f2e49] [cursor=pointer]:
+            - /url: /products
+          - link "Collections" [ref=f2e50] [cursor=pointer]:
+            - /url: /collections
+          - link "Inventory" [ref=f2e51] [cursor=pointer]:
+            - /url: /inventory
+          - link "Locations" [ref=f2e52] [cursor=pointer]:
+            - /url: /locations
+      - link "Customers" [ref=f2e53] [cursor=pointer]:
+        - /url: /customers
+      - button "Content" [ref=f2e61]
+      - link "Marketing" [ref=f2e68] [cursor=pointer]:
+        - /url: /marketing
+      - link "Discounts" [ref=f2e73] [cursor=pointer]:
+        - /url: /discounts
+      - link "Analytics" [ref=f2e78] [cursor=pointer]:
+        - /url: /analytics
+      - button "Online Store" [ref=f2e83]
+      - link "Apps" [ref=f2e90] [cursor=pointer]:
+        - /url: /apps
+    - generic [ref=f2e97]:
+      - link "Settings" [ref=f2e98] [cursor=pointer]:
+        - /url: /settings
+      - generic [ref=f2e102]:
+        - generic [ref=f2e103]: AC
+        - generic [ref=f2e104]:
+          - paragraph [ref=f2e105]: Ava Chen
+          - paragraph [ref=f2e106]: ava@northstargoods.com
+  - generic [ref=f2e107]:
+    - banner [ref=f2e108]:
+      - button "Open search" [ref=f2e109]:
+        - generic [ref=f2e113]: Search
+        - generic [ref=f2e114]: ⌘K
+      - generic [ref=f2e115]:
+        - generic [ref=f2e116]: Demo data
+        - button "Help" [ref=f2e121]
+        - button "Notifications (3 unread)" [ref=f2e127]:
+          - generic [ref=f2e131]: "3"
+        - button "Account menu" [ref=f2e133]:
+          - generic [ref=f2e134]: AC
+    - main [ref=f2e137]:
+      - generic [ref=f2e170]:
+        - generic [ref=f2e171]:
+          - button "Classic Cotton T-Shirt" [ref=f2e172]
+          - generic [ref=f2e175]:
+            - heading "Edit product" [level=1] [ref=f2e177]
+            - generic [ref=f2e178]:
+              - button "Duplicate" [ref=f2e179]
+              - button "Archive" [ref=f2e184]
+              - generic [ref=f2e189]:
+                - button "Preview" [ref=f2e190]
+                - button "Save" [disabled] [ref=f2e195]
+        - generic [ref=f2e199]:
+          - generic [ref=f2e200]:
+            - generic [ref=f2e201]:
+              - generic [ref=f2e202]:
+                - heading "Title" [level=3] [ref=f2e205]
+                - textbox "Product title" [ref=f2e209]:
+                  - /placeholder: e.g. Classic Cotton T-Shirt
+                  - text: Classic Cotton T-Shirt
+              - generic [ref=f2e210]:
+                - heading "Description" [level=3] [ref=f2e213]
+                - generic [ref=f2e214]:
+                  - generic [ref=f2e215]:
+                    - button "Bold" [ref=f2e216]
+                    - button "Italic" [ref=f2e219]
+                    - button "Bulleted list" [ref=f2e222]: • List
+                    - button "Numbered list" [ref=f2e223]: 1. List
+                    - button "Insert link" [ref=f2e224]
+                  - generic [ref=f2e228]:
+                    - paragraph [ref=f2e229]: Our bestselling everyday tee, cut from 220gsm organic cotton with a relaxed fit that holds its shape wash after wash. Pre-shrunk, garment-dyed, and finished with a ribbed collar.
+                    - list [ref=f2e230]:
+                      - listitem [ref=f2e231]: 100% organic cotton
+                      - listitem [ref=f2e232]: Relaxed unisex fit
+                      - listitem [ref=f2e233]: Machine washable
+              - generic [ref=f2e234]:
+                - generic [ref=f2e236]:
+                  - heading "Media" [level=3] [ref=f2e237]
+                  - generic [ref=f2e238]: First image is the featured image.
+                - generic [ref=f2e239]:
+                  - generic [ref=f2e240]:
+                    - generic [ref=f2e241]:
+                      - img "Classic Cotton T-Shirt" [ref=f2e242]
+                      - generic [ref=f2e243]: Featured
+                    - img "Classic Cotton T-Shirt detail" [ref=f2e247]
+                    - img "Classic Cotton T-Shirt lifestyle" [ref=f2e249]
+                    - button "Add image" [ref=f2e250]
+                  - button "Make second image featured" [ref=f2e255]
+            - generic [ref=f2e257]:
+              - heading "Pricing" [level=2] [ref=f2e260]
+              - generic [ref=f2e262]:
+                - generic [ref=f2e263]:
+                  - generic [ref=f2e264]: Price
+                  - generic [ref=f2e266]:
+                    - generic: $
+                    - spinbutton "Price" [ref=f2e267]: "24"
+                - generic [ref=f2e268]:
+                  - generic [ref=f2e269]: Compare-at price
+                  - generic [ref=f2e271]:
+                    - generic: $
+                    - spinbutton "Compare-at price" [ref=f2e272]: "32"
+                  - paragraph [ref=f2e273]: Shown struck-through
+                - generic [ref=f2e274]:
+                  - generic [ref=f2e275]: Cost per item
+                  - generic [ref=f2e277]:
+                    - generic: $
+                    - spinbutton "Cost per item" [ref=f2e278]: "8"
+                  - paragraph [ref=f2e279]: Margin 66.7%
+            - generic [ref=f2e280]:
+              - heading "Inventory" [level=2] [ref=f2e283]
+              - generic [ref=f2e285]:
+                - generic [ref=f2e286]:
+                  - generic [ref=f2e287]:
+                    - generic [ref=f2e288]: Track quantity
+                    - generic [ref=f2e289]: When off, the product is always sellable.
+                  - switch "Track quantity" [checked] [ref=f2e290]
+                - generic [ref=f2e292]:
+                  - generic [ref=f2e293]: Barcode (ISBN, UPC, GTIN)
+                  - textbox "Barcode (ISBN, UPC, GTIN)" [ref=f2e296]: "0842709903261"
+            - generic [ref=f2e297]:
+              - heading "Shipping" [level=2] [ref=f2e300]
+              - generic [ref=f2e302]:
+                - generic [ref=f2e303]:
+                  - generic [ref=f2e304]: Weight
+                  - spinbutton "Weight" [ref=f2e307]: "180"
+                  - paragraph [ref=f2e308]: Used to calculate shipping rates
+                - generic [ref=f2e309]:
+                  - generic [ref=f2e310]: Physical product
+                  - switch [checked] [ref=f2e312]
+            - generic [ref=f2e314]:
+              - generic [ref=f2e316]:
+                - heading "Variants" [level=2] [ref=f2e317]
+                - generic [ref=f2e318]: 20 variants from 2 options
+              - generic [ref=f2e319]:
+                - generic [ref=f2e320]:
+                  - generic [ref=f2e321]:
+                    - generic [ref=f2e322]:
+                      - generic [ref=f2e323]:
+                        - generic [ref=f2e324]: Option name
+                        - textbox "Option name" [ref=f2e327]:
+                          - /placeholder: e.g. Color
+                          - text: Color
+                      - generic [ref=f2e328]:
+                        - generic [ref=f2e329]: Values (comma-separated)
+                        - textbox "Values (comma-separated)" [ref=f2e332]:
+                          - /placeholder: e.g. Black, White
+                          - text: Black, White, Navy, Blue, Olive
+                    - button "Remove option" [ref=f2e334]
+                  - generic [ref=f2e339]:
+                    - generic [ref=f2e340]:
+                      - generic [ref=f2e341]:
+                        - generic [ref=f2e342]: Option name
+                        - textbox "Option name" [ref=f2e345]:
+                          - /placeholder: e.g. Color
+                          - text: Size
+                      - generic [ref=f2e346]:
+                        - generic [ref=f2e347]: Values (comma-separated)
+                        - textbox "Values (comma-separated)" [ref=f2e350]:
+                          - /placeholder: e.g. Black, White
+                          - text: S, M, L, XL
+                    - button "Remove option" [ref=f2e352]
+                  - button "Add option (like Size)" [ref=f2e357]
+                - table [ref=f2e361]:
+                  - rowgroup [ref=f2e362]:
+                    - row [ref=f2e363]:
+                      - columnheader "Variant" [ref=f2e364]
+                      - columnheader "SKU" [ref=f2e365]
+                      - columnheader "Price" [ref=f2e366]
+                      - columnheader "Available" [ref=f2e367]
+                      - columnheader "On sale" [ref=f2e368]
+                  - rowgroup [ref=f2e369]:
+                    - row [ref=f2e370]:
+                      - cell [ref=f2e371]:
+                        - button "Black / S" [ref=f2e372]
+                      - cell [ref=f2e373]:
+                        - textbox "SKU" [ref=f2e374]: CCT10-BLAC-S
+                      - cell [ref=f2e375]:
+                        - spinbutton "Price" [ref=f2e376]: "24"
+                      - cell [ref=f2e377]:
+                        - button "88" [ref=f2e378]
+                      - cell [ref=f2e379]:
+                        - switch [checked] [ref=f2e381]
+                    - row [ref=f2e383]:
+                      - cell [ref=f2e384]:
+                        - button "Black / M" [ref=f2e385]
+                      - cell [ref=f2e386]:
+                        - textbox "SKU" [ref=f2e387]: CCT10-BLAC-M
+                      - cell [ref=f2e388]:
+                        - spinbutton "Price" [ref=f2e389]: "24"
+                      - cell [ref=f2e390]:
+                        - button "13" [ref=f2e391]
+                      - cell [ref=f2e392]:
+                        - switch [checked] [ref=f2e394]
+                    - row [ref=f2e396]:
+                      - cell [ref=f2e397]:
+                        - button "Black / L" [ref=f2e398]
+                      - cell [ref=f2e399]:
+                        - textbox "SKU" [ref=f2e400]: CCT10-BLAC-L
+                      - cell [ref=f2e401]:
+                        - spinbutton "Price" [ref=f2e402]: "24"
+                      - cell [ref=f2e403]:
+                        - button "22" [ref=f2e404]
+                      - cell [ref=f2e405]:
+                        - switch [checked] [ref=f2e407]
+                    - row [ref=f2e409]:
+                      - cell [ref=f2e410]:
+                        - button "Black / XL" [ref=f2e411]
+                      - cell [ref=f2e412]:
+                        - textbox "SKU" [ref=f2e413]: CCT10-BLAC-XL
+                      - cell [ref=f2e414]:
+                        - spinbutton "Price" [ref=f2e415]: "24"
+                      - cell [ref=f2e416]:
+                        - button "67" [ref=f2e417]
+                      - cell [ref=f2e418]:
+                        - switch [checked] [ref=f2e420]
+                    - row [ref=f2e422]:
+                      - cell [ref=f2e423]:
+                        - button "White / S" [ref=f2e424]
+                      - cell [ref=f2e425]:
+                        - textbox "SKU" [ref=f2e426]: CCT10-WHIT-S
+                      - cell [ref=f2e427]:
+                        - spinbutton "Price" [ref=f2e428]: "24"
+                      - cell [ref=f2e429]:
+                        - button "51" [ref=f2e430]
+                      - cell [ref=f2e431]:
+                        - switch [checked] [ref=f2e433]
+                    - row [ref=f2e435]:
+                      - cell [ref=f2e436]:
+                        - button "White / M" [ref=f2e437]
+                      - cell [ref=f2e438]:
+                        - textbox "SKU" [ref=f2e439]: CCT10-WHIT-M
+                      - cell [ref=f2e440]:
+                        - spinbutton "Price" [ref=f2e441]: "24"
+                      - cell [ref=f2e442]:
+                        - button "26" [ref=f2e443]
+                      - cell [ref=f2e444]:
+                        - switch [checked] [ref=f2e446]
+                    - row [ref=f2e448]:
+                      - cell [ref=f2e449]:
+                        - button "White / L" [ref=f2e450]
+                      - cell [ref=f2e451]:
+                        - textbox "SKU" [ref=f2e452]: CCT10-WHIT-L
+                      - cell [ref=f2e453]:
+                        - spinbutton "Price" [ref=f2e454]: "24"
+                      - cell [ref=f2e455]:
+                        - button "10" [ref=f2e456]
+                      - cell [ref=f2e457]:
+                        - switch [checked] [ref=f2e459]
+                    - row [ref=f2e461]:
+                      - cell [ref=f2e462]:
+                        - button "White / XL" [ref=f2e463]
+                      - cell [ref=f2e464]:
+                        - textbox "SKU" [ref=f2e465]: CCT10-WHIT-XL
+                      - cell [ref=f2e466]:
+                        - spinbutton "Price" [ref=f2e467]: "24"
+                      - cell [ref=f2e468]:
+                        - button "22" [ref=f2e469]
+                      - cell [ref=f2e470]:
+                        - switch [checked] [ref=f2e472]
+                    - row [ref=f2e474]:
+                      - cell [ref=f2e475]:
+                        - button "Navy / S" [ref=f2e476]
+                      - cell [ref=f2e477]:
+                        - textbox "SKU" [ref=f2e478]: CCT10-NAVY-S
+                      - cell [ref=f2e479]:
+                        - spinbutton "Price" [ref=f2e480]: "24"
+                      - cell [ref=f2e481]:
+                        - button "93" [ref=f2e482]
+                      - cell [ref=f2e483]:
+                        - switch [checked] [ref=f2e485]
+                    - row [ref=f2e487]:
+                      - cell [ref=f2e488]:
+                        - button "Navy / M" [ref=f2e489]
+                      - cell [ref=f2e490]:
+                        - textbox "SKU" [ref=f2e491]: CCT10-NAVY-M
+                      - cell [ref=f2e492]:
+                        - spinbutton "Price" [ref=f2e493]: "24"
+                      - cell [ref=f2e494]:
+                        - button "21" [ref=f2e495]
+                      - cell [ref=f2e496]:
+                        - switch [checked] [ref=f2e498]
+                    - row [ref=f2e500]:
+                      - cell [ref=f2e501]:
+                        - button "Navy / L" [ref=f2e502]
+                      - cell [ref=f2e503]:
+                        - textbox "SKU" [ref=f2e504]: CCT10-NAVY-L
+                      - cell [ref=f2e505]:
+                        - spinbutton "Price" [ref=f2e506]: "24"
+                      - cell [ref=f2e507]:
+                        - button "72" [ref=f2e508]
+                      - cell [ref=f2e509]:
+                        - switch [checked] [ref=f2e511]
+                    - row [ref=f2e513]:
+                      - cell [ref=f2e514]:
+                        - button "Navy / XL" [ref=f2e515]
+                      - cell [ref=f2e516]:
+                        - textbox "SKU" [ref=f2e517]: CCT10-NAVY-XL
+                      - cell [ref=f2e518]:
+                        - spinbutton "Price" [ref=f2e519]: "24"
+                      - cell [ref=f2e520]:
+                        - button "43" [ref=f2e521]
+                      - cell [ref=f2e522]:
+                        - switch [checked] [ref=f2e524]
+                    - row [ref=f2e526]:
+                      - cell [ref=f2e527]:
+                        - button "Blue / S" [ref=f2e528]
+                      - cell [ref=f2e529]:
+                        - textbox "SKU" [ref=f2e530]: CCT10-BLUE-S
+                      - cell [ref=f2e531]:
+                        - spinbutton "Price" [ref=f2e532]: "24"
+                      - cell [ref=f2e533]:
+                        - button "54" [ref=f2e534]
+                      - cell [ref=f2e535]:
+                        - switch [checked] [ref=f2e537]
+                    - row [ref=f2e539]:
+                      - cell [ref=f2e540]:
+                        - button "Blue / M" [ref=f2e541]
+                      - cell [ref=f2e542]:
+                        - textbox "SKU" [ref=f2e543]: CCT10-BLUE-M
+                      - cell [ref=f2e544]:
+                        - spinbutton "Price" [ref=f2e545]: "24"
+                      - cell [ref=f2e546]:
+                        - button "57" [ref=f2e547]
+                      - cell [ref=f2e548]:
+                        - switch [checked] [ref=f2e550]
+                    - row [ref=f2e552]:
+                      - cell [ref=f2e553]:
+                        - button "Blue / L" [ref=f2e554]
+                      - cell [ref=f2e555]:
+                        - textbox "SKU" [ref=f2e556]: CCT10-BLUE-L
+                      - cell [ref=f2e557]:
+                        - spinbutton "Price" [ref=f2e558]: "24"
+                      - cell [ref=f2e559]:
+                        - button "56" [ref=f2e560]
+                      - cell [ref=f2e561]:
+                        - switch [checked] [ref=f2e563]
+                    - row [ref=f2e565]:
+                      - cell [ref=f2e566]:
+                        - button "Blue / XL" [ref=f2e567]
+                      - cell [ref=f2e568]:
+                        - textbox "SKU" [ref=f2e569]: CCT10-BLUE-XL
+                      - cell [ref=f2e570]:
+                        - spinbutton "Price" [ref=f2e571]: "24"
+                      - cell [ref=f2e572]:
+                        - button "60" [ref=f2e573]
+                      - cell [ref=f2e574]:
+                        - switch [checked] [ref=f2e576]
+                    - row [ref=f2e578]:
+                      - cell [ref=f2e579]:
+                        - button "Olive / S" [ref=f2e580]
+                      - cell [ref=f2e581]:
+                        - textbox "SKU" [ref=f2e582]: CCT10-OLIV-S
+                      - cell [ref=f2e583]:
+                        - spinbutton "Price" [ref=f2e584]: "24"
+                      - cell [ref=f2e585]:
+                        - button "79" [ref=f2e586]
+                      - cell [ref=f2e587]:
+                        - switch [checked] [ref=f2e589]
+                    - row [ref=f2e591]:
+                      - cell [ref=f2e592]:
+                        - button "Olive / M" [ref=f2e593]
+                      - cell [ref=f2e594]:
+                        - textbox "SKU" [ref=f2e595]: CCT10-OLIV-M
+                      - cell [ref=f2e596]:
+                        - spinbutton "Price" [ref=f2e597]: "24"
+                      - cell [ref=f2e598]:
+                        - button "9" [ref=f2e599]
+                      - cell [ref=f2e600]:
+                        - switch [checked] [ref=f2e602]
+                    - row [ref=f2e604]:
+                      - cell [ref=f2e605]:
+                        - button "Olive / L" [ref=f2e606]
+                      - cell [ref=f2e607]:
+                        - textbox "SKU" [ref=f2e608]: CCT10-OLIV-L
+                      - cell [ref=f2e609]:
+                        - spinbutton "Price" [ref=f2e610]: "24"
+                      - cell [ref=f2e611]:
+                        - button "37" [ref=f2e612]
+                      - cell [ref=f2e613]:
+                        - switch [checked] [ref=f2e615]
+                    - row [ref=f2e617]:
+                      - cell [ref=f2e618]:
+                        - button "Olive / XL" [ref=f2e619]
+                      - cell [ref=f2e620]:
+                        - textbox "SKU" [ref=f2e621]: CCT10-OLIV-XL
+                      - cell [ref=f2e622]:
+                        - spinbutton "Price" [ref=f2e623]: "24"
+                      - cell [ref=f2e624]:
+                        - button "0" [ref=f2e625]
+                      - cell [ref=f2e626]:
+                        - switch [checked] [ref=f2e628]
+                - paragraph [ref=f2e630]: Changes to options are applied when you save. New variants start with the default price.
+            - generic [ref=f2e631]:
+              - generic [ref=f2e633]:
+                - heading "Search engine listing" [level=2] [ref=f2e634]
+                - generic [ref=f2e635]: How this product appears in search results
+              - generic [ref=f2e637]:
+                - generic [ref=f2e638]:
+                  - generic [ref=f2e639]: Page title
+                  - textbox "Page title" [ref=f2e642]: Classic Cotton T-Shirt
+                  - paragraph [ref=f2e643]: 22/60 characters
+                - generic [ref=f2e644]:
+                  - generic [ref=f2e645]: URL handle
+                  - textbox "URL handle" [ref=f2e648]: classic-cotton-t-shirt
+                  - paragraph [ref=f2e649]: northstargoods.com/products/classic-cotton-t-shirt
+                - generic [ref=f2e650]:
+                  - generic [ref=f2e651]: Meta description
+                  - textbox "Meta description" [ref=f2e652]: Our bestselling everyday tee, cut from 220gsm organic cotton with a relaxed fit that holds its shape wash after wash. Pre-shrunk, garment-dyed, and fi
+                  - paragraph [ref=f2e653]: 150/160 characters
+          - generic [ref=f2e654]:
+            - generic [ref=f2e655]:
+              - heading "Status" [level=2] [ref=f2e658]
+              - generic [ref=f2e660]:
+                - generic [ref=f2e661] [cursor=pointer]:
+                  - radio "Draft — hidden from customers" [ref=f2e662]
+                  - generic [ref=f2e663]: Draft — hidden from customers
+                - generic [ref=f2e664] [cursor=pointer]:
+                  - radio "Active — visible in the store" [checked] [ref=f2e665]
+                  - generic [ref=f2e666]: Active — visible in the store
+                - generic [ref=f2e667] [cursor=pointer]:
+                  - radio "Archived" [ref=f2e668]
+                  - generic [ref=f2e669]: Archived
+            - generic [ref=f2e670]:
+              - heading "Product organization" [level=2] [ref=f2e673]
+              - generic [ref=f2e675]:
+                - generic [ref=f2e676]:
+                  - generic [ref=f2e677]: Vendor
+                  - textbox "Vendor" [ref=f2e680]: Meridian Basics
+                - generic [ref=f2e681]:
+                  - generic [ref=f2e682]: Product type
+                  - textbox "Product type" [ref=f2e685]:
+                    - /placeholder: e.g. Apparel
+                    - text: Apparel
+                - generic [ref=f2e686]:
+                  - generic [ref=f2e687]: Category
+                  - combobox "Category" [ref=f2e688] [cursor=pointer]:
+                    - option "Uncategorized"
+                    - option "Apparel & Accessories > Clothing > Shirts" [selected]
+                    - option "Apparel & Accessories > Clothing > Hoodies"
+                    - option "Apparel & Accessories > Luggage > Backpacks"
+                    - option "Apparel & Accessories > Shoes"
+                    - option "Home & Garden > Kitchen & Dining > Drinkware"
+                    - option "Apparel & Accessories > Wallets"
+                    - option "Apparel & Accessories > Clothing Accessories > Hats"
+                    - option "Sporting Goods > Exercise & Fitness > Yoga"
+                    - option "Sporting Goods > Outdoor > Hydration"
+                    - option "Home & Garden > Decor > Desk Accessories"
+                    - option "Home & Garden > Linens > Blankets"
+                    - option "Home & Garden > Decor > Home Fragrance"
+                    - option "Office & School Supplies > Paper > Notebooks"
+                    - option "Apparel & Accessories > Luggage > Totes"
+                    - option "Apparel & Accessories > Clothing Accessories > Socks"
+                    - option "Home & Garden > Kitchen & Dining > Coffee"
+                    - option "Home & Garden > Kitchen & Dining > Serveware"
+                    - option "Home & Garden > Lighting > Lamps"
+                    - option "Apparel & Accessories > Luggage > Passport Covers"
+                    - option "Apparel & Accessories > Belts"
+                    - option "Sporting Goods > Outdoor > Camping"
+                    - option "Home & Garden > Lawn & Garden > Pots"
+                    - option "Tools & Home Improvement > Hardware"
+                    - option "Apparel & Accessories > Luggage > Waist Packs"
+                    - option "Home & Garden > Kitchen & Dining > Tea"
+                    - option "Health & Beauty > Personal Care > Bath"
+                    - option "Apparel & Accessories > Clothing > Outerwear"
+                    - option "Apparel & Accessories > Luggage > Duffels"
+                    - option "Apparel & Accessories > Clothing Accessories > Scarves"
+                    - option "Apparel & Accessories > Luggage > Toiletry Bags"
+                    - option "Apparel & Accessories > Clothing > Kids"
+                    - option "Sporting Goods > Outdoor > Camp Kitchen"
+                    - option "Home & Garden > Kitchen & Dining > Cookware"
+                    - option "Home & Garden > Decor > Vases"
+                    - option "Home & Garden > Kitchen & Dining > Aprons"
+                    - option "Apparel & Accessories > Clothing Accessories > Gloves"
+                    - option "Home & Garden > Kitchen & Dining > Food Storage"
+                    - option "Office & School Supplies > Paper > Postcards"
+                    - option "Animals & Pet Supplies > Pet Supplies > Dog"
+                    - option "Home & Garden > Lawn & Garden > Tools"
+                    - option "Home & Garden > Linens > Towels"
+                    - option "Home & Garden > Kitchen & Dining > Tableware"
+                - generic [ref=f2e689]:
+                  - generic [ref=f2e690]: Collections
+                  - combobox "Collections" [ref=f2e691] [cursor=pointer]:
+                    - option "Add to collection…" [selected]
+                    - option "New Arrivals"
+                    - option "Bestsellers"
+                    - option "Apparel"
+                    - option "Home Goods"
+                    - option "Outdoor & Travel"
+                    - option "Kitchen & Dining"
+                    - option "Gift Guide"
+                    - option "Leather Goods"
+                    - option "Made in Portland"
+                    - option "Office & Desk"
+                    - option "Stationery"
+                    - option "Archive Sale"
+                - button "Remove from Apparel" [ref=f2e693]: Apparel ×
+                - generic [ref=f2e694]:
+                  - generic [ref=f2e695]: Tags
+                  - generic [ref=f2e696]:
+                    - generic [ref=f2e697]:
+                      - generic [ref=f2e698]:
+                        - text: cotton
+                        - button "Remove tag cotton" [ref=f2e699]
+                      - generic [ref=f2e703]:
+                        - text: sustainable
+                        - button "Remove tag sustainable" [ref=f2e704]
+                      - generic [ref=f2e708]:
+                        - text: essential
+                        - button "Remove tag essential" [ref=f2e709]
+                      - textbox "Add tag" [ref=f2e713]:
+                        - /placeholder: ""
+                    - generic [ref=f2e714]:
+                      - button "+ staff-pick" [ref=f2e715]
+                      - button "+ unisex" [ref=f2e716]
+                      - button "+ limited" [ref=f2e717]
+                      - button "+ fleece" [ref=f2e718]
+                      - button "+ bestseller" [ref=f2e719]
+                      - button "+ canvas" [ref=f2e720]
+            - generic [ref=f2e721]:
+              - heading "Sales channels" [level=2] [ref=f2e724]
+              - generic [ref=f2e726]:
+                - generic [ref=f2e727]:
+                  - generic [ref=f2e728]: Online Store
+                  - switch "Online Store" [checked] [ref=f2e730]
+                - generic [ref=f2e732]:
+                  - generic [ref=f2e733]: Point of Sale
+                  - switch "Point of Sale" [ref=f2e735]
+            - button "Delete product" [ref=f2e738]
+        - generic [ref=f2e744]:
+          - generic [ref=f2e745]:
+            - generic [ref=f2e746]: Active
+            - text: Changes save to this demo store
+          - generic [ref=f2e748]:
+            - button "Cancel" [ref=f2e749]
+            - button "Save" [disabled] [ref=f2e751]

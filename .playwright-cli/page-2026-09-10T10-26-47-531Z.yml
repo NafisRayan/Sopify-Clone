@@ -1,0 +1,310 @@
+- generic [ref=e3]:
+  - navigation "Main navigation" [ref=e4]:
+    - button "Northstar Goods Demo store" [ref=e8]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: Northstar Goods
+        - generic [ref=e17]: Demo store
+    - generic [ref=e20]:
+      - link "Home" [ref=e21] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e26]:
+        - button "Orders 48" [expanded] [ref=e27]:
+          - generic [ref=e32]: Orders
+          - generic [ref=e33]: "48"
+        - generic [ref=e36]:
+          - link "All orders" [ref=e37] [cursor=pointer]:
+            - /url: /orders
+          - link "Drafts8" [ref=e38] [cursor=pointer]:
+            - /url: /draft-orders
+          - link "Abandoned checkouts" [ref=e39] [cursor=pointer]:
+            - /url: /abandoned-checkouts
+      - generic [ref=e40]:
+        - button "Products" [expanded] [ref=e41]
+        - generic [ref=e48]:
+          - link "All products" [ref=e49] [cursor=pointer]:
+            - /url: /products
+          - link "Collections" [ref=e50] [cursor=pointer]:
+            - /url: /collections
+          - link "Inventory" [ref=e51] [cursor=pointer]:
+            - /url: /inventory
+          - link "Locations" [ref=e52] [cursor=pointer]:
+            - /url: /locations
+      - link "Customers" [ref=e53] [cursor=pointer]:
+        - /url: /customers
+      - button "Content" [ref=e61]
+      - link "Marketing" [ref=e68] [cursor=pointer]:
+        - /url: /marketing
+      - link "Discounts" [ref=e73] [cursor=pointer]:
+        - /url: /discounts
+      - link "Analytics" [ref=e78] [cursor=pointer]:
+        - /url: /analytics
+      - button "Online Store" [ref=e83]
+      - link "Apps" [ref=e90] [cursor=pointer]:
+        - /url: /apps
+    - generic [ref=e97]:
+      - link "Settings" [ref=e98] [cursor=pointer]:
+        - /url: /settings
+      - generic [ref=e102]:
+        - generic [ref=e103]: AC
+        - generic [ref=e104]:
+          - paragraph [ref=e105]: Ava Chen
+          - paragraph [ref=e106]: ava@northstargoods.com
+  - generic [ref=e107]:
+    - banner [ref=e108]:
+      - button "Open search" [ref=e109]:
+        - generic [ref=e113]: Search
+        - generic [ref=e114]: ⌘K
+      - generic [ref=e115]:
+        - generic [ref=e116]: Demo data
+        - button "Help" [ref=e121]
+        - button "Notifications (3 unread)" [ref=e127]:
+          - generic [ref=e131]: "3"
+        - button "Account menu" [ref=e133]:
+          - generic [ref=e134]: AC
+    - main [ref=e137]:
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - button "Products" [ref=e172]
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - heading "Classic Cotton T-Shirt" [level=1] [ref=e177]
+              - generic [ref=e179]:
+                - generic [ref=e180]: Active
+                - generic [ref=e182]: · Meridian Basics
+                - generic [ref=e183]: · created Jan 26, 2026
+            - generic [ref=e184]:
+              - button "More actions" [ref=e186]
+              - button "Edit" [ref=e191]
+        - tablist [ref=e195]:
+          - tab "overview" [selected] [ref=e196]
+          - tab "inventory" [ref=e197]
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading "Media" [level=2] [ref=e203]
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - img "Classic Cotton T-Shirt" [ref=e206]
+                  - generic [ref=e207]: Featured
+                - img "Classic Cotton T-Shirt detail" [ref=e209]
+                - img "Classic Cotton T-Shirt lifestyle" [ref=e211]
+            - generic [ref=e212]:
+              - heading "Description" [level=2] [ref=e215]
+              - generic [ref=e216]:
+                - paragraph [ref=e217]: Our bestselling everyday tee, cut from 220gsm organic cotton with a relaxed fit that holds its shape wash after wash. Pre-shrunk, garment-dyed, and finished with a ribbed collar.
+                - list [ref=e218]:
+                  - listitem [ref=e219]: 100% organic cotton
+                  - listitem [ref=e220]: Relaxed unisex fit
+                  - listitem [ref=e221]: Machine washable
+            - generic [ref=e222]:
+              - heading "Pricing" [level=2] [ref=e225]
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - term [ref=e229]: Price
+                  - definition [ref=e230]: $24.00
+                - generic [ref=e231]:
+                  - term [ref=e232]: Compare-at
+                  - definition [ref=e233]: $32.00
+                - generic [ref=e234]:
+                  - term [ref=e235]: Cost per item
+                  - definition [ref=e236]: $8.00
+                - generic [ref=e237]:
+                  - term [ref=e238]: Margin
+                  - definition [ref=e239]: 66.7%
+            - generic [ref=e240]:
+              - heading "Variants (20)" [level=2] [ref=e243]
+              - table [ref=e245]:
+                - rowgroup [ref=e246]:
+                  - row [ref=e247]:
+                    - columnheader "Variant" [ref=e248]
+                    - columnheader "SKU" [ref=e249]
+                    - columnheader "Price" [ref=e250]
+                    - columnheader "Available" [ref=e251]
+                - rowgroup [ref=e252]:
+                  - row [ref=e253]:
+                    - cell "Black / S" [ref=e254]
+                    - cell "CCT10-BLAC-S" [ref=e255]
+                    - cell "$24.00" [ref=e256]
+                    - cell "88" [ref=e257]
+                  - row [ref=e258]:
+                    - cell "Black / M" [ref=e259]
+                    - cell "CCT10-BLAC-M" [ref=e260]
+                    - cell "$24.00" [ref=e261]
+                    - cell "13" [ref=e262]
+                  - row [ref=e263]:
+                    - cell "Black / L" [ref=e264]
+                    - cell "CCT10-BLAC-L" [ref=e265]
+                    - cell "$24.00" [ref=e266]
+                    - cell "22" [ref=e267]
+                  - row [ref=e268]:
+                    - cell "Black / XL" [ref=e269]
+                    - cell "CCT10-BLAC-XL" [ref=e270]
+                    - cell "$24.00" [ref=e271]
+                    - cell "67" [ref=e272]
+                  - row [ref=e273]:
+                    - cell "White / S" [ref=e274]
+                    - cell "CCT10-WHIT-S" [ref=e275]
+                    - cell "$24.00" [ref=e276]
+                    - cell "51" [ref=e277]
+                  - row [ref=e278]:
+                    - cell "White / M" [ref=e279]
+                    - cell "CCT10-WHIT-M" [ref=e280]
+                    - cell "$24.00" [ref=e281]
+                    - cell "26" [ref=e282]
+                  - row [ref=e283]:
+                    - cell "White / L" [ref=e284]
+                    - cell "CCT10-WHIT-L" [ref=e285]
+                    - cell "$24.00" [ref=e286]
+                    - cell "10" [ref=e287]
+                  - row [ref=e289]:
+                    - cell "White / XL" [ref=e290]
+                    - cell "CCT10-WHIT-XL" [ref=e291]
+                    - cell "$24.00" [ref=e292]
+                    - cell "22" [ref=e293]
+                  - row [ref=e294]:
+                    - cell "Navy / S" [ref=e295]
+                    - cell "CCT10-NAVY-S" [ref=e296]
+                    - cell "$24.00" [ref=e297]
+                    - cell "93" [ref=e298]
+                  - row [ref=e299]:
+                    - cell "Navy / M" [ref=e300]
+                    - cell "CCT10-NAVY-M" [ref=e301]
+                    - cell "$24.00" [ref=e302]
+                    - cell "21" [ref=e303]
+                  - row [ref=e304]:
+                    - cell "Navy / L" [ref=e305]
+                    - cell "CCT10-NAVY-L" [ref=e306]
+                    - cell "$24.00" [ref=e307]
+                    - cell "72" [ref=e308]
+                  - row [ref=e309]:
+                    - cell "Navy / XL" [ref=e310]
+                    - cell "CCT10-NAVY-XL" [ref=e311]
+                    - cell "$24.00" [ref=e312]
+                    - cell "43" [ref=e313]
+                  - row [ref=e314]:
+                    - cell "Blue / S" [ref=e315]
+                    - cell "CCT10-BLUE-S" [ref=e316]
+                    - cell "$24.00" [ref=e317]
+                    - cell "54" [ref=e318]
+                  - row [ref=e319]:
+                    - cell "Blue / M" [ref=e320]
+                    - cell "CCT10-BLUE-M" [ref=e321]
+                    - cell "$24.00" [ref=e322]
+                    - cell "57" [ref=e323]
+                  - row [ref=e324]:
+                    - cell "Blue / L" [ref=e325]
+                    - cell "CCT10-BLUE-L" [ref=e326]
+                    - cell "$24.00" [ref=e327]
+                    - cell "56" [ref=e328]
+                  - row [ref=e329]:
+                    - cell "Blue / XL" [ref=e330]
+                    - cell "CCT10-BLUE-XL" [ref=e331]
+                    - cell "$24.00" [ref=e332]
+                    - cell "60" [ref=e333]
+                  - row [ref=e334]:
+                    - cell "Olive / S" [ref=e335]
+                    - cell "CCT10-OLIV-S" [ref=e336]
+                    - cell "$24.00" [ref=e337]
+                    - cell "79" [ref=e338]
+                  - row [ref=e339]:
+                    - cell "Olive / M" [ref=e340]
+                    - cell "CCT10-OLIV-M" [ref=e341]
+                    - cell "$24.00" [ref=e342]
+                    - cell "9" [ref=e343]
+                  - row [ref=e345]:
+                    - cell "Olive / L" [ref=e346]
+                    - cell "CCT10-OLIV-L" [ref=e347]
+                    - cell "$24.00" [ref=e348]
+                    - cell "37" [ref=e349]
+                  - row [ref=e350]:
+                    - cell "Olive / XL" [ref=e351]
+                    - cell "CCT10-OLIV-XL" [ref=e352]
+                    - cell "$24.00" [ref=e353]
+                    - cell "Out of stock" [ref=e354]
+            - generic [ref=e356]:
+              - generic [ref=e358]:
+                - heading "Search engine listing" [level=2] [ref=e359]
+                - generic [ref=e360]: Preview
+              - generic [ref=e361]:
+                - paragraph [ref=e362]: northstargoods.com/products/classic-cotton-t-shirt
+                - paragraph [ref=e363]: Classic Cotton T-Shirt
+                - paragraph [ref=e364]: Our bestselling everyday tee, cut from 220gsm organic cotton with a relaxed fit that holds its shape wash after wash. Pre-shrunk, garment-dyed, and fi
+          - generic [ref=e365]:
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - term [ref=e369]: Status
+                - definition [ref=e370]:
+                  - generic [ref=e371]: Active
+              - generic [ref=e373]:
+                - term [ref=e374]: Channels
+                - definition [ref=e375]:
+                  - generic [ref=e376]: Online Store
+              - generic [ref=e377]:
+                - term [ref=e378]: Product type
+                - definition [ref=e379]: Apparel
+              - generic [ref=e380]:
+                - term [ref=e381]: Category
+                - definition [ref=e382]: Apparel & Accessories > Clothing > Shirts
+              - generic [ref=e383]:
+                - term [ref=e384]: Weight
+                - definition [ref=e385]: 0.18 kg
+              - generic [ref=e386]:
+                - term [ref=e387]: Requires shipping
+                - definition [ref=e388]: "Yes"
+            - generic [ref=e389]:
+              - heading "Collections" [level=3] [ref=e390]
+              - list [ref=e391]:
+                - listitem [ref=e392]:
+                  - link "Apparel" [ref=e393] [cursor=pointer]:
+                    - /url: /collections/col_3
+            - generic [ref=e398]:
+              - heading "Tags" [level=3] [ref=e399]
+              - generic [ref=e400]:
+                - generic [ref=e401]: cotton
+                - generic [ref=e402]: sustainable
+                - generic [ref=e403]: essential
+            - generic [ref=e404]:
+              - generic [ref=e406]:
+                - heading "Who ordered this" [level=2] [ref=e407]
+                - generic [ref=e408]: 8 recent orders
+              - list [ref=e409]:
+                - listitem [ref=e410]:
+                  - link "#1121 Sep 7, 2026" [ref=e411] [cursor=pointer]:
+                    - /url: /orders/o_1121
+                    - generic [ref=e412]: "#1121"
+                    - generic [ref=e413]: Sep 7, 2026
+                - listitem [ref=e414]:
+                  - link "#1099 Jul 16, 2026" [ref=e415] [cursor=pointer]:
+                    - /url: /orders/o_1099
+                    - generic [ref=e416]: "#1099"
+                    - generic [ref=e417]: Jul 16, 2026
+                - listitem [ref=e418]:
+                  - link "#1098 Jul 12, 2026" [ref=e419] [cursor=pointer]:
+                    - /url: /orders/o_1098
+                    - generic [ref=e420]: "#1098"
+                    - generic [ref=e421]: Jul 12, 2026
+                - listitem [ref=e422]:
+                  - link "#1097 Jul 4, 2026" [ref=e423] [cursor=pointer]:
+                    - /url: /orders/o_1097
+                    - generic [ref=e424]: "#1097"
+                    - generic [ref=e425]: Jul 4, 2026
+                - listitem [ref=e426]:
+                  - link "#1089 Jun 16, 2026" [ref=e427] [cursor=pointer]:
+                    - /url: /orders/o_1089
+                    - generic [ref=e428]: "#1089"
+                    - generic [ref=e429]: Jun 16, 2026
+                - listitem [ref=e430]:
+                  - link "#1084 Jun 5, 2026" [ref=e431] [cursor=pointer]:
+                    - /url: /orders/o_1084
+                    - generic [ref=e432]: "#1084"
+                    - generic [ref=e433]: Jun 5, 2026
+                - listitem [ref=e434]:
+                  - link "#1081 May 27, 2026" [ref=e435] [cursor=pointer]:
+                    - /url: /orders/o_1081
+                    - generic [ref=e436]: "#1081"
+                    - generic [ref=e437]: May 27, 2026
+                - listitem [ref=e438]:
+                  - link "#1078 May 22, 2026" [ref=e439] [cursor=pointer]:
+                    - /url: /orders/o_1078
+                    - generic [ref=e440]: "#1078"
+                    - generic [ref=e441]: May 22, 2026

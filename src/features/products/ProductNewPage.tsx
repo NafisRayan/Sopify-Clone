@@ -1,5 +1,5 @@
-import ComingSoonPage from '@/features/misc/ComingSoonPage'
+import ProductEditorPage from './ProductEditorPage'
 
-export default function Placeholder() {
-  return <ComingSoonPage module="ProductNew" />
+export default function ProductNewPage() {
+  return <ProductEditorPage createMode />
 }

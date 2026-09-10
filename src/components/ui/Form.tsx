@@ -151,7 +151,7 @@ export function Checkbox({
   ...rest
 }: InputHTMLAttributes<HTMLInputElement> & { label?: string; indeterminate?: boolean }) {
   return (
-    <label className={`inline-flex cursor-pointer items-center gap-2 text-[13px] ${className}`}>
+    <label className={`flex w-fit cursor-pointer items-center gap-2 text-[13px] ${className}`}>
       <input
         type="checkbox"
         ref={(el) => {
@@ -171,7 +171,7 @@ export function Radio({
   ...rest
 }: InputHTMLAttributes<HTMLInputElement> & { label?: string }) {
   return (
-    <label className={`inline-flex cursor-pointer items-center gap-2 text-[13px] ${className}`}>
+    <label className={`flex w-fit cursor-pointer items-center gap-2 text-[13px] ${className}`}>
       <input type="radio" className="h-4 w-4 shrink-0 cursor-pointer accent-[#303030]" {...rest} />
       {label && <span>{label}</span>}
     </label>
