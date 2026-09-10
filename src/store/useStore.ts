@@ -9,6 +9,7 @@ import type {
   Company, CustomerSegment, InventoryTransfer, GiftCard, Payout, BalanceTransaction,
   MetafieldDefinition, Metafield, MetafieldOwnerMap, UrlRedirect, StoreLocale, MarketCountry,
   StaffActivityEntry, ReturnRecord, OrderEditRecord, OrderRisk, StorePlan,
+  MetaobjectDefinition, MetaobjectEntry,
 } from '@/types/parity'
 import {
   seedProducts, seedCustomers, seedOrders, seedAbandoned, seedCollections, seedLocations,
@@ -18,7 +19,7 @@ import {
   seedCompanies, seedSegments, seedTransfers, seedGiftCards, seedPayouts,
   seedBalanceTransactions, seedMetafieldDefinitions, seedMetafields, seedRedirects,
   seedLocales, seedMarkets, seedStaffActivity, seedReturns, seedOrderEdits, seedOrderRisk,
-  seedPlan,
+  seedPlan, seedMetaobjectDefinitions, seedMetaobjectEntries,
 } from '@/data'
 
 /**
@@ -67,6 +68,8 @@ export interface AppState {
   orderEdits: OrderEditRecord[]
   orderRisk: Record<string, OrderRisk>
   plan: StorePlan[]
+  metaobjectDefinitions: MetaobjectDefinition[]
+  metaobjectEntries: MetaobjectEntry[]
 
   // low-level entity operations (services build on these)
   addProduct: (p: Product) => void
@@ -149,6 +152,8 @@ export interface AppState {
   updateLocales: (locales: StoreLocale[]) => void
   updateMarkets: (markets: MarketCountry[]) => void
   updatePlan: (patch: Partial<StorePlan>) => void
+  upsertMetaobjectEntry: (e: MetaobjectEntry) => void
+  removeMetaobjectEntry: (id: string) => void
   resetData: () => void
 }
 
@@ -191,6 +196,8 @@ const seedState = {
   orderEdits: seedOrderEdits,
   orderRisk: seedOrderRisk,
   plan: [seedPlan],
+  metaobjectDefinitions: seedMetaobjectDefinitions,
+  metaobjectEntries: seedMetaobjectEntries,
 }
 
 const upsert = <T>(list: T[], item: T, key: (x: T) => string): T[] =>
@@ -310,6 +317,8 @@ export const useStore = create<AppState>()(
       updateLocales: (locales) => set({ locales }),
       updateMarkets: (markets) => set({ markets }),
       updatePlan: (patch) => set((s) => ({ plan: [{ ...s.plan[0]!, ...patch }] })),
+      upsertMetaobjectEntry: (e) => set((s) => ({ metaobjectEntries: upsert(s.metaobjectEntries, e, (x) => x.id) })),
+      removeMetaobjectEntry: (id) => set((s) => ({ metaobjectEntries: s.metaobjectEntries.filter((e) => e.id !== id) })),
       resetData: () => set({ ...seedState }),
     }),
     {

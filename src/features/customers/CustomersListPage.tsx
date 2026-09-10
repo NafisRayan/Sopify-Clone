@@ -11,6 +11,7 @@ import { formatDate, formatMoney, initials } from '@/lib/format'
 import { CONSENT_LABELS } from '@/lib/constants'
 import { addCustomerTags, createCustomer, deleteCustomers, removeCustomerTags } from '@/services/customersService'
 import { useCan } from '@/lib/permissions'
+import { ExportButton } from '@/components/ExportButton'
 import type { Customer, MarketingConsent } from '@/types'
 
 function consentTone(c: MarketingConsent) {
@@ -242,9 +243,22 @@ export default function CustomersListPage() {
         onRowClick={(c) => navigate(`/customers/${c.id}`)}
         hasAnyData={customers.length > 0}
         toolbarExtra={
-          <Button size="sm" variant="primary" icon={<UserPlus size={13} />} onClick={() => setCreateOpen(true)} disabled={!canEdit}>
-            Add customer
-          </Button>
+          <>
+            <ExportButton
+              filename="customers"
+              rows={customers}
+              columns={[
+                { header: 'First name', value: (c) => c.firstName },
+                { header: 'Last name', value: (c) => c.lastName },
+                { header: 'Email', value: (c) => c.email },
+                { header: 'Orders', value: (c) => customerStats(c.id).ordersCount },
+                { header: 'Total spent', value: (c) => customerStats(c.id).totalSpent.toFixed(2) },
+              ]}
+            />
+            <Button size="sm" variant="primary" icon={<UserPlus size={13} />} onClick={() => setCreateOpen(true)} disabled={!canEdit}>
+              Add customer
+            </Button>
+          </>
         }
         emptyNoData={
           <EmptyState

@@ -876,6 +876,8 @@ write('returns', parity.returns)
 write('order-edits', parity.orderEdits)
 write('order-risk', parity.orderRisk)
 write('plan', parity.plan)
+write('metaobject-definitions', parity.entries)
+write('metaobject-entries', parity.entryItems)
 
 console.log(`✔ Wrote seed data to src/data/
   products=${products.length} variants=${allVariants.length} customers=${customers.length}

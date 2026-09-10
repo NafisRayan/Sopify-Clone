@@ -4,7 +4,7 @@
   "status": "paid",
   "amount": -205.54,
   "currency": "USD",
-  "issuedAt": "2024-12-13T17:32:55.437Z",
+  "issuedAt": "2024-12-13T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -12,8 +12,8 @@
   "status": "paid",
   "amount": 115.97,
   "currency": "USD",
-  "issuedAt": "2025-02-07T17:32:55.437Z",
-  "arrivedAt": "2025-02-09T17:32:55.437Z",
+  "issuedAt": "2025-02-07T17:52:34.713Z",
+  "arrivedAt": "2025-02-09T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -21,7 +21,7 @@
   "status": "paid",
   "amount": -25.51,
   "currency": "USD",
-  "issuedAt": "2025-02-21T17:32:55.437Z",
+  "issuedAt": "2025-02-21T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -29,8 +29,8 @@
   "status": "in_transit",
   "amount": 193,
   "currency": "USD",
-  "issuedAt": "2025-05-09T17:32:55.437Z",
-  "arrivedAt": "2025-05-11T17:32:55.437Z",
+  "issuedAt": "2025-05-09T17:52:34.713Z",
+  "arrivedAt": "2025-05-11T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -38,8 +38,8 @@
   "status": "paid",
   "amount": 74.39,
   "currency": "USD",
-  "issuedAt": "2025-05-16T17:32:55.437Z",
-  "arrivedAt": "2025-05-18T17:32:55.437Z",
+  "issuedAt": "2025-05-16T17:52:34.713Z",
+  "arrivedAt": "2025-05-18T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -47,8 +47,8 @@
   "status": "paid",
   "amount": 76.25,
   "currency": "USD",
-  "issuedAt": "2025-06-13T17:32:55.437Z",
-  "arrivedAt": "2025-06-15T17:32:55.437Z",
+  "issuedAt": "2025-06-13T17:52:34.713Z",
+  "arrivedAt": "2025-06-15T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -56,8 +56,8 @@
   "status": "paid",
   "amount": 218.66,
   "currency": "USD",
-  "issuedAt": "2025-06-20T17:32:55.437Z",
-  "arrivedAt": "2025-06-22T17:32:55.437Z",
+  "issuedAt": "2025-06-20T17:52:34.713Z",
+  "arrivedAt": "2025-06-22T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -65,8 +65,8 @@
   "status": "paid",
   "amount": 86.05,
   "currency": "USD",
-  "issuedAt": "2025-07-18T17:32:55.437Z",
-  "arrivedAt": "2025-07-20T17:32:55.437Z",
+  "issuedAt": "2025-07-18T17:52:34.713Z",
+  "arrivedAt": "2025-07-20T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -74,8 +74,8 @@
   "status": "paid",
   "amount": 40.2,
   "currency": "USD",
-  "issuedAt": "2025-08-01T17:32:55.437Z",
-  "arrivedAt": "2025-08-03T17:32:55.437Z",
+  "issuedAt": "2025-08-01T17:52:34.713Z",
+  "arrivedAt": "2025-08-03T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -83,8 +83,8 @@
   "status": "paid",
   "amount": 83.93,
   "currency": "USD",
-  "issuedAt": "2025-08-08T17:32:55.437Z",
-  "arrivedAt": "2025-08-10T17:32:55.437Z",
+  "issuedAt": "2025-08-08T17:52:34.713Z",
+  "arrivedAt": "2025-08-10T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -92,8 +92,8 @@
   "status": "paid",
   "amount": 892.26,
   "currency": "USD",
-  "issuedAt": "2025-08-29T17:32:55.437Z",
-  "arrivedAt": "2025-08-31T17:32:55.437Z",
+  "issuedAt": "2025-08-29T17:52:34.713Z",
+  "arrivedAt": "2025-08-31T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -101,7 +101,7 @@
   "status": "in_transit",
   "amount": -85.89,
   "currency": "USD",
-  "issuedAt": "2025-09-05T17:32:55.437Z",
+  "issuedAt": "2025-09-05T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -109,7 +109,7 @@
   "status": "paid",
   "amount": -134.23,
   "currency": "USD",
-  "issuedAt": "2025-09-26T17:32:55.437Z",
+  "issuedAt": "2025-09-26T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -117,8 +117,8 @@
   "status": "paid",
   "amount": 106.71,
   "currency": "USD",
-  "issuedAt": "2025-10-03T17:32:55.437Z",
-  "arrivedAt": "2025-10-05T17:32:55.437Z",
+  "issuedAt": "2025-10-03T17:52:34.713Z",
+  "arrivedAt": "2025-10-05T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -126,7 +126,7 @@
   "status": "in_transit",
   "amount": -109.06,
   "currency": "USD",
-  "issuedAt": "2025-10-24T17:32:55.437Z",
+  "issuedAt": "2025-10-24T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -134,8 +134,8 @@
   "status": "paid",
   "amount": 71.1,
   "currency": "USD",
-  "issuedAt": "2025-11-07T17:32:55.437Z",
-  "arrivedAt": "2025-11-09T17:32:55.437Z",
+  "issuedAt": "2025-11-07T17:52:34.713Z",
+  "arrivedAt": "2025-11-09T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -143,8 +143,8 @@
   "status": "paid",
   "amount": 148.66,
   "currency": "USD",
-  "issuedAt": "2025-11-14T17:32:55.437Z",
-  "arrivedAt": "2025-11-16T17:32:55.437Z",
+  "issuedAt": "2025-11-14T17:52:34.713Z",
+  "arrivedAt": "2025-11-16T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -152,8 +152,8 @@
   "status": "paid",
   "amount": 259.03,
   "currency": "USD",
-  "issuedAt": "2025-11-21T17:32:55.437Z",
-  "arrivedAt": "2025-11-23T17:32:55.437Z",
+  "issuedAt": "2025-11-21T17:52:34.713Z",
+  "arrivedAt": "2025-11-23T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -161,8 +161,8 @@
   "status": "paid",
   "amount": 80.87,
   "currency": "USD",
-  "issuedAt": "2025-12-26T17:32:55.437Z",
-  "arrivedAt": "2025-12-28T17:32:55.437Z",
+  "issuedAt": "2025-12-26T17:52:34.713Z",
+  "arrivedAt": "2025-12-28T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -170,8 +170,8 @@
   "status": "paid",
   "amount": 75.56,
   "currency": "USD",
-  "issuedAt": "2026-01-02T17:32:55.437Z",
-  "arrivedAt": "2026-01-04T17:32:55.437Z",
+  "issuedAt": "2026-01-02T17:52:34.713Z",
+  "arrivedAt": "2026-01-04T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -179,8 +179,8 @@
   "status": "in_transit",
   "amount": 343.78,
   "currency": "USD",
-  "issuedAt": "2026-01-09T17:32:55.437Z",
-  "arrivedAt": "2026-01-11T17:32:55.437Z",
+  "issuedAt": "2026-01-09T17:52:34.713Z",
+  "arrivedAt": "2026-01-11T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -188,8 +188,8 @@
   "status": "paid",
   "amount": 134.13,
   "currency": "USD",
-  "issuedAt": "2026-01-23T17:32:55.437Z",
-  "arrivedAt": "2026-01-25T17:32:55.437Z",
+  "issuedAt": "2026-01-23T17:52:34.713Z",
+  "arrivedAt": "2026-01-25T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -197,8 +197,8 @@
   "status": "paid",
   "amount": 78.98,
   "currency": "USD",
-  "issuedAt": "2026-01-30T17:32:55.437Z",
-  "arrivedAt": "2026-02-01T17:32:55.437Z",
+  "issuedAt": "2026-01-30T17:52:34.713Z",
+  "arrivedAt": "2026-02-01T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -206,8 +206,8 @@
   "status": "paid",
   "amount": 360.37,
   "currency": "USD",
-  "issuedAt": "2026-02-13T17:32:55.437Z",
-  "arrivedAt": "2026-02-15T17:32:55.437Z",
+  "issuedAt": "2026-02-13T17:52:34.713Z",
+  "arrivedAt": "2026-02-15T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -215,8 +215,8 @@
   "status": "paid",
   "amount": 621.28,
   "currency": "USD",
-  "issuedAt": "2026-02-20T17:32:55.437Z",
-  "arrivedAt": "2026-02-22T17:32:55.437Z",
+  "issuedAt": "2026-02-20T17:52:34.713Z",
+  "arrivedAt": "2026-02-22T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -224,8 +224,8 @@
   "status": "paid",
   "amount": 56.67,
   "currency": "USD",
-  "issuedAt": "2026-02-27T17:32:55.437Z",
-  "arrivedAt": "2026-03-01T17:32:55.437Z",
+  "issuedAt": "2026-02-27T17:52:34.713Z",
+  "arrivedAt": "2026-03-01T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -233,8 +233,8 @@
   "status": "paid",
   "amount": 227.17,
   "currency": "USD",
-  "issuedAt": "2026-03-06T17:32:55.437Z",
-  "arrivedAt": "2026-03-08T17:32:55.437Z",
+  "issuedAt": "2026-03-06T17:52:34.713Z",
+  "arrivedAt": "2026-03-08T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -242,8 +242,8 @@
   "status": "paid",
   "amount": 93.03,
   "currency": "USD",
-  "issuedAt": "2026-03-13T17:32:55.437Z",
-  "arrivedAt": "2026-03-15T17:32:55.437Z",
+  "issuedAt": "2026-03-13T17:52:34.713Z",
+  "arrivedAt": "2026-03-15T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -251,8 +251,8 @@
   "status": "paid",
   "amount": 77.54,
   "currency": "USD",
-  "issuedAt": "2026-03-20T17:32:55.437Z",
-  "arrivedAt": "2026-03-22T17:32:55.437Z",
+  "issuedAt": "2026-03-20T17:52:34.713Z",
+  "arrivedAt": "2026-03-22T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -260,8 +260,8 @@
   "status": "in_transit",
   "amount": 25.72,
   "currency": "USD",
-  "issuedAt": "2026-03-27T17:32:55.437Z",
-  "arrivedAt": "2026-03-29T17:32:55.437Z",
+  "issuedAt": "2026-03-27T17:52:34.713Z",
+  "arrivedAt": "2026-03-29T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -269,8 +269,8 @@
   "status": "paid",
   "amount": 620.4,
   "currency": "USD",
-  "issuedAt": "2026-04-03T17:32:55.437Z",
-  "arrivedAt": "2026-04-05T17:32:55.437Z",
+  "issuedAt": "2026-04-03T17:52:34.713Z",
+  "arrivedAt": "2026-04-05T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -278,8 +278,8 @@
   "status": "in_transit",
   "amount": 195.95,
   "currency": "USD",
-  "issuedAt": "2026-04-10T17:32:55.437Z",
-  "arrivedAt": "2026-04-12T17:32:55.437Z",
+  "issuedAt": "2026-04-10T17:52:34.713Z",
+  "arrivedAt": "2026-04-12T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -287,8 +287,8 @@
   "status": "paid",
   "amount": 274.93,
   "currency": "USD",
-  "issuedAt": "2026-04-17T17:32:55.437Z",
-  "arrivedAt": "2026-04-19T17:32:55.437Z",
+  "issuedAt": "2026-04-17T17:52:34.713Z",
+  "arrivedAt": "2026-04-19T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -296,8 +296,8 @@
   "status": "paid",
   "amount": 224.37,
   "currency": "USD",
-  "issuedAt": "2026-04-24T17:32:55.437Z",
-  "arrivedAt": "2026-04-26T17:32:55.437Z",
+  "issuedAt": "2026-04-24T17:52:34.713Z",
+  "arrivedAt": "2026-04-26T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -305,8 +305,8 @@
   "status": "paid",
   "amount": 78.98,
   "currency": "USD",
-  "issuedAt": "2026-05-08T17:32:55.437Z",
-  "arrivedAt": "2026-05-10T17:32:55.437Z",
+  "issuedAt": "2026-05-08T17:52:34.713Z",
+  "arrivedAt": "2026-05-10T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -314,8 +314,8 @@
   "status": "paid",
   "amount": 201.45,
   "currency": "USD",
-  "issuedAt": "2026-05-15T17:32:55.437Z",
-  "arrivedAt": "2026-05-17T17:32:55.437Z",
+  "issuedAt": "2026-05-15T17:52:34.713Z",
+  "arrivedAt": "2026-05-17T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -323,8 +323,8 @@
   "status": "paid",
   "amount": 107.2,
   "currency": "USD",
-  "issuedAt": "2026-05-22T17:32:55.437Z",
-  "arrivedAt": "2026-05-24T17:32:55.437Z",
+  "issuedAt": "2026-05-22T17:52:34.713Z",
+  "arrivedAt": "2026-05-24T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -332,8 +332,8 @@
   "status": "paid",
   "amount": 82.13,
   "currency": "USD",
-  "issuedAt": "2026-05-29T17:32:55.437Z",
-  "arrivedAt": "2026-05-31T17:32:55.437Z",
+  "issuedAt": "2026-05-29T17:52:34.713Z",
+  "arrivedAt": "2026-05-31T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -341,8 +341,8 @@
   "status": "in_transit",
   "amount": 169.03,
   "currency": "USD",
-  "issuedAt": "2026-06-05T17:32:55.437Z",
-  "arrivedAt": "2026-06-07T17:32:55.437Z",
+  "issuedAt": "2026-06-05T17:52:34.713Z",
+  "arrivedAt": "2026-06-07T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -350,8 +350,8 @@
   "status": "in_transit",
   "amount": 417.02,
   "currency": "USD",
-  "issuedAt": "2026-06-12T17:32:55.437Z",
-  "arrivedAt": "2026-06-14T17:32:55.437Z",
+  "issuedAt": "2026-06-12T17:52:34.713Z",
+  "arrivedAt": "2026-06-14T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -359,8 +359,8 @@
   "status": "paid",
   "amount": 169.9,
   "currency": "USD",
-  "issuedAt": "2026-06-19T17:32:55.437Z",
-  "arrivedAt": "2026-06-21T17:32:55.437Z",
+  "issuedAt": "2026-06-19T17:52:34.713Z",
+  "arrivedAt": "2026-06-21T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -368,8 +368,8 @@
   "status": "in_transit",
   "amount": 214.58,
   "currency": "USD",
-  "issuedAt": "2026-06-26T17:32:55.437Z",
-  "arrivedAt": "2026-06-28T17:32:55.437Z",
+  "issuedAt": "2026-06-26T17:52:34.713Z",
+  "arrivedAt": "2026-06-28T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -377,8 +377,8 @@
   "status": "paid",
   "amount": 808.68,
   "currency": "USD",
-  "issuedAt": "2026-07-03T17:32:55.437Z",
-  "arrivedAt": "2026-07-05T17:32:55.437Z",
+  "issuedAt": "2026-07-03T17:52:34.713Z",
+  "arrivedAt": "2026-07-05T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -386,8 +386,8 @@
   "status": "paid",
   "amount": 50.53,
   "currency": "USD",
-  "issuedAt": "2026-07-10T17:32:55.437Z",
-  "arrivedAt": "2026-07-12T17:32:55.437Z",
+  "issuedAt": "2026-07-10T17:52:34.713Z",
+  "arrivedAt": "2026-07-12T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -395,8 +395,8 @@
   "status": "in_transit",
   "amount": 43.4,
   "currency": "USD",
-  "issuedAt": "2026-07-17T17:32:55.437Z",
-  "arrivedAt": "2026-07-19T17:32:55.437Z",
+  "issuedAt": "2026-07-17T17:52:34.713Z",
+  "arrivedAt": "2026-07-19T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -404,8 +404,8 @@
   "status": "in_transit",
   "amount": 417.38,
   "currency": "USD",
-  "issuedAt": "2026-07-24T17:32:55.437Z",
-  "arrivedAt": "2026-07-26T17:32:55.437Z",
+  "issuedAt": "2026-07-24T17:52:34.713Z",
+  "arrivedAt": "2026-07-26T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -413,8 +413,8 @@
   "status": "paid",
   "amount": 128.56,
   "currency": "USD",
-  "issuedAt": "2026-07-31T17:32:55.437Z",
-  "arrivedAt": "2026-08-02T17:32:55.437Z",
+  "issuedAt": "2026-07-31T17:52:34.713Z",
+  "arrivedAt": "2026-08-02T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -422,8 +422,8 @@
   "status": "paid",
   "amount": 229.95,
   "currency": "USD",
-  "issuedAt": "2026-08-07T17:32:55.437Z",
-  "arrivedAt": "2026-08-09T17:32:55.437Z",
+  "issuedAt": "2026-08-07T17:52:34.713Z",
+  "arrivedAt": "2026-08-09T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -431,7 +431,7 @@
   "status": "paid",
   "amount": -8.97,
   "currency": "USD",
-  "issuedAt": "2026-08-14T17:32:55.437Z",
+  "issuedAt": "2026-08-14T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -439,8 +439,8 @@
   "status": "paid",
   "amount": 106.67,
   "currency": "USD",
-  "issuedAt": "2026-08-21T17:32:55.437Z",
-  "arrivedAt": "2026-08-23T17:32:55.437Z",
+  "issuedAt": "2026-08-21T17:52:34.713Z",
+  "arrivedAt": "2026-08-23T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -448,8 +448,8 @@
   "status": "in_transit",
   "amount": 114.58,
   "currency": "USD",
-  "issuedAt": "2026-08-28T17:32:55.437Z",
-  "arrivedAt": "2026-08-30T17:32:55.437Z",
+  "issuedAt": "2026-08-28T17:52:34.713Z",
+  "arrivedAt": "2026-08-30T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -457,8 +457,8 @@
   "status": "paid",
   "amount": 110.02,
   "currency": "USD",
-  "issuedAt": "2026-09-04T17:32:55.437Z",
-  "arrivedAt": "2026-09-06T17:32:55.437Z",
+  "issuedAt": "2026-09-04T17:52:34.713Z",
+  "arrivedAt": "2026-09-06T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -466,8 +466,8 @@
   "status": "paid",
   "amount": 95.96,
   "currency": "USD",
-  "issuedAt": "2026-09-11T17:32:55.437Z",
-  "arrivedAt": "2026-09-13T17:32:55.437Z",
+  "issuedAt": "2026-09-11T17:52:34.713Z",
+  "arrivedAt": "2026-09-13T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  },
  {
@@ -475,7 +475,7 @@
   "status": "scheduled",
   "amount": -114.41,
   "currency": "USD",
-  "issuedAt": "2026-09-18T17:32:55.437Z",
+  "issuedAt": "2026-09-18T17:52:34.713Z",
   "bankAccount": "•••• 4821"
  }
 ]

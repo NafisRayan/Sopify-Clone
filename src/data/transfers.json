@@ -34,7 +34,7 @@
     "receivedQuantity": 0
    }
   ],
-  "createdAt": "2026-08-11T11:39:50.946Z",
+  "createdAt": "2026-08-11T11:59:30.296Z",
   "note": "Restock before holiday promo."
  },
  {
@@ -72,8 +72,8 @@
     "receivedQuantity": 0
    }
   ],
-  "createdAt": "2026-08-15T11:39:50.947Z",
-  "sentAt": "2026-08-20T11:39:50.947Z"
+  "createdAt": "2026-08-15T11:59:30.296Z",
+  "sentAt": "2026-08-20T11:59:30.296Z"
  },
  {
   "id": "tf_3",
@@ -110,9 +110,9 @@
     "receivedQuantity": 20
    }
   ],
-  "createdAt": "2026-08-19T11:39:50.947Z",
-  "sentAt": "2026-08-24T11:39:50.947Z",
-  "receivedAt": "2026-09-02T11:39:50.947Z"
+  "createdAt": "2026-08-19T11:59:30.297Z",
+  "sentAt": "2026-08-24T11:59:30.297Z",
+  "receivedAt": "2026-09-02T11:59:30.297Z"
  },
  {
   "id": "tf_4",
@@ -149,7 +149,7 @@
     "receivedQuantity": 0
    }
   ],
-  "createdAt": "2026-08-23T11:39:50.948Z"
+  "createdAt": "2026-08-23T11:59:30.297Z"
  },
  {
   "id": "tf_5",
@@ -195,8 +195,8 @@
     "receivedQuantity": 0
    }
   ],
-  "createdAt": "2026-08-27T11:39:50.948Z",
-  "sentAt": "2026-09-01T11:39:50.948Z"
+  "createdAt": "2026-08-27T11:59:30.297Z",
+  "sentAt": "2026-09-01T11:59:30.297Z"
  },
  {
   "id": "tf_6",
@@ -233,8 +233,8 @@
     "receivedQuantity": 14
    }
   ],
-  "createdAt": "2026-08-31T11:39:50.948Z",
-  "sentAt": "2026-09-05T11:39:50.948Z",
-  "receivedAt": "2026-09-02T11:39:50.948Z"
+  "createdAt": "2026-08-31T11:59:30.297Z",
+  "sentAt": "2026-09-05T11:59:30.297Z",
+  "receivedAt": "2026-09-02T11:59:30.297Z"
  }
 ]

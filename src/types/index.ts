@@ -292,6 +292,11 @@ export interface Discount {
   startsAt: string
   endsAt?: string
   status: DiscountStatus
+  combinations?: {
+    orderDiscounts: boolean
+    productDiscounts: boolean
+    shippingDiscounts: boolean
+  }
 }
 
 // ─── Marketing ─────────────────────────────────────────────────────────────

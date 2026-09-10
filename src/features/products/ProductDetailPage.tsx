@@ -9,6 +9,7 @@ import { STATUS_LABELS } from '@/lib/constants'
 import { variantAvailable } from '@/store/selectors'
 import { deleteProducts, duplicateProduct } from '@/services/productsService'
 import { useCan } from '@/lib/permissions'
+import { ProductMetafieldsCard } from './ProductMetafieldsCard'
 
 export default function ProductDetailPage() {
   const { id } = useParams()
@@ -325,6 +326,8 @@ export default function ProductDetailPage() {
               </div>
             )}
           </Card>
+
+          <ProductMetafieldsCard productId={product.id} />
 
           <Card padding={false}>
             <CardHeader title="Who ordered this" subtitle={`${ordersWithProduct.length} recent order${ordersWithProduct.length === 1 ? '' : 's'}`} />

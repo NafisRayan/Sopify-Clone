@@ -9,6 +9,7 @@ import { DISCOUNT_STATUS_LABELS, DISCOUNT_TYPE_LABELS } from '@/lib/constants'
 import { deleteDiscounts, discountStatusNow, setDiscountsStatus } from '@/services/discountsService'
 export { discountStatusNow }
 import { useCan } from '@/lib/permissions'
+import { ExportButton } from '@/components/ExportButton'
 import type { Discount, DiscountStatus, DiscountType } from '@/types'
 
 export function statusTone(s: DiscountStatus) {
@@ -138,9 +139,22 @@ export default function DiscountsListPage() {
         onRowClick={(d) => navigate(`/discounts/${d.id}`)}
         hasAnyData={discounts.length > 0}
         toolbarExtra={
-          <Button size="sm" variant="primary" icon={<Plus size={13} />} onClick={() => navigate('/discounts/new')} disabled={!canEdit}>
-            Create discount
-          </Button>
+          <>
+            <ExportButton
+              filename="discounts"
+              rows={discounts}
+              columns={[
+                { header: 'Code', value: (d) => d.code },
+                { header: 'Type', value: (d) => d.type },
+                { header: 'Method', value: (d) => d.method },
+                { header: 'Used', value: (d) => d.usedCount },
+                { header: 'Status', value: (d) => discountStatusNow(d) },
+              ]}
+            />
+            <Button size="sm" variant="primary" icon={<Plus size={13} />} onClick={() => navigate('/discounts/new')} disabled={!canEdit}>
+              Create discount
+            </Button>
+          </>
         }
         emptyNoData={
           <EmptyState

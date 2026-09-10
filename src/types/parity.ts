@@ -217,3 +217,25 @@ export interface StorePlan {
   trialDaysLeft: number
   storeId: string
 }
+
+// Metaobjects (lite) — content entries
+export interface MetaobjectDefinition {
+  id: ID
+  name: string
+  fields: { key: string; label: string; type: MetafieldType }[]
+}
+
+export interface MetaobjectEntry {
+  id: ID
+  definitionId: ID
+  fields: Record<string, string>
+  status: 'published' | 'draft'
+  updatedAt: string
+}
+
+// Discount combinations (parity)
+export interface DiscountCombinations {
+  orderDiscounts: boolean
+  productDiscounts: boolean
+  shippingDiscounts: boolean
+}

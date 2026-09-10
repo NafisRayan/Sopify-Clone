@@ -38,6 +38,8 @@ import returnsJson from './returns.json'
 import orderEditsJson from './order-edits.json'
 import orderRiskJson from './order-risk.json'
 import planJson from './plan.json'
+import metaobjectDefinitionsJson from './metaobject-definitions.json'
+import metaobjectEntriesJson from './metaobject-entries.json'
 import type {
   Product, Customer, Order, AbandonedCheckout, Collection, Location, InventoryLevel,
   InventoryHistoryEntry, Discount, Campaign, StaffMember, StorePage, BlogPost, FileAsset,
@@ -47,6 +49,7 @@ import type {
   Company, CustomerSegment, InventoryTransfer, GiftCard, Payout, BalanceTransaction,
   MetafieldDefinition, MetafieldOwnerMap, UrlRedirect, StoreLocale, MarketCountry,
   StaffActivityEntry, ReturnRecord, OrderEditRecord, OrderRisk, StorePlan,
+  MetaobjectDefinition, MetaobjectEntry,
 } from '@/types/parity'
 
 export const seedProducts = productsJson as Product[]
@@ -98,3 +101,6 @@ export const seedReturns = returnsJson as ReturnRecord[]
 export const seedOrderEdits = orderEditsJson as OrderEditRecord[]
 export const seedOrderRisk = orderRiskJson as Record<string, OrderRisk>
 export const seedPlan = planJson as StorePlan
+
+export const seedMetaobjectDefinitions = metaobjectDefinitionsJson as MetaobjectDefinition[]
+export const seedMetaobjectEntries = metaobjectEntriesJson as unknown as MetaobjectEntry[]

@@ -4,7 +4,7 @@ import { Trash2 } from 'lucide-react'
 import { useStore } from '@/store/useStore'
 import {
   Badge, Button, Card, CardHeader, CardSection, DividedCard, EmptyState, Input, PageHeader,
-  Radio, Select, useConfirm, useToast,
+  Radio, Select, Toggle, useConfirm, useToast,
 } from '@/components/ui'
 import { DISCOUNT_STATUS_LABELS, DISCOUNT_TYPE_LABELS } from '@/lib/constants'
 import { createDiscount, deleteDiscounts, discountStatusNow, updateDiscount } from '@/services/discountsService'
@@ -42,6 +42,7 @@ export default function DiscountDetailPage() {
     startsAt: toDatetimeLocal(new Date().toISOString()),
     endsAt: '',
     status: 'active' as Discount['status'],
+    combinations: existing?.combinations ?? { orderDiscounts: false, productDiscounts: false, shippingDiscounts: false },
   })
   const [saving, setSaving] = useState(false)
 
@@ -63,6 +64,7 @@ export default function DiscountDetailPage() {
         startsAt: toDatetimeLocal(existing.startsAt),
         endsAt: toDatetimeLocal(existing.endsAt),
         status: existing.status,
+        combinations: existing.combinations ?? { orderDiscounts: false, productDiscounts: false, shippingDiscounts: false },
       })
     }
   }, [existing])
@@ -126,6 +128,7 @@ export default function DiscountDetailPage() {
         startsAt: form.startsAt ? new Date(form.startsAt).toISOString() : new Date().toISOString(),
         endsAt: form.endsAt ? new Date(form.endsAt).toISOString() : undefined,
         status: form.status,
+        combinations: form.combinations,
       }
       if (isCreate) {
         const created = await createDiscount(payload)
@@ -260,6 +263,29 @@ export default function DiscountDetailPage() {
                   onChange={(e) => patch({ minPurchase: e.target.value })}
                   helpText="0 means no minimum"
                   className="max-w-[220px]"
+                />
+              </div>
+            </CardSection>
+          </DividedCard>
+
+          <DividedCard>
+            <CardHeader title="Combinations" subtitle="Which discount types this can stack with" />
+            <CardSection>
+              <div className="space-y-2.5">
+                <Toggle
+                  label="Combine with order discounts"
+                  checked={form.combinations.orderDiscounts}
+                  onChange={(v) => patch({ combinations: { ...form.combinations, orderDiscounts: v } })}
+                />
+                <Toggle
+                  label="Combine with product discounts"
+                  checked={form.combinations.productDiscounts}
+                  onChange={(v) => patch({ combinations: { ...form.combinations, productDiscounts: v } })}
+                />
+                <Toggle
+                  label="Combine with shipping discounts"
+                  checked={form.combinations.shippingDiscounts}
+                  onChange={(v) => patch({ combinations: { ...form.combinations, shippingDiscounts: v } })}
                 />
               </div>
             </CardSection>

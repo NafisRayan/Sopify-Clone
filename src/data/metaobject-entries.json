@@ -1,0 +1,42 @@
+[
+ {
+  "id": "mod_e_1",
+  "definitionId": "mod_def_1",
+  "fields": {
+   "author": "Dana W.",
+   "quote": "The canvas tote has survived two years of daily commuting and still looks great."
+  },
+  "status": "published",
+  "updatedAt": "2026-08-29T11:59:30.317Z"
+ },
+ {
+  "id": "mod_e_2",
+  "definitionId": "mod_def_1",
+  "fields": {
+   "author": "Marcus L.",
+   "quote": "Best French press I have owned. Replacement carafe ordered in one click."
+  },
+  "status": "published",
+  "updatedAt": "2026-08-10T11:59:30.317Z"
+ },
+ {
+  "id": "mod_e_3",
+  "definitionId": "mod_def_2",
+  "fields": {
+   "question": "Do you ship internationally?",
+   "answer": "Yes — tracked international shipping is $24.99, free over $250."
+  },
+  "status": "published",
+  "updatedAt": "2026-09-01T11:59:30.317Z"
+ },
+ {
+  "id": "mod_e_4",
+  "definitionId": "mod_def_2",
+  "fields": {
+   "question": "Are gift cards refundable?",
+   "answer": "Gift cards are final sale and never expire (where prohibited by law)."
+  },
+  "status": "draft",
+  "updatedAt": "2026-09-08T11:59:30.317Z"
+ }
+]

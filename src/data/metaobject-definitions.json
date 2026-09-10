@@ -1,0 +1,34 @@
+[
+ {
+  "id": "mod_def_1",
+  "name": "Testimonial",
+  "fields": [
+   {
+    "key": "author",
+    "label": "Author",
+    "type": "single_line_text"
+   },
+   {
+    "key": "quote",
+    "label": "Quote",
+    "type": "multi_line_text"
+   }
+  ]
+ },
+ {
+  "id": "mod_def_2",
+  "name": "FAQ item",
+  "fields": [
+   {
+    "key": "question",
+    "label": "Question",
+    "type": "single_line_text"
+   },
+   {
+    "key": "answer",
+    "label": "Answer",
+    "type": "multi_line_text"
+   }
+  ]
+ }
+]

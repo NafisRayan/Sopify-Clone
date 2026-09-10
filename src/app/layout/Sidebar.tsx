@@ -74,6 +74,7 @@ export function Sidebar() {
       children: [
         { label: 'Pages', to: '/content/pages' },
         { label: 'Blog posts', to: '/content/blog' },
+        { label: 'Content entries', to: '/content/entries' },
         { label: 'Files', to: '/files' },
       ],
     },

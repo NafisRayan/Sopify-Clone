@@ -49,8 +49,8 @@
    "p_merino-crew-socks"
   ],
   "status": "active",
-  "publishedAt": "2026-04-03T11:39:50.894Z",
-  "createdAt": "2025-12-14T11:39:50.894Z",
+  "publishedAt": "2026-04-03T11:59:30.242Z",
+  "createdAt": "2025-12-14T11:59:30.242Z",
   "seoTitle": "New Arrivals",
   "seoDescription": "The latest additions to the Northstar shelf."
  },
@@ -75,8 +75,8 @@
    "p_insulated-water-bottle"
   ],
   "status": "active",
-  "publishedAt": "2026-06-19T11:39:50.896Z",
-  "createdAt": "2025-06-07T11:39:50.896Z",
+  "publishedAt": "2026-06-19T11:59:30.243Z",
+  "createdAt": "2025-06-07T11:59:30.243Z",
   "seoTitle": "Bestsellers",
   "seoDescription": "What everyone is taking home."
  },
@@ -109,8 +109,8 @@
    "p_merino-crew-socks"
   ],
   "status": "active",
-  "publishedAt": "2026-07-30T11:39:50.897Z",
-  "createdAt": "2025-10-13T11:39:50.897Z",
+  "publishedAt": "2026-07-30T11:59:30.245Z",
+  "createdAt": "2025-10-13T11:59:30.245Z",
   "seoTitle": "Apparel",
   "seoDescription": "Everyday clothing, built to last."
  },
@@ -131,8 +131,8 @@
    "p_room-spray"
   ],
   "status": "active",
-  "publishedAt": "2026-01-19T11:39:50.898Z",
-  "createdAt": "2025-09-05T11:39:50.898Z",
+  "publishedAt": "2026-01-19T11:59:30.248Z",
+  "createdAt": "2025-09-05T11:59:30.248Z",
   "seoTitle": "Home Goods",
   "seoDescription": "Objects for a warmer home — ceramics, textiles, and light."
  },
@@ -166,8 +166,8 @@
    "p_trail-water-flask"
   ],
   "status": "active",
-  "publishedAt": "2025-12-21T11:39:50.900Z",
-  "createdAt": "2025-06-18T11:39:50.900Z",
+  "publishedAt": "2025-12-21T11:59:30.249Z",
+  "createdAt": "2025-06-18T11:59:30.249Z",
   "seoTitle": "Outdoor & Travel",
   "seoDescription": "Gear for the trail, the commute, and the red-eye."
  },
@@ -197,8 +197,8 @@
    "p_olive-oil-cruet"
   ],
   "status": "active",
-  "publishedAt": "2026-01-14T11:39:50.901Z",
-  "createdAt": "2026-05-01T11:39:50.901Z",
+  "publishedAt": "2026-01-14T11:59:30.251Z",
+  "createdAt": "2026-05-01T11:59:30.251Z",
   "seoTitle": "Kitchen & Dining",
   "seoDescription": "Tools and tableware for slow mornings."
  },
@@ -230,8 +230,8 @@
    "p_slate-coasters"
   ],
   "status": "active",
-  "publishedAt": "2025-12-25T11:39:50.903Z",
-  "createdAt": "2026-05-30T11:39:50.903Z",
+  "publishedAt": "2025-12-25T11:59:30.254Z",
+  "createdAt": "2026-05-30T11:59:30.254Z",
   "seoTitle": "Gift Guide",
   "seoDescription": "Hand-picked gifts under $100."
  },
@@ -252,8 +252,8 @@
   "rulesMatch": "all",
   "productIds": [],
   "status": "active",
-  "publishedAt": "2026-04-22T11:39:50.905Z",
-  "createdAt": "2026-07-09T11:39:50.905Z",
+  "publishedAt": "2026-04-22T11:59:30.256Z",
+  "createdAt": "2026-07-09T11:59:30.256Z",
   "seoTitle": "Leather Goods",
   "seoDescription": "Vegetable-tanned pieces that age well."
  },
@@ -275,8 +275,8 @@
    "p_leather-wallet"
   ],
   "status": "active",
-  "publishedAt": "2026-06-02T11:39:50.906Z",
-  "createdAt": "2025-12-29T11:39:50.906Z",
+  "publishedAt": "2026-06-02T11:59:30.258Z",
+  "createdAt": "2025-12-29T11:59:30.258Z",
   "seoTitle": "Made in Portland",
   "seoDescription": "Designed and finished in our Portland workshop."
  },
@@ -296,8 +296,8 @@
    "p_kids-organic-tee"
   ],
   "status": "active",
-  "publishedAt": "2026-07-18T11:39:50.907Z",
-  "createdAt": "2025-09-14T11:39:50.907Z",
+  "publishedAt": "2026-07-18T11:59:30.259Z",
+  "createdAt": "2025-09-14T11:59:30.259Z",
   "seoTitle": "Office & Desk",
   "seoDescription": "Upgrade the nine-to-five surface."
  },
@@ -322,8 +322,8 @@
    "p_postcard-pack"
   ],
   "status": "active",
-  "publishedAt": "2026-06-04T11:39:50.909Z",
-  "createdAt": "2025-08-06T11:39:50.909Z",
+  "publishedAt": "2026-06-04T11:59:30.260Z",
+  "createdAt": "2025-08-06T11:59:30.260Z",
   "seoTitle": "Stationery",
   "seoDescription": "Paper goods worth writing on."
  },
@@ -349,8 +349,8 @@
    "p_minimal-sneakers"
   ],
   "status": "active",
-  "publishedAt": "2025-12-11T11:39:50.910Z",
-  "createdAt": "2025-07-14T11:39:50.910Z",
+  "publishedAt": "2025-12-11T11:59:30.262Z",
+  "createdAt": "2025-07-14T11:59:30.262Z",
   "seoTitle": "Archive Sale",
   "seoDescription": "Final markdowns — while stock lasts."
  }

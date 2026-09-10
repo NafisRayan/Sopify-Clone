@@ -4,7 +4,7 @@
   "kind": "critical",
   "title": "3 products are out of stock",
   "body": "Restock before the weekend promo.",
-  "createdAt": "2026-09-09T20:37:40.904Z",
+  "createdAt": "2026-09-09T20:57:20.259Z",
   "read": false,
   "link": "/inventory?stock=0"
  },
@@ -13,7 +13,7 @@
   "kind": "warning",
   "title": "Abandoned checkouts up 18%",
   "body": "Recovery email could recover ~$1,200.",
-  "createdAt": "2026-09-09T22:25:08.953Z",
+  "createdAt": "2026-09-09T22:44:48.308Z",
   "read": false,
   "link": "/orders?tab=abandoned"
  },
@@ -22,7 +22,7 @@
   "kind": "info",
   "title": "Holiday Gift Guide campaign scheduled",
   "body": "Launches in 5 days.",
-  "createdAt": "2026-09-08T19:31:47.939Z",
+  "createdAt": "2026-09-08T19:51:27.294Z",
   "read": false,
   "link": "/marketing"
  },
@@ -31,7 +31,7 @@
   "kind": "info",
   "title": "Payout of $4,812.40 sent",
   "body": "Shopify Payments · arrives in 2 days.",
-  "createdAt": "2026-09-07T21:23:02.169Z",
+  "createdAt": "2026-09-07T21:42:41.524Z",
   "read": true
  },
  {
@@ -39,7 +39,7 @@
   "kind": "warning",
   "title": "2 staff invitations pending",
   "body": "Elias Warner and Ruby Osei haven’t accepted.",
-  "createdAt": "2026-09-10T07:33:58.276Z",
+  "createdAt": "2026-09-10T07:53:37.631Z",
   "read": true,
   "link": "/settings/users"
  },
@@ -48,7 +48,7 @@
   "kind": "info",
   "title": "New app suggestion",
   "body": "Back in Stock Alerts matches your store.",
-  "createdAt": "2026-09-06T08:22:49.064Z",
+  "createdAt": "2026-09-06T08:42:28.419Z",
   "read": true,
   "link": "/apps"
  }

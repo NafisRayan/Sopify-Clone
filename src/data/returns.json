@@ -12,7 +12,7 @@
   "reason": "Changed mind",
   "restock": true,
   "refundAmount": 18,
-  "createdAt": "2026-08-30T11:39:50.973Z"
+  "createdAt": "2026-08-30T11:59:30.317Z"
  },
  {
   "id": "ret_2",
@@ -27,8 +27,8 @@
   "reason": "Wrong size",
   "restock": true,
   "refundAmount": 58,
-  "createdAt": "2026-09-07T11:39:50.973Z",
-  "closedAt": "2026-09-09T11:39:50.973Z"
+  "createdAt": "2026-09-07T11:59:30.317Z",
+  "closedAt": "2026-09-09T11:59:30.317Z"
  },
  {
   "id": "ret_3",
@@ -43,7 +43,7 @@
   "reason": "Arrived damaged",
   "restock": true,
   "refundAmount": 30,
-  "createdAt": "2026-08-31T11:39:50.973Z",
-  "closedAt": "2026-09-08T11:39:50.973Z"
+  "createdAt": "2026-08-31T11:59:30.317Z",
+  "closedAt": "2026-09-08T11:59:30.317Z"
  }
 ]

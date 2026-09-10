@@ -30,6 +30,7 @@ const PageDetail = lazy(() => import('@/features/content/PageDetailPage'))
 const BlogList = lazy(() => import('@/features/content/BlogListPage'))
 const BlogDetail = lazy(() => import('@/features/content/BlogDetailPage'))
 const FilesPage = lazy(() => import('@/features/content/FilesPage'))
+const EntriesList = lazy(() => import('@/features/content/EntriesListPage'))
 const OnlineStorePage = lazy(() => import('@/features/online-store/OnlineStorePage'))
 const NavigationPage = lazy(() => import('@/features/online-store/NavigationPage'))
 const PreferencesPage = lazy(() => import('@/features/online-store/PreferencesPage'))
@@ -126,6 +127,7 @@ export function AppRoutes() {
               <Route path="/content/blog/:id" element={<BlogDetail />} />
               <Route path="/content/blog/new" element={<BlogDetail />} />
               <Route path="/files" element={<FilesPage />} />
+              <Route path="/content/entries" element={<EntriesList />} />
 
               {/* Online store */}
               <Route path="/online-store" element={<OnlineStorePage />} />

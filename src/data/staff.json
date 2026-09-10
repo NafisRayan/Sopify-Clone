@@ -5,7 +5,7 @@
   "email": "ava@northstargoods.com",
   "role": "owner",
   "status": "active",
-  "lastActiveAt": "2026-09-09T22:10:36.411Z",
+  "lastActiveAt": "2026-09-09T22:30:15.764Z",
   "permissions": {
    "products": [
     "view",
@@ -39,7 +39,7 @@
   "email": "noah@northstargoods.com",
   "role": "admin",
   "status": "active",
-  "lastActiveAt": "2026-09-07T19:15:14.083Z",
+  "lastActiveAt": "2026-09-07T19:34:53.436Z",
   "permissions": {
    "products": [
     "view",
@@ -71,7 +71,7 @@
   "email": "maya@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-09T01:54:54.406Z",
+  "lastActiveAt": "2026-09-09T02:14:33.759Z",
   "permissions": {
    "products": [
     "view",
@@ -95,7 +95,7 @@
   "email": "leo@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-09T23:10:51.004Z",
+  "lastActiveAt": "2026-09-09T23:30:30.357Z",
   "permissions": {
    "products": [
     "view",
@@ -119,7 +119,7 @@
   "email": "sofia@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-08T18:44:33.536Z",
+  "lastActiveAt": "2026-09-08T19:04:12.889Z",
   "permissions": {
    "products": [
     "view",
@@ -169,7 +169,7 @@
   "email": "priya@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-09T16:30:30.306Z",
+  "lastActiveAt": "2026-09-09T16:50:09.659Z",
   "permissions": {
    "products": [
     "view",
@@ -195,7 +195,7 @@
   "email": "omar@northstargoods.com",
   "role": "staff",
   "status": "deactivated",
-  "lastActiveAt": "2026-08-09T12:54:11.145Z",
+  "lastActiveAt": "2026-08-09T13:13:50.498Z",
   "permissions": {
    "products": [
     "view",
@@ -221,7 +221,7 @@
   "email": "june@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-03T22:24:48.850Z",
+  "lastActiveAt": "2026-09-03T22:44:28.203Z",
   "permissions": {
    "products": [
     "view",
@@ -271,7 +271,7 @@
   "email": "kenji@northstargoods.com",
   "role": "staff",
   "status": "active",
-  "lastActiveAt": "2026-09-09T20:53:39.744Z",
+  "lastActiveAt": "2026-09-09T21:13:19.097Z",
   "permissions": {
    "products": [
     "view",

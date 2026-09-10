@@ -11,8 +11,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-07-21T11:39:50.911Z",
-  "endsAt": "2026-10-14T11:39:50.911Z",
+  "startsAt": "2026-07-21T11:59:30.263Z",
+  "endsAt": "2026-10-14T11:59:30.264Z",
   "status": "scheduled"
  },
  {
@@ -27,7 +27,7 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-08-10T11:39:50.911Z",
+  "startsAt": "2026-08-10T11:59:30.264Z",
   "status": "draft"
  },
  {
@@ -41,7 +41,7 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 6,
-  "startsAt": "2026-08-15T11:39:50.911Z",
+  "startsAt": "2026-08-15T11:59:30.264Z",
   "status": "active"
  },
  {
@@ -66,8 +66,8 @@
   ],
   "usageLimit": 250,
   "usedCount": 38,
-  "startsAt": "2026-07-02T11:39:50.911Z",
-  "endsAt": "2026-11-05T11:39:50.911Z",
+  "startsAt": "2026-07-02T11:59:30.264Z",
+  "endsAt": "2026-11-05T11:59:30.264Z",
   "status": "active"
  },
  {
@@ -83,8 +83,8 @@
   "productIds": [],
   "usageLimit": 500,
   "usedCount": 19,
-  "startsAt": "2026-07-25T11:39:50.911Z",
-  "endsAt": "2026-09-07T11:39:50.911Z",
+  "startsAt": "2026-07-25T11:59:30.264Z",
+  "endsAt": "2026-09-07T11:59:30.264Z",
   "status": "expired"
  },
  {
@@ -98,8 +98,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 54,
-  "startsAt": "2026-08-01T11:39:50.911Z",
-  "endsAt": "2026-09-07T11:39:50.911Z",
+  "startsAt": "2026-08-01T11:59:30.264Z",
+  "endsAt": "2026-09-07T11:59:30.264Z",
   "status": "expired"
  },
  {
@@ -115,8 +115,8 @@
   "productIds": [],
   "usageLimit": 500,
   "usedCount": 90,
-  "startsAt": "2026-08-11T11:39:50.911Z",
-  "endsAt": "2026-11-18T11:39:50.911Z",
+  "startsAt": "2026-08-11T11:59:30.264Z",
+  "endsAt": "2026-11-18T11:59:30.264Z",
   "status": "active"
  },
  {
@@ -140,8 +140,8 @@
    "p_running-cap"
   ],
   "usedCount": 0,
-  "startsAt": "2026-07-18T11:39:50.911Z",
-  "endsAt": "2026-12-07T11:39:50.911Z",
+  "startsAt": "2026-07-18T11:59:30.264Z",
+  "endsAt": "2026-12-07T11:59:30.264Z",
   "status": "draft"
  },
  {
@@ -156,8 +156,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 22,
-  "startsAt": "2026-07-30T11:39:50.911Z",
-  "endsAt": "2026-09-07T11:39:50.911Z",
+  "startsAt": "2026-07-30T11:59:30.264Z",
+  "endsAt": "2026-09-07T11:59:30.264Z",
   "status": "expired"
  },
  {
@@ -172,8 +172,8 @@
   "productIds": [],
   "usageLimit": 250,
   "usedCount": 72,
-  "startsAt": "2026-07-25T11:39:50.911Z",
-  "endsAt": "2026-09-07T11:39:50.911Z",
+  "startsAt": "2026-07-25T11:59:30.264Z",
+  "endsAt": "2026-09-07T11:59:30.264Z",
   "status": "expired"
  },
  {
@@ -189,8 +189,8 @@
   "productIds": [],
   "usageLimit": 100,
   "usedCount": 0,
-  "startsAt": "2026-06-26T11:39:50.911Z",
-  "endsAt": "2026-10-24T11:39:50.911Z",
+  "startsAt": "2026-06-26T11:59:30.264Z",
+  "endsAt": "2026-10-24T11:59:30.264Z",
   "status": "scheduled"
  },
  {
@@ -204,8 +204,8 @@
   "productIds": [],
   "usageLimit": 500,
   "usedCount": 0,
-  "startsAt": "2026-08-23T11:39:50.911Z",
-  "endsAt": "2026-09-24T11:39:50.911Z",
+  "startsAt": "2026-08-23T11:59:30.264Z",
+  "endsAt": "2026-09-24T11:59:30.264Z",
   "status": "scheduled"
  },
  {
@@ -230,8 +230,8 @@
   ],
   "usageLimit": 100,
   "usedCount": 74,
-  "startsAt": "2026-07-26T11:39:50.911Z",
-  "endsAt": "2026-09-09T11:39:50.911Z",
+  "startsAt": "2026-07-26T11:59:30.264Z",
+  "endsAt": "2026-09-09T11:59:30.264Z",
   "status": "expired"
  },
  {
@@ -245,8 +245,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 43,
-  "startsAt": "2026-08-11T11:39:50.911Z",
-  "endsAt": "2026-10-20T11:39:50.911Z",
+  "startsAt": "2026-08-11T11:59:30.264Z",
+  "endsAt": "2026-10-20T11:59:30.264Z",
   "status": "active"
  },
  {
@@ -261,8 +261,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-08-16T11:39:50.911Z",
-  "endsAt": "2026-10-23T11:39:50.911Z",
+  "startsAt": "2026-08-16T11:59:30.264Z",
+  "endsAt": "2026-10-23T11:59:30.264Z",
   "status": "scheduled"
  },
  {
@@ -278,8 +278,8 @@
   "productIds": [],
   "usageLimit": 100,
   "usedCount": 73,
-  "startsAt": "2026-08-10T11:39:50.911Z",
-  "endsAt": "2026-09-09T11:39:50.911Z",
+  "startsAt": "2026-08-10T11:59:30.264Z",
+  "endsAt": "2026-09-09T11:59:30.264Z",
   "status": "expired"
  }
 ]

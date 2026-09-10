@@ -1,7 +1,7 @@
 [
  {
   "id": "act_11",
-  "at": "2026-09-10T11:08:39.469Z",
+  "at": "2026-09-10T11:28:18.812Z",
   "staffId": "staff_1",
   "staffName": "Noah Kim",
   "action": "Refunded order",
@@ -10,7 +10,7 @@
  },
  {
   "id": "act_23",
-  "at": "2026-09-10T04:13:31.533Z",
+  "at": "2026-09-10T04:33:10.876Z",
   "staffId": "staff_2",
   "staffName": "Maya Patel",
   "action": "Created collection",
@@ -18,7 +18,7 @@
  },
  {
   "id": "act_16",
-  "at": "2026-09-09T02:00:44.138Z",
+  "at": "2026-09-09T02:20:23.481Z",
   "staffId": "staff_6",
   "staffName": "Priya Nair",
   "action": "Issued gift card",
@@ -26,7 +26,7 @@
  },
  {
   "id": "act_6",
-  "at": "2026-09-07T09:10:41.675Z",
+  "at": "2026-09-07T09:30:21.019Z",
   "staffId": "staff_6",
   "staffName": "Priya Nair",
   "action": "Updated settings",
@@ -34,7 +34,7 @@
  },
  {
   "id": "act_22",
-  "at": "2026-09-06T11:31:29.077Z",
+  "at": "2026-09-06T11:51:08.420Z",
   "staffId": "staff_3",
   "staffName": "Leo Fischer",
   "action": "Issued gift card",
@@ -42,7 +42,7 @@
  },
  {
   "id": "act_25",
-  "at": "2026-09-06T06:53:40.100Z",
+  "at": "2026-09-06T07:13:19.443Z",
   "staffId": "staff_4",
   "staffName": "Sofia Marino",
   "action": "Created collection",
@@ -50,7 +50,7 @@
  },
  {
   "id": "act_10",
-  "at": "2026-09-04T07:52:37.895Z",
+  "at": "2026-09-04T08:12:17.238Z",
   "staffId": "staff_1",
   "staffName": "Noah Kim",
   "action": "Invited staff",
@@ -58,7 +58,7 @@
  },
  {
   "id": "act_21",
-  "at": "2026-09-03T18:19:05.328Z",
+  "at": "2026-09-03T18:38:44.671Z",
   "staffId": "staff_6",
   "staffName": "Priya Nair",
   "action": "Created discount",
@@ -66,7 +66,7 @@
  },
  {
   "id": "act_19",
-  "at": "2026-09-03T12:24:48.876Z",
+  "at": "2026-09-03T12:44:28.219Z",
   "staffId": "staff_owner",
   "staffName": "Ava Chen",
   "action": "Refunded order",
@@ -75,7 +75,7 @@
  },
  {
   "id": "act_13",
-  "at": "2026-08-31T05:44:33.897Z",
+  "at": "2026-08-31T06:04:13.240Z",
   "staffId": "staff_1",
   "staffName": "Noah Kim",
   "action": "Invited staff",
@@ -83,7 +83,7 @@
  },
  {
   "id": "act_5",
-  "at": "2026-08-31T04:48:33.694Z",
+  "at": "2026-08-31T05:08:13.038Z",
   "staffId": "staff_owner",
   "staffName": "Ava Chen",
   "action": "Created product",
@@ -91,7 +91,7 @@
  },
  {
   "id": "act_14",
-  "at": "2026-08-27T20:37:18.343Z",
+  "at": "2026-08-27T20:56:57.686Z",
   "staffId": "staff_3",
   "staffName": "Leo Fischer",
   "action": "Fulfilled order",
@@ -100,7 +100,7 @@
  },
  {
   "id": "act_7",
-  "at": "2026-08-27T13:46:06.998Z",
+  "at": "2026-08-27T14:05:46.342Z",
   "staffId": "staff_4",
   "staffName": "Sofia Marino",
   "action": "Refunded order",
@@ -109,7 +109,7 @@
  },
  {
   "id": "act_3",
-  "at": "2026-08-26T18:21:36.273Z",
+  "at": "2026-08-26T18:41:15.617Z",
   "staffId": "staff_4",
   "staffName": "Sofia Marino",
   "action": "Updated settings",
@@ -117,7 +117,7 @@
  },
  {
   "id": "act_15",
-  "at": "2026-08-25T11:29:25.486Z",
+  "at": "2026-08-25T11:49:04.829Z",
   "staffId": "staff_owner",
   "staffName": "Ava Chen",
   "action": "Added customer",
@@ -125,7 +125,7 @@
  },
  {
   "id": "act_26",
-  "at": "2026-08-24T00:16:08.804Z",
+  "at": "2026-08-24T00:35:48.147Z",
   "staffId": "staff_1",
   "staffName": "Noah Kim",
   "action": "Created product",
@@ -133,7 +133,7 @@
  },
  {
   "id": "act_12",
-  "at": "2026-08-23T15:52:39.448Z",
+  "at": "2026-08-23T16:12:18.791Z",
   "staffId": "staff_4",
   "staffName": "Sofia Marino",
   "action": "Created collection",
@@ -141,7 +141,7 @@
  },
  {
   "id": "act_9",
-  "at": "2026-08-23T07:30:39.198Z",
+  "at": "2026-08-23T07:50:18.541Z",
   "staffId": "staff_10",
   "staffName": "Kenji Sato",
   "action": "Created product",
@@ -149,7 +149,7 @@
  },
  {
   "id": "act_20",
-  "at": "2026-08-23T00:27:38.425Z",
+  "at": "2026-08-23T00:47:17.768Z",
   "staffId": "staff_owner",
   "staffName": "Ava Chen",
   "action": "Fulfilled order",
@@ -158,7 +158,7 @@
  },
  {
   "id": "act_4",
-  "at": "2026-08-22T07:16:26.552Z",
+  "at": "2026-08-22T07:36:05.896Z",
   "staffId": "staff_1",
   "staffName": "Noah Kim",
   "action": "Published theme change",
@@ -166,7 +166,7 @@
  },
  {
   "id": "act_2",
-  "at": "2026-08-22T06:55:45.526Z",
+  "at": "2026-08-22T07:15:24.870Z",
   "staffId": "staff_3",
   "staffName": "Leo Fischer",
   "action": "Created discount",
@@ -174,7 +174,7 @@
  },
  {
   "id": "act_18",
-  "at": "2026-08-21T01:58:41.655Z",
+  "at": "2026-08-21T02:18:20.998Z",
   "staffId": "staff_10",
   "staffName": "Kenji Sato",
   "action": "Updated settings",
@@ -182,7 +182,7 @@
  },
  {
   "id": "act_8",
-  "at": "2026-08-21T01:47:39.010Z",
+  "at": "2026-08-21T02:07:18.354Z",
   "staffId": "staff_2",
   "staffName": "Maya Patel",
   "action": "Created collection",
@@ -190,7 +190,7 @@
  },
  {
   "id": "act_17",
-  "at": "2026-08-19T02:49:48.225Z",
+  "at": "2026-08-19T03:09:27.568Z",
   "staffId": "staff_10",
   "staffName": "Kenji Sato",
   "action": "Created collection",
@@ -198,7 +198,7 @@
  },
  {
   "id": "act_24",
-  "at": "2026-08-16T02:10:41.912Z",
+  "at": "2026-08-16T02:30:21.255Z",
   "staffId": "staff_6",
   "staffName": "Priya Nair",
   "action": "Adjusted inventory",
@@ -206,7 +206,7 @@
  },
  {
   "id": "act_1",
-  "at": "2026-08-11T18:54:18.618Z",
+  "at": "2026-08-11T19:13:57.962Z",
   "staffId": "staff_8",
   "staffName": "June Park",
   "action": "Updated settings",

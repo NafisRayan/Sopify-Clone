@@ -64,7 +64,7 @@
    }
   ],
   "priceListDiscountPercent": 15,
-  "createdAt": "2025-10-06T11:39:50.942Z"
+  "createdAt": "2025-10-06T11:59:30.295Z"
  },
  {
   "id": "company_2",
@@ -149,7 +149,7 @@
    }
   ],
   "priceListDiscountPercent": 10,
-  "createdAt": "2025-10-23T11:39:50.943Z"
+  "createdAt": "2025-10-23T11:59:30.295Z"
  },
  {
   "id": "company_3",
@@ -215,7 +215,7 @@
    }
   ],
   "priceListDiscountPercent": 15,
-  "createdAt": "2026-05-02T11:39:50.943Z"
+  "createdAt": "2026-05-02T11:59:30.295Z"
  },
  {
   "id": "company_4",
@@ -273,6 +273,6 @@
    }
   ],
   "priceListDiscountPercent": 15,
-  "createdAt": "2026-05-07T11:39:50.943Z"
+  "createdAt": "2026-05-07T11:59:30.295Z"
  }
 ]

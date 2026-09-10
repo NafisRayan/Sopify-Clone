@@ -14,6 +14,7 @@ import {
   addTags, deleteProducts, duplicateProduct, removeTags, setProductsStatus,
 } from '@/services/productsService'
 import { useCan } from '@/lib/permissions'
+import { ExportButton } from '@/components/ExportButton'
 import type { Product, ProductStatus, SalesChannel } from '@/types'
 
 function statusTone(status: ProductStatus) {
@@ -329,15 +330,29 @@ export default function ProductsListPage() {
         onRowClick={(p) => navigate(`/products/${p.id}`)}
         hasAnyData={products.length > 0}
         toolbarExtra={
-          <Button
-            size="sm"
-            variant="primary"
-            icon={<Plus size={13} />}
-            onClick={() => navigate('/products/new')}
-            disabled={!can.create}
-          >
-            Add product
-          </Button>
+          <>
+            <ExportButton
+              filename="products"
+              rows={products}
+              columns={[
+                { header: 'Title', value: (p) => p.title },
+                { header: 'Status', value: (p) => p.status },
+                { header: 'Vendor', value: (p) => p.vendor },
+                { header: 'Type', value: (p) => p.productType },
+                { header: 'Variants', value: (p) => p.variants.length },
+                { header: 'Tags', value: (p) => p.tags.join('|') },
+              ]}
+            />
+            <Button
+              size="sm"
+              variant="primary"
+              icon={<Plus size={13} />}
+              onClick={() => navigate('/products/new')}
+              disabled={!can.create}
+            >
+              Add product
+            </Button>
+          </>
         }
         emptyNoData={
           <EmptyState

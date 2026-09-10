@@ -6,7 +6,7 @@
   "role": "current",
   "imageSrc": "/images/banners/theme-northstar.svg",
   "updatedDays": 2,
-  "addedAt": "2026-09-08T11:39:50.935Z"
+  "addedAt": "2026-09-08T11:59:30.290Z"
  },
  {
   "id": "th_2",
@@ -15,7 +15,7 @@
   "role": "published-mirror",
   "imageSrc": "/images/banners/theme-dawn.svg",
   "updatedDays": 11,
-  "addedAt": "2026-08-30T11:39:50.935Z"
+  "addedAt": "2026-08-30T11:59:30.290Z"
  },
  {
   "id": "th_3",
@@ -24,7 +24,7 @@
   "role": "library",
   "imageSrc": "/images/banners/theme-studio.svg",
   "updatedDays": 30,
-  "addedAt": "2026-08-11T11:39:50.935Z"
+  "addedAt": "2026-08-11T11:59:30.290Z"
  },
  {
   "id": "th_4",
@@ -33,7 +33,7 @@
   "role": "library",
   "imageSrc": "/images/banners/theme-craft.svg",
   "updatedDays": 74,
-  "addedAt": "2026-06-28T11:39:50.935Z"
+  "addedAt": "2026-06-28T11:59:30.290Z"
  },
  {
   "id": "th_5",
@@ -42,6 +42,6 @@
   "role": "library",
   "imageSrc": "/images/banners/theme-sense.svg",
   "updatedDays": 120,
-  "addedAt": "2026-05-13T11:39:50.935Z"
+  "addedAt": "2026-05-13T11:59:30.290Z"
  }
 ]

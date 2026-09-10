@@ -301,6 +301,31 @@ export function generateParity(input: ParityInput) {
         : { level: 'low', signals: [] }
   }
 
+  const entries = [
+    {
+      id: 'mod_def_1',
+      name: 'Testimonial',
+      fields: [
+        { key: 'author', label: 'Author', type: 'single_line_text' as const },
+        { key: 'quote', label: 'Quote', type: 'multi_line_text' as const },
+      ],
+    },
+    {
+      id: 'mod_def_2',
+      name: 'FAQ item',
+      fields: [
+        { key: 'question', label: 'Question', type: 'single_line_text' as const },
+        { key: 'answer', label: 'Answer', type: 'multi_line_text' as const },
+      ],
+    },
+  ]
+  const entryItems = [
+    { id: 'mod_e_1', definitionId: 'mod_def_1', fields: { author: 'Dana W.', quote: 'The canvas tote has survived two years of daily commuting and still looks great.' }, status: 'published' as const, updatedAt: iso(daysAgo(12)) },
+    { id: 'mod_e_2', definitionId: 'mod_def_1', fields: { author: 'Marcus L.', quote: 'Best French press I have owned. Replacement carafe ordered in one click.' }, status: 'published' as const, updatedAt: iso(daysAgo(31)) },
+    { id: 'mod_e_3', definitionId: 'mod_def_2', fields: { question: 'Do you ship internationally?', answer: 'Yes — tracked international shipping is $24.99, free over $250.' }, status: 'published' as const, updatedAt: iso(daysAgo(9)) },
+    { id: 'mod_e_4', definitionId: 'mod_def_2', fields: { question: 'Are gift cards refundable?', answer: 'Gift cards are final sale and never expire (where prohibited by law).' }, status: 'draft' as const, updatedAt: iso(daysAgo(2)) },
+  ]
+
   const plan: StorePlan = {
     name: 'Advanced',
     status: 'trial',
@@ -308,5 +333,5 @@ export function generateParity(input: ParityInput) {
     storeId: 'NS-DEMO-4821',
   }
 
-  return { companies, segments, transfers, giftCards, payouts, transactions, metafieldDefinitions, metafields, redirects, locales, markets, staffActivity, returns, orderEdits, orderRisk, plan }
+  return { companies, segments, transfers, giftCards, payouts, transactions, metafieldDefinitions, metafields, redirects, locales, markets, staffActivity, returns, orderEdits, orderRisk, plan, entries, entryItems }
 }
