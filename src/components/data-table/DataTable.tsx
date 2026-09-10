@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react'
-import { ArrowUpDown } from 'lucide-react'
+import { ArrowUpDown, X } from 'lucide-react'
 import { Checkbox, Pagination, SkeletonRows, Button } from '@/components/ui'
 import { EmptyState } from '@/components/ui/States'
 import { useTableUrlState } from './useTableUrlState'
@@ -142,6 +142,7 @@ export function DataTable<T>({
   }, [])
 
   const hasActiveState = url.activeFilterCount > 0
+  void hasActiveState
 
   const bulkBar = selectable && selectedVisible.length > 0 && (
     <div className="sticky top-0 z-20 flex flex-wrap items-center gap-2 border-b border-border bg-[#f4f4f4] px-3 py-2">

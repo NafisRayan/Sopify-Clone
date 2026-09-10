@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react'
+import { type ReactNode } from 'react'
 import { Search, X, SlidersHorizontal, ChevronDown, CalendarRange } from 'lucide-react'
 import { Popover, Button, Checkbox } from '@/components/ui'
 import type { FilterDef, FiltersState, FilterValue } from './types'
@@ -25,11 +25,12 @@ function ActiveChip({
   )
 }
 
-function valueLabel(f: FilterDef<never>, v: FilterValue, options: { label: string; value: string }[]): string {
+function valueLabel(_f: FilterDef<never>, v: FilterValue, options: { label: string; value: string }[]): string {
   if (typeof v === 'string') return options.find((o) => o.value === v)?.label ?? v
   if (Array.isArray(v)) return v.map((x) => options.find((o) => o.value === x)?.label ?? x).join(', ')
   if ('from' in v || 'to' in v) return `${v.from ? shortDate(v.from) : 'start'} → ${v.to ? shortDate(v.to) : 'now'}`
-  return `${v.min ?? '0'} – ${v.max ?? '∞'}`
+  const numeric = v as { min?: number; max?: number }
+  return `${numeric.min ?? '0'} – ${numeric.max ?? '∞'}`
 }
 
 function shortDate(iso: string): string {
@@ -63,8 +64,6 @@ export function FilterBar<T>({
   /** rendered between the bar and the table (e.g. tabs) */
   children?: ReactNode
 }) {
-  const [filterPanelOpen, setFilterPanelOpen] = useState(false)
-
   return (
     <div className="border-b border-border bg-surface">
       <div className="flex flex-wrap items-center gap-2 px-3 py-2">
@@ -98,7 +97,7 @@ export function FilterBar<T>({
               </Button>
             }
           >
-            {(close) => (
+            {() => (
               <div className="divide-y divide-border">
                 {filters.map((f) => (
                   <FilterEditor key={f.key} def={f} rows={rows} value={values[f.key]} onChange={(v) => onSetFilter(f.key, v)} />

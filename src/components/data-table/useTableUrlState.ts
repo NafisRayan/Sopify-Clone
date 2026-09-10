@@ -12,7 +12,8 @@ function encodeFilter(value: FilterValue): string {
   if (typeof value === 'string') return value
   if (Array.isArray(value)) return value.join(',')
   if ('from' in value || 'to' in value) return [value.from ?? '', value.to ?? ''].join('..')
-  return [value.min ?? '', value.max ?? ''].join('..')
+  const numeric = value as { min?: number; max?: number }
+  return [numeric.min ?? '', numeric.max ?? ''].join('..')
 }
 
 function decodeFilter(raw: string, type: FilterDef<never>['type']): FilterValue | undefined {
