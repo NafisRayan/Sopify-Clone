@@ -11,7 +11,7 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-08-24T09:47:19.234Z",
+  "startsAt": "2026-08-24T09:56:24.127Z",
   "status": "draft"
  },
  {
@@ -26,7 +26,7 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 31,
-  "startsAt": "2026-08-25T09:47:19.234Z",
+  "startsAt": "2026-08-25T09:56:24.127Z",
   "status": "active"
  },
  {
@@ -40,8 +40,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-07-09T09:47:19.234Z",
-  "endsAt": "2026-10-12T09:47:19.234Z",
+  "startsAt": "2026-07-09T09:56:24.127Z",
+  "endsAt": "2026-10-12T09:56:24.127Z",
   "status": "draft"
  },
  {
@@ -66,8 +66,8 @@
   ],
   "usageLimit": 100,
   "usedCount": 0,
-  "startsAt": "2026-06-13T09:47:19.234Z",
-  "endsAt": "2026-10-14T09:47:19.234Z",
+  "startsAt": "2026-06-13T09:56:24.127Z",
+  "endsAt": "2026-10-14T09:56:24.127Z",
   "status": "scheduled"
  },
  {
@@ -82,8 +82,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 52,
-  "startsAt": "2026-08-25T09:47:19.234Z",
-  "endsAt": "2026-09-09T09:47:19.234Z",
+  "startsAt": "2026-08-25T09:56:24.127Z",
+  "endsAt": "2026-09-09T09:56:24.127Z",
   "status": "expired"
  },
  {
@@ -98,8 +98,8 @@
   "productIds": [],
   "usageLimit": 500,
   "usedCount": 44,
-  "startsAt": "2026-06-17T09:47:19.234Z",
-  "endsAt": "2026-11-12T09:47:19.234Z",
+  "startsAt": "2026-06-17T09:56:24.127Z",
+  "endsAt": "2026-11-12T09:56:24.127Z",
   "status": "active"
  },
  {
@@ -115,7 +115,7 @@
   "productIds": [],
   "usageLimit": 250,
   "usedCount": 74,
-  "startsAt": "2026-08-18T09:47:19.234Z",
+  "startsAt": "2026-08-18T09:56:24.127Z",
   "status": "active"
  },
  {
@@ -139,7 +139,7 @@
    "p_wool-throw-blanket"
   ],
   "usedCount": 0,
-  "startsAt": "2026-07-19T09:47:19.234Z",
+  "startsAt": "2026-07-19T09:56:24.127Z",
   "status": "draft"
  },
  {
@@ -154,8 +154,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-08-24T09:47:19.234Z",
-  "endsAt": "2026-10-01T09:47:19.234Z",
+  "startsAt": "2026-08-24T09:56:24.127Z",
+  "endsAt": "2026-10-01T09:56:24.127Z",
   "status": "scheduled"
  },
  {
@@ -169,8 +169,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 0,
-  "startsAt": "2026-07-18T09:47:19.235Z",
-  "endsAt": "2026-10-05T09:47:19.235Z",
+  "startsAt": "2026-07-18T09:56:24.127Z",
+  "endsAt": "2026-10-05T09:56:24.127Z",
   "status": "scheduled"
  },
  {
@@ -186,7 +186,7 @@
   "productIds": [],
   "usageLimit": 250,
   "usedCount": 29,
-  "startsAt": "2026-06-18T09:47:19.235Z",
+  "startsAt": "2026-06-18T09:56:24.127Z",
   "status": "active"
  },
  {
@@ -199,8 +199,8 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 65,
-  "startsAt": "2026-07-02T09:47:19.235Z",
-  "endsAt": "2026-10-01T09:47:19.235Z",
+  "startsAt": "2026-07-02T09:56:24.128Z",
+  "endsAt": "2026-10-01T09:56:24.128Z",
   "status": "active"
  },
  {
@@ -224,8 +224,8 @@
    "p_shower-steamer-set"
   ],
   "usedCount": 46,
-  "startsAt": "2026-06-14T09:47:19.235Z",
-  "endsAt": "2026-09-07T09:47:19.235Z",
+  "startsAt": "2026-06-14T09:56:24.128Z",
+  "endsAt": "2026-09-07T09:56:24.128Z",
   "status": "expired"
  },
  {
@@ -239,7 +239,7 @@
   "productEligibility": "all",
   "productIds": [],
   "usedCount": 63,
-  "startsAt": "2026-07-26T09:47:19.235Z",
+  "startsAt": "2026-07-26T09:56:24.128Z",
   "status": "active"
  },
  {
@@ -255,8 +255,8 @@
   "productIds": [],
   "usageLimit": 500,
   "usedCount": 88,
-  "startsAt": "2026-06-19T09:47:19.235Z",
-  "endsAt": "2026-09-08T09:47:19.235Z",
+  "startsAt": "2026-06-19T09:56:24.128Z",
+  "endsAt": "2026-09-08T09:56:24.128Z",
   "status": "expired"
  },
  {
@@ -272,8 +272,8 @@
   "productIds": [],
   "usageLimit": 100,
   "usedCount": 21,
-  "startsAt": "2026-08-02T09:47:19.235Z",
-  "endsAt": "2026-12-05T09:47:19.235Z",
+  "startsAt": "2026-08-02T09:56:24.128Z",
+  "endsAt": "2026-12-05T09:56:24.128Z",
   "status": "active"
  }
 ]

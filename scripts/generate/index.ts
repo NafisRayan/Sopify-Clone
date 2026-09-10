@@ -431,7 +431,8 @@ for (const v of allVariants) {
     })
   }
 }
-// Apply committed/unavailable from open orders, decrement stock on fulfillment
+// Apply inventory semantics: placing an order moves units available→committed;
+// fulfilling them ships them (on-hand drops); returns restock available.
 for (const order of orders) {
   if (order.status === 'draft') continue
   for (const li of order.lineItems) {
@@ -442,6 +443,7 @@ for (const order of orders) {
       level.available = Math.max(0, level.available - li.quantity)
     } else if (order.fulfillmentStatus === 'unfulfilled' || order.fulfillmentStatus === 'partial') {
       const committedQty = order.fulfillmentStatus === 'partial' ? Math.max(1, li.quantity - 1) : li.quantity
+      level.available = Math.max(0, level.available - committedQty)
       level.committed += committedQty
       if (order.paymentStatus === 'pending') level.unavailable += Math.max(0, li.quantity - committedQty)
     } else if (order.fulfillmentStatus === 'returned') {

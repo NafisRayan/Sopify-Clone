@@ -6,7 +6,7 @@
   "change": -10,
   "resultingAvailable": 43,
   "reason": "Received stock",
-  "createdAt": "2026-09-10T04:06:27.655Z",
+  "createdAt": "2026-09-10T04:15:32.541Z",
   "author": "Noah Kim"
  },
  {
@@ -14,9 +14,9 @@
   "variantId": "p_fingerless-gloves_v2",
   "locationId": "loc_1",
   "change": 10,
-  "resultingAvailable": 16,
+  "resultingAvailable": 13,
   "reason": "Cycle count correction",
-  "createdAt": "2026-07-18T05:51:45.839Z",
+  "createdAt": "2026-07-18T06:00:50.725Z",
   "author": "Ava Chen"
  },
  {
@@ -26,7 +26,7 @@
   "change": -10,
   "resultingAvailable": 24,
   "reason": "Opening stock",
-  "createdAt": "2026-07-21T18:10:45.771Z",
+  "createdAt": "2026-07-21T18:19:50.657Z",
   "author": "Noah Kim"
  },
  {
@@ -36,7 +36,7 @@
   "change": 50,
   "resultingAvailable": 78,
   "reason": "Received stock",
-  "createdAt": "2026-09-07T09:11:14.197Z",
+  "createdAt": "2026-09-07T09:20:19.083Z",
   "author": "Maya Patel"
  },
  {
@@ -46,7 +46,7 @@
   "change": -5,
   "resultingAvailable": 36,
   "reason": "Manual adjustment",
-  "createdAt": "2026-09-09T07:05:46.768Z",
+  "createdAt": "2026-09-09T07:14:51.654Z",
   "author": "Ava Chen"
  },
  {
@@ -56,7 +56,7 @@
   "change": 25,
   "resultingAvailable": 73,
   "reason": "Opening stock",
-  "createdAt": "2026-08-26T18:40:49.174Z",
+  "createdAt": "2026-08-26T18:49:54.060Z",
   "author": "Maya Patel"
  },
  {
@@ -66,7 +66,7 @@
   "change": 50,
   "resultingAvailable": 63,
   "reason": "Damage adjustment",
-  "createdAt": "2026-07-17T13:48:55.003Z",
+  "createdAt": "2026-07-17T13:57:59.889Z",
   "author": "Ava Chen"
  },
  {
@@ -76,7 +76,7 @@
   "change": -10,
   "resultingAvailable": 26,
   "reason": "Opening stock",
-  "createdAt": "2026-08-27T00:32:08.966Z",
+  "createdAt": "2026-08-27T00:41:13.852Z",
   "author": "Maya Patel"
  },
  {
@@ -86,7 +86,7 @@
   "change": 25,
   "resultingAvailable": 71,
   "reason": "Damage adjustment",
-  "createdAt": "2026-09-09T13:42:48.591Z",
+  "createdAt": "2026-09-09T13:51:53.477Z",
   "author": "Ava Chen"
  },
  {
@@ -96,7 +96,7 @@
   "change": 10,
   "resultingAvailable": 19,
   "reason": "Damage adjustment",
-  "createdAt": "2026-08-04T18:54:18.775Z",
+  "createdAt": "2026-08-04T19:03:23.661Z",
   "author": "Ava Chen"
  },
  {
@@ -106,7 +106,7 @@
   "change": 25,
   "resultingAvailable": 61,
   "reason": "Damage adjustment",
-  "createdAt": "2026-08-23T01:15:47.613Z",
+  "createdAt": "2026-08-23T01:24:52.499Z",
   "author": "Ava Chen"
  },
  {
@@ -114,9 +114,9 @@
   "variantId": "p_ceramic-vase_v3",
   "locationId": "loc_1",
   "change": 20,
-  "resultingAvailable": 58,
+  "resultingAvailable": 57,
   "reason": "Opening stock",
-  "createdAt": "2026-08-11T04:13:10.192Z",
+  "createdAt": "2026-08-11T04:22:15.078Z",
   "author": "Noah Kim"
  },
  {
@@ -126,7 +126,7 @@
   "change": 25,
   "resultingAvailable": 32,
   "reason": "Manual adjustment",
-  "createdAt": "2026-09-05T18:22:01.238Z",
+  "createdAt": "2026-09-05T18:31:06.124Z",
   "author": "Maya Patel"
  },
  {
@@ -136,7 +136,7 @@
   "change": 25,
   "resultingAvailable": 36,
   "reason": "Opening stock",
-  "createdAt": "2026-07-26T04:13:01.098Z",
+  "createdAt": "2026-07-26T04:22:05.984Z",
   "author": "Maya Patel"
  },
  {
@@ -146,7 +146,7 @@
   "change": 20,
   "resultingAvailable": 78,
   "reason": "Opening stock",
-  "createdAt": "2026-07-24T11:28:12.499Z",
+  "createdAt": "2026-07-24T11:37:17.385Z",
   "author": "Maya Patel"
  },
  {
@@ -156,7 +156,7 @@
   "change": 20,
   "resultingAvailable": 62,
   "reason": "Cycle count correction",
-  "createdAt": "2026-07-21T06:47:01.447Z",
+  "createdAt": "2026-07-21T06:56:06.333Z",
   "author": "Maya Patel"
  },
  {
@@ -166,7 +166,7 @@
   "change": 10,
   "resultingAvailable": 23,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-16T07:21:00.961Z",
+  "createdAt": "2026-08-16T07:30:05.847Z",
   "author": "Noah Kim"
  },
  {
@@ -176,7 +176,7 @@
   "change": -10,
   "resultingAvailable": 0,
   "reason": "Cycle count correction",
-  "createdAt": "2026-08-23T09:38:45.533Z",
+  "createdAt": "2026-08-23T09:47:50.419Z",
   "author": "Noah Kim"
  },
  {
@@ -186,7 +186,7 @@
   "change": 20,
   "resultingAvailable": 33,
   "reason": "Opening stock",
-  "createdAt": "2026-08-16T13:42:26.390Z",
+  "createdAt": "2026-08-16T13:51:31.276Z",
   "author": "Maya Patel"
  },
  {
@@ -196,7 +196,7 @@
   "change": 50,
   "resultingAvailable": 104,
   "reason": "Opening stock",
-  "createdAt": "2026-09-09T21:31:10.509Z",
+  "createdAt": "2026-09-09T21:40:15.395Z",
   "author": "Ava Chen"
  },
  {
@@ -206,7 +206,7 @@
   "change": -5,
   "resultingAvailable": 1,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-21T20:54:17.448Z",
+  "createdAt": "2026-08-21T21:03:22.334Z",
   "author": "Maya Patel"
  },
  {
@@ -216,7 +216,7 @@
   "change": 50,
   "resultingAvailable": 107,
   "reason": "Damage adjustment",
-  "createdAt": "2026-07-21T19:51:48.189Z",
+  "createdAt": "2026-07-21T20:00:53.075Z",
   "author": "Maya Patel"
  },
  {
@@ -224,9 +224,9 @@
   "variantId": "p_minimal-sneakers_v12",
   "locationId": "loc_1",
   "change": 20,
-  "resultingAvailable": 45,
+  "resultingAvailable": 44,
   "reason": "Damage adjustment",
-  "createdAt": "2026-08-20T03:12:07.589Z",
+  "createdAt": "2026-08-20T03:21:12.475Z",
   "author": "Noah Kim"
  },
  {
@@ -236,7 +236,7 @@
   "change": 25,
   "resultingAvailable": 77,
   "reason": "Received stock",
-  "createdAt": "2026-09-09T22:16:27.528Z",
+  "createdAt": "2026-09-09T22:25:32.414Z",
   "author": "Ava Chen"
  },
  {
@@ -246,7 +246,7 @@
   "change": 25,
   "resultingAvailable": 66,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-25T15:22:50.128Z",
+  "createdAt": "2026-08-25T15:31:55.014Z",
   "author": "Maya Patel"
  },
  {
@@ -256,7 +256,7 @@
   "change": 25,
   "resultingAvailable": 56,
   "reason": "Opening stock",
-  "createdAt": "2026-08-17T20:03:18.452Z",
+  "createdAt": "2026-08-17T20:12:23.338Z",
   "author": "Maya Patel"
  },
  {
@@ -266,7 +266,7 @@
   "change": 50,
   "resultingAvailable": 105,
   "reason": "Damage adjustment",
-  "createdAt": "2026-08-26T02:53:57.925Z",
+  "createdAt": "2026-08-26T03:03:02.811Z",
   "author": "Ava Chen"
  },
  {
@@ -276,7 +276,7 @@
   "change": 10,
   "resultingAvailable": 22,
   "reason": "Received stock",
-  "createdAt": "2026-08-01T06:04:46.292Z",
+  "createdAt": "2026-08-01T06:13:51.178Z",
   "author": "Maya Patel"
  },
  {
@@ -286,7 +286,7 @@
   "change": 20,
   "resultingAvailable": 31,
   "reason": "Cycle count correction",
-  "createdAt": "2026-09-01T13:20:34.489Z",
+  "createdAt": "2026-09-01T13:29:39.375Z",
   "author": "Ava Chen"
  },
  {
@@ -296,7 +296,7 @@
   "change": -5,
   "resultingAvailable": 13,
   "reason": "Received stock",
-  "createdAt": "2026-08-25T17:41:00.013Z",
+  "createdAt": "2026-08-25T17:50:04.899Z",
   "author": "Ava Chen"
  },
  {
@@ -306,7 +306,7 @@
   "change": -5,
   "resultingAvailable": 7,
   "reason": "Damage adjustment",
-  "createdAt": "2026-08-13T01:51:28.232Z",
+  "createdAt": "2026-08-13T02:00:33.118Z",
   "author": "Ava Chen"
  },
  {
@@ -314,9 +314,9 @@
   "variantId": "p_classic-cotton-t-shirt_v15",
   "locationId": "loc_1",
   "change": 20,
-  "resultingAvailable": 69,
+  "resultingAvailable": 68,
   "reason": "Cycle count correction",
-  "createdAt": "2026-09-06T15:15:07.557Z",
+  "createdAt": "2026-09-06T15:24:12.443Z",
   "author": "Maya Patel"
  },
  {
@@ -326,7 +326,7 @@
   "change": -5,
   "resultingAvailable": 0,
   "reason": "Cycle count correction",
-  "createdAt": "2026-09-03T07:45:05.420Z",
+  "createdAt": "2026-09-03T07:54:10.306Z",
   "author": "Noah Kim"
  },
  {
@@ -334,9 +334,9 @@
   "variantId": "p_classic-cotton-t-shirt_v4",
   "locationId": "loc_1",
   "change": -5,
-  "resultingAvailable": 3,
+  "resultingAvailable": 2,
   "reason": "Damage adjustment",
-  "createdAt": "2026-09-10T08:16:18.368Z",
+  "createdAt": "2026-09-10T08:25:23.254Z",
   "author": "Ava Chen"
  },
  {
@@ -346,7 +346,7 @@
   "change": -5,
   "resultingAvailable": 41,
   "reason": "Received stock",
-  "createdAt": "2026-09-09T20:57:59.174Z",
+  "createdAt": "2026-09-09T21:07:04.060Z",
   "author": "Noah Kim"
  },
  {
@@ -356,7 +356,7 @@
   "change": -5,
   "resultingAvailable": 2,
   "reason": "Cycle count correction",
-  "createdAt": "2026-08-15T14:09:51.232Z",
+  "createdAt": "2026-08-15T14:18:56.118Z",
   "author": "Maya Patel"
  },
  {
@@ -366,7 +366,7 @@
   "change": -5,
   "resultingAvailable": 39,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-08T09:20:53.617Z",
+  "createdAt": "2026-08-08T09:29:58.503Z",
   "author": "Maya Patel"
  },
  {
@@ -376,7 +376,7 @@
   "change": -5,
   "resultingAvailable": 0,
   "reason": "Received stock",
-  "createdAt": "2026-09-10T04:24:20.516Z",
+  "createdAt": "2026-09-10T04:33:25.402Z",
   "author": "Noah Kim"
  },
  {
@@ -386,7 +386,7 @@
   "change": 10,
   "resultingAvailable": 29,
   "reason": "Received stock",
-  "createdAt": "2026-08-06T16:47:54.671Z",
+  "createdAt": "2026-08-06T16:56:59.557Z",
   "author": "Noah Kim"
  },
  {
@@ -396,7 +396,7 @@
   "change": 50,
   "resultingAvailable": 50,
   "reason": "Received stock",
-  "createdAt": "2026-08-11T02:26:44.849Z",
+  "createdAt": "2026-08-11T02:35:49.735Z",
   "author": "Noah Kim"
  }
 ]
