@@ -62,7 +62,8 @@ function useInventoryRows(): InventoryRow[] {
 }
 
 export default function InventoryPage() {
-  const locations = useStore((s) => s.locations.filter((l) => l.active))
+  const allLocations = useStore((s) => s.locations)
+  const locations = allLocations.filter((l) => l.active)
   const [locationId, setLocationId] = useState<string>(locations[0]?.id ?? '')
   const rows = useInventoryRows()
   const { toast } = useToast()

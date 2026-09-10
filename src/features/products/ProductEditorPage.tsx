@@ -201,7 +201,8 @@ function InventoryDrawer({
   onClose: () => void
   onSaved: () => void
 }) {
-  const locations = useStore((s) => s.locations.filter((l) => l.active))
+  const allLocations = useStore((s) => s.locations)
+  const locations = allLocations.filter((l) => l.active)
   const levels = useStore((s) => s.inventoryLevels)
   const { toast } = useToast()
   const [drafts, setDrafts] = useState<Record<string, string>>(() =>

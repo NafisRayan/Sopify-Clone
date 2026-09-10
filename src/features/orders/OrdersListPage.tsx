@@ -28,7 +28,8 @@ export function customerName(order: Order, customers: { id: string; firstName: s
 export function OrdersTable({ mode, statusFilter }: { mode: 'all' | 'drafts'; statusFilter?: 'open' | 'closed' | 'cancelled' }) {
   const orders = useStore((s) => s.orders)
   const customers = useStore((s) => s.customers)
-  const locations = useStore((s) => s.locations.filter((l) => l.active))
+  const allLocations = useStore((s) => s.locations)
+  const locations = allLocations.filter((l) => l.active)
   const navigate = useNavigate()
   const { toast } = useToast()
   const { confirm, confirmElement } = useConfirm()
