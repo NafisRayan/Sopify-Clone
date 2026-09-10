@@ -19,6 +19,9 @@ import {
   markAsPaid, refundOrder, reopenOrder, setOrderTags,
 } from '@/services/ordersService'
 import { useCan } from '@/lib/permissions'
+import { canEditOrder, sendDraftInvoice } from '@/services/orderEditService'
+import { closeReturn } from '@/services/orderEditService'
+import { EditOrderDrawer, ReturnDrawer } from './OrderActions'
 import type { Order, OrderLineItem, TimelineEvent } from '@/types'
 
 const CARRIERS = ['USPS', 'UPS', 'FedEx', 'DHL']
@@ -73,6 +76,8 @@ export default function OrderDetailPage() {
   const [refundReason, setRefundReason] = useState('customer')
   const [refundRestock, setRefundRestock] = useState(true)
   const [refundItems, setRefundItems] = useState<Set<string>>(new Set())
+  const [editOpen, setEditOpen] = useState(false)
+  const [returnOpen, setReturnOpen] = useState(false)
 
   const can = {
     edit: useCan('orders', 'edit'),
@@ -81,6 +86,12 @@ export default function OrderDetailPage() {
   }
 
   const alreadyRefunded = useMemo(() => order?.refunds.reduce((s, r) => s + r.amount, 0) ?? 0, [order])
+  const orderReturns = useStore((st) => st.returns)
+  const orderRiskMap = useStore((st) => st.orderRisk)
+  const orderReturnRecords = useMemo(
+    () => (order ? orderReturns.filter((r) => r.orderId === order.id) : []),
+    [orderReturns, order],
+  )
 
   const unfulfilledItems: OrderLineItem[] = useMemo(() => {
     if (!order) return []
@@ -176,6 +187,13 @@ export default function OrderDetailPage() {
                 )}
                 {can.edit && (
                   <Button
+                    onClick={() => void sendDraftInvoice(order.id).then(() => toast('Invoice sent'))}
+                  >
+                    Send invoice
+                  </Button>
+                )}
+                {can.edit && (
+                  <Button
                     onClick={() => void markAsPaidAsDraft(order.id)}
                   >
                     Collect payment
@@ -195,6 +213,16 @@ export default function OrderDetailPage() {
                 {can.edit && unfulfilledItems.length > 0 && order.status !== 'cancelled' && (
                   <Button variant="primary" icon={<Package size={13} />} onClick={openFulfill}>
                     {order.fulfillmentStatus === 'partial' ? 'Fulfill remaining' : 'Fulfill'}
+                  </Button>
+                )}
+                {can.edit && canEditOrder(order) && (
+                  <Button onClick={() => setEditOpen(true)}>
+                    Edit
+                  </Button>
+                )}
+                {can.refund && (order.fulfillmentStatus === 'fulfilled' || order.fulfillmentStatus === 'partial') && (
+                  <Button onClick={() => setReturnOpen(true)}>
+                    Return items
                   </Button>
                 )}
               </>
@@ -481,6 +509,68 @@ export default function OrderDetailPage() {
             </CardSection>
           </Card>
 
+          {/* Fraud / risk */}
+          {(() => {
+            const risk = orderRiskMap[order.id]
+            if (!risk) return null
+            const tone = risk.level === 'high' ? 'critical' : risk.level === 'medium' ? 'warning' : 'success'
+            return (
+              <Card padding={false}>
+                <CardHeader title="Fraud analysis" subtitle="Order risk assessment" />
+                <CardSection>
+                  <Badge tone={tone} dot>
+                    {risk.level === 'high' ? 'High risk' : risk.level === 'medium' ? 'Medium risk' : 'Low risk'}
+                  </Badge>
+                  {risk.signals.length > 0 ? (
+                    <ul className="mt-2 space-y-1 text-xs text-text-muted">
+                      {risk.signals.map((sig) => (
+                        <li key={sig} className="flex gap-1.5">
+                          <span aria-hidden>•</span> {sig}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mt-2 text-xs text-text-muted">No risk signals detected for this order.</p>
+                  )}
+                </CardSection>
+              </Card>
+            )
+          })()}
+
+          {/* Returns on this order */}
+          {orderReturnRecords.length > 0 && (
+            <Card padding={false}>
+              <CardHeader title={`Returns (${orderReturnRecords.length})`} />
+              <ul className="divide-y divide-border">
+                {orderReturnRecords.map((r) => (
+                  <li key={r.id} className="px-4 py-2.5 text-[13px]">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="font-medium">Return · {r.lines.reduce((s, l) => s + l.quantity, 0)} item(s)</span>
+                      <Badge tone={r.status === 'open' ? 'warning' : r.status === 'returned' ? 'success' : 'neutral'} dot>
+                        {r.status}
+                      </Badge>
+                    </div>
+                    <p className="mt-0.5 text-xs text-text-muted">
+                      {r.reason} · {formatMoney(r.refundAmount)}
+                    </p>
+                    {r.status === 'open' && can.refund && (
+                      <button
+                        className="mt-1 text-xs text-accent hover:underline"
+                        onClick={() =>
+                          void closeReturn(r.id, { markRefunded: true })
+                            .then(() => toast('Return closed — items restocked'))
+                            .catch((e: unknown) => toast(e instanceof Error ? e.message : 'Failed', { tone: 'critical' }))
+                        }
+                      >
+                        Close return & refund
+                      </button>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          )}
+
           {/* Tags */}
           <Card>
             <div className="flex items-center justify-between">
@@ -635,6 +725,14 @@ export default function OrderDetailPage() {
           <Toggle label="Restock selected items" checked={refundRestock} onChange={setRefundRestock} />
         </div>
       </Modal>
+
+      {/* Edit order drawer */}
+      <EditOrderDrawer open={editOpen} order={order} onClose={() => setEditOpen(false)} />
+
+      {/* Return drawer */}
+      <ReturnDrawer open={returnOpen} order={order} onClose={() => setReturnOpen(false)} />
+
+      {/* Returns list drawer trigger card lives in sidebar; drawers above */}
 
       {/* Tags drawer */}
       <Drawer
