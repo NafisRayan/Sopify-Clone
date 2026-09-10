@@ -1,0 +1,519 @@
+// Northstar Admin — Prisma schema
+// Aggregates (variants, line items, addresses, timeline…) are stored as JSON
+// columns: the admin API treats them as dense sub-objects, and it keeps the
+// GraphQL surface 1:1 with Shopify-style shapes. InventoryLevel is relational
+// so stock adjustments/transfers can run in transactions.
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["multiSchema"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  schemas  = ["northstar"]
+}
+
+// ─── Products & collections ────────────────────────────────────────────────
+
+model Product {
+  id               String   @id
+  title            String
+  descriptionHtml  String   @default("")
+  vendor           String   @default("")
+  productType      String   @default("")
+  category         String?
+  status           String   @default("draft") // active | draft | archived
+  tags             Json     
+  collectionIds    Json     
+  channels         Json     
+  options          Json     
+  variants         Json     
+  media            Json     
+  seo              Json     
+  weightGrams      Float?
+  requiresShipping Boolean  @default(true)
+  trackQuantity    Boolean  @default(true)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @default(now())
+  @@schema("northstar")
+}
+
+model Collection {
+  id              String   @id
+  title           String
+  descriptionHtml String   @default("")
+  imageSrc        String?
+  handle          String   @unique
+  type            String   @default("manual") // manual | smart
+  rules           Json     
+  rulesMatch      String   @default("all")
+  productIds      Json     
+  status          String   @default("active")
+  seoTitle        String?
+  seoDescription  String?
+  publishedAt     DateTime?
+  createdAt       DateTime @default(now())
+  @@schema("northstar")
+}
+
+// ─── Customers & B2B ───────────────────────────────────────────────────────
+
+model Customer {
+  id                    String   @id
+  firstName             String
+  lastName              String
+  email                 String   @unique
+  phone                 String?
+  defaultAddress        Json?
+  addresses             Json     
+  tags                  Json     
+  note                  String?
+  emailMarketingConsent String   @default("not_subscribed")
+  taxExempt             Boolean  @default(false)
+  createdAt             DateTime @default(now())
+  @@schema("northstar")
+}
+
+model Company {
+  id                       String   @id
+  name                     String   @unique
+  externalId               String?
+  status                   String   @default("active")
+  customerId               String
+  note                     String?
+  locations                Json     
+  contacts                 Json     
+  priceListDiscountPercent Float    @default(0)
+  createdAt                DateTime @default(now())
+  @@schema("northstar")
+}
+
+model Segment {
+  id          String   @id
+  name        String
+  description String?
+  filters     Json
+  createdAt   DateTime @default(now())
+
+  @@schema("northstar")
+}
+
+// ─── Orders ────────────────────────────────────────────────────────────────
+
+model Order {
+  id                String    @id
+  name              String
+  customerId        String
+  email             String
+  phone             String?
+  createdAt         DateTime  @default(now())
+  cancelledAt       DateTime?
+  closedAt          DateTime?
+  paymentStatus     String
+  fulfillmentStatus String
+  status            String
+  channel           String    @default("Online Store")
+  lineItems         Json      
+  shippingAddress   Json
+  billingAddress    Json
+  shippingTitle     String    @default("Standard shipping")
+  shippingPrice     Float     @default(0)
+  discountCode      Json?
+  subtotal          Float     @default(0)
+  taxTotal          Float     @default(0)
+  total             Float     @default(0)
+  currency          String    @default("USD")
+  tags              Json      
+  note              String?
+  timeline          Json      
+  fulfillments      Json      
+  refunds           Json      
+  paymentGateway    String    @default("Shopify Payments")
+  isDraft           Boolean   @default(false)
+
+  @@index([status])
+  @@index([customerId])
+  @@schema("northstar")
+}
+
+model AbandonedCheckout {
+  id             String   @id
+  customerId     String
+  email          String
+  createdAt      DateTime @default(now())
+  lineItems      Json     
+  total          Float
+  recoveryStatus String   @default("not_recovered")
+  @@schema("northstar")
+}
+
+model ReturnRecord {
+  id           String    @id
+  orderId      String
+  status       String    @default("open") // open | returned | cancelled
+  lines        Json
+  reason       String
+  restock      Boolean   @default(true)
+  refundAmount Float     @default(0)
+  createdAt    DateTime  @default(now())
+  closedAt     DateTime?
+  @@schema("northstar")
+}
+
+model OrderEdit {
+  id         String   @id
+  orderId    String
+  at         DateTime @default(now())
+  author     String
+  added      Json     
+  removed    Json     
+  deltaTotal Float    @default(0)
+  @@schema("northstar")
+}
+
+model OrderRisk {
+  orderId String @id
+  level   String @default("low")
+  signals Json   
+  @@schema("northstar")
+}
+
+// ─── Inventory ─────────────────────────────────────────────────────────────
+
+model Location {
+  id        String   @id
+  name      String
+  address1  String
+  city      String
+  province  String
+  country   String
+  zip       String
+  phone     String?
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  @@schema("northstar")
+}
+
+model InventoryLevel {
+  variantId   String
+  locationId  String
+  available   Int
+  committed   Int @default(0)
+  unavailable Int @default(0)
+
+  @@id([variantId, locationId])
+  @@index([variantId])
+  @@schema("northstar")
+}
+
+model InventoryHistory {
+  id                 String   @id
+  variantId          String
+  locationId         String
+  change             Int
+  resultingAvailable Int
+  reason             String
+  createdAt          DateTime @default(now())
+  author             String
+  @@schema("northstar")
+}
+
+model Transfer {
+  id             String    @id
+  name           String    @unique
+  status         String    @default("draft") // draft | in_transit | received
+  fromLocationId String
+  toLocationId   String
+  lines          Json
+  createdAt      DateTime  @default(now())
+  sentAt         DateTime?
+  receivedAt     DateTime?
+  note           String?
+  @@schema("northstar")
+}
+
+// ─── Discounts & marketing ─────────────────────────────────────────────────
+
+model Discount {
+  id                  String   @id
+  code                String   @unique
+  title               String
+  type                String
+  method              String   @default("code")
+  value               Float?
+  bxgy                Json?
+  minPurchase         Float?
+  customerEligibility String   @default("all")
+  productEligibility  String   @default("all")
+  productIds          Json     
+  usageLimit          Int?
+  usedCount           Int      @default(0)
+  startsAt            DateTime @default(now())
+  endsAt              DateTime?
+  status              String   @default("active")
+  combinations        Json     
+  @@schema("northstar")
+}
+
+model Campaign {
+  id       String    @id
+  name     String
+  channel  String
+  status   String    @default("draft")
+  sentAt   DateTime?
+  audience Int       @default(0)
+  reached  Int       @default(0)
+  sessions Int       @default(0)
+  orders   Int       @default(0)
+  revenue  Float     @default(0)
+  cost     Float     @default(0)
+  @@schema("northstar")
+}
+
+// ─── Finances ──────────────────────────────────────────────────────────────
+
+model Payout {
+  id         String    @id
+  status     String
+  amount     Float
+  currency   String    @default("USD")
+  issuedAt   DateTime
+  arrivedAt  DateTime?
+  bankAccount String
+  @@schema("northstar")
+}
+
+model BalanceTransaction {
+  id          String   @id
+  at          DateTime
+  type        String
+  amount      Float
+  fee         Float
+  net         Float
+  orderId     String?
+  description String
+  payoutId    String?
+  @@schema("northstar")
+}
+
+// ─── Gift cards ────────────────────────────────────────────────────────────
+
+model GiftCard {
+  id             String   @id
+  code           String   @unique
+  customerId     String?
+  initialBalance Float
+  balance        Float
+  currency       String   @default("USD")
+  status         String   @default("enabled")
+  expiresAt      DateTime?
+  note           String?
+  createdAt      DateTime @default(now())
+  history        Json     
+  @@schema("northstar")
+}
+
+// ─── Content & online store ────────────────────────────────────────────────
+
+model StorePage {
+  id            String   @id
+  title         String
+  contentHtml   String
+  handle        String   @unique
+  status        String   @default("published")
+  seoTitle      String?
+  seoDescription String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @default(now())
+  @@schema("northstar")
+}
+
+model BlogPost {
+  id          String    @id
+  title       String
+  author      String
+  excerpt     String    @default("")
+  contentHtml String
+  imageSrc    String?
+  tags        Json      
+  status      String    @default("draft")
+  publishedAt DateTime?
+  @@schema("northstar")
+}
+
+model FileAsset {
+  id         String   @id
+  name       String
+  type       String
+  src        String
+  sizeKb     Int
+  dimensions Json?
+  uploadedAt DateTime @default(now())
+  alt        String?
+  @@schema("northstar")
+}
+
+model NavMenu {
+  id     String @id
+  title  String
+  handle String @unique
+  items  Json
+  @@schema("northstar")
+}
+
+model Redirect {
+  id        String   @id
+  from      String   @unique
+  to        String
+  createdAt DateTime @default(now())
+  @@schema("northstar")
+}
+
+model MetaobjectDefinition {
+  id     String @id
+  name   String
+  fields Json
+  @@schema("northstar")
+}
+
+model MetaobjectEntry {
+  id           String   @id
+  definitionId String
+  fields       Json
+  status       String   @default("draft")
+  updatedAt    DateTime @default(now())
+  @@schema("northstar")
+}
+
+// ─── Metafields ────────────────────────────────────────────────────────────
+
+model MetafieldDefinition {
+  id           String @id
+  namespace    String @default("custom")
+  key          String
+  name         String
+  type         String
+  description  String?
+  resourceType String
+  @@schema("northstar")
+}
+
+model Metafield {
+  id           String @id
+  ownerType    String
+  ownerId      String
+  definitionId String
+  value        String
+
+  @@unique([ownerType, ownerId, definitionId])
+  @@schema("northstar")
+}
+
+// ─── Apps, staff, notifications ────────────────────────────────────────────
+
+model AppEntry {
+  id          String  @id
+  name        String
+  description String
+  iconBg      String
+  iconChar    String
+  status      String  @default("installed")
+  permissions Json    
+  category    String
+  suggested   Boolean @default(false)
+  @@schema("northstar")
+}
+
+model StaffMember {
+  id            String   @id
+  name          String
+  email         String   @unique
+  role          String   @default("staff")
+  status        String   @default("active")
+  lastActiveAt  DateTime?
+  permissions   Json
+  @@schema("northstar")
+}
+
+model ActivityEntry {
+  id        String   @id
+  at        DateTime @default(now())
+  staffId   String
+  staffName String
+  action    String
+  resource  String
+  resourceId String?
+  @@schema("northstar")
+}
+
+model Notification {
+  id        String   @id
+  kind      String
+  title     String
+  body      String
+  createdAt DateTime @default(now())
+  read      Boolean  @default(false)
+  link      String?
+  @@schema("northstar")
+}
+
+model Task {
+  id          String  @id
+  title       String
+  description String
+  done        Boolean @default(false)
+  link        String?
+  @@schema("northstar")
+}
+
+// ─── Singletons ────────────────────────────────────────────────────────────
+
+model StoreSettings {
+  id    String @id @default("singleton")
+  value Json
+  @@schema("northstar")
+}
+
+model Theme {
+  id    String @id @default("singleton")
+  value Json
+  @@schema("northstar")
+}
+
+model ThemeLibraryEntry {
+  id       String   @id
+  name     String
+  version  String
+  role     String
+  imageSrc String
+  addedAt  DateTime @default(now())
+  @@schema("northstar")
+}
+
+model Plan {
+  id            String @id @default("singleton")
+  name          String
+  status        String
+  trialDaysLeft Int    @default(0)
+  storeId       String
+  @@schema("northstar")
+}
+
+model Locale {
+  code      String  @id
+  name      String
+  isDefault Boolean @default(false)
+  published Boolean @default(false)
+  @@schema("northstar")
+}
+
+model MarketCountry {
+  code                    String  @id
+  name                    String
+  currency                String
+  priceAdjustmentPercent  Float   @default(0)
+  enabled                 Boolean @default(false)
+  @@schema("northstar")
+}

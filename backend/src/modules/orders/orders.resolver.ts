@@ -1,0 +1,181 @@
+import { Resolver, Query, Mutation, Args } from '@nestjs/graphql'
+import { OrdersService } from './orders.service'
+
+@Resolver('Order')
+export class OrdersResolver {
+  constructor(private readonly service: OrdersService) {}
+
+  @Query()
+  order(@Args('id') id: string) {
+    return this.service.order(id)
+  }
+
+  @Query()
+  orders(@Args() args: Record<string, any>) {
+    return this.service.orders(args)
+  }
+
+  @Query()
+  draftOrders(@Args() args: Record<string, any>) {
+    return this.service.draftOrders(args)
+  }
+
+  @Query()
+  abandonedCheckouts(@Args('first') first: number) {
+    return this.service.abandonedCheckouts(first)
+  }
+
+  @Query()
+  returnsForOrder(@Args('orderId') orderId: string) {
+    return this.service.returnsForOrder(orderId)
+  }
+
+  @Mutation()
+  async orderUpdate(@Args('id') id: string, @Args('order') order: Record<string, any>) {
+    try {
+      return { order: await this.service.update(id, order), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['order'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async orderMarkAsPaid(@Args('id') id: string) {
+    try {
+      return { order: await this.service.markAsPaid(id), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async orderCancel(@Args('id') id: string, @Args('restock', { nullable: true }) restock: boolean) {
+    try {
+      return { order: await this.service.cancel(id, restock ?? true), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async orderClose(@Args('id') id: string) {
+    try {
+      return { order: await this.service.close(id), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async orderReopen(@Args('id') id: string) {
+    try {
+      return { order: await this.service.reopen(id), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async orderFulfill(@Args('input') input: Record<string, any>) {
+    try {
+      return { order: await this.service.fulfill(input), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['input'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async orderRefund(@Args('input') input: Record<string, any>) {
+    try {
+      return { order: await this.service.refund(input), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['input'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async orderEdit(@Args('id') id: string, @Args('added') added: Record<string, any>[], @Args('removed') removed: Record<string, any>[]) {
+    try {
+      return { order: await this.service.orderEdit(id, added as never, removed as never), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async returnCreate(@Args() input: Record<string, any>) {
+    try {
+      return { return: await this.service.createReturn(input), userErrors: [] }
+    } catch (e) {
+      return { return: null, userErrors: [{ field: ['input'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async returnClose(@Args('id') id: string, @Args('markRefunded', { nullable: true }) markRefunded: boolean) {
+    try {
+      return { return: await this.service.closeReturn(id, markRefunded ?? true), userErrors: [] }
+    } catch (e) {
+      return { return: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async draftOrderCreate(@Args() input: Record<string, any>) {
+    try {
+      return { order: await this.service.createDraft(input), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['input'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async draftOrderUpdate(@Args('id') id: string, @Args() input: Record<string, any>) {
+    try {
+      return { order: await this.service.updateDraft(id, input), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['input'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  draftOrderDelete(@Args('ids') ids: string[]) {
+    return { updatedIds: this.service.deleteDrafts(ids), userErrors: [] }
+  }
+
+  @Mutation()
+  async draftOrderConvert(@Args('id') id: string) {
+    try {
+      return { order: await this.service.convertDraft(id), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async draftOrderInvoiceSend(@Args('id') id: string) {
+    try {
+      return { order: await this.service.sendInvoice(id), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async abandonedCheckoutRecoverySend(@Args('id') id: string) {
+    try {
+      return { checkout: await this.service.sendRecoveryEmail(id), userErrors: [] }
+    } catch (e) {
+      return { checkout: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+
+  @Mutation()
+  async abandonedCheckoutConvert(@Args('id') id: string) {
+    try {
+      return { order: await this.service.convertAbandoned(id), userErrors: [] }
+    } catch (e) {
+      return { order: null, userErrors: [{ field: ['id'], message: (e as Error).message }] }
+    }
+  }
+}

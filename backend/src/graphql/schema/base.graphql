@@ -1,0 +1,439 @@
+# Northstar Admin GraphQL — Shopify Admin API-style surface
+# Scalars
+
+scalar DateTime
+scalar JSON
+
+# Shared
+type UserError {
+  field: [String!]!
+  message: String!
+}
+
+type PageInfo {
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+}
+
+type Image {
+  url: String!
+  altText: String
+}
+
+# ─── Products ───────────────────────────────────────────────────────────────
+
+type ProductVariant {
+  id: ID!
+  productId: ID!
+  title: String!
+  sku: String
+  barcode: String
+  price: Float!
+  compareAtPrice: Float
+  costPerItem: Float
+  optionValues: JSON!
+  weightGrams: Float
+  imageId: ID
+  available: Boolean!
+}
+
+type ProductMedia {
+  id: ID!
+  productId: ID!
+  type: String!
+  src: String!
+  alt: String
+}
+
+type ProductOption {
+  name: String!
+  values: [String!]!
+}
+
+type Seo {
+  title: String!
+  description: String!
+  handle: String!
+}
+
+type Product {
+  id: ID!
+  title: String!
+  descriptionHtml: String!
+  vendor: String!
+  productType: String!
+  category: String
+  status: String!
+  tags: [String!]!
+  collectionIds: [ID!]!
+  channels: [String!]!
+  options: [ProductOption!]!
+  variants: [ProductVariant!]!
+  media: [ProductMedia!]!
+  seo: Seo!
+  weightGrams: Float
+  requiresShipping: Boolean!
+  trackQuantity: Boolean!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  # computed
+  totalInventory: Int!
+}
+
+type ProductEdge {
+  cursor: String!
+  node: Product!
+}
+
+type ProductConnection {
+  edges: [ProductEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input VariantInput {
+  id: ID
+  title: String
+  sku: String
+  barcode: String
+  price: Float
+  compareAtPrice: Float
+  costPerItem: Float
+  optionValues: JSON
+  weightGrams: Float
+  imageId: ID
+  available: Boolean
+}
+
+input MediaInput {
+  id: ID
+  productId: ID
+  type: String
+  src: String!
+  alt: String
+}
+
+input OptionInput {
+  name: String!
+  values: [String!]!
+}
+
+input SeoInput {
+  title: String!
+  description: String!
+  handle: String!
+}
+
+input ProductInput {
+  title: String
+  descriptionHtml: String
+  vendor: String
+  productType: String
+  category: String
+  status: String
+  tags: [String!]
+  collectionIds: [ID!]
+  channels: [String!]
+  options: [OptionInput!]
+  variants: [VariantInput!]
+  media: [MediaInput!]
+  seo: SeoInput
+  weightGrams: Float
+  requiresShipping: Boolean
+  trackQuantity: Boolean
+}
+
+type ProductPayload {
+  product: Product
+  userErrors: [UserError!]!
+}
+
+type ProductDeletePayload {
+  deletedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+type ProductDuplicatePayload {
+  product: Product
+  userErrors: [UserError!]!
+}
+
+type ProductStatusPayload {
+  updatedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+type TagsPayload {
+  updatedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+# ─── Collections ────────────────────────────────────────────────────────────
+
+type CollectionRule {
+  column: String!
+  relation: String!
+  condition: String!
+}
+
+type Collection {
+  id: ID!
+  title: String!
+  descriptionHtml: String!
+  imageSrc: String
+  handle: String!
+  type: String!
+  rules: [CollectionRule!]!
+  rulesMatch: String!
+  productIds: [ID!]!
+  status: String!
+  seoTitle: String
+  seoDescription: String
+  publishedAt: DateTime
+  createdAt: DateTime!
+}
+
+type CollectionEdge {
+  cursor: String!
+  node: Collection!
+}
+
+type CollectionConnection {
+  edges: [CollectionEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input CollectionRuleInput {
+  column: String!
+  relation: String!
+  condition: String!
+}
+
+input CollectionInput {
+  title: String
+  descriptionHtml: String
+  imageSrc: String
+  handle: String
+  type: String
+  rules: [CollectionRuleInput!]
+  rulesMatch: String
+  productIds: [ID!]
+  status: String
+  seoTitle: String
+  seoDescription: String
+}
+
+type CollectionPayload {
+  collection: Collection
+  userErrors: [UserError!]!
+}
+
+type CollectionDeletePayload {
+  deletedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+type CollectionProductsPayload {
+  collection: Collection
+  userErrors: [UserError!]!
+}
+
+# ─── Customers ──────────────────────────────────────────────────────────────
+
+type Address {
+  firstName: String!
+  lastName: String!
+  company: String
+  address1: String!
+  address2: String
+  city: String!
+  province: String!
+  country: String!
+  zip: String!
+  phone: String
+}
+
+type Customer {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  email: String!
+  phone: String
+  defaultAddress: Address
+  addresses: [Address!]!
+  tags: [String!]!
+  note: String
+  emailMarketingConsent: String!
+  taxExempt: Boolean!
+  createdAt: DateTime!
+  # derived
+  ordersCount: Int!
+  totalSpent: Float!
+  lastOrderAt: DateTime
+}
+
+type CustomerEdge {
+  cursor: String!
+  node: Customer!
+}
+
+type CustomerConnection {
+  edges: [CustomerEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input AddressInput {
+  firstName: String
+  lastName: String
+  company: String
+  address1: String
+  address2: String
+  city: String
+  province: String
+  country: String
+  zip: String
+  phone: String
+}
+
+input CustomerInput {
+  firstName: String
+  lastName: String
+  email: String
+  phone: String
+  note: String
+  tags: [String!]
+  emailMarketingConsent: String
+  taxExempt: Boolean
+  defaultAddress: AddressInput
+}
+
+type CustomerPayload {
+  customer: Customer
+  userErrors: [UserError!]!
+}
+
+type CustomerDeletePayload {
+  deletedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+# ─── B2B companies ──────────────────────────────────────────────────────────
+
+type CompanyLocation {
+  id: ID!
+  name: String!
+  phone: String
+  address: Address!
+  taxExempt: Boolean!
+}
+
+type CompanyContact {
+  id: ID!
+  name: String!
+  email: String!
+  phone: String
+  locationIds: [ID!]!
+  isPrimary: Boolean!
+}
+
+type Company {
+  id: ID!
+  name: String!
+  externalId: String
+  status: String!
+  customerId: ID!
+  note: String
+  locations: [CompanyLocation!]!
+  contacts: [CompanyContact!]!
+  priceListDiscountPercent: Float!
+  createdAt: DateTime!
+  totalSpent: Float!
+}
+
+type CompanyEdge {
+  cursor: String!
+  node: Company!
+}
+
+type CompanyConnection {
+  edges: [CompanyEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input CompanyLocationInput {
+  name: String!
+  phone: String
+  address: AddressInput!
+  taxExempt: Boolean
+}
+
+input CompanyContactInput {
+  name: String!
+  email: String!
+  phone: String
+}
+
+input CompanyInput {
+  name: String!
+  customerId: ID!
+  locationName: String
+  address: AddressInput
+  priceListDiscountPercent: Float
+}
+
+type CompanyPayload {
+  company: Company
+  userErrors: [UserError!]!
+}
+
+type CompanyDeletePayload {
+  deletedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+# ─── Segments ───────────────────────────────────────────────────────────────
+
+type SegmentFilter {
+  column: String!
+  relation: String!
+  value: String!
+}
+
+type Segment {
+  id: ID!
+  name: String!
+  description: String
+  filters: [SegmentFilter!]!
+  createdAt: DateTime!
+  memberCount: Int!
+}
+
+input SegmentFilterInput {
+  column: String!
+  relation: String!
+  value: String!
+}
+
+input SegmentInput {
+  name: String!
+  description: String
+  filters: [SegmentFilterInput!]!
+}
+
+type SegmentPayload {
+  segment: Segment
+  userErrors: [UserError!]!
+}
+
+type SegmentDeletePayload {
+  deletedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+type SegmentMembersPayload {
+  customers: [Customer!]!
+  totalCount: Int!
+}

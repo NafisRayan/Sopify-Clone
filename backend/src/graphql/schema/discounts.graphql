@@ -1,0 +1,231 @@
+# ─── Discounts ──────────────────────────────────────────────────────────────
+
+type BxgyConfig {
+  customerBuysQuantity: Int!
+  customerBuysAmount: Float
+  customerGetsQuantity: Int!
+  customerGetsDiscountPercent: Int!
+}
+
+type DiscountCombinations {
+  orderDiscounts: Boolean!
+  productDiscounts: Boolean!
+  shippingDiscounts: Boolean!
+}
+
+type Discount {
+  id: ID!
+  code: String!
+  title: String!
+  type: String!
+  method: String!
+  value: Float
+  bxgy: BxgyConfig
+  minPurchase: Float
+  customerEligibility: String!
+  productEligibility: String!
+  productIds: [ID!]!
+  usageLimit: Int
+  usedCount: Int!
+  startsAt: DateTime!
+  endsAt: DateTime
+  status: String!
+  combinations: DiscountCombinations!
+}
+
+type DiscountEdge {
+  cursor: String!
+  node: Discount!
+}
+
+type DiscountConnection {
+  edges: [DiscountEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+input BxgyInput {
+  customerBuysQuantity: Int
+  customerBuysAmount: Float
+  customerGetsQuantity: Int
+  customerGetsDiscountPercent: Int
+}
+
+input CombinationsInput {
+  orderDiscounts: Boolean
+  productDiscounts: Boolean
+  shippingDiscounts: Boolean
+}
+
+input DiscountInput {
+  code: String
+  title: String
+  type: String
+  method: String
+  value: Float
+  bxgy: BxgyInput
+  minPurchase: Float
+  customerEligibility: String
+  productEligibility: String
+  productIds: [ID!]
+  usageLimit: Int
+  startsAt: DateTime
+  endsAt: DateTime
+  status: String
+  combinations: CombinationsInput
+}
+
+type DiscountPayload {
+  discount: Discount
+  userErrors: [UserError!]!
+}
+
+type DiscountDeletePayload {
+  deletedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+# ─── Marketing ──────────────────────────────────────────────────────────────
+
+type Campaign {
+  id: ID!
+  name: String!
+  channel: String!
+  status: String!
+  sentAt: DateTime
+  audience: Int!
+  reached: Int!
+  sessions: Int!
+  orders: Int!
+  revenue: Float!
+  cost: Float!
+}
+
+type CampaignPayload {
+  campaign: Campaign
+  userErrors: [UserError!]!
+}
+
+input CampaignInput {
+  name: String!
+  channel: String!
+  audience: Int
+  cost: Float
+}
+
+# ─── Gift cards ─────────────────────────────────────────────────────────────
+
+type GiftCardHistory {
+  id: ID!
+  at: DateTime!
+  type: String!
+  amount: Float!
+  note: String
+}
+
+type GiftCard {
+  id: ID!
+  code: String!
+  customerId: ID
+  initialBalance: Float!
+  balance: Float!
+  currency: String!
+  status: String!
+  expiresAt: DateTime
+  note: String
+  createdAt: DateTime!
+  history: [GiftCardHistory!]!
+}
+
+type GiftCardEdge {
+  cursor: String!
+  node: GiftCard!
+}
+
+type GiftCardConnection {
+  edges: [GiftCardEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type GiftCardPayload {
+  giftCard: GiftCard
+  userErrors: [UserError!]!
+}
+
+input GiftCardCreateInput {
+  customerId: ID
+  initialBalance: Float!
+  note: String
+  expiresAt: DateTime
+}
+
+# ─── Finances ───────────────────────────────────────────────────────────────
+
+type Payout {
+  id: ID!
+  status: String!
+  amount: Float!
+  currency: String!
+  issuedAt: DateTime!
+  arrivedAt: DateTime
+  bankAccount: String!
+}
+
+type BalanceTransaction {
+  id: ID!
+  at: DateTime!
+  type: String!
+  amount: Float!
+  fee: Float!
+  net: Float!
+  orderId: ID
+  description: String!
+  payoutId: ID
+}
+
+# ─── Customers extra: segments live here for schema clarity ─────────────────
+
+type MetafieldDefinition {
+  id: ID!
+  namespace: String!
+  key: String!
+  name: String!
+  type: String!
+  description: String
+  resourceType: String!
+}
+
+type Metafield {
+  id: ID!
+  ownerType: String!
+  ownerId: ID!
+  definitionId: ID!
+  value: String!
+}
+
+input MetafieldDefinitionInput {
+  name: String!
+  namespace: String
+  key: String!
+  type: String!
+  description: String
+  resourceType: String!
+}
+
+input MetafieldInput {
+  ownerType: String!
+  ownerId: ID!
+  definitionId: ID!
+  value: String!
+}
+
+type MetafieldDefinitionPayload {
+  definition: MetafieldDefinition
+  userErrors: [UserError!]!
+}
+
+type MetafieldsPayload {
+  metafields: [Metafield!]!
+  userErrors: [UserError!]!
+}

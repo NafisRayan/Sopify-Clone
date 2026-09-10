@@ -1,0 +1,288 @@
+# ─── Orders ─────────────────────────────────────────────────────────────────
+
+type OrderLineItem {
+  id: ID!
+  productId: ID!
+  variantId: ID!
+  title: String!
+  variantTitle: String!
+  sku: String!
+  quantity: Int!
+  price: Float!
+  totalDiscount: Float!
+  requiresShipping: Boolean!
+  imageSrc: String
+}
+
+type TimelineEvent {
+  id: ID!
+  createdAt: DateTime!
+  type: String!
+  message: String!
+  author: String!
+}
+
+type Fulfillment {
+  id: ID!
+  createdAt: DateTime!
+  lineItemIds: [ID!]!
+  trackingNumber: String
+  carrier: String
+  locationId: ID!
+  status: String!
+}
+
+type Refund {
+  id: ID!
+  createdAt: DateTime!
+  amount: Float!
+  reason: String!
+  lineItemIds: [ID!]!
+  restock: Boolean!
+}
+
+type Order {
+  id: ID!
+  name: String!
+  customerId: ID!
+  email: String!
+  phone: String
+  createdAt: DateTime!
+  cancelledAt: DateTime
+  closedAt: DateTime
+  paymentStatus: String!
+  fulfillmentStatus: String!
+  status: String!
+  channel: String!
+  lineItems: [OrderLineItem!]!
+  shippingAddress: Address!
+  billingAddress: Address!
+  shippingTitle: String!
+  shippingPrice: Float!
+  discountCode: DiscountCodeRef
+  subtotal: Float!
+  taxTotal: Float!
+  total: Float!
+  currency: String!
+  tags: [String!]!
+  note: String
+  timeline: [TimelineEvent!]!
+  fulfillments: [Fulfillment!]!
+  refunds: [Refund!]!
+  paymentGateway: String!
+  isDraft: Boolean!
+  # parity: fraud analysis
+  riskLevel: String
+  riskSignals: [String!]!
+}
+
+type DiscountCodeRef {
+  code: String!
+  amount: Float!
+}
+
+type OrderEdge {
+  cursor: String!
+  node: Order!
+}
+
+type OrderConnection {
+  edges: [OrderEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int!
+}
+
+type AbandonedCheckout {
+  id: ID!
+  customerId: ID!
+  email: String!
+  createdAt: DateTime!
+  lineItems: [OrderLineItem!]!
+  total: Float!
+  recoveryStatus: String!
+}
+
+input OrderLineItemInput {
+  variantId: ID
+  lineItemId: ID
+  quantity: Int!
+}
+
+input OrderInput {
+  tags: [String!]
+  note: String
+}
+
+type OrderPayload {
+  order: Order
+  userErrors: [UserError!]!
+}
+
+type OrdersPayload {
+  updatedIds: [ID!]!
+  userErrors: [UserError!]!
+}
+
+input OrderFulfillInput {
+  orderId: ID!
+  lineItemIds: [ID!]!
+  locationId: ID!
+  trackingNumber: String
+  carrier: String
+  notifyCustomer: Boolean
+}
+
+input OrderRefundInput {
+  orderId: ID!
+  amount: Float!
+  reason: String!
+  lineItemIds: [ID!]!
+  restock: Boolean
+}
+
+type ReturnLine {
+  lineItemId: ID!
+  quantity: Int!
+}
+
+input ReturnLineInput {
+  lineItemId: ID!
+  quantity: Int!
+}
+
+type ReturnRecord {
+  id: ID!
+  orderId: ID!
+  status: String!
+  lines: [ReturnLine!]!
+  reason: String!
+  restock: Boolean!
+  refundAmount: Float!
+  createdAt: DateTime!
+  closedAt: DateTime
+}
+
+type ReturnPayload {
+  return: ReturnRecord
+  userErrors: [UserError!]!
+}
+
+type OrderEditPayload {
+  order: Order
+  userErrors: [UserError!]!
+}
+
+type AbandonedCheckoutPayload {
+  checkout: AbandonedCheckout
+  userErrors: [UserError!]!
+}
+
+# ─── Inventory ──────────────────────────────────────────────────────────────
+
+type Location {
+  id: ID!
+  name: String!
+  address1: String!
+  city: String!
+  province: String!
+  country: String!
+  zip: String!
+  phone: String
+  active: Boolean!
+  createdAt: DateTime!
+}
+
+type InventoryLevel {
+  variantId: ID!
+  locationId: ID!
+  available: Int!
+  committed: Int!
+  unavailable: Int!
+  onHand: Int!
+}
+
+type InventoryHistory {
+  id: ID!
+  variantId: ID!
+  locationId: ID!
+  change: Int!
+  resultingAvailable: Int!
+  reason: String!
+  createdAt: DateTime!
+  author: String!
+}
+
+input LocationInput {
+  name: String
+  address1: String
+  city: String
+  province: String
+  country: String
+  zip: String
+  phone: String
+  active: Boolean
+}
+
+type LocationPayload {
+  location: Location
+  userErrors: [UserError!]!
+}
+
+input InventoryAdjustInput {
+  variantId: ID!
+  locationId: ID!
+  availableDelta: Int!
+  reason: String
+}
+
+type InventoryLevelPayload {
+  level: InventoryLevel
+  userErrors: [UserError!]!
+}
+
+type InventoryLevelsPayload {
+  levels: [InventoryLevel!]!
+  userErrors: [UserError!]!
+}
+
+# ─── Transfers ──────────────────────────────────────────────────────────────
+
+type TransferLine {
+  id: ID!
+  variantId: ID!
+  sku: String!
+  title: String!
+  variantTitle: String!
+  quantity: Int!
+  receivedQuantity: Int!
+}
+
+type Transfer {
+  id: ID!
+  name: String!
+  status: String!
+  fromLocationId: ID!
+  toLocationId: ID!
+  lines: [TransferLine!]!
+  createdAt: DateTime!
+  sentAt: DateTime
+  receivedAt: DateTime
+  note: String
+}
+
+input TransferLineInput {
+  variantId: ID!
+  quantity: Int!
+}
+
+input TransferCreateInput {
+  fromLocationId: ID!
+  toLocationId: ID!
+  note: String
+  lines: [TransferLineInput!]!
+}
+
+type TransferPayload {
+  transfer: Transfer
+  userErrors: [UserError!]!
+}

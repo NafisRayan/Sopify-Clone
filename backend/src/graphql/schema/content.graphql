@@ -1,0 +1,285 @@
+# ─── Content & online store ─────────────────────────────────────────────────
+
+type StorePage {
+  id: ID!
+  title: String!
+  contentHtml: String!
+  handle: String!
+  status: String!
+  seoTitle: String
+  seoDescription: String
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type PagePayload {
+  page: StorePage
+  userErrors: [UserError!]!
+}
+
+type BlogPost {
+  id: ID!
+  title: String!
+  author: String!
+  excerpt: String!
+  contentHtml: String!
+  imageSrc: String
+  tags: [String!]!
+  status: String!
+  publishedAt: DateTime
+}
+
+type PostPayload {
+  post: BlogPost
+  userErrors: [UserError!]!
+}
+
+type FileAsset {
+  id: ID!
+  name: String!
+  type: String!
+  src: String!
+  sizeKb: Int!
+  dimensions: JSON
+  uploadedAt: DateTime!
+  alt: String
+}
+
+type FilePayload {
+  file: FileAsset
+  userErrors: [UserError!]!
+}
+
+type MenuItem {
+  id: ID!
+  title: String!
+  url: String!
+  children: [MenuItem!]!
+}
+
+type NavMenu {
+  id: ID!
+  title: String!
+  handle: String!
+  items: [MenuItem!]!
+}
+
+type MenuPayload {
+  menu: NavMenu
+  userErrors: [UserError!]!
+}
+
+type UrlRedirect {
+  id: ID!
+  from: String!
+  to: String!
+  createdAt: DateTime!
+}
+
+type RedirectPayload {
+  redirect: UrlRedirect
+  userErrors: [UserError!]!
+}
+
+type MetaobjectFieldDef {
+  key: String!
+  label: String!
+  type: String!
+}
+
+type MetaobjectDefinition {
+  id: ID!
+  name: String!
+  fields: [MetaobjectFieldDef!]!
+}
+
+type MetaobjectEntry {
+  id: ID!
+  definitionId: ID!
+  fields: JSON!
+  status: String!
+  updatedAt: DateTime!
+}
+
+type MetaobjectEntryPayload {
+  entry: MetaobjectEntry
+  userErrors: [UserError!]!
+}
+
+input PageInput {
+  title: String
+  contentHtml: String
+  handle: String
+  status: String
+  seoTitle: String
+  seoDescription: String
+}
+
+input BlogPostInput {
+  title: String
+  author: String
+  excerpt: String
+  contentHtml: String
+  imageSrc: String
+  tags: [String!]
+  status: String
+  publishedAt: DateTime
+}
+
+input FileInput {
+  url: String!
+  name: String
+}
+
+input MenuItemInput {
+  id: ID
+  title: String!
+  url: String!
+  children: [MenuItemInput!]
+}
+
+input RedirectInput {
+  from: String!
+  to: String!
+}
+
+input MetaobjectEntryInput {
+  definitionId: ID!
+  fields: JSON!
+  status: String
+}
+
+# ─── Staff / access ─────────────────────────────────────────────────────────
+
+type StaffMember {
+  id: ID!
+  name: String!
+  email: String!
+  role: String!
+  status: String!
+  lastActiveAt: DateTime
+  permissions: JSON!
+}
+
+type StaffMemberPayload {
+  staffMember: StaffMember
+  userErrors: [UserError!]!
+}
+
+type ActivityEntry {
+  id: ID!
+  at: DateTime!
+  staffId: ID!
+  staffName: String!
+  action: String!
+  resource: String!
+  resourceId: ID
+}
+
+input StaffMemberInput {
+  name: String!
+  email: String!
+  role: String
+}
+
+# ─── Apps ───────────────────────────────────────────────────────────────────
+
+type AppEntry {
+  id: ID!
+  name: String!
+  description: String!
+  iconBg: String!
+  iconChar: String!
+  status: String!
+  permissions: [String!]!
+  category: String!
+  suggested: Boolean!
+}
+
+type AppPayload {
+  app: AppEntry
+  userErrors: [UserError!]!
+}
+
+# ─── Shop / singletons ──────────────────────────────────────────────────────
+
+type Notification {
+  id: ID!
+  kind: String!
+  title: String!
+  body: String!
+  createdAt: DateTime!
+  read: Boolean!
+  link: String
+}
+
+type TaskItem {
+  id: ID!
+  title: String!
+  description: String!
+  done: Boolean!
+  link: String
+}
+
+type StoreSettings {
+  storeName: String!
+  legalName: String!
+  email: String!
+  phone: String!
+  currency: String!
+  timezone: String!
+  value: JSON!
+}
+
+type ThemeSettings {
+  activeTheme: String!
+  value: JSON!
+}
+
+type ThemeLibraryEntry {
+  id: ID!
+  name: String!
+  version: String!
+  role: String!
+  imageSrc: String!
+  addedAt: DateTime!
+}
+
+type StoreLocale {
+  code: String!
+  name: String!
+  isDefault: Boolean!
+  published: Boolean!
+}
+
+type MarketCountry {
+  code: ID!
+  name: String!
+  currency: String!
+  priceAdjustmentPercent: Float!
+  enabled: Boolean!
+}
+
+type Plan {
+  name: String!
+  status: String!
+  trialDaysLeft: Int!
+  storeId: String!
+}
+
+type Shop {
+  id: ID!
+  name: String!
+  email: String!
+  currency: String!
+  plan: Plan!
+}
+
+input ThemeSettingsInput {
+  activeTheme: String
+  colors: JSON
+  typography: JSON
+  productGridColumns: Int
+  showVendor: Boolean
+  showQuantitySelector: Boolean
+}

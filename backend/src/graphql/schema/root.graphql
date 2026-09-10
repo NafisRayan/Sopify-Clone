@@ -1,0 +1,260 @@
+# ─── QueryRoot (Shopify-style) ──────────────────────────────────────────────
+
+type Query {
+  shop: Shop!
+
+  # Products & collections
+  product(id: ID!): Product
+  products(first: Int = 25, after: String, query: String, reverse: Boolean, status: String): ProductConnection!
+  collection(id: ID!): Collection
+  collections(first: Int = 25, after: String, query: String): CollectionConnection!
+
+  # Orders
+  order(id: ID!): Order
+  orders(first: Int = 25, after: String, query: String, reverse: Boolean, status: String, paymentStatus: String, fulfillmentStatus: String): OrderConnection!
+  draftOrders(first: Int = 25, after: String, query: String): OrderConnection!
+  abandonedCheckouts(first: Int = 25): [AbandonedCheckout!]!
+  returnsForOrder(orderId: ID!): [ReturnRecord!]!
+
+  # Customers & B2B
+  customer(id: ID!): Customer
+  customers(first: Int = 25, after: String, query: String): CustomerConnection!
+  companies(first: Int = 25, after: String, query: String): CompanyConnection!
+  company(id: ID!): Company
+  segment(id: ID!): Segment
+  segments(first: Int = 25): [Segment!]!
+  segmentMembers(id: ID!, first: Int = 50): SegmentMembersPayload!
+
+  # Inventory
+  locations: [Location!]!
+  inventoryLevels(locationId: ID): [InventoryLevel!]!
+  inventoryHistory(variantId: ID!): [InventoryHistory!]!
+  transfers(first: Int = 25): [Transfer!]!
+  transfer(id: ID!): Transfer
+
+  # Discounts & marketing
+  discount(id: ID!): Discount
+  discounts(first: Int = 25, after: String, query: String): DiscountConnection!
+  campaigns: [Campaign!]!
+
+  # Finances
+  payouts: [Payout!]!
+  balanceTransactions(type: String, first: Int = 100): [BalanceTransaction!]!
+
+  # Gift cards
+  giftCard(id: ID!): GiftCard
+  giftCards(first: Int = 25, after: String, query: String): GiftCardConnection!
+
+  # Content & online store
+  page(id: ID!): StorePage
+  pages: [StorePage!]!
+  blogPosts: [BlogPost!]!
+  blogPost(id: ID!): BlogPost
+  files: [FileAsset!]!
+  menus: [NavMenu!]!
+  menu(handle: String!): NavMenu
+  redirects: [UrlRedirect!]!
+  metaobjectDefinitions: [MetaobjectDefinition!]!
+  metaobjectEntries(definitionId: ID): [MetaobjectEntry!]!
+
+  # Metafields
+  metafieldDefinitions(resourceType: String): [MetafieldDefinition!]!
+  metafields(ownerType: String!, ownerId: ID!): [Metafield!]!
+
+  # Staff, apps, notifications
+  staff: [StaffMember!]!
+  activity(first: Int = 50): [ActivityEntry!]!
+  apps: [AppEntry!]!
+  notifications: [Notification!]!
+  tasks: [TaskItem!]!
+
+  # Settings / singletons
+  settings: StoreSettings!
+  theme: ThemeSettings!
+  themeLibrary: [ThemeLibraryEntry!]!
+  locales: [StoreLocale!]!
+  markets: [MarketCountry!]!
+  plan: Plan!
+
+  # Convenience hydration snapshot for the admin SPA (documented deviation)
+  bootstrap: AdminSnapshot!
+}
+
+type AdminSnapshot {
+  products: [Product!]!
+  customers: [Customer!]!
+  orders: [Order!]!
+  abandonedCheckouts: [AbandonedCheckout!]!
+  collections: [Collection!]!
+  locations: [Location!]!
+  inventoryLevels: [InventoryLevel!]!
+  inventoryHistory: [InventoryHistory!]!
+  discounts: [Discount!]!
+  campaigns: [Campaign!]!
+  staff: [StaffMember!]!
+  pages: [StorePage!]!
+  blogPosts: [BlogPost!]!
+  files: [FileAsset!]!
+  menus: [NavMenu!]!
+  apps: [AppEntry!]!
+  notifications: [Notification!]!
+  tasks: [TaskItem!]!
+  theme: ThemeSettings!
+  themeLibrary: [ThemeLibraryEntry!]!
+  companies: [Company!]!
+  segments: [Segment!]!
+  transfers: [Transfer!]!
+  giftCards: [GiftCard!]!
+  payouts: [Payout!]!
+  balanceTransactions: [BalanceTransaction!]!
+  metafieldDefinitions: [MetafieldDefinition!]!
+  metafields: [Metafield!]!
+  redirects: [UrlRedirect!]!
+  locales: [StoreLocale!]!
+  markets: [MarketCountry!]!
+  activity: [ActivityEntry!]!
+  returns: [ReturnRecord!]!
+  orderEdits: [JSON!]!
+  plan: Plan!
+}
+
+# ─── Mutation root ──────────────────────────────────────────────────────────
+
+type Mutation {
+  # Products
+  productCreate(product: ProductInput!): ProductPayload!
+  productUpdate(id: ID!, product: ProductInput!): ProductPayload!
+  productDelete(ids: [ID!]!): ProductDeletePayload!
+  productDuplicate(id: ID!): ProductDuplicatePayload!
+  productStatusSet(ids: [ID!]!, status: String!): ProductStatusPayload!
+  productAddTags(ids: [ID!]!, tags: [String!]!): TagsPayload!
+  productRemoveTags(ids: [ID!]!, tags: [String!]!): TagsPayload!
+  productMediaReorder(id: ID!, mediaIds: [ID!]!): ProductPayload!
+
+  # Collections
+  collectionCreate(collection: CollectionInput!): CollectionPayload!
+  collectionUpdate(id: ID!, collection: CollectionInput!): CollectionPayload!
+  collectionDelete(ids: [ID!]!): CollectionDeletePayload!
+  collectionAddProducts(id: ID!, productIds: [ID!]!): CollectionProductsPayload!
+  collectionRemoveProducts(id: ID!, productIds: [ID!]!): CollectionProductsPayload!
+
+  # Customers
+  customerCreate(customer: CustomerInput!): CustomerPayload!
+  customerUpdate(id: ID!, customer: CustomerInput!): CustomerPayload!
+  customerDelete(ids: [ID!]!): CustomerDeletePayload!
+  customerAddTags(ids: [ID!]!, tags: [String!]!): TagsPayload!
+  customerRemoveTags(ids: [ID!]!, tags: [String!]!): TagsPayload!
+  customerAddressAdd(id: ID!, address: AddressInput!): CustomerPayload!
+  customerAddressDefaultSet(id: ID!, index: Int!): CustomerPayload!
+
+  # Companies (B2B)
+  companyCreate(company: CompanyInput!): CompanyPayload!
+  companyUpdate(id: ID!, company: CompanyInput!): CompanyPayload!
+  companyDelete(id: ID!): CompanyDeletePayload!
+  companyLocationAdd(id: ID!, location: CompanyLocationInput!): CompanyPayload!
+  companyContactAdd(id: ID!, contact: CompanyContactInput!): CompanyPayload!
+
+  # Segments
+  segmentCreate(segment: SegmentInput!): SegmentPayload!
+  segmentUpdate(id: ID!, segment: SegmentInput!): SegmentPayload!
+  segmentDelete(id: ID!): SegmentDeletePayload!
+
+  # Orders
+  orderUpdate(id: ID!, order: OrderInput!): OrderPayload!
+  orderMarkAsPaid(id: ID!): OrderPayload!
+  orderCancel(id: ID!, restock: Boolean): OrderPayload!
+  orderClose(id: ID!): OrderPayload!
+  orderReopen(id: ID!): OrderPayload!
+  orderFulfill(input: OrderFulfillInput!): OrderPayload!
+  orderRefund(input: OrderRefundInput!): OrderPayload!
+  orderEdit(id: ID!, added: [OrderLineItemInput!]!, removed: [OrderLineItemInput!]!): OrderEditPayload!
+
+  # Draft orders
+  draftOrderCreate(customerId: ID!, items: [OrderLineItemInput!]!, note: String, tags: [String!]): OrderPayload!
+  draftOrderUpdate(id: ID!, customerId: ID!, items: [OrderLineItemInput!]!, note: String, tags: [String!]): OrderPayload!
+  draftOrderDelete(ids: [ID!]!): OrdersPayload!
+  draftOrderConvert(id: ID!): OrderPayload!
+  draftOrderInvoiceSend(id: ID!): OrderPayload!
+
+  # Returns
+  returnCreate(orderId: ID!, lines: [ReturnLineInput!]!, reason: String!, restock: Boolean, refundAmount: Float): ReturnPayload!
+  returnClose(id: ID!, markRefunded: Boolean): ReturnPayload!
+
+  # Abandoned checkouts
+  abandonedCheckoutRecoverySend(id: ID!): AbandonedCheckoutPayload!
+  abandonedCheckoutConvert(id: ID!): OrderPayload!
+
+  # Inventory
+  locationCreate(location: LocationInput!): LocationPayload!
+  locationUpdate(id: ID!, location: LocationInput!): LocationPayload!
+  inventoryAdjust(input: InventoryAdjustInput!): InventoryLevelPayload!
+  inventoryBulkAdjust(variantIds: [ID!]!, locationId: ID!, availableDelta: Int!, reason: String): InventoryLevelsPayload!
+  inventoryTransferCreate(input: TransferCreateInput!): TransferPayload!
+  inventoryTransferSend(id: ID!): TransferPayload!
+  inventoryTransferReceive(id: ID!): TransferPayload!
+
+  # Discounts & marketing
+  discountCreate(discount: DiscountInput!): DiscountPayload!
+  discountUpdate(id: ID!, discount: DiscountInput!): DiscountPayload!
+  discountDelete(ids: [ID!]!): DiscountDeletePayload!
+  discountStatusSet(ids: [ID!]!, status: String!): DiscountDeletePayload!
+  campaignCreate(campaign: CampaignInput!): CampaignPayload!
+  campaignLaunch(id: ID!): CampaignPayload!
+  campaignComplete(id: ID!): CampaignPayload!
+  campaignDelete(id: ID!): CampaignPayload!
+
+  # Gift cards
+  giftCardCreate(input: GiftCardCreateInput!): GiftCardPayload!
+  giftCardDisable(id: ID!): GiftCardPayload!
+  giftCardEnable(id: ID!): GiftCardPayload!
+  giftCardBalanceAdjust(id: ID!, newBalance: Float!, note: String): GiftCardPayload!
+
+  # Content
+  pageCreate(page: PageInput!): PagePayload!
+  pageUpdate(id: ID!, page: PageInput!): PagePayload!
+  pageDelete(ids: [ID!]!): OrdersPayload!
+  blogPostCreate(post: BlogPostInput!): PostPayload!
+  blogPostUpdate(id: ID!, post: BlogPostInput!): PostPayload!
+  blogPostDelete(ids: [ID!]!): OrdersPayload!
+  fileCreate(input: FileInput!): FilePayload!
+  fileUpdate(id: ID!, name: String, alt: String): FilePayload!
+  fileDelete(ids: [ID!]!): OrdersPayload!
+  menuUpdate(handle: String!, items: [MenuItemInput!]!): MenuPayload!
+  redirectCreate(redirect: RedirectInput!): RedirectPayload!
+  redirectUpdate(id: ID!, redirect: RedirectInput!): RedirectPayload!
+  redirectDelete(id: ID!): OrdersPayload!
+  metaobjectEntryCreate(entry: MetaobjectEntryInput!): MetaobjectEntryPayload!
+  metaobjectEntryUpdate(id: ID!, entry: MetaobjectEntryInput!): MetaobjectEntryPayload!
+  metaobjectEntryDelete(id: ID!): OrdersPayload!
+
+  # Metafields
+  metafieldDefinitionCreate(definition: MetafieldDefinitionInput!): MetafieldDefinitionPayload!
+  metafieldDefinitionDelete(id: ID!): OrdersPayload!
+  metafieldsSet(metafields: [MetafieldInput!]!): MetafieldsPayload!
+
+  # Staff
+  staffMemberCreate(input: StaffMemberInput!): StaffMemberPayload!
+  staffMemberUpdate(id: ID!, role: String, name: String, email: String): StaffMemberPayload!
+  staffMemberPermissionSet(id: ID!, resource: String!, actions: [String!]!): StaffMemberPayload!
+  staffMemberSetStatus(id: ID!, status: String!): StaffMemberPayload!
+  staffMemberDelete(id: ID!): OrdersPayload!
+
+  # Apps
+  appInstall(id: ID!): AppPayload!
+  appUninstall(id: ID!): OrdersPayload!
+  appToggle(id: ID!): AppPayload!
+
+  # Shop settings
+  settingsUpdate(value: JSON!): StoreSettings!
+  themeUpdate(value: JSON!): ThemeSettings!
+  themePublish(id: ID!): StoreSettings!
+  themeLibraryAdd(name: String!): ThemeLibraryEntry!
+  themeLibraryDelete(id: ID!): StoreSettings!
+  localeAdd(code: String!, name: String!): StoreSettings!
+  localeRemove(code: String!): StoreSettings!
+  marketUpdate(code: ID!, priceAdjustmentPercent: Float, enabled: Boolean): MarketCountry!
+  notificationMarkRead(id: ID!): StoreSettings!
+  notificationMarkAllRead: StoreSettings!
+  taskToggle(id: ID!): StoreSettings!
+  resetDemoData: StoreSettings!
+}
