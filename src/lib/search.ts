@@ -10,7 +10,7 @@ export interface SearchResult {
   id: ID
   title: string
   subtitle: string
-  icon: 'product' | 'order' | 'customer' | 'collection' | 'discount'
+  icon: 'product' | 'order' | 'customer' | 'collection' | 'discount' | 'company' | 'giftcard' | 'segment' | 'transfer'
   href: string
   imageSrc?: string
 }
@@ -110,12 +110,60 @@ export function globalSearch(query: string, state = useStore.getState()): Search
       href: `/discounts/${d.id}`,
     }))
 
+  const companies: SearchResult[] = state.companies
+    .filter((c) => matches(c.name, c.externalId, c.note))
+    .slice(0, 4)
+    .map((c) => ({
+      id: c.id,
+      title: c.name,
+      subtitle: `B2B company · ${c.locations.length} location${c.locations.length === 1 ? '' : 's'}`,
+      icon: 'company',
+      href: `/companies/${c.id}`,
+    }))
+
+  const giftCards: SearchResult[] = state.giftCards
+    .filter((g) => matches(g.code, g.note))
+    .slice(0, 4)
+    .map((g) => ({
+      id: g.id,
+      title: g.code,
+      subtitle: `Gift card · ${g.balance.toFixed(2)} remaining`,
+      icon: 'giftcard',
+      href: '/gift-cards',
+    }))
+
+  const segmentResults: SearchResult[] = state.segments
+    .filter((sg) => matches(sg.name, sg.description))
+    .slice(0, 3)
+    .map((sg) => ({
+      id: sg.id,
+      title: sg.name,
+      subtitle: 'Customer segment',
+      icon: 'segment',
+      href: `/customers/segments/${sg.id}`,
+    }))
+
+  const transferResults: SearchResult[] = state.transfers
+    .filter((t) => matches(t.name, t.note))
+    .slice(0, 3)
+    .map((t) => ({
+      id: t.id,
+      title: t.name,
+      subtitle: `Transfer · ${t.status.replace('_', ' ')}`,
+      icon: 'transfer',
+      href: '/inventory/transfers',
+    }))
+
   const groups: SearchGroup[] = [
     { type: 'product', label: 'Products', results: products },
     { type: 'order', label: 'Orders', results: orders },
     { type: 'customer', label: 'Customers', results: customers },
+    { type: 'company', label: 'Companies', results: companies },
     { type: 'collection', label: 'Collections', results: collections },
     { type: 'discount', label: 'Discounts', results: discounts },
+    { type: 'giftcard', label: 'Gift cards', results: giftCards },
+    { type: 'segment', label: 'Segments', results: segmentResults },
+    { type: 'transfer', label: 'Transfers', results: transferResults },
   ]
   return groups.filter((g) => g.results.length > 0)
 }

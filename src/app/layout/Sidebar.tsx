@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import {
   House, Package, Tag, Users, FileText, Megaphone, TicketPercent, ChartNoAxesCombined,
-  Globe, LayoutGrid, Settings, ChevronDown, ChevronRight, Store,
+  Globe, LayoutGrid, Settings, ChevronDown, ChevronRight, Store, BriefcaseBusiness,
 } from 'lucide-react'
 import { useStore } from '@/store/useStore'
 import { useUiStore } from '@/store/uiStore'
@@ -56,10 +56,19 @@ export function Sidebar() {
         { label: 'All products', to: '/products' },
         { label: 'Collections', to: '/collections' },
         { label: 'Inventory', to: '/inventory' },
+        { label: 'Transfers', to: '/inventory/transfers' },
+        { label: 'Gift cards', to: '/gift-cards' },
         { label: 'Locations', to: '/locations' },
       ],
     },
-    { label: 'Customers', to: '/customers', icon: Users },
+    {
+      label: 'Customers', to: '/customers', icon: Users,
+      children: [
+        { label: 'All customers', to: '/customers' },
+        { label: 'Segments', to: '/customers/segments' },
+        { label: 'Companies (B2B)', to: '/companies' },
+      ],
+    },
     {
       label: 'Content', to: '/content/pages', icon: FileText,
       children: [
@@ -71,6 +80,7 @@ export function Sidebar() {
     { label: 'Marketing', to: '/marketing', icon: Megaphone },
     { label: 'Discounts', to: '/discounts', icon: TicketPercent },
     { label: 'Analytics', to: '/analytics', icon: ChartNoAxesCombined },
+    { label: 'Finances', to: '/finances/payouts', icon: BriefcaseBusiness },
     {
       label: 'Online Store', to: '/online-store', icon: Globe,
       children: [

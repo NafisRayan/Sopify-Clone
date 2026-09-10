@@ -37,6 +37,14 @@ const AppsPage = lazy(() => import('@/features/apps/AppsPage'))
 const SettingsIndex = lazy(() => import('@/features/settings/SettingsIndexPage'))
 const SettingsSection = lazy(() => import('@/features/settings/SettingsSectionPage'))
 const StaffDetail = lazy(() => import('@/features/settings/StaffDetailPage'))
+const CompaniesList = lazy(() => import('@/features/companies/CompaniesListPage'))
+const CompanyDetail = lazy(() => import('@/features/companies/CompanyDetailPage'))
+const SegmentsList = lazy(() => import('@/features/customers/SegmentsListPage'))
+const SegmentDetail = lazy(() => import('@/features/customers/SegmentDetailPage'))
+const TransfersList = lazy(() => import('@/features/inventory/TransfersListPage'))
+const GiftCardsList = lazy(() => import('@/features/gift-cards/GiftCardsListPage'))
+const PayoutsPage = lazy(() => import('@/features/finances/PayoutsPage'))
+const RedirectsPage = lazy(() => import('@/features/online-store/RedirectsPage'))
 const SearchResults = lazy(() => import('@/features/search/SearchResultsPage'))
 const NotFound = lazy(() => import('@/features/misc/NotFoundPage'))
 
@@ -87,11 +95,20 @@ export function AppRoutes() {
 
               {/* Inventory */}
               <Route path="/inventory" element={<InventoryList />} />
+              <Route path="/inventory/transfers" element={<TransfersList />} />
               <Route path="/locations" element={<LocationsList />} />
+
+              {/* B2B + finances */}
+              <Route path="/companies" element={<CompaniesList />} />
+              <Route path="/companies/:id" element={<CompanyDetail />} />
+              <Route path="/gift-cards" element={<GiftCardsList />} />
+              <Route path="/finances/payouts" element={<PayoutsPage />} />
 
               {/* Customers */}
               <Route path="/customers" element={<CustomersList />} />
               <Route path="/customers/:id" element={<CustomerDetail />} />
+              <Route path="/customers/segments" element={<SegmentsList />} />
+              <Route path="/customers/segments/:id" element={<SegmentDetail />} />
 
               {/* Discounts */}
               <Route path="/discounts" element={<DiscountsList />} />
@@ -115,6 +132,7 @@ export function AppRoutes() {
               <Route path="/online-store/navigation" element={<NavigationPage />} />
               <Route path="/online-store/navigation/:handle" element={<NavigationPage />} />
               <Route path="/online-store/preferences" element={<PreferencesPage />} />
+              <Route path="/online-store/redirects" element={<RedirectsPage />} />
 
               {/* Apps */}
               <Route path="/apps" element={<AppsPage />} />

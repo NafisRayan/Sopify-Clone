@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { createPortal } from 'react-dom'
-import { Search, Package, Tag, UserRound, Layers, TicketPercent, CornerDownLeft, Clock } from 'lucide-react'
+import { Search, Package, Tag, UserRound, Layers, TicketPercent, Building2, Gift, PieChart, Truck, CornerDownLeft, Clock } from 'lucide-react'
 import { useUiStore } from '@/store/uiStore'
 import { useStore } from '@/store/useStore'
 import { globalSearch, getRecentSearches, pushRecentSearch, totalResults, type SearchResult } from '@/lib/search'
@@ -13,6 +13,10 @@ const groupIcon = {
   customer: UserRound,
   collection: Layers,
   discount: TicketPercent,
+  company: Building2,
+  giftcard: Gift,
+  segment: PieChart,
+  transfer: Truck,
 } as const
 
 export function GlobalSearch() {
