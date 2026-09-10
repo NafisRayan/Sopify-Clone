@@ -1,6 +1,7 @@
 import { getStore } from '@/store/useStore'
 import { variantLevelAt } from '@/store/selectors'
 import { uid } from '@/lib/id'
+import { syncMutation } from './api'
 import { delay } from '@/lib/delay'
 import { roundMoney } from '@/lib/money'
 import { CURRENT_USER } from '@/lib/constants'
@@ -117,6 +118,7 @@ export async function markAsPaid(orderId: string): Promise<void> {
   const order = getStore().orders.find((o) => o.id === orderId)
   if (!order) throw new Error('Order not found')
   getStore().patchOrder(orderId, { paymentStatus: 'paid' })
+  syncMutation(`mutation { orderMarkAsPaid(id: ${JSON.stringify(orderId)}) { userErrors { message } } }`)
   addTimeline(orderId, 'payment', `Payment of $${order.total.toFixed(2)} marked as received`)
 }
 
@@ -198,6 +200,7 @@ export async function cancelOrder(orderId: string, restock = true): Promise<void
       }
     }
   }
+  syncMutation(`mutation { orderCancel(id: ${JSON.stringify(orderId)}, restock: ${restock}) { userErrors { message } } }`)
   store.patchOrder(orderId, {
     status: 'cancelled',
     cancelledAt: new Date().toISOString(),
@@ -208,12 +211,14 @@ export async function cancelOrder(orderId: string, restock = true): Promise<void
 
 export async function closeOrder(orderId: string): Promise<void> {
   await delay(250)
+  syncMutation(`mutation { orderClose(id: ${JSON.stringify(orderId)}) { userErrors { message } } }`)
   getStore().patchOrder(orderId, { status: 'closed', closedAt: new Date().toISOString() })
   addTimeline(orderId, 'edit', 'Order archived')
 }
 
 export async function reopenOrder(orderId: string): Promise<void> {
   await delay(250)
+  syncMutation(`mutation { orderReopen(id: ${JSON.stringify(orderId)}) { userErrors { message } } }`)
   getStore().patchOrder(orderId, { status: 'open', closedAt: undefined })
   addTimeline(orderId, 'edit', 'Order unarchived')
 }
@@ -225,6 +230,7 @@ export async function addOrderNote(orderId: string, note: string): Promise<void>
   const order = getStore().orders.find((o) => o.id === orderId)
   if (!order) throw new Error('Order not found')
   getStore().patchOrder(orderId, { note })
+  syncMutation(`mutation { orderUpdate(id: ${JSON.stringify(orderId)}, order: { note: ${JSON.stringify(note)} }) { userErrors { message } } }`)
   addTimeline(orderId, 'note', note)
 }
 
@@ -390,6 +396,7 @@ export async function createOrderFromAbandoned(checkoutId: string): Promise<stri
 // ─── Bulk operations ───────────────────────────────────────────────────────
 
 export async function bulkFulfill(orderIds: string[], locationId: string): Promise<number> {
+  // server sync happens per-order inside fulfillOrder
   let count = 0
   for (const id of orderIds) {
     const o = getStore().orders.find((x) => x.id === id)

@@ -1,5 +1,6 @@
 import { getStore } from '@/store/useStore'
 import { uid } from '@/lib/id'
+import { syncMutation } from './api'
 import { delay } from '@/lib/delay'
 import { roundMoney } from '@/lib/money'
 import { CURRENT_USER } from '@/lib/constants'
@@ -88,6 +89,7 @@ export async function editOrder(orderId: string, input: OrderEditInput): Promise
   const deltaTotal = roundMoney(total - order.total)
 
   store.patchOrder(orderId, { lineItems, subtotal, taxTotal, total })
+  syncMutation(`mutation { orderEdit(id: ${JSON.stringify(orderId)}, added: ${JSON.stringify(input.added)}, removed: ${JSON.stringify(input.removed)}) { userErrors { message } } }`)
   const record: OrderEditRecord = {
     id: uid('oe'),
     orderId,
@@ -133,6 +135,7 @@ export async function createReturn(input: ReturnInput): Promise<ReturnRecord> {
     createdAt: new Date().toISOString(),
   }
   store.upsertReturn(record)
+  syncMutation(`mutation { returnCreate(orderId: ${JSON.stringify(input.orderId)}, lines: ${JSON.stringify(input.lines)}, reason: ${JSON.stringify(input.reason)}, restock: ${input.restock}, refundAmount: ${input.refundAmount}) { userErrors { message } } }`)
   addTimeline(input.orderId, `Return requested for ${input.lines.reduce((s, l) => s + l.quantity, 0)} item(s) (${input.reason})`, 'refund')
   logActivity('Created return', 'order', input.orderId)
   return record
@@ -186,6 +189,7 @@ export async function closeReturn(returnId: string, opts: { markRefunded: boolea
     fulfillmentStatus: refundedAll ? 'returned' : order.fulfillmentStatus,
   })
   store.upsertReturn({ ...ret, status: 'returned', closedAt: new Date().toISOString() })
+  syncMutation(`mutation { returnClose(id: ${JSON.stringify(returnId)}, markRefunded: ${opts.markRefunded}) { userErrors { message } } }`)
   addTimeline(
     order.id,
     `Return closed — ${ret.refundAmount > 0 && opts.markRefunded ? `$${ret.refundAmount.toFixed(2)} refunded` : 'no refund issued'}${ret.restock ? ' · items restocked' : ''}`,

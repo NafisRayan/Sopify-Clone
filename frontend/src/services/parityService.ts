@@ -1,5 +1,6 @@
 import { getStore } from '@/store/useStore'
 import { uid } from '@/lib/id'
+import { syncMutation } from './api'
 import { delay } from '@/lib/delay'
 import { roundMoney } from '@/lib/money'
 import { CURRENT_USER } from '@/lib/constants'
@@ -57,6 +58,7 @@ export async function createCompany(input: {
     createdAt: new Date().toISOString(),
   }
   store.upsertCompany(company)
+  syncMutation(`mutation { companyCreate(company: ${JSON.stringify({ name: company.name, customerId: company.customerId, locationName: input.locationName, address: input.address, priceListDiscountPercent: input.priceListDiscountPercent })}) { userErrors { message } } }`)
   logActivity('Created company', 'company', company.id)
   return company
 }
@@ -195,6 +197,7 @@ export async function createTransfer(input: {
     createdAt: new Date().toISOString(),
   }
   store.upsertTransfer(transfer)
+  syncMutation(`mutation { inventoryTransferCreate(input: ${JSON.stringify({ fromLocationId: input.fromLocationId, toLocationId: input.toLocationId, note: input.note, lines: input.lines })}) { userErrors { message } } }`)
   logActivity('Created transfer', 'transfer', transfer.id)
   return transfer
 }
@@ -212,6 +215,7 @@ export async function sendTransfer(transferId: string): Promise<void> {
     await adjustInventory(line.variantId, t.fromLocationId, Math.max(0, current - line.quantity), `Outgoing ${t.name}`)
   }
   store.upsertTransfer({ ...t, status: 'in_transit', sentAt: new Date().toISOString() })
+  syncMutation(`mutation { inventoryTransferSend(id: ${JSON.stringify(transferId)}) { userErrors { message } } }`)
   logActivity('Sent transfer', 'transfer', transferId)
 }
 
@@ -232,6 +236,7 @@ export async function receiveTransfer(transferId: string): Promise<void> {
     receivedAt: new Date().toISOString(),
     lines: t.lines.map((l) => ({ ...l, receivedQuantity: l.quantity })),
   })
+  syncMutation(`mutation { inventoryTransferReceive(id: ${JSON.stringify(transferId)}) { userErrors { message } } }`)
   logActivity('Received transfer', 'transfer', transferId)
 }
 

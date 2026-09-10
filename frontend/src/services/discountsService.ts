@@ -1,5 +1,6 @@
 import { getStore } from '@/store/useStore'
 import { uid } from '@/lib/id'
+import { syncMutation } from './api'
 import { delay } from '@/lib/delay'
 import type { Discount, DiscountStatus } from '@/types'
 
@@ -43,6 +44,7 @@ export async function createDiscount(input: Partial<Discount>): Promise<Discount
     status: input.status ?? 'active',
   }
   store.addDiscount(discount)
+  syncMutation(`mutation { discountCreate(discount: ${JSON.stringify({ code: discount.code, title: discount.title, type: discount.type, method: discount.method, value: discount.value, minPurchase: discount.minPurchase, startsAt: discount.startsAt, endsAt: discount.endsAt, status: discount.status })}) { userErrors { message } } }`)
   return discount
 }
 
@@ -57,11 +59,14 @@ export async function updateDiscount(id: string, patch: Partial<Discount>): Prom
     patch.code = code
   }
   store.patchDiscount(id, patch)
+  const { combinations, ...rest } = patch as any
+  syncMutation(`mutation { discountUpdate(id: ${JSON.stringify(id)}, discount: ${JSON.stringify({ ...rest, combinations })}) { userErrors { message } } }`)
 }
 
 export async function deleteDiscounts(ids: string[]): Promise<void> {
   await delay(300)
   getStore().removeDiscounts(ids)
+  syncMutation(`mutation { discountDelete(ids: ${JSON.stringify(ids)}) { userErrors { message } } }`)
 }
 
 export async function setDiscountsStatus(ids: string[], status: DiscountStatus): Promise<void> {

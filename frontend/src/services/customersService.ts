@@ -1,6 +1,7 @@
 import { getStore } from '@/store/useStore'
 import { uid } from '@/lib/id'
 import { delay } from '@/lib/delay'
+import { syncMutation } from './api'
 import type { Customer, Address, MarketingConsent } from '@/types'
 
 /**
@@ -52,17 +53,21 @@ export async function createCustomer(input: {
     createdAt: now,
   }
   store.addCustomer(customer)
+  syncMutation(`mutation { customerCreate(customer: { firstName: ${JSON.stringify(customer.firstName)}, lastName: ${JSON.stringify(customer.lastName)}, email: ${JSON.stringify(customer.email)}, phone: ${JSON.stringify(customer.phone ?? null)}, note: ${JSON.stringify(customer.note ?? null)}, tags: ${JSON.stringify(customer.tags)} }) { userErrors { message } } }`)
   return customer
 }
 
 export async function updateCustomer(id: string, patch: Partial<Customer>): Promise<void> {
   await delay(300)
   getStore().patchCustomer(id, patch)
+  const { addresses: _a, defaultAddress: _d, ...input } = patch as any
+  syncMutation(`mutation { customerUpdate(id: ${JSON.stringify(id)}, customer: ${JSON.stringify(input)}) { userErrors { message } } }`)
 }
 
 export async function deleteCustomers(ids: string[]): Promise<void> {
   await delay(350)
   getStore().removeCustomers(ids)
+  syncMutation(`mutation { customerDelete(ids: ${JSON.stringify(ids)}) { userErrors { message } } }`)
 }
 
 export async function addCustomerTags(ids: string[], tags: string[]): Promise<void> {

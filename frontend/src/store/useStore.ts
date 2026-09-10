@@ -155,6 +155,8 @@ export interface AppState {
   upsertMetaobjectEntry: (e: MetaobjectEntry) => void
   removeMetaobjectEntry: (id: string) => void
   resetData: () => void
+  /** replace all slices from a backend bootstrap snapshot (remote mode) */
+  hydrateRemote: (snap: Record<string, any>) => void
 }
 
 const seedState = {
@@ -320,6 +322,59 @@ export const useStore = create<AppState>()(
       upsertMetaobjectEntry: (e) => set((s) => ({ metaobjectEntries: upsert(s.metaobjectEntries, e, (x) => x.id) })),
       removeMetaobjectEntry: (id) => set((s) => ({ metaobjectEntries: s.metaobjectEntries.filter((e) => e.id !== id) })),
       resetData: () => set({ ...seedState }),
+
+      hydrateRemote: (snap) =>
+        set((s) => {
+          // flatten backend metafield rows into the owner map the UI expects
+          const metafields: MetafieldOwnerMap = {}
+          for (const m of snap.metafields ?? []) {
+            const key = `${m.ownerType}:${m.ownerId}`
+            ;(metafields[key] ??= []).push(m)
+          }
+          const prevPlan = s.plan[0]
+          return {
+            products: snap.products ?? [],
+            customers: snap.customers ?? [],
+            orders: snap.orders ?? [],
+            abandoned: snap.abandonedCheckouts ?? [],
+            collections: snap.collections ?? [],
+            locations: snap.locations ?? [],
+            inventoryLevels: snap.inventoryLevels ?? [],
+            inventoryHistory: snap.inventoryHistory ?? [],
+            discounts: snap.discounts ?? [],
+            campaigns: snap.campaigns ?? [],
+            staff: snap.staff ?? [],
+            pages: snap.pages ?? [],
+            posts: snap.blogPosts ?? [],
+            files: snap.files ?? [],
+            menus: snap.menus ?? [],
+            apps: (snap.apps ?? []).filter((a: any) => !a.suggested),
+            appSuggestions: (snap.apps ?? []).filter((a: any) => a.suggested),
+            settings: snap.settings?.value ?? s.settings,
+            notifications: snap.notifications ?? [],
+            tasks: snap.tasks ?? [],
+            theme: snap.theme?.value ?? s.theme,
+            themeLibrary: snap.themeLibrary ?? [],
+            companies: snap.companies ?? [],
+            segments: snap.segments ?? [],
+            transfers: snap.transfers ?? [],
+            giftCards: snap.giftCards ?? [],
+            payouts: snap.payouts ?? [],
+            balanceTransactions: snap.balanceTransactions ?? [],
+            metafieldDefinitions: snap.metafieldDefinitions ?? [],
+            metafields,
+            redirects: snap.redirects ?? [],
+            locales: snap.locales ?? [],
+            markets: snap.markets ?? [],
+            staffActivity: snap.activity ?? [],
+            returns: snap.returns ?? [],
+            orderEdits: snap.orderEdits ?? [],
+            orderRisk: Object.fromEntries(
+              (snap.orders ?? []).filter((o: any) => o.riskLevel != null).map((o: any) => [o.id, { level: o.riskLevel, signals: o.riskSignals }]),
+            ),
+            plan: [snap.plan ?? prevPlan],
+          }
+        }),
     }),
     {
       name: 'northstar-admin-v1',

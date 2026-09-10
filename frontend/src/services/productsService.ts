@@ -2,6 +2,7 @@ import { getStore } from '@/store/useStore'
 import { uid } from '@/lib/id'
 import { slugify } from '@/lib/validation'
 import { delay } from '@/lib/delay'
+import { syncMutation } from './api'
 import type { Product, ProductVariant, ProductMedia, ProductStatus, ProductOption, SalesChannel } from '@/types'
 
 /**
@@ -57,6 +58,14 @@ export async function createProduct(input?: Partial<Product>): Promise<Product> 
 export async function updateProduct(id: string, patch: Partial<Product>): Promise<void> {
   await delay(350)
   getStore().patchProduct(id, { ...patch, updatedAt: new Date().toISOString() })
+  const variants = patch.variants ?? undefined
+  const { variants: _v, media: _m, ...rest } = patch as any
+  const input: Record<string, unknown> = { ...rest }
+  if (variants !== undefined) input.variants = variants.map((v: any) => ({ ...v, optionValues: v.optionValues ?? {} }))
+  if (patch.media !== undefined) input.media = patch.media
+  if (patch.options !== undefined) input.options = patch.options
+  if (patch.seo !== undefined) input.seo = patch.seo
+  syncMutation(`mutation { productUpdate(id: ${JSON.stringify(id)}, product: ${JSON.stringify(input)}) { userErrors { message } } }`)
 }
 
 /** Removing products also removes them from collections (relationship integrity, spec §36) */
@@ -69,6 +78,7 @@ export async function deleteProducts(ids: string[]): Promise<void> {
     }
   }
   store.removeProducts(ids)
+  syncMutation(`mutation { productDelete(ids: ${JSON.stringify(ids)}) { userErrors { message } } }`)
 }
 
 export async function duplicateProduct(id: string): Promise<Product | undefined> {

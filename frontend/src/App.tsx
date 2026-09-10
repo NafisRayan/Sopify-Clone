@@ -2,6 +2,7 @@ import { AppRoutes } from '@/app/AppRoutes'
 import { AppProviders } from '@/app/providers'
 import { useEffect } from 'react'
 import { useUiStore } from '@/store/uiStore'
+import { IS_REMOTE, refreshFromServer } from '@/services/api'
 
 export default function App() {
   const setGlobalSearchOpen = useUiStore((s) => s.setGlobalSearchOpen)
@@ -19,6 +20,15 @@ export default function App() {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   }, [setGlobalSearchOpen])
+
+  // remote mode: pull server truth on boot and periodically reconcile
+  useEffect(() => {
+    if (!IS_REMOTE) return
+    void refreshFromServer()
+    const onFocus = () => void refreshFromServer()
+    window.addEventListener('focus', onFocus)
+    return () => window.removeEventListener('focus', onFocus)
+  }, [])
 
   return (
     <AppProviders>
