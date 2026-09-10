@@ -113,6 +113,7 @@ export function AppRoutes() {
               {/* Online store */}
               <Route path="/online-store" element={<OnlineStorePage />} />
               <Route path="/online-store/navigation" element={<NavigationPage />} />
+              <Route path="/online-store/navigation/:handle" element={<NavigationPage />} />
               <Route path="/online-store/preferences" element={<PreferencesPage />} />
 
               {/* Apps */}
