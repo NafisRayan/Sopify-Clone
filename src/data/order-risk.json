@@ -1,0 +1,541 @@
+{
+ "o_1001": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1002": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1003": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1004": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1005": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1006": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1007": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1008": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1009": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1010": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1011": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1012": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1013": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1014": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1015": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1016": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1017": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1018": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1019": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1020": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1021": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1022": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1023": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1024": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1025": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1026": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1027": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1028": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1029": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1030": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1031": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1032": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1033": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1034": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1035": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1036": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1037": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1038": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1039": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1040": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1041": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1042": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1043": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1044": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1045": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1046": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1047": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1048": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1049": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1050": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1051": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1052": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1053": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1054": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1055": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1056": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1057": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1058": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1059": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1060": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1061": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1062": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1063": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1064": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1065": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1066": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1067": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1068": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1069": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1070": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1071": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1072": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1073": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1074": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1075": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1076": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1077": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1078": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1079": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1080": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1081": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1082": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1083": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1084": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1085": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1086": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1087": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1088": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1089": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1090": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1091": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1092": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1093": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1094": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1095": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1096": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1097": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1098": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1099": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1100": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1101": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1102": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1103": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1104": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1105": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1106": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1107": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1108": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1109": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1110": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1111": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1112": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1113": {
+  "level": "medium",
+  "signals": [
+   "First-time customer",
+   "Multiple payment attempts"
+  ]
+ },
+ "o_1114": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1115": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1116": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1117": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1118": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1119": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1120": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1121": {
+  "level": "low",
+  "signals": []
+ },
+ "o_1122": {
+  "level": "low",
+  "signals": []
+ }
+}

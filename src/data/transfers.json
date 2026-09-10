@@ -1,0 +1,240 @@
+[
+ {
+  "id": "tf_1",
+  "name": "TF-1001",
+  "status": "draft",
+  "fromLocationId": "loc_1",
+  "toLocationId": "loc_2",
+  "lines": [
+   {
+    "id": "itl_1_p_oversized-shirt_v8",
+    "variantId": "p_oversized-shirt_v8",
+    "sku": "OS16-TERR-ML",
+    "title": "Oversized Linen Shirt",
+    "variantTitle": "Terracotta / M/L",
+    "quantity": 29,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_1_p_enamel-camping-mug_v2",
+    "variantId": "p_enamel-camping-mug_v2",
+    "sku": "ECM46-FORE",
+    "title": "Enamel Camping Mug",
+    "variantTitle": "Forest",
+    "quantity": 27,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_1_p_insulated-water-bottle_v3",
+    "variantId": "p_insulated-water-bottle_v3",
+    "sku": "IWB19-JUNI",
+    "title": "Insulated Water Bottle 750ml",
+    "variantTitle": "Juniper",
+    "quantity": 13,
+    "receivedQuantity": 0
+   }
+  ],
+  "createdAt": "2026-08-11T11:39:50.946Z",
+  "note": "Restock before holiday promo."
+ },
+ {
+  "id": "tf_2",
+  "name": "TF-1002",
+  "status": "in_transit",
+  "fromLocationId": "loc_1",
+  "toLocationId": "loc_3",
+  "lines": [
+   {
+    "id": "itl_2_p_canvas-tote_v2",
+    "variantId": "p_canvas-tote_v2",
+    "sku": "CT24-NAVY",
+    "title": "Heavy Canvas Tote",
+    "variantTitle": "Navy",
+    "quantity": 19,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_2_p_insulated-water-bottle_v1",
+    "variantId": "p_insulated-water-bottle_v1",
+    "sku": "IWB19-BRUS",
+    "title": "Insulated Water Bottle 750ml",
+    "variantTitle": "Brushed Steel",
+    "quantity": 26,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_2_p_classic-cotton-t-shirt_v16",
+    "variantId": "p_classic-cotton-t-shirt_v16",
+    "sku": "CCT10-BLUE-XL",
+    "title": "Classic Cotton T-Shirt",
+    "variantTitle": "Blue / XL",
+    "quantity": 29,
+    "receivedQuantity": 0
+   }
+  ],
+  "createdAt": "2026-08-15T11:39:50.947Z",
+  "sentAt": "2026-08-20T11:39:50.947Z"
+ },
+ {
+  "id": "tf_3",
+  "name": "TF-1003",
+  "status": "received",
+  "fromLocationId": "loc_1",
+  "toLocationId": "loc_4",
+  "lines": [
+   {
+    "id": "itl_3_p_canvas-backpack_v3",
+    "variantId": "p_canvas-backpack_v3",
+    "sku": "CB12-TAN",
+    "title": "Canvas Backpack",
+    "variantTitle": "Tan",
+    "quantity": 24,
+    "receivedQuantity": 24
+   },
+   {
+    "id": "itl_3_p_wool-throw-blanket_v3",
+    "variantId": "p_wool-throw-blanket_v3",
+    "sku": "WTB21-RUST",
+    "title": "Wool Throw Blanket",
+    "variantTitle": "Rust",
+    "quantity": 16,
+    "receivedQuantity": 16
+   },
+   {
+    "id": "itl_3_p_classic-cotton-t-shirt_v1",
+    "variantId": "p_classic-cotton-t-shirt_v1",
+    "sku": "CCT10-BLAC-S",
+    "title": "Classic Cotton T-Shirt",
+    "variantTitle": "Black / S",
+    "quantity": 20,
+    "receivedQuantity": 20
+   }
+  ],
+  "createdAt": "2026-08-19T11:39:50.947Z",
+  "sentAt": "2026-08-24T11:39:50.947Z",
+  "receivedAt": "2026-09-02T11:39:50.947Z"
+ },
+ {
+  "id": "tf_4",
+  "name": "TF-1004",
+  "status": "draft",
+  "fromLocationId": "loc_1",
+  "toLocationId": "loc_5",
+  "lines": [
+   {
+    "id": "itl_4_p_oversized-shirt_v7",
+    "variantId": "p_oversized-shirt_v7",
+    "sku": "OS16-TERR-XSS",
+    "title": "Oversized Linen Shirt",
+    "variantTitle": "Terracotta / XS/S",
+    "quantity": 30,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_4_p_yoga-mat_v3",
+    "variantId": "p_yoga-mat_v3",
+    "sku": "YM18-BLUS",
+    "title": "Pro Yoga Mat 6mm",
+    "variantTitle": "Blush",
+    "quantity": 5,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_4_p_kids-fleece-pullover_v1",
+    "variantId": "p_kids-fleece-pullover_v1",
+    "sku": "KFP45-OATM-2T",
+    "title": "Kids Fleece Pullover",
+    "variantTitle": "Oatmeal / 2T",
+    "quantity": 24,
+    "receivedQuantity": 0
+   }
+  ],
+  "createdAt": "2026-08-23T11:39:50.948Z"
+ },
+ {
+  "id": "tf_5",
+  "name": "TF-1005",
+  "status": "in_transit",
+  "fromLocationId": "loc_1",
+  "toLocationId": "loc_2",
+  "lines": [
+   {
+    "id": "itl_5_p_insulated-water-bottle_v4",
+    "variantId": "p_insulated-water-bottle_v4",
+    "sku": "IWB19-SAND",
+    "title": "Insulated Water Bottle 750ml",
+    "variantTitle": "Sandstone",
+    "quantity": 13,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_5_p_classic-cotton-t-shirt_v11",
+    "variantId": "p_classic-cotton-t-shirt_v11",
+    "sku": "CCT10-NAVY-L",
+    "title": "Classic Cotton T-Shirt",
+    "variantTitle": "Navy / L",
+    "quantity": 27,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_5_p_ceramic-vase_v2",
+    "variantId": "p_ceramic-vase_v2",
+    "sku": "CV48-INKB",
+    "title": "Matte Ceramic Vase",
+    "variantTitle": "Ink Blue",
+    "quantity": 9,
+    "receivedQuantity": 0
+   },
+   {
+    "id": "itl_5_p_slate-coasters_v1",
+    "variantId": "p_slate-coasters_v1",
+    "sku": "SC60",
+    "title": "Slate Coaster Set",
+    "variantTitle": "",
+    "quantity": 17,
+    "receivedQuantity": 0
+   }
+  ],
+  "createdAt": "2026-08-27T11:39:50.948Z",
+  "sentAt": "2026-09-01T11:39:50.948Z"
+ },
+ {
+  "id": "tf_6",
+  "name": "TF-1006",
+  "status": "received",
+  "fromLocationId": "loc_1",
+  "toLocationId": "loc_3",
+  "lines": [
+   {
+    "id": "itl_6_p_everyday-hoodie_v2",
+    "variantId": "p_everyday-hoodie_v2",
+    "sku": "EH11-CHAR-M",
+    "title": "Everyday Hoodie",
+    "variantTitle": "Charcoal / M",
+    "quantity": 5,
+    "receivedQuantity": 5
+   },
+   {
+    "id": "itl_6_p_pothos-care-kit_v1",
+    "variantId": "p_pothos-care-kit_v1",
+    "sku": "PCK58",
+    "title": "Plant Care Kit",
+    "variantTitle": "",
+    "quantity": 10,
+    "receivedQuantity": 10
+   },
+   {
+    "id": "itl_6_p_minimal-sneakers_v6",
+    "variantId": "p_minimal-sneakers_v6",
+    "sku": "MS13-SLAT-7",
+    "title": "Minimal Sneakers",
+    "variantTitle": "Slate / 7",
+    "quantity": 14,
+    "receivedQuantity": 14
+   }
+  ],
+  "createdAt": "2026-08-31T11:39:50.948Z",
+  "sentAt": "2026-09-05T11:39:50.948Z",
+  "receivedAt": "2026-09-02T11:39:50.948Z"
+ }
+]

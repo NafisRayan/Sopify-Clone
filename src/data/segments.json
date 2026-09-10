@@ -1,0 +1,54 @@
+[
+ {
+  "id": "seg_1",
+  "name": "VIPs",
+  "description": "Customers tagged VIP or over $500 spent",
+  "filters": [
+   {
+    "column": "total_spent",
+    "relation": "gt",
+    "value": "500"
+   }
+  ],
+  "createdAt": "2026-05-13T11:39:50.943Z"
+ },
+ {
+  "id": "seg_2",
+  "name": "Repeat buyers",
+  "description": "More than one order",
+  "filters": [
+   {
+    "column": "orders_count",
+    "relation": "gt",
+    "value": "1"
+   }
+  ],
+  "createdAt": "2026-06-04T11:39:50.943Z"
+ },
+ {
+  "id": "seg_3",
+  "name": "Newsletter subscribers",
+  "description": "Subscribed to email marketing",
+  "filters": [
+   {
+    "column": "email_state",
+    "relation": "equals",
+    "value": "subscribed"
+   }
+  ],
+  "createdAt": "2026-06-26T11:39:50.943Z"
+ },
+ {
+  "id": "seg_4",
+  "name": "Local Portland",
+  "description": "Based in Portland",
+  "filters": [
+   {
+    "column": "city",
+    "relation": "contains",
+    "value": "Portland"
+   }
+  ],
+  "createdAt": "2026-08-01T11:39:50.943Z"
+ }
+]

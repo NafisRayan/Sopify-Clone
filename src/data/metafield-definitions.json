@@ -1,0 +1,51 @@
+[
+ {
+  "id": "mfdef_1",
+  "namespace": "custom",
+  "key": "care_instructions",
+  "name": "Care instructions",
+  "type": "multi_line_text",
+  "resourceType": "product",
+  "description": "Shown on the product page"
+ },
+ {
+  "id": "mfdef_2",
+  "namespace": "custom",
+  "key": "material_origin",
+  "name": "Material origin",
+  "type": "single_line_text",
+  "resourceType": "product"
+ },
+ {
+  "id": "mfdef_3",
+  "namespace": "custom",
+  "key": "wash_temp",
+  "name": "Wash temperature",
+  "type": "integer",
+  "resourceType": "product"
+ },
+ {
+  "id": "mfdef_4",
+  "namespace": "custom",
+  "key": "loyalty_tier",
+  "name": "Loyalty tier",
+  "type": "single_line_text",
+  "resourceType": "customer"
+ },
+ {
+  "id": "mfdef_5",
+  "namespace": "custom",
+  "key": "referral_source",
+  "name": "Referral source",
+  "type": "single_line_text",
+  "resourceType": "customer"
+ },
+ {
+  "id": "mfdef_6",
+  "namespace": "custom",
+  "key": "packaging_note",
+  "name": "Packaging note",
+  "type": "single_line_text",
+  "resourceType": "order"
+ }
+]

@@ -30,7 +30,7 @@
   "tags": [],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-11-20T11:01:29.096Z"
+  "createdAt": "2025-11-20T11:39:50.844Z"
  },
  {
   "id": "c_101",
@@ -66,7 +66,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-10-19T11:01:29.096Z"
+  "createdAt": "2025-10-19T11:39:50.844Z"
  },
  {
   "id": "c_102",
@@ -101,7 +101,7 @@
   ],
   "emailMarketingConsent": "pending",
   "taxExempt": false,
-  "createdAt": "2026-04-28T11:01:29.096Z"
+  "createdAt": "2026-04-28T11:39:50.844Z"
  },
  {
   "id": "c_103",
@@ -137,7 +137,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-08-31T11:01:29.096Z"
+  "createdAt": "2025-08-31T11:39:50.844Z"
  },
  {
   "id": "c_104",
@@ -173,7 +173,7 @@
   ],
   "emailMarketingConsent": "pending",
   "taxExempt": false,
-  "createdAt": "2024-12-24T11:01:29.096Z"
+  "createdAt": "2024-12-24T11:39:50.844Z"
  },
  {
   "id": "c_105",
@@ -209,7 +209,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": true,
-  "createdAt": "2025-07-21T11:01:29.096Z"
+  "createdAt": "2025-07-21T11:39:50.844Z"
  },
  {
   "id": "c_106",
@@ -242,7 +242,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-07-09T11:01:29.096Z"
+  "createdAt": "2025-07-09T11:39:50.844Z"
  },
  {
   "id": "c_107",
@@ -278,7 +278,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-10-19T11:01:29.096Z"
+  "createdAt": "2024-10-19T11:39:50.844Z"
  },
  {
   "id": "c_108",
@@ -311,7 +311,7 @@
   "tags": [],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2026-02-15T11:01:29.096Z"
+  "createdAt": "2026-02-15T11:39:50.844Z"
  },
  {
   "id": "c_109",
@@ -345,7 +345,7 @@
   "note": "Asked to be notified when restocks land.",
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2026-06-16T11:01:29.096Z"
+  "createdAt": "2026-06-16T11:39:50.844Z"
  },
  {
   "id": "c_110",
@@ -381,7 +381,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-12-16T11:01:29.096Z"
+  "createdAt": "2025-12-16T11:39:50.844Z"
  },
  {
   "id": "c_111",
@@ -416,7 +416,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-07-20T11:01:29.096Z"
+  "createdAt": "2025-07-20T11:39:50.844Z"
  },
  {
   "id": "c_112",
@@ -449,7 +449,7 @@
   "tags": [],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-03-15T11:01:29.096Z"
+  "createdAt": "2025-03-15T11:39:50.844Z"
  },
  {
   "id": "c_113",
@@ -484,7 +484,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": true,
-  "createdAt": "2025-05-16T11:01:29.096Z"
+  "createdAt": "2025-05-16T11:39:50.844Z"
  },
  {
   "id": "c_114",
@@ -520,7 +520,7 @@
   "note": "Prefers email contact. Repeat wholesale buyer.",
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-08-10T11:01:29.096Z"
+  "createdAt": "2026-08-10T11:39:50.844Z"
  },
  {
   "id": "c_115",
@@ -555,7 +555,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-12-17T11:01:29.096Z"
+  "createdAt": "2024-12-17T11:39:50.844Z"
  },
  {
   "id": "c_116",
@@ -591,7 +591,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-12-04T11:01:29.096Z"
+  "createdAt": "2025-12-04T11:39:50.844Z"
  },
  {
   "id": "c_117",
@@ -627,7 +627,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-12-03T11:01:29.096Z"
+  "createdAt": "2024-12-03T11:39:50.844Z"
  },
  {
   "id": "c_118",
@@ -661,7 +661,7 @@
   "note": "Prefers email contact. Repeat wholesale buyer.",
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-11-26T11:01:29.096Z"
+  "createdAt": "2025-11-26T11:39:50.844Z"
  },
  {
   "id": "c_119",
@@ -694,7 +694,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-09-23T11:01:29.096Z"
+  "createdAt": "2024-09-23T11:39:50.844Z"
  },
  {
   "id": "c_120",
@@ -727,7 +727,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-02-07T11:01:29.096Z"
+  "createdAt": "2026-02-07T11:39:50.844Z"
  },
  {
   "id": "c_121",
@@ -762,7 +762,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": true,
-  "createdAt": "2026-06-30T11:01:29.096Z"
+  "createdAt": "2026-06-30T11:39:50.844Z"
  },
  {
   "id": "c_122",
@@ -795,7 +795,7 @@
   "tags": [],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-07-23T11:01:29.096Z"
+  "createdAt": "2025-07-23T11:39:50.844Z"
  },
  {
   "id": "c_123",
@@ -828,7 +828,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-01-19T11:01:29.096Z"
+  "createdAt": "2026-01-19T11:39:50.844Z"
  },
  {
   "id": "c_124",
@@ -864,7 +864,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-02-17T11:01:29.096Z"
+  "createdAt": "2026-02-17T11:39:50.844Z"
  },
  {
   "id": "c_125",
@@ -897,7 +897,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-08-07T11:01:29.096Z"
+  "createdAt": "2025-08-07T11:39:50.844Z"
  },
  {
   "id": "c_126",
@@ -931,7 +931,7 @@
   "note": "Asked to be notified when restocks land.",
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-05-04T11:01:29.096Z"
+  "createdAt": "2025-05-04T11:39:50.844Z"
  },
  {
   "id": "c_127",
@@ -967,7 +967,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-02-10T11:01:29.096Z"
+  "createdAt": "2026-02-10T11:39:50.844Z"
  },
  {
   "id": "c_128",
@@ -1000,7 +1000,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-08-31T11:01:29.096Z"
+  "createdAt": "2025-08-31T11:39:50.845Z"
  },
  {
   "id": "c_129",
@@ -1033,7 +1033,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-05-14T11:01:29.096Z"
+  "createdAt": "2025-05-14T11:39:50.845Z"
  },
  {
   "id": "c_130",
@@ -1066,7 +1066,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-04-03T11:01:29.096Z"
+  "createdAt": "2026-04-03T11:39:50.845Z"
  },
  {
   "id": "c_131",
@@ -1099,7 +1099,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-07-05T11:01:29.097Z"
+  "createdAt": "2025-07-05T11:39:50.845Z"
  },
  {
   "id": "c_132",
@@ -1132,7 +1132,7 @@
   "tags": [],
   "emailMarketingConsent": "pending",
   "taxExempt": false,
-  "createdAt": "2025-11-10T11:01:29.097Z"
+  "createdAt": "2025-11-10T11:39:50.845Z"
  },
  {
   "id": "c_133",
@@ -1166,7 +1166,7 @@
   "note": "Local pickup preferred at Portland Flagship.",
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-07-19T11:01:29.097Z"
+  "createdAt": "2025-07-19T11:39:50.845Z"
  },
  {
   "id": "c_134",
@@ -1199,7 +1199,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-11-08T11:01:29.097Z"
+  "createdAt": "2024-11-08T11:39:50.845Z"
  },
  {
   "id": "c_135",
@@ -1232,7 +1232,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-08-24T11:01:29.097Z"
+  "createdAt": "2026-08-24T11:39:50.845Z"
  },
  {
   "id": "c_136",
@@ -1267,7 +1267,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-12-09T11:01:29.097Z"
+  "createdAt": "2025-12-09T11:39:50.845Z"
  },
  {
   "id": "c_137",
@@ -1300,7 +1300,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-04-24T11:01:29.097Z"
+  "createdAt": "2025-04-24T11:39:50.845Z"
  },
  {
   "id": "c_138",
@@ -1335,7 +1335,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-10-13T11:01:29.097Z"
+  "createdAt": "2024-10-13T11:39:50.845Z"
  },
  {
   "id": "c_139",
@@ -1371,7 +1371,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-06-07T11:01:29.097Z"
+  "createdAt": "2025-06-07T11:39:50.845Z"
  },
  {
   "id": "c_140",
@@ -1406,7 +1406,7 @@
   ],
   "emailMarketingConsent": "pending",
   "taxExempt": false,
-  "createdAt": "2025-12-13T11:01:29.097Z"
+  "createdAt": "2025-12-13T11:39:50.845Z"
  },
  {
   "id": "c_141",
@@ -1441,7 +1441,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-11-11T11:01:29.097Z"
+  "createdAt": "2025-11-11T11:39:50.845Z"
  },
  {
   "id": "c_142",
@@ -1476,7 +1476,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-03-28T11:01:29.097Z"
+  "createdAt": "2026-03-28T11:39:50.845Z"
  },
  {
   "id": "c_143",
@@ -1509,7 +1509,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-12-14T11:01:29.097Z"
+  "createdAt": "2024-12-14T11:39:50.845Z"
  },
  {
   "id": "c_144",
@@ -1544,7 +1544,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-12-27T11:01:29.097Z"
+  "createdAt": "2024-12-27T11:39:50.845Z"
  },
  {
   "id": "c_145",
@@ -1580,7 +1580,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-05-30T11:01:29.097Z"
+  "createdAt": "2026-05-30T11:39:50.845Z"
  },
  {
   "id": "c_146",
@@ -1614,7 +1614,7 @@
   "note": "Prefers email contact. Repeat wholesale buyer.",
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-06-22T11:01:29.097Z"
+  "createdAt": "2025-06-22T11:39:50.845Z"
  },
  {
   "id": "c_147",
@@ -1649,7 +1649,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-09-16T11:01:29.097Z"
+  "createdAt": "2025-09-16T11:39:50.845Z"
  },
  {
   "id": "c_148",
@@ -1684,7 +1684,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2026-04-11T11:01:29.097Z"
+  "createdAt": "2026-04-11T11:39:50.845Z"
  },
  {
   "id": "c_149",
@@ -1719,7 +1719,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-08-31T11:01:29.097Z"
+  "createdAt": "2026-08-31T11:39:50.845Z"
  },
  {
   "id": "c_150",
@@ -1752,7 +1752,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2024-10-23T11:01:29.097Z"
+  "createdAt": "2024-10-23T11:39:50.845Z"
  },
  {
   "id": "c_151",
@@ -1785,7 +1785,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-10-16T11:01:29.097Z"
+  "createdAt": "2025-10-16T11:39:50.845Z"
  },
  {
   "id": "c_152",
@@ -1820,7 +1820,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-07-01T11:01:29.097Z"
+  "createdAt": "2026-07-01T11:39:50.845Z"
  },
  {
   "id": "c_153",
@@ -1855,7 +1855,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-11-20T11:01:29.097Z"
+  "createdAt": "2025-11-20T11:39:50.845Z"
  },
  {
   "id": "c_154",
@@ -1892,7 +1892,7 @@
   "note": "Local pickup preferred at Portland Flagship.",
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-05-31T11:01:29.097Z"
+  "createdAt": "2026-05-31T11:39:50.845Z"
  },
  {
   "id": "c_155",
@@ -1926,7 +1926,7 @@
   "note": "Local pickup preferred at Portland Flagship.",
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2026-03-02T11:01:29.097Z"
+  "createdAt": "2026-03-02T11:39:50.845Z"
  },
  {
   "id": "c_156",
@@ -1959,7 +1959,7 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-05-24T11:01:29.097Z"
+  "createdAt": "2025-05-24T11:39:50.845Z"
  },
  {
   "id": "c_157",
@@ -1994,7 +1994,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-06-03T11:01:29.097Z"
+  "createdAt": "2025-06-03T11:39:50.845Z"
  },
  {
   "id": "c_158",
@@ -2030,7 +2030,7 @@
   ],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2026-03-21T11:01:29.097Z"
+  "createdAt": "2026-03-21T11:39:50.845Z"
  },
  {
   "id": "c_159",
@@ -2063,7 +2063,7 @@
   "tags": [],
   "emailMarketingConsent": "not_subscribed",
   "taxExempt": false,
-  "createdAt": "2025-03-07T11:01:29.097Z"
+  "createdAt": "2025-03-07T11:39:50.845Z"
  },
  {
   "id": "c_160",
@@ -2099,7 +2099,7 @@
   ],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2025-09-02T11:01:29.097Z"
+  "createdAt": "2025-09-02T11:39:50.845Z"
  },
  {
   "id": "c_161",
@@ -2132,6 +2132,6 @@
   "tags": [],
   "emailMarketingConsent": "subscribed",
   "taxExempt": false,
-  "createdAt": "2026-06-21T11:01:29.097Z"
+  "createdAt": "2026-06-21T11:39:50.845Z"
  }
 ]

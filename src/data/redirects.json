@@ -1,0 +1,50 @@
+[
+ {
+  "id": "red_1",
+  "from": "/sale",
+  "to": "/collections/archive-sale",
+  "createdAt": "2026-02-12T11:39:50.971Z"
+ },
+ {
+  "id": "red_2",
+  "from": "/about-us",
+  "to": "/pages/about",
+  "createdAt": "2026-03-04T11:39:50.971Z"
+ },
+ {
+  "id": "red_3",
+  "from": "/shipping",
+  "to": "/pages/shipping-and-delivery",
+  "createdAt": "2026-04-03T11:39:50.971Z"
+ },
+ {
+  "id": "red_4",
+  "from": "/collections/tshirts",
+  "to": "/collections/apparel",
+  "createdAt": "2026-05-13T11:39:50.971Z"
+ },
+ {
+  "id": "red_5",
+  "from": "/blog",
+  "to": "/blogs/journal",
+  "createdAt": "2026-06-12T11:39:50.971Z"
+ },
+ {
+  "id": "red_6",
+  "from": "/giftcards",
+  "to": "/products/soy-candle-set",
+  "createdAt": "2026-07-12T11:39:50.971Z"
+ },
+ {
+  "id": "red_7",
+  "from": "/wholesale",
+  "to": "/pages/wholesale",
+  "createdAt": "2026-08-11T11:39:50.971Z"
+ },
+ {
+  "id": "red_8",
+  "from": "/old-journal/how-to-wax-canvas",
+  "to": "/blogs/journal/how-to-wax-your-own-canvas",
+  "createdAt": "2026-09-03T11:39:50.971Z"
+ }
+]

@@ -1,0 +1,508 @@
+{
+ "product:p_classic-cotton-t-shirt": [
+  {
+   "id": "mf_mfdef_1_0",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_0",
+   "definitionId": "mfdef_2",
+   "value": "Portugal"
+  },
+  {
+   "id": "mf_mfdef_3_0",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_everyday-hoodie": [
+  {
+   "id": "mf_mfdef_1_1",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_1",
+   "definitionId": "mfdef_2",
+   "value": "India"
+  },
+  {
+   "id": "mf_mfdef_3_1",
+   "definitionId": "mfdef_3",
+   "value": "60"
+  }
+ ],
+ "product:p_canvas-backpack": [
+  {
+   "id": "mf_mfdef_1_2",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_2",
+   "definitionId": "mfdef_2",
+   "value": "Vietnam"
+  },
+  {
+   "id": "mf_mfdef_3_2",
+   "definitionId": "mfdef_3",
+   "value": "30"
+  }
+ ],
+ "product:p_minimal-sneakers": [
+  {
+   "id": "mf_mfdef_1_3",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_3",
+   "definitionId": "mfdef_2",
+   "value": "India"
+  },
+  {
+   "id": "mf_mfdef_3_3",
+   "definitionId": "mfdef_3",
+   "value": "60"
+  }
+ ],
+ "product:p_ceramic-coffee-mug": [
+  {
+   "id": "mf_mfdef_1_4",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_4",
+   "definitionId": "mfdef_2",
+   "value": "Portugal"
+  },
+  {
+   "id": "mf_mfdef_3_4",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_leather-wallet": [
+  {
+   "id": "mf_mfdef_1_5",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_5",
+   "definitionId": "mfdef_2",
+   "value": "Portugal"
+  },
+  {
+   "id": "mf_mfdef_3_5",
+   "definitionId": "mfdef_3",
+   "value": "30"
+  }
+ ],
+ "product:p_oversized-shirt": [
+  {
+   "id": "mf_mfdef_1_6",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_6",
+   "definitionId": "mfdef_2",
+   "value": "Vietnam"
+  },
+  {
+   "id": "mf_mfdef_3_6",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_running-cap": [
+  {
+   "id": "mf_mfdef_1_7",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_7",
+   "definitionId": "mfdef_2",
+   "value": "USA"
+  },
+  {
+   "id": "mf_mfdef_3_7",
+   "definitionId": "mfdef_3",
+   "value": "60"
+  }
+ ],
+ "product:p_yoga-mat": [
+  {
+   "id": "mf_mfdef_1_8",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_8",
+   "definitionId": "mfdef_2",
+   "value": "Vietnam"
+  },
+  {
+   "id": "mf_mfdef_3_8",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_insulated-water-bottle": [
+  {
+   "id": "mf_mfdef_1_9",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_9",
+   "definitionId": "mfdef_2",
+   "value": "India"
+  },
+  {
+   "id": "mf_mfdef_3_9",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_desk-organizer": [
+  {
+   "id": "mf_mfdef_1_10",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_10",
+   "definitionId": "mfdef_2",
+   "value": "Vietnam"
+  },
+  {
+   "id": "mf_mfdef_3_10",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_wool-throw-blanket": [
+  {
+   "id": "mf_mfdef_1_11",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_11",
+   "definitionId": "mfdef_2",
+   "value": "Vietnam"
+  },
+  {
+   "id": "mf_mfdef_3_11",
+   "definitionId": "mfdef_3",
+   "value": "30"
+  }
+ ],
+ "product:p_soy-candle-set": [
+  {
+   "id": "mf_mfdef_1_12",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_12",
+   "definitionId": "mfdef_2",
+   "value": "USA"
+  },
+  {
+   "id": "mf_mfdef_3_12",
+   "definitionId": "mfdef_3",
+   "value": "30"
+  }
+ ],
+ "product:p_linen-notebook": [
+  {
+   "id": "mf_mfdef_1_13",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_13",
+   "definitionId": "mfdef_2",
+   "value": "Vietnam"
+  },
+  {
+   "id": "mf_mfdef_3_13",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_canvas-tote": [
+  {
+   "id": "mf_mfdef_1_14",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_14",
+   "definitionId": "mfdef_2",
+   "value": "Portugal"
+  },
+  {
+   "id": "mf_mfdef_3_14",
+   "definitionId": "mfdef_3",
+   "value": "30"
+  }
+ ],
+ "product:p_merino-beanie": [
+  {
+   "id": "mf_mfdef_1_15",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_15",
+   "definitionId": "mfdef_2",
+   "value": "USA"
+  },
+  {
+   "id": "mf_mfdef_3_15",
+   "definitionId": "mfdef_3",
+   "value": "40"
+  }
+ ],
+ "product:p_trail-socks": [
+  {
+   "id": "mf_mfdef_1_16",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_16",
+   "definitionId": "mfdef_2",
+   "value": "Portugal"
+  },
+  {
+   "id": "mf_mfdef_3_16",
+   "definitionId": "mfdef_3",
+   "value": "60"
+  }
+ ],
+ "product:p_french-press": [
+  {
+   "id": "mf_mfdef_1_17",
+   "definitionId": "mfdef_1",
+   "value": "Machine wash cold. Tumble dry low."
+  },
+  {
+   "id": "mf_mfdef_2_17",
+   "definitionId": "mfdef_2",
+   "value": "USA"
+  },
+  {
+   "id": "mf_mfdef_3_17",
+   "definitionId": "mfdef_3",
+   "value": "60"
+  }
+ ],
+ "customer:c_100": [
+  {
+   "id": "mf_mfdef_4_0",
+   "definitionId": "mfdef_4",
+   "value": "Bronze"
+  },
+  {
+   "id": "mf_mfdef_5_0",
+   "definitionId": "mfdef_5",
+   "value": "Instagram"
+  }
+ ],
+ "customer:c_101": [
+  {
+   "id": "mf_mfdef_4_1",
+   "definitionId": "mfdef_4",
+   "value": "Gold"
+  },
+  {
+   "id": "mf_mfdef_5_1",
+   "definitionId": "mfdef_5",
+   "value": "Podcast"
+  }
+ ],
+ "customer:c_102": [
+  {
+   "id": "mf_mfdef_4_2",
+   "definitionId": "mfdef_4",
+   "value": "Silver"
+  },
+  {
+   "id": "mf_mfdef_5_2",
+   "definitionId": "mfdef_5",
+   "value": "Instagram"
+  }
+ ],
+ "customer:c_103": [
+  {
+   "id": "mf_mfdef_4_3",
+   "definitionId": "mfdef_4",
+   "value": "Silver"
+  },
+  {
+   "id": "mf_mfdef_5_3",
+   "definitionId": "mfdef_5",
+   "value": "Podcast"
+  }
+ ],
+ "customer:c_104": [
+  {
+   "id": "mf_mfdef_4_4",
+   "definitionId": "mfdef_4",
+   "value": "Silver"
+  },
+  {
+   "id": "mf_mfdef_5_4",
+   "definitionId": "mfdef_5",
+   "value": "Google"
+  }
+ ],
+ "customer:c_105": [
+  {
+   "id": "mf_mfdef_4_5",
+   "definitionId": "mfdef_4",
+   "value": "Gold"
+  },
+  {
+   "id": "mf_mfdef_5_5",
+   "definitionId": "mfdef_5",
+   "value": "Instagram"
+  }
+ ],
+ "customer:c_106": [
+  {
+   "id": "mf_mfdef_4_6",
+   "definitionId": "mfdef_4",
+   "value": "Bronze"
+  },
+  {
+   "id": "mf_mfdef_5_6",
+   "definitionId": "mfdef_5",
+   "value": "Friend"
+  }
+ ],
+ "customer:c_107": [
+  {
+   "id": "mf_mfdef_4_7",
+   "definitionId": "mfdef_4",
+   "value": "Gold"
+  },
+  {
+   "id": "mf_mfdef_5_7",
+   "definitionId": "mfdef_5",
+   "value": "Friend"
+  }
+ ],
+ "customer:c_108": [
+  {
+   "id": "mf_mfdef_4_8",
+   "definitionId": "mfdef_4",
+   "value": "Silver"
+  },
+  {
+   "id": "mf_mfdef_5_8",
+   "definitionId": "mfdef_5",
+   "value": "Friend"
+  }
+ ],
+ "customer:c_109": [
+  {
+   "id": "mf_mfdef_4_9",
+   "definitionId": "mfdef_4",
+   "value": "Gold"
+  },
+  {
+   "id": "mf_mfdef_5_9",
+   "definitionId": "mfdef_5",
+   "value": "Friend"
+  }
+ ],
+ "customer:c_110": [
+  {
+   "id": "mf_mfdef_4_10",
+   "definitionId": "mfdef_4",
+   "value": "Silver"
+  },
+  {
+   "id": "mf_mfdef_5_10",
+   "definitionId": "mfdef_5",
+   "value": "Google"
+  }
+ ],
+ "customer:c_111": [
+  {
+   "id": "mf_mfdef_4_11",
+   "definitionId": "mfdef_4",
+   "value": "Silver"
+  },
+  {
+   "id": "mf_mfdef_5_11",
+   "definitionId": "mfdef_5",
+   "value": "Google"
+  }
+ ],
+ "order:o_1001": [
+  {
+   "id": "mf_mfdef_6_0",
+   "definitionId": "mfdef_6",
+   "value": "Fragile — this side up"
+  }
+ ],
+ "order:o_1002": [
+  {
+   "id": "mf_mfdef_6_1",
+   "definitionId": "mfdef_6",
+   "value": "No invoices in box"
+  }
+ ],
+ "order:o_1003": [
+  {
+   "id": "mf_mfdef_6_2",
+   "definitionId": "mfdef_6",
+   "value": "No invoices in box"
+  }
+ ],
+ "order:o_1004": [
+  {
+   "id": "mf_mfdef_6_3",
+   "definitionId": "mfdef_6",
+   "value": "No invoices in box"
+  }
+ ],
+ "order:o_1005": [
+  {
+   "id": "mf_mfdef_6_4",
+   "definitionId": "mfdef_6",
+   "value": "No invoices in box"
+  }
+ ],
+ "order:o_1006": [
+  {
+   "id": "mf_mfdef_6_5",
+   "definitionId": "mfdef_6",
+   "value": "No invoices in box"
+  }
+ ],
+ "order:o_1007": [
+  {
+   "id": "mf_mfdef_6_6",
+   "definitionId": "mfdef_6",
+   "value": "Gift wrap"
+  }
+ ],
+ "order:o_1008": [
+  {
+   "id": "mf_mfdef_6_7",
+   "definitionId": "mfdef_6",
+   "value": "No invoices in box"
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+[
+ {
+  "id": "company_1",
+  "name": "Cascadia Outfitters",
+  "externalId": "EXT-1000",
+  "status": "active",
+  "customerId": "c_100",
+  "note": "Net-30 payment terms agreed.",
+  "locations": [
+   {
+    "id": "cl_1_1",
+    "name": "Cascadia Outfitters — Main",
+    "phone": "(420) 555-9319",
+    "address": {
+     "firstName": "Silas",
+     "lastName": "Aldana",
+     "address1": "8520 Cedar Ln",
+     "city": "Brooklyn",
+     "province": "NY",
+     "country": "United States",
+     "zip": "11201",
+     "phone": "(964) 555-8017",
+     "company": "Cascadia Outfitters"
+    },
+    "taxExempt": false
+   },
+   {
+    "id": "cl_1_2",
+    "name": "Cascadia Outfitters — Store 2",
+    "phone": "(728) 555-2950",
+    "address": {
+     "firstName": "Silas",
+     "lastName": "Aldana",
+     "address1": "8520 Cedar Ln",
+     "city": "Brooklyn",
+     "province": "NY",
+     "country": "United States",
+     "zip": "11201",
+     "phone": "(964) 555-8017",
+     "company": "Cascadia Outfitters"
+    },
+    "taxExempt": true
+   }
+  ],
+  "contacts": [
+   {
+    "id": "cc_1_1",
+    "name": "Silas Aldana",
+    "email": "silas.aldana@example.com",
+    "locationIds": [
+     "cl_1_1",
+     "cl_1_2"
+    ],
+    "isPrimary": true
+   },
+   {
+    "id": "cc_1_2",
+    "name": "Casey Ellis",
+    "email": "orders1@cascadiaoutfitters.com",
+    "locationIds": [
+     "cl_1_1"
+    ],
+    "isPrimary": false
+   }
+  ],
+  "priceListDiscountPercent": 15,
+  "createdAt": "2025-10-06T11:39:50.942Z"
+ },
+ {
+  "id": "company_2",
+  "name": "Meridian Retail Group",
+  "externalId": "EXT-1001",
+  "status": "active",
+  "customerId": "c_101",
+  "note": "Net-30 payment terms agreed.",
+  "locations": [
+   {
+    "id": "cl_2_1",
+    "name": "Meridian Retail Group — Main",
+    "phone": "(466) 555-7536",
+    "address": {
+     "firstName": "Tariq",
+     "lastName": "Osei",
+     "address1": "5433 Fir St",
+     "city": "Vancouver",
+     "province": "BC",
+     "country": "Canada",
+     "zip": "V6B 1A1",
+     "phone": "(470) 555-2975",
+     "company": "Meridian Retail Group"
+    },
+    "taxExempt": false
+   },
+   {
+    "id": "cl_2_2",
+    "name": "Meridian Retail Group — Store 2",
+    "phone": "(359) 555-6457",
+    "address": {
+     "firstName": "Tariq",
+     "lastName": "Osei",
+     "address1": "5433 Fir St",
+     "city": "Vancouver",
+     "province": "BC",
+     "country": "Canada",
+     "zip": "V6B 1A1",
+     "phone": "(470) 555-2975",
+     "company": "Meridian Retail Group"
+    },
+    "taxExempt": true
+   },
+   {
+    "id": "cl_2_3",
+    "name": "Meridian Retail Group — Store 3",
+    "phone": "(348) 555-2312",
+    "address": {
+     "firstName": "Tariq",
+     "lastName": "Osei",
+     "address1": "5433 Fir St",
+     "city": "Vancouver",
+     "province": "BC",
+     "country": "Canada",
+     "zip": "V6B 1A1",
+     "phone": "(470) 555-2975",
+     "company": "Meridian Retail Group"
+    },
+    "taxExempt": true
+   }
+  ],
+  "contacts": [
+   {
+    "id": "cc_2_1",
+    "name": "Tariq Osei",
+    "email": "tariq.osei@example.com",
+    "locationIds": [
+     "cl_2_1",
+     "cl_2_2",
+     "cl_2_3"
+    ],
+    "isPrimary": true
+   },
+   {
+    "id": "cc_2_2",
+    "name": "Jordan Porter",
+    "email": "orders2@meridianretailgroup.com",
+    "locationIds": [
+     "cl_2_1"
+    ],
+    "isPrimary": false
+   }
+  ],
+  "priceListDiscountPercent": 10,
+  "createdAt": "2025-10-23T11:39:50.943Z"
+ },
+ {
+  "id": "company_3",
+  "name": "Homestead Living Co.",
+  "externalId": "EXT-1002",
+  "status": "active",
+  "customerId": "c_102",
+  "locations": [
+   {
+    "id": "cl_3_1",
+    "name": "Homestead Living Co. — Main",
+    "phone": "(929) 555-3675",
+    "address": {
+     "firstName": "Theo",
+     "lastName": "Osei",
+     "address1": "761 Pine Hollow Rd",
+     "city": "Vancouver",
+     "province": "BC",
+     "country": "Canada",
+     "zip": "V6B 1A1",
+     "phone": "(267) 555-9864",
+     "company": "Homestead Living Co."
+    },
+    "taxExempt": true
+   },
+   {
+    "id": "cl_3_2",
+    "name": "Homestead Living Co. — Store 2",
+    "phone": "(875) 555-0893",
+    "address": {
+     "firstName": "Theo",
+     "lastName": "Osei",
+     "address1": "761 Pine Hollow Rd",
+     "city": "Vancouver",
+     "province": "BC",
+     "country": "Canada",
+     "zip": "V6B 1A1",
+     "phone": "(267) 555-9864",
+     "company": "Homestead Living Co."
+    },
+    "taxExempt": false
+   }
+  ],
+  "contacts": [
+   {
+    "id": "cc_3_1",
+    "name": "Theo Osei",
+    "email": "theo.osei@example.com",
+    "locationIds": [
+     "cl_3_1",
+     "cl_3_2"
+    ],
+    "isPrimary": true
+   },
+   {
+    "id": "cc_3_2",
+    "name": "Riley Ng",
+    "email": "orders3@homesteadlivingco.com",
+    "locationIds": [
+     "cl_3_1"
+    ],
+    "isPrimary": false
+   }
+  ],
+  "priceListDiscountPercent": 15,
+  "createdAt": "2026-05-02T11:39:50.943Z"
+ },
+ {
+  "id": "company_4",
+  "name": "Trailpost Wholesale",
+  "externalId": "EXT-1003",
+  "status": "active",
+  "customerId": "c_103",
+  "note": "Net-30 payment terms agreed.",
+  "locations": [
+   {
+    "id": "cl_4_1",
+    "name": "Trailpost Wholesale — Main",
+    "phone": "(674) 555-7776",
+    "address": {
+     "firstName": "Omar",
+     "lastName": "Haddad",
+     "address1": "691 Juniper Way",
+     "city": "Boulder",
+     "province": "CO",
+     "country": "United States",
+     "zip": "80302",
+     "phone": "(600) 555-7048",
+     "company": "Trailpost Wholesale"
+    },
+    "taxExempt": false
+   },
+   {
+    "id": "cl_4_2",
+    "name": "Trailpost Wholesale — Store 2",
+    "phone": "(765) 555-6162",
+    "address": {
+     "firstName": "Omar",
+     "lastName": "Haddad",
+     "address1": "691 Juniper Way",
+     "city": "Boulder",
+     "province": "CO",
+     "country": "United States",
+     "zip": "80302",
+     "phone": "(600) 555-7048",
+     "company": "Trailpost Wholesale"
+    },
+    "taxExempt": false
+   }
+  ],
+  "contacts": [
+   {
+    "id": "cc_4_1",
+    "name": "Omar Haddad",
+    "email": "omar.haddad@example.com",
+    "locationIds": [
+     "cl_4_1",
+     "cl_4_2"
+    ],
+    "isPrimary": true
+   }
+  ],
+  "priceListDiscountPercent": 15,
+  "createdAt": "2026-05-07T11:39:50.943Z"
+ }
+]

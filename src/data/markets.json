@@ -1,0 +1,37 @@
+[
+ {
+  "code": "CA",
+  "name": "Canada",
+  "currency": "CAD",
+  "priceAdjustmentPercent": 0,
+  "enabled": true
+ },
+ {
+  "code": "GB",
+  "name": "United Kingdom",
+  "currency": "GBP",
+  "priceAdjustmentPercent": 8,
+  "enabled": true
+ },
+ {
+  "code": "DE",
+  "name": "Germany",
+  "currency": "EUR",
+  "priceAdjustmentPercent": 10,
+  "enabled": true
+ },
+ {
+  "code": "FR",
+  "name": "France",
+  "currency": "EUR",
+  "priceAdjustmentPercent": 10,
+  "enabled": true
+ },
+ {
+  "code": "AU",
+  "name": "Australia",
+  "currency": "AUD",
+  "priceAdjustmentPercent": 12,
+  "enabled": false
+ }
+]

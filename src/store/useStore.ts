@@ -5,11 +5,20 @@ import type {
   InventoryHistoryEntry, Discount, Campaign, StaffMember, StorePage, BlogPost, FileAsset,
   NavMenu, AppEntry, StoreSettings, AdminNotification, TaskItem, ThemeSettings,
 } from '@/types'
+import type {
+  Company, CustomerSegment, InventoryTransfer, GiftCard, Payout, BalanceTransaction,
+  MetafieldDefinition, Metafield, MetafieldOwnerMap, UrlRedirect, StoreLocale, MarketCountry,
+  StaffActivityEntry, ReturnRecord, OrderEditRecord, OrderRisk, StorePlan,
+} from '@/types/parity'
 import {
   seedProducts, seedCustomers, seedOrders, seedAbandoned, seedCollections, seedLocations,
   seedInventoryLevels, seedInventoryHistory, seedDiscounts, seedCampaigns, seedStaff,
   seedPages, seedPosts, seedFiles, seedMenus, seedApps, seedAppSuggestions, seedSettings,
   seedNotifications, seedTasks, seedTheme, seedThemeLibrary, type ThemeLibraryEntry,
+  seedCompanies, seedSegments, seedTransfers, seedGiftCards, seedPayouts,
+  seedBalanceTransactions, seedMetafieldDefinitions, seedMetafields, seedRedirects,
+  seedLocales, seedMarkets, seedStaffActivity, seedReturns, seedOrderEdits, seedOrderRisk,
+  seedPlan,
 } from '@/data'
 
 /**
@@ -40,6 +49,24 @@ export interface AppState {
   tasks: TaskItem[]
   theme: ThemeSettings
   themeLibrary: ThemeLibraryEntry[]
+
+  // parity expansion
+  companies: Company[]
+  segments: CustomerSegment[]
+  transfers: InventoryTransfer[]
+  giftCards: GiftCard[]
+  payouts: Payout[]
+  balanceTransactions: BalanceTransaction[]
+  metafieldDefinitions: MetafieldDefinition[]
+  metafields: MetafieldOwnerMap
+  redirects: UrlRedirect[]
+  locales: StoreLocale[]
+  markets: MarketCountry[]
+  staffActivity: StaffActivityEntry[]
+  returns: ReturnRecord[]
+  orderEdits: OrderEditRecord[]
+  orderRisk: Record<string, OrderRisk>
+  plan: StorePlan[]
 
   // low-level entity operations (services build on these)
   addProduct: (p: Product) => void
@@ -103,6 +130,25 @@ export interface AppState {
   patchNotification: (id: string, patch: Partial<AdminNotification>) => void
   markAllNotificationsRead: () => void
   toggleTask: (id: string) => void
+
+  // parity actions
+  upsertCompany: (c: Company) => void
+  removeCompany: (id: string) => void
+  upsertSegment: (s2: CustomerSegment) => void
+  removeSegment: (id: string) => void
+  upsertTransfer: (t: InventoryTransfer) => void
+  upsertGiftCard: (g: GiftCard) => void
+  upsertReturn: (r: ReturnRecord) => void
+  addOrderEdit: (e: OrderEditRecord) => void
+  appendActivity: (entry: StaffActivityEntry) => void
+  upsertRedirect: (r: UrlRedirect) => void
+  removeRedirect: (id: string) => void
+  updateMetafields: (ownerKey: string, list: Metafield[]) => void
+  upsertMetafieldDefinition: (d: MetafieldDefinition) => void
+  removeMetafieldDefinition: (id: string) => void
+  updateLocales: (locales: StoreLocale[]) => void
+  updateMarkets: (markets: MarketCountry[]) => void
+  updatePlan: (patch: Partial<StorePlan>) => void
   resetData: () => void
 }
 
@@ -129,6 +175,22 @@ const seedState = {
   tasks: seedTasks,
   theme: seedTheme,
   themeLibrary: seedThemeLibrary,
+  companies: seedCompanies,
+  segments: seedSegments,
+  transfers: seedTransfers,
+  giftCards: seedGiftCards,
+  payouts: seedPayouts,
+  balanceTransactions: seedBalanceTransactions,
+  metafieldDefinitions: seedMetafieldDefinitions,
+  metafields: seedMetafields,
+  redirects: seedRedirects,
+  locales: seedLocales,
+  markets: seedMarkets,
+  staffActivity: seedStaffActivity,
+  returns: seedReturns,
+  orderEdits: seedOrderEdits,
+  orderRisk: seedOrderRisk,
+  plan: [seedPlan],
 }
 
 const upsert = <T>(list: T[], item: T, key: (x: T) => string): T[] =>
@@ -230,6 +292,24 @@ export const useStore = create<AppState>()(
       toggleTask: (id) =>
         set((s) => ({ tasks: s.tasks.map((t) => (t.id === id ? { ...t, done: !t.done } : t)) })),
 
+      // parity actions
+      upsertCompany: (c) => set((s) => ({ companies: upsert(s.companies, c, (x) => x.id) })),
+      removeCompany: (id) => set((s) => ({ companies: s.companies.filter((c) => c.id !== id) })),
+      upsertSegment: (s2) => set((s) => ({ segments: upsert(s.segments, s2, (x) => x.id) })),
+      removeSegment: (id) => set((s) => ({ segments: s.segments.filter((x) => x.id !== id) })),
+      upsertTransfer: (t) => set((s) => ({ transfers: upsert(s.transfers, t, (x) => x.id) })),
+      upsertGiftCard: (g) => set((s) => ({ giftCards: upsert(s.giftCards, g, (x) => x.id) })),
+      upsertReturn: (r) => set((s) => ({ returns: upsert(s.returns, r, (x) => x.id) })),
+      addOrderEdit: (e) => set((s) => ({ orderEdits: [e, ...s.orderEdits] })),
+      appendActivity: (entry) => set((s) => ({ staffActivity: [entry, ...s.staffActivity] })),
+      upsertRedirect: (r) => set((s) => ({ redirects: upsert(s.redirects, r, (x) => x.id) })),
+      removeRedirect: (id) => set((s) => ({ redirects: s.redirects.filter((r) => r.id !== id) })),
+      updateMetafields: (ownerKey, list) => set((s) => ({ metafields: { ...s.metafields, [ownerKey]: list } })),
+      upsertMetafieldDefinition: (d) => set((s) => ({ metafieldDefinitions: upsert(s.metafieldDefinitions, d, (x) => x.id) })),
+      removeMetafieldDefinition: (id) => set((s) => ({ metafieldDefinitions: s.metafieldDefinitions.filter((d) => d.id !== id) })),
+      updateLocales: (locales) => set({ locales }),
+      updateMarkets: (markets) => set({ markets }),
+      updatePlan: (patch) => set((s) => ({ plan: [{ ...s.plan[0]!, ...patch }] })),
       resetData: () => set({ ...seedState }),
     }),
     {

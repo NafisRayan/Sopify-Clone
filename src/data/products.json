@@ -412,8 +412,8 @@
   "weightGrams": 180,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-26T11:01:28.962Z",
-  "updatedAt": "2026-09-07T19:56:53.805Z"
+  "createdAt": "2026-01-26T11:39:50.723Z",
+  "updatedAt": "2026-09-07T20:35:15.566Z"
  },
  {
   "id": "p_everyday-hoodie",
@@ -753,8 +753,8 @@
   "weightGrams": 520,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-03-07T11:01:28.968Z",
-  "updatedAt": "2026-09-03T17:11:35.921Z"
+  "createdAt": "2025-03-07T11:39:50.729Z",
+  "updatedAt": "2026-09-03T17:49:57.682Z"
  },
  {
   "id": "p_canvas-backpack",
@@ -858,8 +858,8 @@
   "weightGrams": 890,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-01T11:01:28.970Z",
-  "updatedAt": "2026-09-05T04:10:56.906Z"
+  "createdAt": "2026-01-01T11:39:50.731Z",
+  "updatedAt": "2026-09-05T04:49:18.667Z"
  },
  {
   "id": "p_minimal-sneakers",
@@ -1180,8 +1180,8 @@
   "weightGrams": 740,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-07-12T11:01:28.972Z",
-  "updatedAt": "2026-09-07T19:59:25.113Z"
+  "createdAt": "2025-07-12T11:39:50.734Z",
+  "updatedAt": "2026-09-07T20:37:46.872Z"
  },
  {
   "id": "p_ceramic-coffee-mug",
@@ -1300,8 +1300,8 @@
   "weightGrams": 380,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-08-01T11:01:28.977Z",
-  "updatedAt": "2026-09-09T08:32:18.530Z"
+  "createdAt": "2025-08-01T11:39:50.736Z",
+  "updatedAt": "2026-09-09T09:10:40.289Z"
  },
  {
   "id": "p_leather-wallet",
@@ -1412,8 +1412,8 @@
   "weightGrams": 90,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-03-17T11:01:28.979Z",
-  "updatedAt": "2026-08-31T06:55:13.401Z"
+  "createdAt": "2025-03-17T11:39:50.738Z",
+  "updatedAt": "2026-08-31T07:33:35.160Z"
  },
  {
   "id": "p_oversized-shirt",
@@ -1624,8 +1624,8 @@
   "weightGrams": 240,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-12-17T11:01:28.981Z",
-  "updatedAt": "2026-08-28T13:29:13.111Z"
+  "createdAt": "2024-12-17T11:39:50.740Z",
+  "updatedAt": "2026-08-28T14:07:34.870Z"
  },
  {
   "id": "p_running-cap",
@@ -1724,8 +1724,8 @@
   "weightGrams": 80,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-03-23T11:01:28.983Z",
-  "updatedAt": "2026-08-21T23:11:54.564Z"
+  "createdAt": "2026-03-23T11:39:50.742Z",
+  "updatedAt": "2026-08-21T23:50:16.322Z"
  },
  {
   "id": "p_yoga-mat",
@@ -1826,8 +1826,8 @@
   "weightGrams": 1100,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-22T11:01:28.986Z",
-  "updatedAt": "2026-08-20T17:47:20.213Z"
+  "createdAt": "2025-10-22T11:39:50.744Z",
+  "updatedAt": "2026-08-20T18:25:41.971Z"
  },
  {
   "id": "p_insulated-water-bottle",
@@ -1949,8 +1949,8 @@
   "weightGrams": 420,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-04-04T11:01:28.988Z",
-  "updatedAt": "2026-08-08T21:31:15.922Z"
+  "createdAt": "2026-04-04T11:39:50.746Z",
+  "updatedAt": "2026-08-08T22:09:37.679Z"
  },
  {
   "id": "p_desk-organizer",
@@ -2020,8 +2020,8 @@
   "weightGrams": 750,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-19T11:01:28.991Z",
-  "updatedAt": "2026-09-06T14:48:35.716Z"
+  "createdAt": "2026-01-19T11:39:50.748Z",
+  "updatedAt": "2026-09-06T15:26:57.473Z"
  },
  {
   "id": "p_wool-throw-blanket",
@@ -2126,8 +2126,8 @@
   "weightGrams": 1300,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-28T11:01:28.993Z",
-  "updatedAt": "2026-08-13T23:39:35.277Z"
+  "createdAt": "2025-10-28T11:39:50.750Z",
+  "updatedAt": "2026-08-14T00:17:57.034Z"
  },
  {
   "id": "p_soy-candle-set",
@@ -2189,8 +2189,8 @@
   "weightGrams": 900,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-10-21T11:01:28.996Z",
-  "updatedAt": "2026-08-18T16:53:01.059Z"
+  "createdAt": "2024-10-21T11:39:50.753Z",
+  "updatedAt": "2026-08-18T17:31:22.816Z"
  },
  {
   "id": "p_linen-notebook",
@@ -2294,8 +2294,8 @@
   "weightGrams": 260,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-04-16T11:01:28.998Z",
-  "updatedAt": "2026-08-12T05:18:51.072Z"
+  "createdAt": "2026-04-16T11:39:50.755Z",
+  "updatedAt": "2026-08-12T05:57:12.829Z"
  },
  {
   "id": "p_canvas-tote",
@@ -2398,8 +2398,8 @@
   "weightGrams": 340,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-04-14T11:01:29.000Z",
-  "updatedAt": "2026-08-26T07:07:49.299Z"
+  "createdAt": "2026-04-14T11:39:50.757Z",
+  "updatedAt": "2026-08-26T07:46:11.057Z"
  },
  {
   "id": "p_merino-beanie",
@@ -2525,8 +2525,8 @@
   "weightGrams": 100,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-09-07T11:01:29.001Z",
-  "updatedAt": "2026-09-04T20:22:16.383Z"
+  "createdAt": "2025-09-07T11:39:50.759Z",
+  "updatedAt": "2026-09-04T21:00:38.141Z"
  },
  {
   "id": "p_trail-socks",
@@ -2586,8 +2586,8 @@
   "weightGrams": 190,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-12-01T11:01:29.003Z",
-  "updatedAt": "2026-08-07T18:41:10.742Z"
+  "createdAt": "2025-12-01T11:39:50.761Z",
+  "updatedAt": "2026-08-07T19:19:32.501Z"
  },
  {
   "id": "p_french-press",
@@ -2650,8 +2650,8 @@
   "weightGrams": 1200,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-11-13T11:01:29.005Z",
-  "updatedAt": "2026-08-28T15:42:03.667Z"
+  "createdAt": "2025-11-13T11:39:50.764Z",
+  "updatedAt": "2026-08-28T16:20:25.424Z"
  },
  {
   "id": "p_serving-board",
@@ -2716,8 +2716,8 @@
   "weightGrams": 850,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-01-18T11:01:29.008Z",
-  "updatedAt": "2026-08-21T20:13:16.466Z"
+  "createdAt": "2025-01-18T11:39:50.765Z",
+  "updatedAt": "2026-08-21T20:51:38.223Z"
  },
  {
   "id": "p_desk-lamp",
@@ -2801,8 +2801,8 @@
   "weightGrams": 1600,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-02-11T11:01:29.010Z",
-  "updatedAt": "2026-08-29T04:52:46.893Z"
+  "createdAt": "2025-02-11T11:39:50.767Z",
+  "updatedAt": "2026-08-29T05:31:08.645Z"
  },
  {
   "id": "p_field-journal",
@@ -2912,8 +2912,8 @@
   "weightGrams": 210,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-18T11:01:29.017Z",
-  "updatedAt": "2026-09-01T01:04:20.891Z"
+  "createdAt": "2025-10-18T11:39:50.769Z",
+  "updatedAt": "2026-09-01T01:42:42.643Z"
  },
  {
   "id": "p_passport-holder",
@@ -2999,8 +2999,8 @@
   "weightGrams": 95,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-01-14T11:01:29.019Z",
-  "updatedAt": "2026-08-20T01:45:56.571Z"
+  "createdAt": "2025-01-14T11:39:50.771Z",
+  "updatedAt": "2026-08-20T02:24:18.323Z"
  },
  {
   "id": "p_woven-belt",
@@ -3211,8 +3211,8 @@
   "weightGrams": 130,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-09-15T11:01:29.021Z",
-  "updatedAt": "2026-08-10T08:17:41.012Z"
+  "createdAt": "2025-09-15T11:39:50.773Z",
+  "updatedAt": "2026-08-10T08:56:02.762Z"
  },
  {
   "id": "p_picnic-blanket",
@@ -3298,8 +3298,8 @@
   "weightGrams": 980,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-02-21T11:01:29.024Z",
-  "updatedAt": "2026-08-29T16:50:16.377Z"
+  "createdAt": "2026-02-21T11:39:50.774Z",
+  "updatedAt": "2026-08-29T17:28:38.127Z"
  },
  {
   "id": "p_hammock",
@@ -3360,8 +3360,8 @@
   "weightGrams": 620,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-12-26T11:01:29.026Z",
-  "updatedAt": "2026-08-09T20:15:46.184Z"
+  "createdAt": "2025-12-26T11:39:50.776Z",
+  "updatedAt": "2026-08-09T20:54:07.934Z"
  },
  {
   "id": "p_plant-pot",
@@ -3456,8 +3456,8 @@
   "weightGrams": 1100,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-05-08T11:01:29.028Z",
-  "updatedAt": "2026-08-15T03:33:08.894Z"
+  "createdAt": "2026-05-08T11:39:50.778Z",
+  "updatedAt": "2026-08-15T04:11:30.644Z"
  },
  {
   "id": "p_keychain-tool",
@@ -3519,8 +3519,8 @@
   "weightGrams": 30,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-04-29T11:01:29.030Z",
-  "updatedAt": "2026-08-21T09:50:15.315Z"
+  "createdAt": "2025-04-29T11:39:50.780Z",
+  "updatedAt": "2026-08-21T10:28:37.065Z"
  },
  {
   "id": "p_phone-sling",
@@ -3625,8 +3625,8 @@
   "weightGrams": 180,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-04T11:01:29.032Z",
-  "updatedAt": "2026-08-21T20:31:22.057Z"
+  "createdAt": "2024-11-04T11:39:50.782Z",
+  "updatedAt": "2026-08-21T21:09:43.806Z"
  },
  {
   "id": "p_matcha-whisk-set",
@@ -3690,8 +3690,8 @@
   "weightGrams": 320,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-16T11:01:29.035Z",
-  "updatedAt": "2026-08-16T17:08:17.953Z"
+  "createdAt": "2024-11-16T11:39:50.784Z",
+  "updatedAt": "2026-08-16T17:46:39.702Z"
  },
  {
   "id": "p_shower-steamer-set",
@@ -3751,8 +3751,8 @@
   "weightGrams": 420,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-02-28T11:01:29.037Z",
-  "updatedAt": "2026-09-01T13:14:41.394Z"
+  "createdAt": "2026-02-28T11:39:50.786Z",
+  "updatedAt": "2026-09-01T13:53:03.143Z"
  },
  {
   "id": "p_packable-rain-jacket",
@@ -4029,8 +4029,8 @@
   "weightGrams": 380,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-28T11:01:29.039Z",
-  "updatedAt": "2026-08-04T17:02:48.595Z"
+  "createdAt": "2026-01-28T11:39:50.788Z",
+  "updatedAt": "2026-08-04T17:41:10.344Z"
  },
  {
   "id": "p_carry-on-duffel",
@@ -4120,8 +4120,8 @@
   "weightGrams": 1150,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-28T11:01:29.041Z",
-  "updatedAt": "2026-09-10T03:31:30.807Z"
+  "createdAt": "2024-11-28T11:39:50.790Z",
+  "updatedAt": "2026-09-10T04:09:52.555Z"
  },
  {
   "id": "p_wool-scarf",
@@ -4227,8 +4227,8 @@
   "weightGrams": 220,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-06-21T11:01:29.044Z",
-  "updatedAt": "2026-09-09T13:49:36.631Z"
+  "createdAt": "2025-06-21T11:39:50.792Z",
+  "updatedAt": "2026-09-09T14:27:58.379Z"
  },
  {
   "id": "p_canvas-dopp-kit",
@@ -4313,8 +4313,8 @@
   "weightGrams": 240,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-03-16T11:01:29.046Z",
-  "updatedAt": "2026-09-09T12:11:33.893Z"
+  "createdAt": "2026-03-16T11:39:50.794Z",
+  "updatedAt": "2026-09-09T12:49:55.642Z"
  },
  {
   "id": "p_kids-organic-tee",
@@ -4524,8 +4524,8 @@
   "weightGrams": 120,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-04-24T11:01:29.048Z",
-  "updatedAt": "2026-09-01T05:28:22.516Z"
+  "createdAt": "2025-04-24T11:39:50.797Z",
+  "updatedAt": "2026-09-01T06:06:44.265Z"
  },
  {
   "id": "p_kids-fleece-pullover",
@@ -4694,8 +4694,8 @@
   "weightGrams": 300,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-02-28T11:01:29.049Z",
-  "updatedAt": "2026-09-07T22:05:35.769Z"
+  "createdAt": "2025-02-28T11:39:50.798Z",
+  "updatedAt": "2026-09-07T22:43:57.518Z"
  },
  {
   "id": "p_enamel-camping-mug",
@@ -4782,8 +4782,8 @@
   "weightGrams": 210,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-07-30T11:01:29.051Z",
-  "updatedAt": "2026-08-11T11:33:27.531Z"
+  "createdAt": "2025-07-30T11:39:50.800Z",
+  "updatedAt": "2026-08-11T12:11:49.280Z"
  },
  {
   "id": "p_cast-iron-skillet",
@@ -4848,8 +4848,8 @@
   "weightGrams": 2300,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-11-21T11:01:29.052Z",
-  "updatedAt": "2026-09-10T09:32:04.713Z"
+  "createdAt": "2024-11-21T11:39:50.801Z",
+  "updatedAt": "2026-09-10T10:10:26.462Z"
  },
  {
   "id": "p_ceramic-vase",
@@ -4952,8 +4952,8 @@
   "weightGrams": 980,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2024-12-06T11:01:29.054Z",
-  "updatedAt": "2026-09-05T16:55:11.371Z"
+  "createdAt": "2024-12-06T11:39:50.803Z",
+  "updatedAt": "2026-09-05T17:33:33.120Z"
  },
  {
   "id": "p_linen-apron",
@@ -5039,8 +5039,8 @@
   "weightGrams": 310,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-05-12T11:01:29.056Z",
-  "updatedAt": "2026-09-05T02:22:15.147Z"
+  "createdAt": "2026-05-12T11:39:50.805Z",
+  "updatedAt": "2026-09-05T03:00:36.897Z"
  },
  {
   "id": "p_bamboo-cutlery-set",
@@ -5110,8 +5110,8 @@
   "weightGrams": 90,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-04-05T11:01:29.057Z",
-  "updatedAt": "2026-08-06T17:34:22.704Z"
+  "createdAt": "2026-04-05T11:39:50.807Z",
+  "updatedAt": "2026-08-06T18:12:44.452Z"
  },
  {
   "id": "p_fingerless-gloves",
@@ -5200,8 +5200,8 @@
   "weightGrams": 80,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-04-28T11:01:29.060Z",
-  "updatedAt": "2026-09-09T05:06:26.828Z"
+  "createdAt": "2026-04-28T11:39:50.808Z",
+  "updatedAt": "2026-09-09T05:44:48.577Z"
  },
  {
   "id": "p_stainless-lunch-box",
@@ -5289,8 +5289,8 @@
   "weightGrams": 520,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-06-07T11:01:29.062Z",
-  "updatedAt": "2026-09-04T00:21:21.682Z"
+  "createdAt": "2025-06-07T11:39:50.811Z",
+  "updatedAt": "2026-09-04T00:59:43.431Z"
  },
  {
   "id": "p_bar-soap-trio",
@@ -5350,8 +5350,8 @@
   "weightGrams": 380,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-10-18T11:01:29.064Z",
-  "updatedAt": "2026-09-07T06:33:11.225Z"
+  "createdAt": "2025-10-18T11:39:50.813Z",
+  "updatedAt": "2026-09-07T07:11:32.974Z"
  },
  {
   "id": "p_room-spray",
@@ -5452,8 +5452,8 @@
   "weightGrams": 280,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-05-12T11:01:29.066Z",
-  "updatedAt": "2026-08-05T22:24:19.784Z"
+  "createdAt": "2026-05-12T11:39:50.815Z",
+  "updatedAt": "2026-08-05T23:02:41.533Z"
  },
  {
   "id": "p_postcard-pack",
@@ -5524,8 +5524,8 @@
   "weightGrams": 110,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-03-04T11:01:29.068Z",
-  "updatedAt": "2026-08-16T23:42:43.999Z"
+  "createdAt": "2026-03-04T11:39:50.817Z",
+  "updatedAt": "2026-08-17T00:21:05.748Z"
  },
  {
   "id": "p_dog-rope-leash",
@@ -5614,8 +5614,8 @@
   "weightGrams": 260,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-02-12T11:01:29.070Z",
-  "updatedAt": "2026-08-28T19:36:12.387Z"
+  "createdAt": "2026-02-12T11:39:50.819Z",
+  "updatedAt": "2026-08-28T20:14:34.136Z"
  },
  {
   "id": "p_olive-oil-cruet",
@@ -5677,8 +5677,8 @@
   "weightGrams": 420,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-07-23T11:01:29.072Z",
-  "updatedAt": "2026-08-28T14:23:14.745Z"
+  "createdAt": "2025-07-23T11:39:50.821Z",
+  "updatedAt": "2026-08-28T15:01:36.494Z"
  },
  {
   "id": "p_pothos-care-kit",
@@ -5739,8 +5739,8 @@
   "weightGrams": 540,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-07-06T11:01:29.075Z",
-  "updatedAt": "2026-08-28T18:28:47.280Z"
+  "createdAt": "2025-07-06T11:39:50.824Z",
+  "updatedAt": "2026-08-28T19:07:09.029Z"
  },
  {
   "id": "p_waffle-towel-set",
@@ -5830,8 +5830,8 @@
   "weightGrams": 720,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-05-02T11:01:29.077Z",
-  "updatedAt": "2026-08-09T17:39:32.354Z"
+  "createdAt": "2026-05-02T11:39:50.826Z",
+  "updatedAt": "2026-08-09T18:17:54.104Z"
  },
  {
   "id": "p_slate-coasters",
@@ -5901,8 +5901,8 @@
   "weightGrams": 640,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-09-06T11:01:29.078Z",
-  "updatedAt": "2026-08-04T14:17:52.780Z"
+  "createdAt": "2025-09-06T11:39:50.828Z",
+  "updatedAt": "2026-08-04T14:56:14.529Z"
  },
  {
   "id": "p_trail-water-flask",
@@ -5992,8 +5992,8 @@
   "weightGrams": 120,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2026-01-10T11:01:29.080Z",
-  "updatedAt": "2026-08-29T14:42:38.691Z"
+  "createdAt": "2026-01-10T11:39:50.829Z",
+  "updatedAt": "2026-08-29T15:21:00.440Z"
  },
  {
   "id": "p_merino-crew-socks",
@@ -6097,7 +6097,7 @@
   "weightGrams": 70,
   "requiresShipping": true,
   "trackQuantity": true,
-  "createdAt": "2025-04-10T11:01:29.082Z",
-  "updatedAt": "2026-08-26T05:08:22.988Z"
+  "createdAt": "2025-04-10T11:39:50.831Z",
+  "updatedAt": "2026-08-26T05:46:44.736Z"
  }
 ]

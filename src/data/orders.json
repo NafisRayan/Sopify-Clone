@@ -5,8 +5,8 @@
   "customerId": "c_119",
   "email": "ava.larsen@example.com",
   "phone": "(699) 555-2634",
-  "createdAt": "2024-12-02T18:38:09.735Z",
-  "cancelledAt": "2024-12-02T19:38:09.735Z",
+  "createdAt": "2024-12-02T19:16:31.479Z",
+  "cancelledAt": "2024-12-02T20:16:31.479Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -56,14 +56,14 @@
   "timeline": [
    {
     "id": "ev_2hm3",
-    "createdAt": "2024-12-02T18:38:09.735Z",
+    "createdAt": "2024-12-02T19:16:31.479Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_319e",
-    "createdAt": "2024-12-03T13:38:09.735Z",
+    "createdAt": "2024-12-03T14:16:31.479Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -79,8 +79,8 @@
   "customerId": "c_150",
   "email": "sadie.nguyen@example.com",
   "phone": "(713) 555-0823",
-  "createdAt": "2024-12-03T16:54:33.691Z",
-  "closedAt": "2024-12-05T16:54:33.691Z",
+  "createdAt": "2024-12-03T17:32:55.437Z",
+  "closedAt": "2024-12-05T17:32:55.437Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -156,14 +156,14 @@
   "timeline": [
    {
     "id": "ev_8okb",
-    "createdAt": "2024-12-03T16:54:33.691Z",
+    "createdAt": "2024-12-03T17:32:55.437Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9za1",
-    "createdAt": "2024-12-05T16:54:33.691Z",
+    "createdAt": "2024-12-05T17:32:55.437Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -173,7 +173,7 @@
   "refunds": [
    {
     "id": "rf_7n9d",
-    "createdAt": "2024-12-06T16:54:33.691Z",
+    "createdAt": "2024-12-06T17:32:55.437Z",
     "amount": 211.68,
     "reason": "customer",
     "lineItemIds": [
@@ -192,8 +192,8 @@
   "customerId": "c_119",
   "email": "ava.larsen@example.com",
   "phone": "(699) 555-2634",
-  "createdAt": "2025-01-03T02:34:51.816Z",
-  "cancelledAt": "2025-01-03T03:34:51.816Z",
+  "createdAt": "2025-01-03T03:13:13.560Z",
+  "cancelledAt": "2025-01-03T04:13:13.560Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -260,14 +260,14 @@
   "timeline": [
    {
     "id": "ev_c2hk",
-    "createdAt": "2025-01-03T02:34:51.816Z",
+    "createdAt": "2025-01-03T03:13:13.560Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_dnym",
-    "createdAt": "2025-01-03T19:34:51.816Z",
+    "createdAt": "2025-01-03T20:13:13.560Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -283,8 +283,8 @@
   "customerId": "c_150",
   "email": "sadie.nguyen@example.com",
   "phone": "(713) 555-0823",
-  "createdAt": "2025-02-03T17:01:58.113Z",
-  "closedAt": "2025-02-05T17:01:58.113Z",
+  "createdAt": "2025-02-03T17:40:19.856Z",
+  "closedAt": "2025-02-05T17:40:19.856Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -338,21 +338,21 @@
   "timeline": [
    {
     "id": "ev_gymy",
-    "createdAt": "2025-02-03T17:01:58.113Z",
+    "createdAt": "2025-02-03T17:40:19.856Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_htvp",
-    "createdAt": "2025-02-03T17:04:09.113Z",
+    "createdAt": "2025-02-03T17:42:30.856Z",
     "type": "payment",
     "message": "Payment of $31.49 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_irai",
-    "createdAt": "2025-02-05T01:01:58.113Z",
+    "createdAt": "2025-02-05T01:40:19.856Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -361,7 +361,7 @@
   "fulfillments": [
    {
     "id": "ff_fevw",
-    "createdAt": "2025-02-04T13:01:58.113Z",
+    "createdAt": "2025-02-04T13:40:19.856Z",
     "lineItemIds": [
      "li_e9wf"
     ],
@@ -380,8 +380,8 @@
   "customerId": "c_143",
   "email": "freya.ramirez@example.com",
   "phone": "(828) 555-0774",
-  "createdAt": "2025-02-05T17:47:56.516Z",
-  "closedAt": "2025-02-07T17:47:56.516Z",
+  "createdAt": "2025-02-05T18:26:18.262Z",
+  "closedAt": "2025-02-07T18:26:18.262Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -447,21 +447,21 @@
   "timeline": [
    {
     "id": "ev_m2pj",
-    "createdAt": "2025-02-05T17:47:56.516Z",
+    "createdAt": "2025-02-05T18:26:18.262Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_nnu6",
-    "createdAt": "2025-02-05T17:51:36.516Z",
+    "createdAt": "2025-02-05T18:29:58.262Z",
     "type": "payment",
     "message": "Payment of $88.56 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_o5n9",
-    "createdAt": "2025-02-05T23:47:56.516Z",
+    "createdAt": "2025-02-06T00:26:18.262Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -470,7 +470,7 @@
   "fulfillments": [
    {
     "id": "ff_lims",
-    "createdAt": "2025-02-07T03:47:56.516Z",
+    "createdAt": "2025-02-07T04:26:18.262Z",
     "lineItemIds": [
      "li_j713",
      "li_kaz1"
@@ -490,8 +490,8 @@
   "customerId": "c_138",
   "email": "milo.tanaka@example.com",
   "phone": "(544) 555-9079",
-  "createdAt": "2025-02-09T07:44:13.702Z",
-  "closedAt": "2025-02-11T07:44:13.702Z",
+  "createdAt": "2025-02-09T08:22:35.444Z",
+  "closedAt": "2025-02-11T08:22:35.444Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -541,14 +541,14 @@
   "timeline": [
    {
     "id": "ev_rico",
-    "createdAt": "2025-02-09T07:44:13.702Z",
+    "createdAt": "2025-02-09T08:22:35.444Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_se5m",
-    "createdAt": "2025-02-14T07:44:13.702Z",
+    "createdAt": "2025-02-14T08:22:35.444Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -558,7 +558,7 @@
   "refunds": [
    {
     "id": "rf_qt5u",
-    "createdAt": "2025-02-17T07:44:13.702Z",
+    "createdAt": "2025-02-17T08:22:35.444Z",
     "amount": 26.27,
     "reason": "damaged",
     "lineItemIds": [
@@ -575,8 +575,8 @@
   "customerId": "c_112",
   "email": "mei.baptiste@example.com",
   "phone": "(247) 555-8191",
-  "createdAt": "2025-05-04T15:41:12.345Z",
-  "closedAt": "2025-05-06T15:41:12.345Z",
+  "createdAt": "2025-05-04T16:19:34.090Z",
+  "closedAt": "2025-05-06T16:19:34.090Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -629,21 +629,21 @@
   "timeline": [
    {
     "id": "ev_v4gf",
-    "createdAt": "2025-05-04T15:41:12.345Z",
+    "createdAt": "2025-05-04T16:19:34.090Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_wqsb",
-    "createdAt": "2025-05-04T15:44:29.345Z",
+    "createdAt": "2025-05-04T16:22:51.090Z",
     "type": "payment",
     "message": "Payment of $30.91 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_x3qv",
-    "createdAt": "2025-05-05T22:41:12.345Z",
+    "createdAt": "2025-05-05T23:19:34.090Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -652,7 +652,7 @@
   "fulfillments": [
    {
     "id": "ff_ux2c",
-    "createdAt": "2025-05-04T18:41:12.345Z",
+    "createdAt": "2025-05-04T19:19:34.090Z",
     "lineItemIds": [
      "li_tnrt"
     ],
@@ -671,8 +671,8 @@
   "customerId": "c_144",
   "email": "dmitri.larsen@example.com",
   "phone": "(567) 555-1601",
-  "createdAt": "2025-05-05T22:46:11.038Z",
-  "closedAt": "2025-05-07T22:46:11.038Z",
+  "createdAt": "2025-05-05T23:24:32.779Z",
+  "closedAt": "2025-05-07T23:24:32.779Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -722,21 +722,21 @@
   "timeline": [
    {
     "id": "ev_10vkn",
-    "createdAt": "2025-05-05T22:46:11.038Z",
+    "createdAt": "2025-05-05T23:24:32.779Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_11y98",
-    "createdAt": "2025-05-05T22:48:17.038Z",
+    "createdAt": "2025-05-05T23:26:38.779Z",
     "type": "payment",
     "message": "Payment of $168.48 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_12buv",
-    "createdAt": "2025-05-06T00:46:11.038Z",
+    "createdAt": "2025-05-06T01:24:32.779Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -745,7 +745,7 @@
   "fulfillments": [
    {
     "id": "ff_zzwp",
-    "createdAt": "2025-05-06T21:46:11.038Z",
+    "createdAt": "2025-05-06T22:24:32.779Z",
     "lineItemIds": [
      "li_yt3m"
     ],
@@ -764,8 +764,8 @@
   "customerId": "c_134",
   "email": "ingrid.kimura@example.com",
   "phone": "(385) 555-9156",
-  "createdAt": "2025-05-11T06:00:23.636Z",
-  "closedAt": "2025-05-13T06:00:23.636Z",
+  "createdAt": "2025-05-11T06:38:45.375Z",
+  "closedAt": "2025-05-13T06:38:45.375Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -832,21 +832,21 @@
   "timeline": [
    {
     "id": "ev_16s9w",
-    "createdAt": "2025-05-11T06:00:23.636Z",
+    "createdAt": "2025-05-11T06:38:45.375Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_17ocf",
-    "createdAt": "2025-05-11T06:02:58.636Z",
+    "createdAt": "2025-05-11T06:41:20.375Z",
     "type": "payment",
     "message": "Payment of $76.92 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_18xvg",
-    "createdAt": "2025-05-11T22:00:23.636Z",
+    "createdAt": "2025-05-11T22:38:45.375Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -855,7 +855,7 @@
   "fulfillments": [
    {
     "id": "ff_15s41",
-    "createdAt": "2025-05-11T16:00:23.636Z",
+    "createdAt": "2025-05-11T16:38:45.375Z",
     "lineItemIds": [
      "li_13ldm",
      "li_14lti"
@@ -875,8 +875,8 @@
   "customerId": "c_119",
   "email": "ava.larsen@example.com",
   "phone": "(699) 555-2634",
-  "createdAt": "2025-06-11T18:45:13.815Z",
-  "closedAt": "2025-06-13T18:45:13.815Z",
+  "createdAt": "2025-06-11T19:23:35.551Z",
+  "closedAt": "2025-06-13T19:23:35.551Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -939,21 +939,21 @@
   "timeline": [
    {
     "id": "ev_1cd4q",
-    "createdAt": "2025-06-11T18:45:13.815Z",
+    "createdAt": "2025-06-11T19:23:35.551Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_1duao",
-    "createdAt": "2025-06-11T18:49:49.815Z",
+    "createdAt": "2025-06-11T19:28:11.551Z",
     "type": "payment",
     "message": "Payment of $78.84 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_1e47s",
-    "createdAt": "2025-06-12T10:45:13.815Z",
+    "createdAt": "2025-06-12T11:23:35.551Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -962,7 +962,7 @@
   "fulfillments": [
    {
     "id": "ff_1bm5o",
-    "createdAt": "2025-06-13T03:45:13.815Z",
+    "createdAt": "2025-06-13T04:23:35.551Z",
     "lineItemIds": [
      "li_19hnx",
      "li_1a7w6"
@@ -981,7 +981,7 @@
   "customerId": "c_119",
   "email": "ava.larsen@example.com",
   "phone": "(699) 555-2634",
-  "createdAt": "2025-06-19T03:49:58.689Z",
+  "createdAt": "2025-06-19T04:28:20.425Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -1048,14 +1048,14 @@
   "timeline": [
    {
     "id": "ev_1hglv",
-    "createdAt": "2025-06-19T03:49:58.689Z",
+    "createdAt": "2025-06-19T04:28:20.425Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_1i6yr",
-    "createdAt": "2025-06-19T03:54:21.689Z",
+    "createdAt": "2025-06-19T04:32:43.425Z",
     "type": "payment",
     "message": "Payment of $225.50 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -1071,7 +1071,7 @@
   "customerId": "c_157",
   "email": "ravi.reyes@example.com",
   "phone": "(453) 555-1250",
-  "createdAt": "2025-07-15T02:33:08.043Z",
+  "createdAt": "2025-07-15T03:11:29.789Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -1124,14 +1124,14 @@
   "timeline": [
    {
     "id": "ev_1khs7",
-    "createdAt": "2025-07-15T02:33:08.043Z",
+    "createdAt": "2025-07-15T03:11:29.789Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_1lwhs",
-    "createdAt": "2025-07-15T02:36:45.043Z",
+    "createdAt": "2025-07-15T03:15:06.789Z",
     "type": "payment",
     "message": "Payment of $52.51 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -1147,7 +1147,7 @@
   "customerId": "c_107",
   "email": "diego.ibrahim@example.com",
   "phone": "(585) 555-1522",
-  "createdAt": "2025-07-16T03:42:21.804Z",
+  "createdAt": "2025-07-16T04:20:43.539Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -1204,14 +1204,14 @@
   "timeline": [
    {
     "id": "ev_1nx1b",
-    "createdAt": "2025-07-16T03:42:21.804Z",
+    "createdAt": "2025-07-16T04:20:43.539Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_1ozz8",
-    "createdAt": "2025-07-16T03:44:08.804Z",
+    "createdAt": "2025-07-16T04:22:30.539Z",
     "type": "payment",
     "message": "Payment of $36.73 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -1227,7 +1227,7 @@
   "customerId": "c_117",
   "email": "iris.ramirez@example.com",
   "phone": "(795) 555-1125",
-  "createdAt": "2025-07-25T05:21:30.647Z",
+  "createdAt": "2025-07-25T05:59:52.383Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -1303,7 +1303,7 @@
   "timeline": [
    {
     "id": "ev_1snke",
-    "createdAt": "2025-07-25T05:21:30.647Z",
+    "createdAt": "2025-07-25T05:59:52.383Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -1319,7 +1319,7 @@
   "customerId": "c_107",
   "email": "diego.ibrahim@example.com",
   "phone": "(585) 555-1522",
-  "createdAt": "2025-07-30T22:35:03.786Z",
+  "createdAt": "2025-07-30T23:13:25.521Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -1369,14 +1369,14 @@
   "timeline": [
    {
     "id": "ev_1uvmt",
-    "createdAt": "2025-07-30T22:35:03.786Z",
+    "createdAt": "2025-07-30T23:13:25.521Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_1vsn8",
-    "createdAt": "2025-07-30T22:37:24.786Z",
+    "createdAt": "2025-07-30T23:15:46.521Z",
     "type": "payment",
     "message": "Payment of $41.71 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -1392,8 +1392,8 @@
   "customerId": "c_117",
   "email": "iris.ramirez@example.com",
   "phone": "(795) 555-1125",
-  "createdAt": "2025-08-04T13:27:15.417Z",
-  "closedAt": "2025-08-06T13:27:15.417Z",
+  "createdAt": "2025-08-04T14:05:37.153Z",
+  "closedAt": "2025-08-06T14:05:37.153Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -1443,21 +1443,21 @@
   "timeline": [
    {
     "id": "ev_1yhii",
-    "createdAt": "2025-08-04T13:27:15.417Z",
+    "createdAt": "2025-08-04T14:05:37.153Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_1zzoh",
-    "createdAt": "2025-08-04T13:29:23.417Z",
+    "createdAt": "2025-08-04T14:07:45.153Z",
     "type": "payment",
     "message": "Payment of $86.75 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_20gsc",
-    "createdAt": "2025-08-06T01:27:15.417Z",
+    "createdAt": "2025-08-06T02:05:37.153Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -1466,7 +1466,7 @@
   "fulfillments": [
    {
     "id": "ff_1xf1c",
-    "createdAt": "2025-08-05T05:27:15.417Z",
+    "createdAt": "2025-08-05T06:05:37.153Z",
     "lineItemIds": [
      "li_1wiou"
     ],
@@ -1485,8 +1485,8 @@
   "customerId": "c_144",
   "email": "dmitri.larsen@example.com",
   "phone": "(567) 555-1601",
-  "createdAt": "2025-08-23T20:50:24.381Z",
-  "closedAt": "2025-08-25T20:50:24.381Z",
+  "createdAt": "2025-08-23T21:28:46.117Z",
+  "closedAt": "2025-08-25T21:28:46.117Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -1562,21 +1562,21 @@
   "timeline": [
    {
     "id": "ev_25myg",
-    "createdAt": "2025-08-23T20:50:24.381Z",
+    "createdAt": "2025-08-23T21:28:46.117Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_26t07",
-    "createdAt": "2025-08-23T20:51:12.381Z",
+    "createdAt": "2025-08-23T21:29:34.117Z",
     "type": "payment",
     "message": "Payment of $257.04 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_27w0c",
-    "createdAt": "2025-08-23T23:50:24.381Z",
+    "createdAt": "2025-08-24T00:28:46.117Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -1585,7 +1585,7 @@
   "fulfillments": [
    {
     "id": "ff_24eqj",
-    "createdAt": "2025-08-25T06:50:24.381Z",
+    "createdAt": "2025-08-25T07:28:46.117Z",
     "lineItemIds": [
      "li_21jio",
      "li_220u9",
@@ -1606,8 +1606,8 @@
   "customerId": "c_150",
   "email": "sadie.nguyen@example.com",
   "phone": "(713) 555-0823",
-  "createdAt": "2025-08-29T04:12:22.629Z",
-  "closedAt": "2025-08-31T04:12:22.629Z",
+  "createdAt": "2025-08-29T04:50:44.363Z",
+  "closedAt": "2025-08-31T04:50:44.363Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -1687,21 +1687,21 @@
   "timeline": [
    {
     "id": "ev_2c0zv",
-    "createdAt": "2025-08-29T04:12:22.629Z",
+    "createdAt": "2025-08-29T04:50:44.363Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_2dlek",
-    "createdAt": "2025-08-29T04:13:32.629Z",
+    "createdAt": "2025-08-29T04:51:54.363Z",
     "type": "payment",
     "message": "Payment of $365.47 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_2e020",
-    "createdAt": "2025-08-29T11:12:22.629Z",
+    "createdAt": "2025-08-29T11:50:44.363Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -1710,7 +1710,7 @@
   "fulfillments": [
    {
     "id": "ff_2b70m",
-    "createdAt": "2025-08-29T11:12:22.629Z",
+    "createdAt": "2025-08-29T11:50:44.363Z",
     "lineItemIds": [
      "li_28pu4",
      "li_29aor",
@@ -1731,7 +1731,7 @@
   "customerId": "c_143",
   "email": "freya.ramirez@example.com",
   "phone": "(828) 555-0774",
-  "createdAt": "2025-08-29T13:27:42.873Z",
+  "createdAt": "2025-08-29T14:06:04.608Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -1820,28 +1820,28 @@
   "timeline": [
    {
     "id": "ev_2l54a",
-    "createdAt": "2025-08-29T13:27:42.873Z",
+    "createdAt": "2025-08-29T14:06:04.608Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_2m9it",
-    "createdAt": "2025-08-29T13:28:43.873Z",
+    "createdAt": "2025-08-29T14:07:05.608Z",
     "type": "payment",
     "message": "Payment of $297.32 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_2nj5l",
-    "createdAt": "2025-08-31T04:27:42.873Z",
+    "createdAt": "2025-08-31T05:06:04.608Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Ava Chen"
    },
    {
     "id": "ev_2o2id",
-    "createdAt": "2025-09-02T13:27:42.873Z",
+    "createdAt": "2025-09-02T14:06:04.608Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -1850,7 +1850,7 @@
   "fulfillments": [
    {
     "id": "ff_2jc1v",
-    "createdAt": "2025-08-30T06:27:42.873Z",
+    "createdAt": "2025-08-30T07:06:04.608Z",
     "lineItemIds": [
      "li_2fa45",
      "li_2g9io"
@@ -1863,7 +1863,7 @@
   "refunds": [
    {
     "id": "rf_2k267",
-    "createdAt": "2025-09-04T13:27:42.873Z",
+    "createdAt": "2025-09-04T14:06:04.608Z",
     "amount": 110.01,
     "reason": "customer",
     "lineItemIds": [
@@ -1880,8 +1880,8 @@
   "customerId": "c_105",
   "email": "owen.bergstrm@example.com",
   "phone": "(790) 555-9292",
-  "createdAt": "2025-09-02T14:09:12.813Z",
-  "closedAt": "2025-09-04T14:09:12.813Z",
+  "createdAt": "2025-09-02T14:47:34.558Z",
+  "closedAt": "2025-09-04T14:47:34.558Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -1935,21 +1935,21 @@
   "timeline": [
    {
     "id": "ev_2rwmu",
-    "createdAt": "2025-09-02T14:09:12.813Z",
+    "createdAt": "2025-09-02T14:47:34.558Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_2sumw",
-    "createdAt": "2025-09-02T14:12:33.813Z",
+    "createdAt": "2025-09-02T14:50:55.558Z",
     "type": "payment",
     "message": "Payment of $21.86 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_2tugb",
-    "createdAt": "2025-09-03T16:09:12.813Z",
+    "createdAt": "2025-09-03T16:47:34.558Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -1958,7 +1958,7 @@
   "fulfillments": [
    {
     "id": "ff_2qfe1",
-    "createdAt": "2025-09-03T04:09:12.813Z",
+    "createdAt": "2025-09-03T04:47:34.558Z",
     "lineItemIds": [
      "li_2pdbp"
     ],
@@ -1976,8 +1976,8 @@
   "customerId": "c_131",
   "email": "wren.marino@example.com",
   "phone": "(962) 555-9931",
-  "createdAt": "2025-09-15T01:25:20.155Z",
-  "closedAt": "2025-09-17T01:25:20.155Z",
+  "createdAt": "2025-09-15T02:03:41.898Z",
+  "closedAt": "2025-09-17T02:03:41.898Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -2040,14 +2040,14 @@
   "timeline": [
    {
     "id": "ev_2x6ci",
-    "createdAt": "2025-09-15T01:25:20.155Z",
+    "createdAt": "2025-09-15T02:03:41.898Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_2ys8j",
-    "createdAt": "2025-09-16T01:25:20.155Z",
+    "createdAt": "2025-09-16T02:03:41.898Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -2057,7 +2057,7 @@
   "refunds": [
    {
     "id": "rf_2wv83",
-    "createdAt": "2025-09-23T01:25:20.155Z",
+    "createdAt": "2025-09-23T02:03:41.898Z",
     "amount": 138.24,
     "reason": "customer",
     "lineItemIds": [
@@ -2075,8 +2075,8 @@
   "customerId": "c_111",
   "email": "aisha.haddad@example.com",
   "phone": "(749) 555-9324",
-  "createdAt": "2025-09-29T16:56:46.742Z",
-  "closedAt": "2025-10-01T16:56:46.742Z",
+  "createdAt": "2025-09-29T17:35:08.484Z",
+  "closedAt": "2025-10-01T17:35:08.484Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -2130,21 +2130,21 @@
   "timeline": [
    {
     "id": "ev_311n3",
-    "createdAt": "2025-09-29T16:56:46.742Z",
+    "createdAt": "2025-09-29T17:35:08.484Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_32jkf",
-    "createdAt": "2025-09-29T17:00:06.742Z",
+    "createdAt": "2025-09-29T17:38:28.484Z",
     "type": "payment",
     "message": "Payment of $74.20 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_33cnn",
-    "createdAt": "2025-09-29T18:56:46.742Z",
+    "createdAt": "2025-09-29T19:35:08.484Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -2153,7 +2153,7 @@
   "fulfillments": [
    {
     "id": "ff_309c1",
-    "createdAt": "2025-09-29T23:56:46.742Z",
+    "createdAt": "2025-09-30T00:35:08.484Z",
     "lineItemIds": [
      "li_2z2s0"
     ],
@@ -2171,8 +2171,8 @@
   "customerId": "c_157",
   "email": "ravi.reyes@example.com",
   "phone": "(453) 555-1250",
-  "createdAt": "2025-10-03T11:06:54.168Z",
-  "closedAt": "2025-10-05T11:06:54.168Z",
+  "createdAt": "2025-10-03T11:45:15.908Z",
+  "closedAt": "2025-10-05T11:45:15.908Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -2222,21 +2222,21 @@
   "timeline": [
    {
     "id": "ev_3696f",
-    "createdAt": "2025-10-03T11:06:54.168Z",
+    "createdAt": "2025-10-03T11:45:15.908Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_378ef",
-    "createdAt": "2025-10-03T11:11:18.168Z",
+    "createdAt": "2025-10-03T11:49:39.908Z",
     "type": "payment",
     "message": "Payment of $36.31 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_383ia",
-    "createdAt": "2025-10-04T02:06:54.168Z",
+    "createdAt": "2025-10-04T02:45:15.908Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -2245,7 +2245,7 @@
   "fulfillments": [
    {
     "id": "ff_35gmr",
-    "createdAt": "2025-10-04T11:06:54.168Z",
+    "createdAt": "2025-10-04T11:45:15.908Z",
     "lineItemIds": [
      "li_34kpw"
     ],
@@ -2264,8 +2264,8 @@
   "customerId": "c_139",
   "email": "lucas.kimura@example.com",
   "phone": "(851) 555-0714",
-  "createdAt": "2025-10-16T06:10:28.415Z",
-  "closedAt": "2025-10-18T06:10:28.415Z",
+  "createdAt": "2025-10-16T06:48:50.154Z",
+  "closedAt": "2025-10-18T06:48:50.154Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -2329,14 +2329,14 @@
   "timeline": [
    {
     "id": "ev_3cbh8",
-    "createdAt": "2025-10-16T06:10:28.415Z",
+    "createdAt": "2025-10-16T06:48:50.154Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3dy9g",
-    "createdAt": "2025-10-19T06:10:28.415Z",
+    "createdAt": "2025-10-19T06:48:50.154Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -2346,7 +2346,7 @@
   "refunds": [
    {
     "id": "rf_3b184",
-    "createdAt": "2025-10-22T06:10:28.415Z",
+    "createdAt": "2025-10-22T06:48:50.154Z",
     "amount": 112.32,
     "reason": "wrong_item",
     "lineItemIds": [
@@ -2364,8 +2364,8 @@
   "customerId": "c_126",
   "email": "aisha.reyes@example.com",
   "phone": "(490) 555-7555",
-  "createdAt": "2025-11-06T07:28:47.740Z",
-  "closedAt": "2025-11-08T07:28:47.740Z",
+  "createdAt": "2025-11-06T08:07:09.475Z",
+  "closedAt": "2025-11-08T08:07:09.475Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -2419,21 +2419,21 @@
   "timeline": [
    {
     "id": "ev_3gbal",
-    "createdAt": "2025-11-06T07:28:47.740Z",
+    "createdAt": "2025-11-06T08:07:09.475Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3hlep",
-    "createdAt": "2025-11-06T07:33:39.740Z",
+    "createdAt": "2025-11-06T08:12:01.475Z",
     "type": "payment",
     "message": "Payment of $73.53 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3i00x",
-    "createdAt": "2025-11-07T04:28:47.740Z",
+    "createdAt": "2025-11-07T05:07:09.475Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -2442,7 +2442,7 @@
   "fulfillments": [
    {
     "id": "ff_3fsmg",
-    "createdAt": "2025-11-06T12:28:47.740Z",
+    "createdAt": "2025-11-06T13:07:09.475Z",
     "lineItemIds": [
      "li_3e1kr"
     ],
@@ -2461,8 +2461,8 @@
   "customerId": "c_128",
   "email": "leo.dubois@example.com",
   "phone": "(973) 555-0924",
-  "createdAt": "2025-11-09T19:38:13.105Z",
-  "closedAt": "2025-11-11T19:38:13.105Z",
+  "createdAt": "2025-11-09T20:16:34.848Z",
+  "closedAt": "2025-11-11T20:16:34.848Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -2515,21 +2515,21 @@
   "timeline": [
    {
     "id": "ev_3lp4j",
-    "createdAt": "2025-11-09T19:38:13.105Z",
+    "createdAt": "2025-11-09T20:16:34.848Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3m3h9",
-    "createdAt": "2025-11-09T19:38:43.105Z",
+    "createdAt": "2025-11-09T20:17:04.848Z",
     "type": "payment",
     "message": "Payment of $43.55 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3nfgj",
-    "createdAt": "2025-11-11T02:38:13.105Z",
+    "createdAt": "2025-11-11T03:16:34.848Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -2538,7 +2538,7 @@
   "fulfillments": [
    {
     "id": "ff_3kvn7",
-    "createdAt": "2025-11-10T12:38:13.105Z",
+    "createdAt": "2025-11-10T13:16:34.848Z",
     "lineItemIds": [
      "li_3jusk"
     ],
@@ -2557,8 +2557,8 @@
   "customerId": "c_129",
   "email": "leo.oseibonsu@example.com",
   "phone": "(650) 555-6996",
-  "createdAt": "2025-11-14T05:20:05.513Z",
-  "closedAt": "2025-11-16T05:20:05.513Z",
+  "createdAt": "2025-11-14T05:58:27.249Z",
+  "closedAt": "2025-11-16T05:58:27.249Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -2624,21 +2624,21 @@
   "timeline": [
    {
     "id": "ev_3r2e4",
-    "createdAt": "2025-11-14T05:20:05.513Z",
+    "createdAt": "2025-11-14T05:58:27.249Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3snqs",
-    "createdAt": "2025-11-14T05:23:40.513Z",
+    "createdAt": "2025-11-14T06:02:02.249Z",
     "type": "payment",
     "message": "Payment of $110.16 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3tlhn",
-    "createdAt": "2025-11-15T00:20:05.513Z",
+    "createdAt": "2025-11-15T00:58:27.249Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -2647,7 +2647,7 @@
   "fulfillments": [
    {
     "id": "ff_3qgi0",
-    "createdAt": "2025-11-14T14:20:05.513Z",
+    "createdAt": "2025-11-14T14:58:27.249Z",
     "lineItemIds": [
      "li_3oaw5",
      "li_3p7bu"
@@ -2667,8 +2667,8 @@
   "customerId": "c_128",
   "email": "leo.dubois@example.com",
   "phone": "(973) 555-0924",
-  "createdAt": "2025-11-15T06:12:34.808Z",
-  "closedAt": "2025-11-17T06:12:34.808Z",
+  "createdAt": "2025-11-15T06:50:56.550Z",
+  "closedAt": "2025-11-17T06:50:56.550Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -2731,21 +2731,21 @@
   "timeline": [
    {
     "id": "ev_3xt1u",
-    "createdAt": "2025-11-15T06:12:34.808Z",
+    "createdAt": "2025-11-15T06:50:56.550Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3yfgs",
-    "createdAt": "2025-11-15T06:17:08.808Z",
+    "createdAt": "2025-11-15T06:55:30.550Z",
     "type": "payment",
     "message": "Payment of $267.08 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_3zuae",
-    "createdAt": "2025-11-15T12:12:34.808Z",
+    "createdAt": "2025-11-15T12:50:56.550Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -2754,7 +2754,7 @@
   "fulfillments": [
    {
     "id": "ff_3wanm",
-    "createdAt": "2025-11-16T01:12:34.808Z",
+    "createdAt": "2025-11-16T01:50:56.550Z",
     "lineItemIds": [
      "li_3ug6s",
      "li_3v8yr"
@@ -2773,7 +2773,7 @@
   "customerId": "c_106",
   "email": "isla.larsen@example.com",
   "phone": "(751) 555-4534",
-  "createdAt": "2025-12-20T17:20:14.977Z",
+  "createdAt": "2025-12-20T17:58:36.713Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "fulfilled",
   "status": "open",
@@ -2827,28 +2827,28 @@
   "timeline": [
    {
     "id": "ev_43q7x",
-    "createdAt": "2025-12-20T17:20:14.977Z",
+    "createdAt": "2025-12-20T17:58:36.713Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_44z47",
-    "createdAt": "2025-12-20T17:22:37.977Z",
+    "createdAt": "2025-12-20T18:00:59.713Z",
     "type": "payment",
     "message": "Payment of $63.37 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_45zq5",
-    "createdAt": "2025-12-21T13:20:14.977Z",
+    "createdAt": "2025-12-21T13:58:36.713Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
    },
    {
     "id": "ev_46y1b",
-    "createdAt": "2025-12-29T17:20:14.977Z",
+    "createdAt": "2025-12-29T17:58:36.713Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -2857,7 +2857,7 @@
   "fulfillments": [
    {
     "id": "ff_41you",
-    "createdAt": "2025-12-22T00:20:14.977Z",
+    "createdAt": "2025-12-22T00:58:36.713Z",
     "lineItemIds": [
      "li_40e2i"
     ],
@@ -2869,7 +2869,7 @@
   "refunds": [
    {
     "id": "rf_420yk",
-    "createdAt": "2025-12-26T17:20:14.977Z",
+    "createdAt": "2025-12-26T17:58:36.713Z",
     "amount": 17.74,
     "reason": "customer",
     "lineItemIds": [
@@ -2886,8 +2886,8 @@
   "customerId": "c_133",
   "email": "tessa.suzuki@example.com",
   "phone": "(649) 555-4911",
-  "createdAt": "2025-12-22T14:58:11.514Z",
-  "cancelledAt": "2025-12-22T15:58:11.514Z",
+  "createdAt": "2025-12-22T15:36:33.250Z",
+  "cancelledAt": "2025-12-22T16:36:33.250Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -2938,14 +2938,14 @@
   "timeline": [
    {
     "id": "ev_48wqw",
-    "createdAt": "2025-12-22T14:58:11.514Z",
+    "createdAt": "2025-12-22T15:36:33.250Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_49p0j",
-    "createdAt": "2025-12-23T12:58:11.514Z",
+    "createdAt": "2025-12-23T13:36:33.250Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -2961,7 +2961,7 @@
   "customerId": "c_131",
   "email": "wren.marino@example.com",
   "phone": "(962) 555-9931",
-  "createdAt": "2025-12-24T23:16:22.889Z",
+  "createdAt": "2025-12-24T23:54:44.624Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -3015,14 +3015,14 @@
   "timeline": [
    {
     "id": "ev_4b2at",
-    "createdAt": "2025-12-24T23:16:22.889Z",
+    "createdAt": "2025-12-24T23:54:44.624Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4c8qn",
-    "createdAt": "2025-12-24T23:18:36.889Z",
+    "createdAt": "2025-12-24T23:56:58.624Z",
     "type": "payment",
     "message": "Payment of $20.54 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -3038,7 +3038,7 @@
   "customerId": "c_115",
   "email": "noah.bennett@example.com",
   "phone": "(468) 555-1209",
-  "createdAt": "2025-12-27T12:41:15.220Z",
+  "createdAt": "2025-12-27T13:19:36.948Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -3103,14 +3103,14 @@
   "timeline": [
    {
     "id": "ev_4foak",
-    "createdAt": "2025-12-27T12:41:15.220Z",
+    "createdAt": "2025-12-27T13:19:36.948Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4gtb6",
-    "createdAt": "2025-12-27T12:44:11.220Z",
+    "createdAt": "2025-12-27T13:22:32.948Z",
     "type": "payment",
     "message": "Payment of $67.74 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -3126,8 +3126,8 @@
   "customerId": "c_151",
   "email": "owen.dubois@example.com",
   "phone": "(607) 555-5743",
-  "createdAt": "2026-01-02T11:32:29.109Z",
-  "closedAt": "2026-01-04T11:32:29.109Z",
+  "createdAt": "2026-01-02T12:10:50.849Z",
+  "closedAt": "2026-01-04T12:10:50.849Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -3179,21 +3179,21 @@
   "timeline": [
    {
     "id": "ev_4j79o",
-    "createdAt": "2026-01-02T11:32:29.109Z",
+    "createdAt": "2026-01-02T12:10:50.849Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4k251",
-    "createdAt": "2026-01-02T11:35:02.109Z",
+    "createdAt": "2026-01-02T12:13:23.849Z",
     "type": "payment",
     "message": "Payment of $28.43 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4lk1x",
-    "createdAt": "2026-01-03T21:32:29.109Z",
+    "createdAt": "2026-01-03T22:10:50.849Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -3202,7 +3202,7 @@
   "fulfillments": [
    {
     "id": "ff_4ifql",
-    "createdAt": "2026-01-03T00:32:29.109Z",
+    "createdAt": "2026-01-03T01:10:50.849Z",
     "lineItemIds": [
      "li_4hv6i"
     ],
@@ -3221,8 +3221,8 @@
   "customerId": "c_103",
   "email": "omar.haddad@example.com",
   "phone": "(600) 555-7048",
-  "createdAt": "2026-01-07T00:22:37.458Z",
-  "closedAt": "2026-01-09T00:22:37.458Z",
+  "createdAt": "2026-01-07T01:00:59.195Z",
+  "closedAt": "2026-01-09T01:00:59.195Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -3287,21 +3287,21 @@
   "timeline": [
    {
     "id": "ev_4po1e",
-    "createdAt": "2026-01-07T00:22:37.458Z",
+    "createdAt": "2026-01-07T01:00:59.195Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4qdv0",
-    "createdAt": "2026-01-07T00:27:17.458Z",
+    "createdAt": "2026-01-07T01:05:39.195Z",
     "type": "payment",
     "message": "Payment of $203.04 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4r71k",
-    "createdAt": "2026-01-07T06:22:37.458Z",
+    "createdAt": "2026-01-07T07:00:59.195Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -3310,7 +3310,7 @@
   "fulfillments": [
    {
     "id": "ff_4oymc",
-    "createdAt": "2026-01-08T00:22:37.458Z",
+    "createdAt": "2026-01-08T01:00:59.195Z",
     "lineItemIds": [
      "li_4mccr",
      "li_4nv4j"
@@ -3330,8 +3330,8 @@
   "customerId": "c_113",
   "email": "clara.suzuki@example.com",
   "phone": "(948) 555-8869",
-  "createdAt": "2026-01-07T22:54:01.999Z",
-  "closedAt": "2026-01-09T22:54:01.999Z",
+  "createdAt": "2026-01-07T23:32:23.731Z",
+  "closedAt": "2026-01-09T23:32:23.731Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -3398,21 +3398,21 @@
   "timeline": [
    {
     "id": "ev_4vhhc",
-    "createdAt": "2026-01-07T22:54:01.999Z",
+    "createdAt": "2026-01-07T23:32:23.731Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4wm4x",
-    "createdAt": "2026-01-07T22:55:06.999Z",
+    "createdAt": "2026-01-07T23:33:28.731Z",
     "type": "payment",
     "message": "Payment of $151.63 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_4x8e6",
-    "createdAt": "2026-01-09T00:54:01.999Z",
+    "createdAt": "2026-01-09T01:32:23.731Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -3421,7 +3421,7 @@
   "fulfillments": [
    {
     "id": "ff_4uolv",
-    "createdAt": "2026-01-09T08:54:01.999Z",
+    "createdAt": "2026-01-09T09:32:23.731Z",
     "lineItemIds": [
      "li_4s79f",
      "li_4tjlv"
@@ -3441,7 +3441,7 @@
   "customerId": "c_151",
   "email": "owen.dubois@example.com",
   "phone": "(607) 555-5743",
-  "createdAt": "2026-01-09T07:00:38.727Z",
+  "createdAt": "2026-01-09T07:39:00.467Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -3491,7 +3491,7 @@
   "timeline": [
    {
     "id": "ev_4zyub",
-    "createdAt": "2026-01-09T07:00:38.727Z",
+    "createdAt": "2026-01-09T07:39:00.467Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -3507,7 +3507,7 @@
   "customerId": "c_103",
   "email": "omar.haddad@example.com",
   "phone": "(600) 555-7048",
-  "createdAt": "2026-01-13T22:07:04.734Z",
+  "createdAt": "2026-01-13T22:45:26.471Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -3557,7 +3557,7 @@
   "timeline": [
    {
     "id": "ev_511zy",
-    "createdAt": "2026-01-13T22:07:04.734Z",
+    "createdAt": "2026-01-13T22:45:26.471Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -3573,7 +3573,7 @@
   "customerId": "c_110",
   "email": "andre.delgado@example.com",
   "phone": "(300) 555-3471",
-  "createdAt": "2026-01-20T07:31:00.988Z",
+  "createdAt": "2026-01-20T08:09:22.731Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -3636,21 +3636,21 @@
   "timeline": [
    {
     "id": "ev_55ifs",
-    "createdAt": "2026-01-20T07:31:00.988Z",
+    "createdAt": "2026-01-20T08:09:22.731Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_56hxb",
-    "createdAt": "2026-01-20T07:33:12.988Z",
+    "createdAt": "2026-01-20T08:11:34.731Z",
     "type": "payment",
     "message": "Payment of $103.68 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_57rsy",
-    "createdAt": "2026-01-21T00:31:00.988Z",
+    "createdAt": "2026-01-21T01:09:22.731Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Noah Kim"
@@ -3659,7 +3659,7 @@
   "fulfillments": [
    {
     "id": "ff_54dmx",
-    "createdAt": "2026-01-21T22:31:00.988Z",
+    "createdAt": "2026-01-21T23:09:22.731Z",
     "lineItemIds": [
      "li_52ppg"
     ],
@@ -3678,8 +3678,8 @@
   "customerId": "c_132",
   "email": "theo.nguyen@example.com",
   "phone": "(884) 555-0220",
-  "createdAt": "2026-01-21T13:08:19.369Z",
-  "closedAt": "2026-01-23T13:08:19.369Z",
+  "createdAt": "2026-01-21T13:46:41.109Z",
+  "closedAt": "2026-01-23T13:46:41.109Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -3733,21 +3733,21 @@
   "timeline": [
    {
     "id": "ev_5az7r",
-    "createdAt": "2026-01-21T13:08:19.369Z",
+    "createdAt": "2026-01-21T13:46:41.109Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5bqcr",
-    "createdAt": "2026-01-21T13:09:11.369Z",
+    "createdAt": "2026-01-21T13:47:33.109Z",
     "type": "payment",
     "message": "Payment of $35.08 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5cntw",
-    "createdAt": "2026-01-22T05:08:19.369Z",
+    "createdAt": "2026-01-22T05:46:41.109Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -3756,7 +3756,7 @@
   "fulfillments": [
    {
     "id": "ff_590m9",
-    "createdAt": "2026-01-22T08:08:19.369Z",
+    "createdAt": "2026-01-22T08:46:41.109Z",
     "lineItemIds": [
      "li_582kf"
     ],
@@ -3775,8 +3775,8 @@
   "customerId": "c_101",
   "email": "tariq.osei@example.com",
   "phone": "(470) 555-2975",
-  "createdAt": "2026-01-29T03:37:03.287Z",
-  "closedAt": "2026-01-31T03:37:03.287Z",
+  "createdAt": "2026-01-29T04:15:25.025Z",
+  "closedAt": "2026-01-31T04:15:25.025Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -3831,21 +3831,21 @@
   "timeline": [
    {
     "id": "ev_5fxvp",
-    "createdAt": "2026-01-29T03:37:03.287Z",
+    "createdAt": "2026-01-29T04:15:25.025Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5g7q3",
-    "createdAt": "2026-01-29T03:40:33.287Z",
+    "createdAt": "2026-01-29T04:18:55.025Z",
     "type": "payment",
     "message": "Payment of $81.65 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5hvnl",
-    "createdAt": "2026-01-29T22:37:03.287Z",
+    "createdAt": "2026-01-29T23:15:25.025Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -3854,7 +3854,7 @@
   "fulfillments": [
    {
     "id": "ff_5etxc",
-    "createdAt": "2026-01-29T19:37:03.287Z",
+    "createdAt": "2026-01-29T20:15:25.025Z",
     "lineItemIds": [
      "li_5d8tj"
     ],
@@ -3873,7 +3873,7 @@
   "customerId": "c_117",
   "email": "iris.ramirez@example.com",
   "phone": "(795) 555-1125",
-  "createdAt": "2026-02-08T00:43:42.677Z",
+  "createdAt": "2026-02-08T01:22:04.403Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -3936,14 +3936,14 @@
   "timeline": [
    {
     "id": "ev_5k5ix",
-    "createdAt": "2026-02-08T00:43:42.677Z",
+    "createdAt": "2026-02-08T01:22:04.403Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5lumv",
-    "createdAt": "2026-02-08T00:47:16.677Z",
+    "createdAt": "2026-02-08T01:25:38.403Z",
     "type": "payment",
     "message": "Payment of $207.36 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -3959,8 +3959,8 @@
   "customerId": "c_141",
   "email": "iris.larsen@example.com",
   "phone": "(314) 555-4014",
-  "createdAt": "2026-02-08T16:38:37.534Z",
-  "closedAt": "2026-02-10T16:38:37.534Z",
+  "createdAt": "2026-02-08T17:16:59.273Z",
+  "closedAt": "2026-02-10T17:16:59.273Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -4027,21 +4027,21 @@
   "timeline": [
    {
     "id": "ev_5p3z2",
-    "createdAt": "2026-02-08T16:38:37.534Z",
+    "createdAt": "2026-02-08T17:16:59.273Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5q7bt",
-    "createdAt": "2026-02-08T16:39:31.534Z",
+    "createdAt": "2026-02-08T17:17:53.273Z",
     "type": "payment",
     "message": "Payment of $79.95 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5ripd",
-    "createdAt": "2026-02-10T05:38:37.534Z",
+    "createdAt": "2026-02-10T06:16:59.273Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -4050,7 +4050,7 @@
   "fulfillments": [
    {
     "id": "ff_5olae",
-    "createdAt": "2026-02-09T09:38:37.534Z",
+    "createdAt": "2026-02-09T10:16:59.273Z",
     "lineItemIds": [
      "li_5mkuc",
      "li_5n8i2"
@@ -4070,7 +4070,7 @@
   "customerId": "c_136",
   "email": "zoe.castellano@example.com",
   "phone": "(247) 555-1731",
-  "createdAt": "2026-02-09T16:09:07.384Z",
+  "createdAt": "2026-02-09T16:47:29.125Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -4122,7 +4122,7 @@
   "timeline": [
    {
     "id": "ev_5tua1",
-    "createdAt": "2026-02-09T16:09:07.384Z",
+    "createdAt": "2026-02-09T16:47:29.125Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -4138,7 +4138,7 @@
   "customerId": "c_105",
   "email": "owen.bergstrm@example.com",
   "phone": "(790) 555-9292",
-  "createdAt": "2026-02-11T09:24:40.689Z",
+  "createdAt": "2026-02-11T10:03:02.421Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -4201,14 +4201,14 @@
   "timeline": [
    {
     "id": "ev_5w34p",
-    "createdAt": "2026-02-11T09:24:40.689Z",
+    "createdAt": "2026-02-11T10:03:02.421Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_5x1e0",
-    "createdAt": "2026-02-11T09:28:53.689Z",
+    "createdAt": "2026-02-11T10:07:15.421Z",
     "type": "payment",
     "message": "Payment of $84.75 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -4224,8 +4224,8 @@
   "customerId": "c_153",
   "email": "aisha.ramirez@example.com",
   "phone": "(826) 555-1320",
-  "createdAt": "2026-02-17T16:49:45.553Z",
-  "closedAt": "2026-02-19T16:49:45.553Z",
+  "createdAt": "2026-02-17T17:28:07.291Z",
+  "closedAt": "2026-02-19T17:28:07.291Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -4302,21 +4302,21 @@
   "timeline": [
    {
     "id": "ev_62776",
-    "createdAt": "2026-02-17T16:49:45.553Z",
+    "createdAt": "2026-02-17T17:28:07.291Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_634u9",
-    "createdAt": "2026-02-17T16:54:15.553Z",
+    "createdAt": "2026-02-17T17:32:37.291Z",
     "type": "payment",
     "message": "Payment of $240.19 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_64vur",
-    "createdAt": "2026-02-19T05:49:45.553Z",
+    "createdAt": "2026-02-19T06:28:07.291Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -4325,7 +4325,7 @@
   "fulfillments": [
    {
     "id": "ff_61cco",
-    "createdAt": "2026-02-19T00:49:45.553Z",
+    "createdAt": "2026-02-19T01:28:07.291Z",
     "lineItemIds": [
      "li_5ym4d",
      "li_5ztcj",
@@ -4346,7 +4346,7 @@
   "customerId": "c_120",
   "email": "marcus.ibrahim@example.com",
   "phone": "(705) 555-2923",
-  "createdAt": "2026-02-19T11:09:51.464Z",
+  "createdAt": "2026-02-19T11:48:13.210Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -4422,14 +4422,14 @@
   "timeline": [
    {
     "id": "ev_68rbl",
-    "createdAt": "2026-02-19T11:09:51.464Z",
+    "createdAt": "2026-02-19T11:48:13.210Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_69nxo",
-    "createdAt": "2026-02-19T11:11:55.464Z",
+    "createdAt": "2026-02-19T11:50:17.210Z",
     "type": "payment",
     "message": "Payment of $284.80 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -4445,7 +4445,7 @@
   "customerId": "c_108",
   "email": "chloe.moreau@example.com",
   "phone": "(915) 555-4065",
-  "createdAt": "2026-02-19T18:52:43.881Z",
+  "createdAt": "2026-02-19T19:31:05.629Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -4521,14 +4521,14 @@
   "timeline": [
    {
     "id": "ev_6dpa7",
-    "createdAt": "2026-02-19T18:52:43.881Z",
+    "createdAt": "2026-02-19T19:31:05.629Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6ezv6",
-    "createdAt": "2026-02-19T18:55:00.881Z",
+    "createdAt": "2026-02-19T19:33:22.629Z",
     "type": "payment",
     "message": "Payment of $115.78 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -4544,8 +4544,8 @@
   "customerId": "c_136",
   "email": "zoe.castellano@example.com",
   "phone": "(247) 555-1731",
-  "createdAt": "2026-02-20T20:38:21.997Z",
-  "closedAt": "2026-02-22T20:38:21.997Z",
+  "createdAt": "2026-02-20T21:16:43.737Z",
+  "closedAt": "2026-02-22T21:16:43.737Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -4595,21 +4595,21 @@
   "timeline": [
    {
     "id": "ev_6hjwo",
-    "createdAt": "2026-02-20T20:38:21.997Z",
+    "createdAt": "2026-02-20T21:16:43.737Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6in44",
-    "createdAt": "2026-02-20T20:42:45.997Z",
+    "createdAt": "2026-02-20T21:21:07.737Z",
     "type": "payment",
     "message": "Payment of $58.67 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6j7ht",
-    "createdAt": "2026-02-22T10:38:21.997Z",
+    "createdAt": "2026-02-22T11:16:43.737Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -4618,7 +4618,7 @@
   "fulfillments": [
    {
     "id": "ff_6gkq4",
-    "createdAt": "2026-02-22T07:38:21.997Z",
+    "createdAt": "2026-02-22T08:16:43.737Z",
     "lineItemIds": [
      "li_6fydh"
     ],
@@ -4637,8 +4637,8 @@
   "customerId": "c_151",
   "email": "owen.dubois@example.com",
   "phone": "(607) 555-5743",
-  "createdAt": "2026-03-04T03:26:00.849Z",
-  "closedAt": "2026-03-06T03:26:00.849Z",
+  "createdAt": "2026-03-04T04:04:22.583Z",
+  "closedAt": "2026-03-06T04:04:22.583Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -4688,21 +4688,21 @@
   "timeline": [
    {
     "id": "ev_6mh0i",
-    "createdAt": "2026-03-04T03:26:00.849Z",
+    "createdAt": "2026-03-04T04:04:22.583Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6n5iz",
-    "createdAt": "2026-03-04T03:29:38.849Z",
+    "createdAt": "2026-03-04T04:08:00.583Z",
     "type": "payment",
     "message": "Payment of $168.48 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6orke",
-    "createdAt": "2026-03-04T23:26:00.849Z",
+    "createdAt": "2026-03-05T00:04:22.583Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -4711,7 +4711,7 @@
   "fulfillments": [
    {
     "id": "ff_6lz4u",
-    "createdAt": "2026-03-05T03:26:00.849Z",
+    "createdAt": "2026-03-05T04:04:22.583Z",
     "lineItemIds": [
      "li_6kzdi"
     ],
@@ -4730,7 +4730,7 @@
   "customerId": "c_139",
   "email": "lucas.kimura@example.com",
   "phone": "(851) 555-0714",
-  "createdAt": "2026-03-05T14:00:30.072Z",
+  "createdAt": "2026-03-05T14:38:51.801Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -4787,14 +4787,14 @@
   "timeline": [
    {
     "id": "ev_6q94w",
-    "createdAt": "2026-03-05T14:00:30.072Z",
+    "createdAt": "2026-03-05T14:38:51.801Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6r5oh",
-    "createdAt": "2026-03-05T14:04:53.072Z",
+    "createdAt": "2026-03-05T14:43:14.801Z",
     "type": "payment",
     "message": "Payment of $66.10 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -4810,8 +4810,8 @@
   "customerId": "c_140",
   "email": "wren.bennett@example.com",
   "phone": "(262) 555-3466",
-  "createdAt": "2026-03-10T21:29:01.009Z",
-  "closedAt": "2026-03-12T21:29:01.009Z",
+  "createdAt": "2026-03-10T22:07:22.747Z",
+  "closedAt": "2026-03-12T22:07:22.747Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -4861,21 +4861,21 @@
   "timeline": [
    {
     "id": "ev_6ufk7",
-    "createdAt": "2026-03-10T21:29:01.009Z",
+    "createdAt": "2026-03-10T22:07:22.747Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6vm2r",
-    "createdAt": "2026-03-10T21:30:42.009Z",
+    "createdAt": "2026-03-10T22:09:03.747Z",
     "type": "payment",
     "message": "Payment of $96.12 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_6wywz",
-    "createdAt": "2026-03-12T13:29:01.009Z",
+    "createdAt": "2026-03-12T14:07:22.747Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -4884,7 +4884,7 @@
   "fulfillments": [
    {
     "id": "ff_6tqjz",
-    "createdAt": "2026-03-11T00:29:01.009Z",
+    "createdAt": "2026-03-11T01:07:22.747Z",
     "lineItemIds": [
      "li_6s5gx"
     ],
@@ -4903,8 +4903,8 @@
   "customerId": "c_136",
   "email": "zoe.castellano@example.com",
   "phone": "(247) 555-1731",
-  "createdAt": "2026-03-11T22:21:07.528Z",
-  "closedAt": "2026-03-13T22:21:07.528Z",
+  "createdAt": "2026-03-11T22:59:29.265Z",
+  "closedAt": "2026-03-13T22:59:29.265Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -4954,14 +4954,14 @@
   "timeline": [
    {
     "id": "ev_6ze14",
-    "createdAt": "2026-03-11T22:21:07.528Z",
+    "createdAt": "2026-03-11T22:59:29.265Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_70bwz",
-    "createdAt": "2026-03-19T22:21:07.528Z",
+    "createdAt": "2026-03-19T22:59:29.265Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -4971,7 +4971,7 @@
   "refunds": [
    {
     "id": "rf_6ygin",
-    "createdAt": "2026-03-17T22:21:07.528Z",
+    "createdAt": "2026-03-17T22:59:29.265Z",
     "amount": 23.51,
     "reason": "wrong_item",
     "lineItemIds": [
@@ -4988,7 +4988,7 @@
   "customerId": "c_156",
   "email": "sadie.moreau@example.com",
   "phone": "(595) 555-1880",
-  "createdAt": "2026-03-15T05:07:03.594Z",
+  "createdAt": "2026-03-15T05:45:25.322Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -5077,7 +5077,7 @@
   "timeline": [
    {
     "id": "ev_7593y",
-    "createdAt": "2026-03-15T05:07:03.594Z",
+    "createdAt": "2026-03-15T05:45:25.322Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -5093,8 +5093,8 @@
   "customerId": "c_147",
   "email": "ravi.fitzgerald@example.com",
   "phone": "(381) 555-7983",
-  "createdAt": "2026-03-15T22:39:13.336Z",
-  "closedAt": "2026-03-17T22:39:13.336Z",
+  "createdAt": "2026-03-15T23:17:35.067Z",
+  "closedAt": "2026-03-17T23:17:35.067Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -5146,14 +5146,14 @@
   "timeline": [
    {
     "id": "ev_78pj4",
-    "createdAt": "2026-03-15T22:39:13.336Z",
+    "createdAt": "2026-03-15T23:17:35.067Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_79rit",
-    "createdAt": "2026-03-21T22:39:13.336Z",
+    "createdAt": "2026-03-21T23:17:35.067Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -5163,7 +5163,7 @@
   "refunds": [
    {
     "id": "rf_772jo",
-    "createdAt": "2026-03-22T22:39:13.336Z",
+    "createdAt": "2026-03-22T23:17:35.067Z",
     "amount": 36.31,
     "reason": "customer",
     "lineItemIds": [
@@ -5180,7 +5180,7 @@
   "customerId": "c_117",
   "email": "iris.ramirez@example.com",
   "phone": "(795) 555-1125",
-  "createdAt": "2026-03-17T06:24:25.191Z",
+  "createdAt": "2026-03-17T07:02:46.915Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -5230,14 +5230,14 @@
   "timeline": [
    {
     "id": "ev_7bpgr",
-    "createdAt": "2026-03-17T06:24:25.191Z",
+    "createdAt": "2026-03-17T07:02:46.915Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_7c9s5",
-    "createdAt": "2026-03-17T06:28:56.191Z",
+    "createdAt": "2026-03-17T07:07:17.915Z",
     "type": "payment",
     "message": "Payment of $103.68 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -5253,8 +5253,8 @@
   "customerId": "c_117",
   "email": "iris.ramirez@example.com",
   "phone": "(795) 555-1125",
-  "createdAt": "2026-03-23T10:51:23.900Z",
-  "closedAt": "2026-03-25T10:51:23.900Z",
+  "createdAt": "2026-03-23T11:29:45.624Z",
+  "closedAt": "2026-03-25T11:29:45.624Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -5308,21 +5308,21 @@
   "timeline": [
    {
     "id": "ev_7f6kw",
-    "createdAt": "2026-03-23T10:51:23.900Z",
+    "createdAt": "2026-03-23T11:29:45.624Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_7ggxk",
-    "createdAt": "2026-03-23T10:55:28.900Z",
+    "createdAt": "2026-03-23T11:33:50.624Z",
     "type": "payment",
     "message": "Payment of $40.09 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_7hpxg",
-    "createdAt": "2026-03-24T21:51:23.900Z",
+    "createdAt": "2026-03-24T22:29:45.624Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -5331,7 +5331,7 @@
   "fulfillments": [
    {
     "id": "ff_7ecz8",
-    "createdAt": "2026-03-24T00:51:23.900Z",
+    "createdAt": "2026-03-24T01:29:45.624Z",
     "lineItemIds": [
      "li_7dim0"
     ],
@@ -5350,7 +5350,7 @@
   "customerId": "c_108",
   "email": "chloe.moreau@example.com",
   "phone": "(915) 555-4065",
-  "createdAt": "2026-03-26T13:23:42.094Z",
+  "createdAt": "2026-03-26T14:02:03.836Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "fulfilled",
   "status": "open",
@@ -5400,28 +5400,28 @@
   "timeline": [
    {
     "id": "ev_7lrhh",
-    "createdAt": "2026-03-26T13:23:42.094Z",
+    "createdAt": "2026-03-26T14:02:03.836Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_7m1jb",
-    "createdAt": "2026-03-26T13:27:26.094Z",
+    "createdAt": "2026-03-26T14:05:47.836Z",
     "type": "payment",
     "message": "Payment of $23.33 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_7nrwa",
-    "createdAt": "2026-03-27T05:23:42.094Z",
+    "createdAt": "2026-03-27T06:02:03.836Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
    },
    {
     "id": "ev_7oo4u",
-    "createdAt": "2026-03-29T13:23:42.094Z",
+    "createdAt": "2026-03-29T14:02:03.836Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -5430,7 +5430,7 @@
   "fulfillments": [
    {
     "id": "ff_7jahm",
-    "createdAt": "2026-03-26T19:23:42.094Z",
+    "createdAt": "2026-03-26T20:02:03.836Z",
     "lineItemIds": [
      "li_7ino4"
     ],
@@ -5443,7 +5443,7 @@
   "refunds": [
    {
     "id": "rf_7kr7r",
-    "createdAt": "2026-04-05T13:23:42.094Z",
+    "createdAt": "2026-04-05T14:02:03.836Z",
     "amount": 5.37,
     "reason": "customer",
     "lineItemIds": [
@@ -5460,8 +5460,8 @@
   "customerId": "c_155",
   "email": "nora.novak@example.com",
   "phone": "(232) 555-7565",
-  "createdAt": "2026-03-28T05:16:01.677Z",
-  "closedAt": "2026-03-30T05:16:01.677Z",
+  "createdAt": "2026-03-28T05:54:23.421Z",
+  "closedAt": "2026-03-30T05:54:23.421Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -5514,21 +5514,21 @@
   "timeline": [
    {
     "id": "ev_7r65r",
-    "createdAt": "2026-03-28T05:16:01.677Z",
+    "createdAt": "2026-03-28T05:54:23.421Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_7sq8z",
-    "createdAt": "2026-03-28T05:17:37.677Z",
+    "createdAt": "2026-03-28T05:55:59.421Z",
     "type": "payment",
     "message": "Payment of $41.55 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_7ton1",
-    "createdAt": "2026-03-29T10:16:01.677Z",
+    "createdAt": "2026-03-29T10:54:23.421Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -5537,7 +5537,7 @@
   "fulfillments": [
    {
     "id": "ff_7q3vj",
-    "createdAt": "2026-03-28T09:16:01.677Z",
+    "createdAt": "2026-03-28T09:54:23.421Z",
     "lineItemIds": [
      "li_7pkot"
     ],
@@ -5555,7 +5555,7 @@
   "customerId": "c_117",
   "email": "iris.ramirez@example.com",
   "phone": "(795) 555-1125",
-  "createdAt": "2026-03-28T17:23:10.537Z",
+  "createdAt": "2026-03-28T18:01:32.262Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -5631,7 +5631,7 @@
   "timeline": [
    {
     "id": "ev_7xcil",
-    "createdAt": "2026-03-28T17:23:10.537Z",
+    "createdAt": "2026-03-28T18:01:32.262Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -5647,7 +5647,7 @@
   "customerId": "c_117",
   "email": "iris.ramirez@example.com",
   "phone": "(795) 555-1125",
-  "createdAt": "2026-03-28T19:59:18.622Z",
+  "createdAt": "2026-03-28T20:37:40.345Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -5697,7 +5697,7 @@
   "timeline": [
    {
     "id": "ev_7znh5",
-    "createdAt": "2026-03-28T19:59:18.622Z",
+    "createdAt": "2026-03-28T20:37:40.345Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -5713,7 +5713,7 @@
   "customerId": "c_100",
   "email": "silas.aldana@example.com",
   "phone": "(964) 555-8017",
-  "createdAt": "2026-03-30T07:46:15.729Z",
+  "createdAt": "2026-03-30T08:24:37.463Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -5777,14 +5777,14 @@
   "timeline": [
    {
     "id": "ev_821nn",
-    "createdAt": "2026-03-30T07:46:15.729Z",
+    "createdAt": "2026-03-30T08:24:37.463Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_83cib",
-    "createdAt": "2026-03-30T07:49:23.729Z",
+    "createdAt": "2026-03-30T08:27:45.463Z",
     "type": "payment",
     "message": "Payment of $60.99 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -5800,7 +5800,7 @@
   "customerId": "c_132",
   "email": "theo.nguyen@example.com",
   "phone": "(884) 555-0220",
-  "createdAt": "2026-03-31T07:53:43.032Z",
+  "createdAt": "2026-03-31T08:32:04.765Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -5854,14 +5854,14 @@
   "timeline": [
    {
     "id": "ev_85dho",
-    "createdAt": "2026-03-31T07:53:43.032Z",
+    "createdAt": "2026-03-31T08:32:04.765Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_862q3",
-    "createdAt": "2026-03-31T07:57:11.032Z",
+    "createdAt": "2026-03-31T08:35:32.765Z",
     "type": "payment",
     "message": "Payment of $346.03 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -5877,7 +5877,7 @@
   "customerId": "c_144",
   "email": "dmitri.larsen@example.com",
   "phone": "(567) 555-1601",
-  "createdAt": "2026-04-03T01:28:45.292Z",
+  "createdAt": "2026-04-03T02:07:07.016Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -5940,28 +5940,28 @@
   "timeline": [
    {
     "id": "ev_8bxnu",
-    "createdAt": "2026-04-03T01:28:45.292Z",
+    "createdAt": "2026-04-03T02:07:07.016Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8chf2",
-    "createdAt": "2026-04-03T01:30:17.292Z",
+    "createdAt": "2026-04-03T02:08:39.016Z",
     "type": "payment",
     "message": "Payment of $150.34 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8dhvm",
-    "createdAt": "2026-04-03T09:28:45.292Z",
+    "createdAt": "2026-04-03T10:07:07.016Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Noah Kim"
    },
    {
     "id": "ev_8eh8o",
-    "createdAt": "2026-04-06T01:28:45.292Z",
+    "createdAt": "2026-04-06T02:07:07.016Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -5970,7 +5970,7 @@
   "fulfillments": [
    {
     "id": "ff_89khu",
-    "createdAt": "2026-04-04T03:28:45.292Z",
+    "createdAt": "2026-04-04T04:07:07.016Z",
     "lineItemIds": [
      "li_87xzb"
     ],
@@ -5983,7 +5983,7 @@
   "refunds": [
    {
     "id": "rf_8aqdo",
-    "createdAt": "2026-04-10T01:28:45.292Z",
+    "createdAt": "2026-04-10T02:07:07.016Z",
     "amount": 60.14,
     "reason": "customer",
     "lineItemIds": [
@@ -6000,8 +6000,8 @@
   "customerId": "c_132",
   "email": "theo.nguyen@example.com",
   "phone": "(884) 555-0220",
-  "createdAt": "2026-04-03T13:10:53.148Z",
-  "closedAt": "2026-04-05T13:10:53.148Z",
+  "createdAt": "2026-04-03T13:49:14.880Z",
+  "closedAt": "2026-04-05T13:49:14.880Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -6051,21 +6051,21 @@
   "timeline": [
    {
     "id": "ev_8h1oi",
-    "createdAt": "2026-04-03T13:10:53.148Z",
+    "createdAt": "2026-04-03T13:49:14.880Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8iz44",
-    "createdAt": "2026-04-03T13:13:13.148Z",
+    "createdAt": "2026-04-03T13:51:34.880Z",
     "type": "payment",
     "message": "Payment of $41.55 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8j74z",
-    "createdAt": "2026-04-04T19:10:53.148Z",
+    "createdAt": "2026-04-04T19:49:14.880Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -6074,7 +6074,7 @@
   "fulfillments": [
    {
     "id": "ff_8gn2p",
-    "createdAt": "2026-04-05T04:10:53.148Z",
+    "createdAt": "2026-04-05T04:49:14.880Z",
     "lineItemIds": [
      "li_8f3u9"
     ],
@@ -6093,8 +6093,8 @@
   "customerId": "c_110",
   "email": "andre.delgado@example.com",
   "phone": "(300) 555-3471",
-  "createdAt": "2026-04-09T19:29:37.865Z",
-  "closedAt": "2026-04-11T19:29:37.865Z",
+  "createdAt": "2026-04-09T20:07:59.599Z",
+  "closedAt": "2026-04-11T20:07:59.599Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -6172,21 +6172,21 @@
   "timeline": [
    {
     "id": "ev_8obhg",
-    "createdAt": "2026-04-09T19:29:37.865Z",
+    "createdAt": "2026-04-09T20:07:59.599Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8plqv",
-    "createdAt": "2026-04-09T19:34:20.865Z",
+    "createdAt": "2026-04-09T20:12:42.599Z",
     "type": "payment",
     "message": "Payment of $267.62 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8q2ph",
-    "createdAt": "2026-04-10T16:29:37.865Z",
+    "createdAt": "2026-04-10T17:07:59.599Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -6195,7 +6195,7 @@
   "fulfillments": [
    {
     "id": "ff_8n103",
-    "createdAt": "2026-04-11T09:29:37.865Z",
+    "createdAt": "2026-04-11T10:07:59.599Z",
     "lineItemIds": [
      "li_8kjwb",
      "li_8lxnq",
@@ -6216,7 +6216,7 @@
   "customerId": "c_151",
   "email": "owen.dubois@example.com",
   "phone": "(607) 555-5743",
-  "createdAt": "2026-04-12T10:49:15.843Z",
+  "createdAt": "2026-04-12T11:27:37.573Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -6270,14 +6270,14 @@
   "timeline": [
    {
     "id": "ev_8s6mh",
-    "createdAt": "2026-04-12T10:49:15.843Z",
+    "createdAt": "2026-04-12T11:27:37.573Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8t2xo",
-    "createdAt": "2026-04-12T10:53:36.843Z",
+    "createdAt": "2026-04-12T11:31:58.573Z",
     "type": "payment",
     "message": "Payment of $75.22 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -6293,7 +6293,7 @@
   "customerId": "c_136",
   "email": "zoe.castellano@example.com",
   "phone": "(247) 555-1731",
-  "createdAt": "2026-04-14T10:50:50.682Z",
+  "createdAt": "2026-04-14T11:29:12.416Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -6343,28 +6343,28 @@
   "timeline": [
    {
     "id": "ev_8xbvp",
-    "createdAt": "2026-04-14T10:50:50.682Z",
+    "createdAt": "2026-04-14T11:29:12.416Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8y5be",
-    "createdAt": "2026-04-14T10:52:01.682Z",
+    "createdAt": "2026-04-14T11:30:23.416Z",
     "type": "payment",
     "message": "Payment of $22.54 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_8zq2p",
-    "createdAt": "2026-04-15T08:50:50.682Z",
+    "createdAt": "2026-04-15T09:29:12.416Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Noah Kim"
    },
    {
     "id": "ev_900us",
-    "createdAt": "2026-04-16T10:50:50.682Z",
+    "createdAt": "2026-04-16T11:29:12.416Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -6373,7 +6373,7 @@
   "fulfillments": [
    {
     "id": "ff_8v1ll",
-    "createdAt": "2026-04-15T22:50:50.682Z",
+    "createdAt": "2026-04-15T23:29:12.416Z",
     "lineItemIds": [
      "li_8uh21"
     ],
@@ -6385,7 +6385,7 @@
   "refunds": [
    {
     "id": "rf_8w6pk",
-    "createdAt": "2026-04-18T10:50:50.682Z",
+    "createdAt": "2026-04-18T11:29:12.416Z",
     "amount": 6.54,
     "reason": "customer",
     "lineItemIds": [
@@ -6402,7 +6402,7 @@
   "customerId": "c_153",
   "email": "aisha.ramirez@example.com",
   "phone": "(826) 555-1320",
-  "createdAt": "2026-04-16T10:44:01.985Z",
+  "createdAt": "2026-04-16T11:22:23.717Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -6495,14 +6495,14 @@
   "timeline": [
    {
     "id": "ev_95nan",
-    "createdAt": "2026-04-16T10:44:01.985Z",
+    "createdAt": "2026-04-16T11:22:23.717Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_96imr",
-    "createdAt": "2026-04-16T10:44:48.985Z",
+    "createdAt": "2026-04-16T11:23:10.717Z",
     "type": "payment",
     "message": "Payment of $186.30 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -6518,8 +6518,8 @@
   "customerId": "c_103",
   "email": "omar.haddad@example.com",
   "phone": "(600) 555-7048",
-  "createdAt": "2026-04-21T02:26:51.698Z",
-  "closedAt": "2026-04-23T02:26:51.698Z",
+  "createdAt": "2026-04-21T03:05:13.426Z",
+  "closedAt": "2026-04-23T03:05:13.426Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -6595,21 +6595,21 @@
   "timeline": [
    {
     "id": "ev_9br98",
-    "createdAt": "2026-04-21T02:26:51.698Z",
+    "createdAt": "2026-04-21T03:05:13.426Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9cub1",
-    "createdAt": "2026-04-21T02:29:48.698Z",
+    "createdAt": "2026-04-21T03:08:10.426Z",
     "type": "payment",
     "message": "Payment of $117.07 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9dz3h",
-    "createdAt": "2026-04-22T10:26:51.698Z",
+    "createdAt": "2026-04-22T11:05:13.426Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -6618,7 +6618,7 @@
   "fulfillments": [
    {
     "id": "ff_9aza4",
-    "createdAt": "2026-04-21T14:26:51.698Z",
+    "createdAt": "2026-04-21T15:05:13.426Z",
     "lineItemIds": [
      "li_97iot",
      "li_98mcs",
@@ -6639,7 +6639,7 @@
   "customerId": "c_142",
   "email": "paulo.aldana@example.com",
   "phone": "(632) 555-0959",
-  "createdAt": "2026-04-21T03:34:11.158Z",
+  "createdAt": "2026-04-21T04:12:32.902Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "fulfilled",
   "status": "open",
@@ -6702,28 +6702,28 @@
   "timeline": [
    {
     "id": "ev_9iyd2",
-    "createdAt": "2026-04-21T03:34:11.158Z",
+    "createdAt": "2026-04-21T04:12:32.902Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9j8m4",
-    "createdAt": "2026-04-21T03:35:56.158Z",
+    "createdAt": "2026-04-21T04:14:17.902Z",
     "type": "payment",
     "message": "Payment of $162.00 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9ktup",
-    "createdAt": "2026-04-21T06:34:11.158Z",
+    "createdAt": "2026-04-21T07:12:32.902Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
    },
    {
     "id": "ev_9l4lu",
-    "createdAt": "2026-05-01T03:34:11.158Z",
+    "createdAt": "2026-05-01T04:12:32.902Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -6732,7 +6732,7 @@
   "fulfillments": [
    {
     "id": "ff_9grxp",
-    "createdAt": "2026-04-21T17:34:11.158Z",
+    "createdAt": "2026-04-21T18:12:32.902Z",
     "lineItemIds": [
      "li_9ey4g",
      "li_9fbo2"
@@ -6746,7 +6746,7 @@
   "refunds": [
    {
     "id": "rf_9h3ov",
-    "createdAt": "2026-04-24T03:34:11.158Z",
+    "createdAt": "2026-04-24T04:12:32.902Z",
     "amount": 64.8,
     "reason": "customer",
     "lineItemIds": [
@@ -6763,8 +6763,8 @@
   "customerId": "c_141",
   "email": "iris.larsen@example.com",
   "phone": "(314) 555-4014",
-  "createdAt": "2026-04-21T13:10:43.327Z",
-  "closedAt": "2026-04-23T13:10:43.327Z",
+  "createdAt": "2026-04-21T13:49:05.057Z",
+  "closedAt": "2026-04-23T13:49:05.057Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -6814,21 +6814,21 @@
   "timeline": [
    {
     "id": "ev_9oa5x",
-    "createdAt": "2026-04-21T13:10:43.327Z",
+    "createdAt": "2026-04-21T13:49:05.057Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9p5pd",
-    "createdAt": "2026-04-21T13:15:41.327Z",
+    "createdAt": "2026-04-21T13:54:03.057Z",
     "type": "payment",
     "message": "Payment of $24.27 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9qnl1",
-    "createdAt": "2026-04-21T23:10:43.327Z",
+    "createdAt": "2026-04-21T23:49:05.057Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -6837,7 +6837,7 @@
   "fulfillments": [
    {
     "id": "ff_9n90x",
-    "createdAt": "2026-04-21T19:10:43.327Z",
+    "createdAt": "2026-04-21T19:49:05.057Z",
     "lineItemIds": [
      "li_9mbia"
     ],
@@ -6856,8 +6856,8 @@
   "customerId": "c_144",
   "email": "dmitri.larsen@example.com",
   "phone": "(567) 555-1601",
-  "createdAt": "2026-04-30T14:19:07.962Z",
-  "cancelledAt": "2026-04-30T15:19:07.962Z",
+  "createdAt": "2026-04-30T14:57:29.684Z",
+  "cancelledAt": "2026-04-30T15:57:29.684Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -6907,14 +6907,14 @@
   "timeline": [
    {
     "id": "ev_9slx2",
-    "createdAt": "2026-04-30T14:19:07.962Z",
+    "createdAt": "2026-04-30T14:57:29.684Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9t1t7",
-    "createdAt": "2026-04-30T21:19:07.962Z",
+    "createdAt": "2026-04-30T21:57:29.684Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -6930,8 +6930,8 @@
   "customerId": "c_137",
   "email": "noah.kimura@example.com",
   "phone": "(932) 555-4935",
-  "createdAt": "2026-05-05T12:40:30.429Z",
-  "closedAt": "2026-05-07T12:40:30.429Z",
+  "createdAt": "2026-05-05T13:18:52.152Z",
+  "closedAt": "2026-05-07T13:18:52.152Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -6998,21 +6998,21 @@
   "timeline": [
    {
     "id": "ev_9xh5a",
-    "createdAt": "2026-05-05T12:40:30.429Z",
+    "createdAt": "2026-05-05T13:18:52.152Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9yzwq",
-    "createdAt": "2026-05-05T12:45:22.429Z",
+    "createdAt": "2026-05-05T13:23:44.152Z",
     "type": "payment",
     "message": "Payment of $81.65 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_9z2st",
-    "createdAt": "2026-05-05T14:40:30.429Z",
+    "createdAt": "2026-05-05T15:18:52.152Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -7021,7 +7021,7 @@
   "fulfillments": [
    {
     "id": "ff_9wikz",
-    "createdAt": "2026-05-05T19:40:30.429Z",
+    "createdAt": "2026-05-05T20:18:52.152Z",
     "lineItemIds": [
      "li_9uyf4",
      "li_9vptg"
@@ -7041,7 +7041,7 @@
   "customerId": "c_122",
   "email": "hana.kaur@example.com",
   "phone": "(723) 555-4977",
-  "createdAt": "2026-05-07T10:41:55.864Z",
+  "createdAt": "2026-05-07T11:20:17.589Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -7091,7 +7091,7 @@
   "timeline": [
    {
     "id": "ev_a1avl",
-    "createdAt": "2026-05-07T10:41:55.864Z",
+    "createdAt": "2026-05-07T11:20:17.589Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -7107,8 +7107,8 @@
   "customerId": "c_111",
   "email": "aisha.haddad@example.com",
   "phone": "(749) 555-9324",
-  "createdAt": "2026-05-09T03:25:35.081Z",
-  "closedAt": "2026-05-11T03:25:35.081Z",
+  "createdAt": "2026-05-09T04:03:56.806Z",
+  "closedAt": "2026-05-11T04:03:56.806Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -7184,21 +7184,21 @@
   "timeline": [
    {
     "id": "ev_a6n5i",
-    "createdAt": "2026-05-09T03:25:35.081Z",
+    "createdAt": "2026-05-09T04:03:56.806Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_a7674",
-    "createdAt": "2026-05-09T03:29:36.081Z",
+    "createdAt": "2026-05-09T04:07:57.806Z",
     "type": "payment",
     "message": "Payment of $138.46 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_a8qb2",
-    "createdAt": "2026-05-09T19:25:35.081Z",
+    "createdAt": "2026-05-09T20:03:56.806Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -7207,7 +7207,7 @@
   "fulfillments": [
    {
     "id": "ff_a5xkl",
-    "createdAt": "2026-05-09T10:25:35.081Z",
+    "createdAt": "2026-05-09T11:03:56.806Z",
     "lineItemIds": [
      "li_a2msm",
      "li_a3r7e",
@@ -7228,8 +7228,8 @@
   "customerId": "c_159",
   "email": "hana.costa@example.com",
   "phone": "(616) 555-2799",
-  "createdAt": "2026-05-13T00:30:01.907Z",
-  "closedAt": "2026-05-15T00:30:01.907Z",
+  "createdAt": "2026-05-13T01:08:23.629Z",
+  "closedAt": "2026-05-15T01:08:23.629Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -7279,21 +7279,21 @@
   "timeline": [
    {
     "id": "ev_abldb",
-    "createdAt": "2026-05-13T00:30:01.907Z",
+    "createdAt": "2026-05-13T01:08:23.629Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_actix",
-    "createdAt": "2026-05-13T00:30:29.907Z",
+    "createdAt": "2026-05-13T01:08:51.629Z",
     "type": "payment",
     "message": "Payment of $69.63 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ads5u",
-    "createdAt": "2026-05-13T05:30:01.907Z",
+    "createdAt": "2026-05-13T06:08:23.629Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -7302,7 +7302,7 @@
   "fulfillments": [
    {
     "id": "ff_aa4jl",
-    "createdAt": "2026-05-13T02:30:01.907Z",
+    "createdAt": "2026-05-13T03:08:23.629Z",
     "lineItemIds": [
      "li_a9gqv"
     ],
@@ -7321,8 +7321,8 @@
   "customerId": "c_125",
   "email": "mei.kowalski@example.com",
   "phone": "(783) 555-6528",
-  "createdAt": "2026-05-20T01:31:36.254Z",
-  "closedAt": "2026-05-22T01:31:36.254Z",
+  "createdAt": "2026-05-20T02:09:57.979Z",
+  "closedAt": "2026-05-22T02:09:57.979Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -7372,21 +7372,21 @@
   "timeline": [
    {
     "id": "ev_ag2zx",
-    "createdAt": "2026-05-20T01:31:36.254Z",
+    "createdAt": "2026-05-20T02:09:57.979Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ahl0h",
-    "createdAt": "2026-05-20T01:33:53.254Z",
+    "createdAt": "2026-05-20T02:12:14.979Z",
     "type": "payment",
     "message": "Payment of $76.11 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_aioag",
-    "createdAt": "2026-05-20T14:31:36.254Z",
+    "createdAt": "2026-05-20T15:09:57.979Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -7395,7 +7395,7 @@
   "fulfillments": [
    {
     "id": "ff_afaf6",
-    "createdAt": "2026-05-20T13:31:36.254Z",
+    "createdAt": "2026-05-20T14:09:57.979Z",
     "lineItemIds": [
      "li_ae3i4"
     ],
@@ -7414,7 +7414,7 @@
   "customerId": "c_102",
   "email": "theo.osei@example.com",
   "phone": "(267) 555-9864",
-  "createdAt": "2026-05-21T19:09:57.241Z",
+  "createdAt": "2026-05-21T19:48:18.984Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -7466,21 +7466,21 @@
   "timeline": [
    {
     "id": "ev_alm4r",
-    "createdAt": "2026-05-21T19:09:57.241Z",
+    "createdAt": "2026-05-21T19:48:18.984Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_amzkb",
-    "createdAt": "2026-05-21T19:14:24.241Z",
+    "createdAt": "2026-05-21T19:52:45.984Z",
     "type": "payment",
     "message": "Payment of $34.91 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_an2tl",
-    "createdAt": "2026-05-22T04:09:57.241Z",
+    "createdAt": "2026-05-22T04:48:18.984Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Ava Chen"
@@ -7489,7 +7489,7 @@
   "fulfillments": [
    {
     "id": "ff_akqnv",
-    "createdAt": "2026-05-21T23:09:57.241Z",
+    "createdAt": "2026-05-21T23:48:18.984Z",
     "lineItemIds": [
      "li_ajyba"
     ],
@@ -7508,7 +7508,7 @@
   "customerId": "c_122",
   "email": "hana.kaur@example.com",
   "phone": "(723) 555-4977",
-  "createdAt": "2026-05-22T11:59:30.118Z",
+  "createdAt": "2026-05-22T12:37:51.842Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -7559,7 +7559,7 @@
   "timeline": [
    {
     "id": "ev_apma4",
-    "createdAt": "2026-05-22T11:59:30.118Z",
+    "createdAt": "2026-05-22T12:37:51.842Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -7575,8 +7575,8 @@
   "customerId": "c_116",
   "email": "noah.nguyen@example.com",
   "phone": "(430) 555-5851",
-  "createdAt": "2026-05-26T09:48:48.418Z",
-  "closedAt": "2026-05-28T09:48:48.418Z",
+  "createdAt": "2026-05-26T10:27:10.145Z",
+  "closedAt": "2026-05-28T10:27:10.145Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -7631,21 +7631,21 @@
   "timeline": [
    {
     "id": "ev_asr9n",
-    "createdAt": "2026-05-26T09:48:48.418Z",
+    "createdAt": "2026-05-26T10:27:10.145Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_atouk",
-    "createdAt": "2026-05-26T09:50:18.418Z",
+    "createdAt": "2026-05-26T10:28:40.145Z",
     "type": "payment",
     "message": "Payment of $26.37 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_auhoc",
-    "createdAt": "2026-05-28T00:48:48.418Z",
+    "createdAt": "2026-05-28T01:27:10.145Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -7654,7 +7654,7 @@
   "fulfillments": [
    {
     "id": "ff_arbng",
-    "createdAt": "2026-05-27T02:48:48.418Z",
+    "createdAt": "2026-05-27T03:27:10.145Z",
     "lineItemIds": [
      "li_aqqxs"
     ],
@@ -7672,8 +7672,8 @@
   "customerId": "c_102",
   "email": "theo.osei@example.com",
   "phone": "(267) 555-9864",
-  "createdAt": "2026-05-27T14:37:18.858Z",
-  "closedAt": "2026-05-29T14:37:18.858Z",
+  "createdAt": "2026-05-27T15:15:40.600Z",
+  "closedAt": "2026-05-29T15:15:40.600Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -7723,21 +7723,21 @@
   "timeline": [
    {
     "id": "ev_axznp",
-    "createdAt": "2026-05-27T14:37:18.858Z",
+    "createdAt": "2026-05-27T15:15:40.600Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ayo6v",
-    "createdAt": "2026-05-27T14:38:32.858Z",
+    "createdAt": "2026-05-27T15:16:54.600Z",
     "type": "payment",
     "message": "Payment of $58.83 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_az5mq",
-    "createdAt": "2026-05-29T01:37:18.858Z",
+    "createdAt": "2026-05-29T02:15:40.600Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -7746,7 +7746,7 @@
   "fulfillments": [
    {
     "id": "ff_aw08h",
-    "createdAt": "2026-05-27T19:37:18.858Z",
+    "createdAt": "2026-05-27T20:15:40.600Z",
     "lineItemIds": [
      "li_ave5f"
     ],
@@ -7765,8 +7765,8 @@
   "customerId": "c_156",
   "email": "sadie.moreau@example.com",
   "phone": "(595) 555-1880",
-  "createdAt": "2026-05-31T05:37:29.295Z",
-  "closedAt": "2026-06-02T05:37:29.295Z",
+  "createdAt": "2026-05-31T06:15:51.017Z",
+  "closedAt": "2026-06-02T06:15:51.017Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -7818,14 +7818,14 @@
   "timeline": [
    {
     "id": "ev_b2q67",
-    "createdAt": "2026-05-31T05:37:29.295Z",
+    "createdAt": "2026-05-31T06:15:51.017Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_b3jix",
-    "createdAt": "2026-06-07T05:37:29.295Z",
+    "createdAt": "2026-06-07T06:15:51.017Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -7835,7 +7835,7 @@
   "refunds": [
    {
     "id": "rf_b16a8",
-    "createdAt": "2026-06-10T05:37:29.295Z",
+    "createdAt": "2026-06-10T06:15:51.017Z",
     "amount": 38.88,
     "reason": "damaged",
     "lineItemIds": [
@@ -7852,8 +7852,8 @@
   "customerId": "c_142",
   "email": "paulo.aldana@example.com",
   "phone": "(632) 555-0959",
-  "createdAt": "2026-06-02T04:42:43.061Z",
-  "closedAt": "2026-06-04T04:42:43.061Z",
+  "createdAt": "2026-06-02T05:21:04.796Z",
+  "closedAt": "2026-06-04T05:21:04.796Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -7907,21 +7907,21 @@
   "timeline": [
    {
     "id": "ev_b6cdx",
-    "createdAt": "2026-06-02T04:42:43.061Z",
+    "createdAt": "2026-06-02T05:21:04.796Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_b7au9",
-    "createdAt": "2026-06-02T04:47:00.061Z",
+    "createdAt": "2026-06-02T05:25:21.796Z",
     "type": "payment",
     "message": "Payment of $76.20 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_b8c5r",
-    "createdAt": "2026-06-02T13:42:43.061Z",
+    "createdAt": "2026-06-02T14:21:04.796Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -7930,7 +7930,7 @@
   "fulfillments": [
    {
     "id": "ff_b5cab",
-    "createdAt": "2026-06-03T19:42:43.061Z",
+    "createdAt": "2026-06-03T20:21:04.796Z",
     "lineItemIds": [
      "li_b4zp3"
     ],
@@ -7949,8 +7949,8 @@
   "customerId": "c_143",
   "email": "freya.ramirez@example.com",
   "phone": "(828) 555-0774",
-  "createdAt": "2026-06-05T13:27:38.161Z",
-  "closedAt": "2026-06-07T13:27:38.161Z",
+  "createdAt": "2026-06-05T14:05:59.882Z",
+  "closedAt": "2026-06-07T14:05:59.882Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8026,21 +8026,21 @@
   "timeline": [
    {
     "id": "ev_bdqwp",
-    "createdAt": "2026-06-05T13:27:38.161Z",
+    "createdAt": "2026-06-05T14:05:59.882Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bexcf",
-    "createdAt": "2026-06-05T13:28:43.161Z",
+    "createdAt": "2026-06-05T14:07:04.882Z",
     "type": "payment",
     "message": "Payment of $98.50 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bf4ga",
-    "createdAt": "2026-06-06T01:27:38.161Z",
+    "createdAt": "2026-06-06T02:05:59.882Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -8049,7 +8049,7 @@
   "fulfillments": [
    {
     "id": "ff_bcg1u",
-    "createdAt": "2026-06-07T03:27:38.161Z",
+    "createdAt": "2026-06-07T04:05:59.882Z",
     "lineItemIds": [
      "li_b9tz2",
      "li_barzi",
@@ -8070,8 +8070,8 @@
   "customerId": "c_160",
   "email": "hana.moreau@example.com",
   "phone": "(451) 555-0506",
-  "createdAt": "2026-06-07T05:02:34.960Z",
-  "closedAt": "2026-06-09T05:02:34.960Z",
+  "createdAt": "2026-06-07T05:40:56.684Z",
+  "closedAt": "2026-06-09T05:40:56.684Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8127,21 +8127,21 @@
   "timeline": [
    {
     "id": "ev_bidem",
-    "createdAt": "2026-06-07T05:02:34.960Z",
+    "createdAt": "2026-06-07T05:40:56.684Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bj9eq",
-    "createdAt": "2026-06-07T05:07:23.960Z",
+    "createdAt": "2026-06-07T05:45:45.684Z",
     "type": "payment",
     "message": "Payment of $36.09 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bktaf",
-    "createdAt": "2026-06-07T23:02:34.960Z",
+    "createdAt": "2026-06-07T23:40:56.684Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -8150,7 +8150,7 @@
   "fulfillments": [
    {
     "id": "ff_bhhgb",
-    "createdAt": "2026-06-08T20:02:34.960Z",
+    "createdAt": "2026-06-08T20:40:56.684Z",
     "lineItemIds": [
      "li_bgxc9"
     ],
@@ -8169,8 +8169,8 @@
   "customerId": "c_108",
   "email": "chloe.moreau@example.com",
   "phone": "(915) 555-4065",
-  "createdAt": "2026-06-08T01:30:22.382Z",
-  "closedAt": "2026-06-10T01:30:22.382Z",
+  "createdAt": "2026-06-08T02:08:44.112Z",
+  "closedAt": "2026-06-10T02:08:44.112Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8223,21 +8223,21 @@
   "timeline": [
    {
     "id": "ev_bn3wj",
-    "createdAt": "2026-06-08T01:30:22.382Z",
+    "createdAt": "2026-06-08T02:08:44.112Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bo41o",
-    "createdAt": "2026-06-08T01:33:49.382Z",
+    "createdAt": "2026-06-08T02:12:11.112Z",
     "type": "payment",
     "message": "Payment of $181.44 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bpw4q",
-    "createdAt": "2026-06-09T10:30:22.382Z",
+    "createdAt": "2026-06-09T11:08:44.112Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -8246,7 +8246,7 @@
   "fulfillments": [
    {
     "id": "ff_bmfbr",
-    "createdAt": "2026-06-09T14:30:22.382Z",
+    "createdAt": "2026-06-09T15:08:44.112Z",
     "lineItemIds": [
      "li_bluyi"
     ],
@@ -8265,8 +8265,8 @@
   "customerId": "c_132",
   "email": "theo.nguyen@example.com",
   "phone": "(884) 555-0220",
-  "createdAt": "2026-06-11T11:10:33.635Z",
-  "closedAt": "2026-06-13T11:10:33.635Z",
+  "createdAt": "2026-06-11T11:48:55.360Z",
+  "closedAt": "2026-06-13T11:48:55.360Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8346,21 +8346,21 @@
   "timeline": [
    {
     "id": "ev_bu6xc",
-    "createdAt": "2026-06-11T11:10:33.635Z",
+    "createdAt": "2026-06-11T11:48:55.360Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bvt4n",
-    "createdAt": "2026-06-11T11:13:09.635Z",
+    "createdAt": "2026-06-11T11:51:31.360Z",
     "type": "payment",
     "message": "Payment of $251.75 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_bwksb",
-    "createdAt": "2026-06-12T23:10:33.635Z",
+    "createdAt": "2026-06-12T23:48:55.360Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -8369,7 +8369,7 @@
   "fulfillments": [
    {
     "id": "ff_bt6rw",
-    "createdAt": "2026-06-11T16:10:33.635Z",
+    "createdAt": "2026-06-11T16:48:55.360Z",
     "lineItemIds": [
      "li_bqkmw",
      "li_brqy7",
@@ -8390,7 +8390,7 @@
   "customerId": "c_148",
   "email": "leo.rossi@example.com",
   "phone": "(432) 555-9080",
-  "createdAt": "2026-06-12T11:04:55.258Z",
+  "createdAt": "2026-06-12T11:43:16.993Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -8466,7 +8466,7 @@
   "timeline": [
    {
     "id": "ev_c08eh",
-    "createdAt": "2026-06-12T11:04:55.258Z",
+    "createdAt": "2026-06-12T11:43:16.993Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -8482,8 +8482,8 @@
   "customerId": "c_142",
   "email": "paulo.aldana@example.com",
   "phone": "(632) 555-0959",
-  "createdAt": "2026-06-16T10:33:39.462Z",
-  "closedAt": "2026-06-18T10:33:39.462Z",
+  "createdAt": "2026-06-16T11:12:01.194Z",
+  "closedAt": "2026-06-18T11:12:01.194Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8562,21 +8562,21 @@
   "timeline": [
    {
     "id": "ev_c567f",
-    "createdAt": "2026-06-16T10:33:39.462Z",
+    "createdAt": "2026-06-16T11:12:01.194Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_c61lr",
-    "createdAt": "2026-06-16T10:38:11.462Z",
+    "createdAt": "2026-06-16T11:16:33.194Z",
     "type": "payment",
     "message": "Payment of $175.28 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_c7ido",
-    "createdAt": "2026-06-17T12:33:39.462Z",
+    "createdAt": "2026-06-17T13:12:01.194Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -8585,7 +8585,7 @@
   "fulfillments": [
    {
     "id": "ff_c4cbw",
-    "createdAt": "2026-06-16T14:33:39.462Z",
+    "createdAt": "2026-06-16T15:12:01.194Z",
     "lineItemIds": [
      "li_c15xk",
      "li_c2sxu",
@@ -8606,8 +8606,8 @@
   "customerId": "c_126",
   "email": "aisha.reyes@example.com",
   "phone": "(490) 555-7555",
-  "createdAt": "2026-06-21T02:09:24.536Z",
-  "closedAt": "2026-06-23T02:09:24.536Z",
+  "createdAt": "2026-06-21T02:47:46.256Z",
+  "closedAt": "2026-06-23T02:47:46.256Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8676,21 +8676,21 @@
   "timeline": [
    {
     "id": "ev_cbari",
-    "createdAt": "2026-06-21T02:09:24.536Z",
+    "createdAt": "2026-06-21T02:47:46.256Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_cc4gx",
-    "createdAt": "2026-06-21T02:12:17.536Z",
+    "createdAt": "2026-06-21T02:50:39.256Z",
     "type": "payment",
     "message": "Payment of $206.06 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_cdsb8",
-    "createdAt": "2026-06-22T15:09:24.536Z",
+    "createdAt": "2026-06-22T15:47:46.256Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
@@ -8699,7 +8699,7 @@
   "fulfillments": [
    {
     "id": "ff_caps3",
-    "createdAt": "2026-06-21T06:09:24.536Z",
+    "createdAt": "2026-06-21T06:47:46.256Z",
     "lineItemIds": [
      "li_c8syb",
      "li_c93oo"
@@ -8719,7 +8719,7 @@
   "customerId": "c_143",
   "email": "freya.ramirez@example.com",
   "phone": "(828) 555-0774",
-  "createdAt": "2026-06-21T10:50:50.986Z",
+  "createdAt": "2026-06-21T11:29:12.706Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -8769,7 +8769,7 @@
   "timeline": [
    {
     "id": "ev_cfxah",
-    "createdAt": "2026-06-21T10:50:50.986Z",
+    "createdAt": "2026-06-21T11:29:12.706Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -8785,8 +8785,8 @@
   "customerId": "c_136",
   "email": "zoe.castellano@example.com",
   "phone": "(247) 555-1731",
-  "createdAt": "2026-06-26T06:12:30.385Z",
-  "closedAt": "2026-06-28T06:12:30.385Z",
+  "createdAt": "2026-06-26T06:50:52.110Z",
+  "closedAt": "2026-06-28T06:50:52.110Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8840,21 +8840,21 @@
   "timeline": [
    {
     "id": "ev_ciujh",
-    "createdAt": "2026-06-26T06:12:30.385Z",
+    "createdAt": "2026-06-26T06:50:52.110Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_cjsz6",
-    "createdAt": "2026-06-26T06:13:56.385Z",
+    "createdAt": "2026-06-26T06:52:18.110Z",
     "type": "payment",
     "message": "Payment of $15.55 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ck8co",
-    "createdAt": "2026-06-27T03:12:30.385Z",
+    "createdAt": "2026-06-27T03:50:52.110Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -8863,7 +8863,7 @@
   "fulfillments": [
    {
     "id": "ff_ch0l7",
-    "createdAt": "2026-06-27T15:12:30.385Z",
+    "createdAt": "2026-06-27T15:50:52.110Z",
     "lineItemIds": [
      "li_cg0xn"
     ],
@@ -8882,8 +8882,8 @@
   "customerId": "c_120",
   "email": "marcus.ibrahim@example.com",
   "phone": "(705) 555-2923",
-  "createdAt": "2026-06-27T07:40:12.476Z",
-  "closedAt": "2026-06-29T07:40:12.476Z",
+  "createdAt": "2026-06-27T08:18:34.203Z",
+  "closedAt": "2026-06-29T08:18:34.203Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -8962,21 +8962,21 @@
   "timeline": [
    {
     "id": "ev_cpbc8",
-    "createdAt": "2026-06-27T07:40:12.476Z",
+    "createdAt": "2026-06-27T08:18:34.203Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_cqit7",
-    "createdAt": "2026-06-27T07:42:06.476Z",
+    "createdAt": "2026-06-27T08:20:28.203Z",
     "type": "payment",
     "message": "Payment of $362.88 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_cri30",
-    "createdAt": "2026-06-28T22:40:12.476Z",
+    "createdAt": "2026-06-28T23:18:34.203Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -8985,7 +8985,7 @@
   "fulfillments": [
    {
     "id": "ff_cos7q",
-    "createdAt": "2026-06-27T12:40:12.476Z",
+    "createdAt": "2026-06-27T13:18:34.203Z",
     "lineItemIds": [
      "li_clk09",
      "li_cmolp",
@@ -9006,7 +9006,7 @@
   "customerId": "c_160",
   "email": "hana.moreau@example.com",
   "phone": "(451) 555-0506",
-  "createdAt": "2026-07-01T23:55:05.359Z",
+  "createdAt": "2026-07-02T00:33:27.080Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -9070,14 +9070,14 @@
   "timeline": [
    {
     "id": "ev_cuc84",
-    "createdAt": "2026-07-01T23:55:05.359Z",
+    "createdAt": "2026-07-02T00:33:27.080Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_cvgcn",
-    "createdAt": "2026-07-01T23:59:37.359Z",
+    "createdAt": "2026-07-02T00:37:59.080Z",
     "type": "payment",
     "message": "Payment of $220.32 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -9093,7 +9093,7 @@
   "customerId": "c_145",
   "email": "leo.haddad@example.com",
   "phone": "(311) 555-4398",
-  "createdAt": "2026-07-02T10:09:50.027Z",
+  "createdAt": "2026-07-02T10:48:11.765Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -9145,21 +9145,21 @@
   "timeline": [
    {
     "id": "ev_cylqd",
-    "createdAt": "2026-07-02T10:09:50.027Z",
+    "createdAt": "2026-07-02T10:48:11.765Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_czh3c",
-    "createdAt": "2026-07-02T10:13:59.027Z",
+    "createdAt": "2026-07-02T10:52:20.765Z",
     "type": "payment",
     "message": "Payment of $250.56 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_d0xe1",
-    "createdAt": "2026-07-02T12:09:50.027Z",
+    "createdAt": "2026-07-02T12:48:11.765Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Maya Patel"
@@ -9168,7 +9168,7 @@
   "fulfillments": [
    {
     "id": "ff_cx2e2",
-    "createdAt": "2026-07-02T15:09:50.027Z",
+    "createdAt": "2026-07-02T15:48:11.765Z",
     "lineItemIds": [
      "li_cw7yh"
     ],
@@ -9187,7 +9187,7 @@
   "customerId": "c_155",
   "email": "nora.novak@example.com",
   "phone": "(232) 555-7565",
-  "createdAt": "2026-07-03T10:56:51.349Z",
+  "createdAt": "2026-07-03T11:35:13.076Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -9237,7 +9237,7 @@
   "timeline": [
    {
     "id": "ev_d283t",
-    "createdAt": "2026-07-03T10:56:51.349Z",
+    "createdAt": "2026-07-03T11:35:13.076Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -9253,7 +9253,7 @@
   "customerId": "c_125",
   "email": "mei.kowalski@example.com",
   "phone": "(783) 555-6528",
-  "createdAt": "2026-07-04T00:10:38.772Z",
+  "createdAt": "2026-07-04T00:49:00.493Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -9316,21 +9316,21 @@
   "timeline": [
    {
     "id": "ev_d6g04",
-    "createdAt": "2026-07-04T00:10:38.772Z",
+    "createdAt": "2026-07-04T00:49:00.493Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_d7xrn",
-    "createdAt": "2026-07-04T00:15:18.772Z",
+    "createdAt": "2026-07-04T00:53:40.493Z",
     "type": "payment",
     "message": "Payment of $52.35 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_d821g",
-    "createdAt": "2026-07-05T06:10:38.772Z",
+    "createdAt": "2026-07-05T06:49:00.493Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Ava Chen"
@@ -9339,7 +9339,7 @@
   "fulfillments": [
    {
     "id": "ff_d5qhh",
-    "createdAt": "2026-07-04T20:10:38.772Z",
+    "createdAt": "2026-07-04T20:49:00.493Z",
     "lineItemIds": [
      "li_d3t32"
     ],
@@ -9358,8 +9358,8 @@
   "customerId": "c_142",
   "email": "paulo.aldana@example.com",
   "phone": "(632) 555-0959",
-  "createdAt": "2026-07-12T00:59:03.303Z",
-  "cancelledAt": "2026-07-12T01:59:03.303Z",
+  "createdAt": "2026-07-12T01:37:25.030Z",
+  "cancelledAt": "2026-07-12T02:37:25.030Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -9435,14 +9435,14 @@
   "timeline": [
    {
     "id": "ev_dckkr",
-    "createdAt": "2026-07-12T00:59:03.303Z",
+    "createdAt": "2026-07-12T01:37:25.030Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ddjw4",
-    "createdAt": "2026-07-12T22:59:03.303Z",
+    "createdAt": "2026-07-12T23:37:25.030Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -9458,7 +9458,7 @@
   "customerId": "c_101",
   "email": "tariq.osei@example.com",
   "phone": "(470) 555-2975",
-  "createdAt": "2026-07-16T00:41:22.208Z",
+  "createdAt": "2026-07-16T01:19:43.928Z",
   "paymentStatus": "pending",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -9508,7 +9508,7 @@
   "timeline": [
    {
     "id": "ev_df0gr",
-    "createdAt": "2026-07-16T00:41:22.208Z",
+    "createdAt": "2026-07-16T01:19:43.928Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
@@ -9524,7 +9524,7 @@
   "customerId": "c_148",
   "email": "leo.rossi@example.com",
   "phone": "(432) 555-9080",
-  "createdAt": "2026-07-16T02:45:08.048Z",
+  "createdAt": "2026-07-16T03:23:29.776Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -9574,14 +9574,14 @@
   "timeline": [
    {
     "id": "ev_dh02w",
-    "createdAt": "2026-07-16T02:45:08.048Z",
+    "createdAt": "2026-07-16T03:23:29.776Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_dikkv",
-    "createdAt": "2026-07-16T02:49:26.048Z",
+    "createdAt": "2026-07-16T03:27:47.776Z",
     "type": "payment",
     "message": "Payment of $45.01 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -9597,8 +9597,8 @@
   "customerId": "c_141",
   "email": "iris.larsen@example.com",
   "phone": "(314) 555-4014",
-  "createdAt": "2026-07-18T00:30:03.717Z",
-  "closedAt": "2026-07-20T00:30:03.717Z",
+  "createdAt": "2026-07-18T01:08:25.437Z",
+  "closedAt": "2026-07-20T01:08:25.437Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -9648,21 +9648,21 @@
   "timeline": [
    {
     "id": "ev_dlx8j",
-    "createdAt": "2026-07-18T00:30:03.717Z",
+    "createdAt": "2026-07-18T01:08:25.437Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_dmews",
-    "createdAt": "2026-07-18T00:34:13.717Z",
+    "createdAt": "2026-07-18T01:12:35.437Z",
     "type": "payment",
     "message": "Payment of $41.98 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_dnfez",
-    "createdAt": "2026-07-18T07:30:03.717Z",
+    "createdAt": "2026-07-18T08:08:25.437Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -9671,7 +9671,7 @@
   "fulfillments": [
    {
     "id": "ff_dk9s3",
-    "createdAt": "2026-07-18T02:30:03.717Z",
+    "createdAt": "2026-07-18T03:08:25.437Z",
     "lineItemIds": [
      "li_djjxy"
     ],
@@ -9690,8 +9690,8 @@
   "customerId": "c_139",
   "email": "lucas.kimura@example.com",
   "phone": "(851) 555-0714",
-  "createdAt": "2026-07-22T22:33:28.737Z",
-  "closedAt": "2026-07-24T22:33:28.737Z",
+  "createdAt": "2026-07-22T23:11:50.456Z",
+  "closedAt": "2026-07-24T23:11:50.456Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -9754,14 +9754,14 @@
   "timeline": [
    {
     "id": "ev_dr8qz",
-    "createdAt": "2026-07-22T22:33:28.737Z",
+    "createdAt": "2026-07-22T23:11:50.456Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_dsake",
-    "createdAt": "2026-07-23T22:33:28.737Z",
+    "createdAt": "2026-07-23T23:11:50.456Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -9771,7 +9771,7 @@
   "refunds": [
    {
     "id": "rf_dq1rx",
-    "createdAt": "2026-07-28T22:33:28.737Z",
+    "createdAt": "2026-07-28T23:11:50.456Z",
     "amount": 127.22,
     "reason": "wrong_item",
     "lineItemIds": [
@@ -9789,8 +9789,8 @@
   "customerId": "c_160",
   "email": "hana.moreau@example.com",
   "phone": "(451) 555-0506",
-  "createdAt": "2026-07-23T04:04:55.615Z",
-  "cancelledAt": "2026-07-23T05:04:55.615Z",
+  "createdAt": "2026-07-23T04:43:17.334Z",
+  "cancelledAt": "2026-07-23T05:43:17.334Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -9840,14 +9840,14 @@
   "timeline": [
    {
     "id": "ev_duwte",
-    "createdAt": "2026-07-23T04:04:55.615Z",
+    "createdAt": "2026-07-23T04:43:17.334Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_dvcfq",
-    "createdAt": "2026-07-23T06:04:55.615Z",
+    "createdAt": "2026-07-23T06:43:17.334Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -9863,7 +9863,7 @@
   "customerId": "c_152",
   "email": "sadie.baptiste@example.com",
   "phone": "(312) 555-0299",
-  "createdAt": "2026-07-23T23:04:55.843Z",
+  "createdAt": "2026-07-23T23:43:17.581Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -9952,14 +9952,14 @@
   "timeline": [
    {
     "id": "ev_e06ki",
-    "createdAt": "2026-07-23T23:04:55.843Z",
+    "createdAt": "2026-07-23T23:43:17.581Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_e1tlr",
-    "createdAt": "2026-07-23T23:08:26.843Z",
+    "createdAt": "2026-07-23T23:46:48.581Z",
     "type": "payment",
     "message": "Payment of $225.72 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -9975,8 +9975,8 @@
   "customerId": "c_130",
   "email": "ingrid.andersen@example.com",
   "phone": "(482) 555-5821",
-  "createdAt": "2026-07-24T02:38:35.000Z",
-  "closedAt": "2026-07-26T02:38:35.000Z",
+  "createdAt": "2026-07-24T03:16:56.725Z",
+  "closedAt": "2026-07-26T03:16:56.725Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -10052,21 +10052,21 @@
   "timeline": [
    {
     "id": "ev_e6tyy",
-    "createdAt": "2026-07-24T02:38:35.000Z",
+    "createdAt": "2026-07-24T03:16:56.725Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_e79uh",
-    "createdAt": "2026-07-24T02:42:48.000Z",
+    "createdAt": "2026-07-24T03:21:09.725Z",
     "type": "payment",
     "message": "Payment of $163.08 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_e8dho",
-    "createdAt": "2026-07-24T22:38:35.000Z",
+    "createdAt": "2026-07-24T23:16:56.725Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -10075,7 +10075,7 @@
   "fulfillments": [
    {
     "id": "ff_e5zyx",
-    "createdAt": "2026-07-24T06:38:35.000Z",
+    "createdAt": "2026-07-24T07:16:56.725Z",
     "lineItemIds": [
      "li_e2tnl",
      "li_e3rwv",
@@ -10096,8 +10096,8 @@
   "customerId": "c_127",
   "email": "diego.larsen@example.com",
   "phone": "(377) 555-6772",
-  "createdAt": "2026-07-26T01:28:13.398Z",
-  "closedAt": "2026-07-28T01:28:13.398Z",
+  "createdAt": "2026-07-26T02:06:35.121Z",
+  "closedAt": "2026-07-28T02:06:35.121Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -10147,21 +10147,21 @@
   "timeline": [
    {
     "id": "ev_eb6u7",
-    "createdAt": "2026-07-26T01:28:13.398Z",
+    "createdAt": "2026-07-26T02:06:35.121Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ecx4u",
-    "createdAt": "2026-07-26T01:31:05.398Z",
+    "createdAt": "2026-07-26T02:09:27.121Z",
     "type": "payment",
     "message": "Payment of $125.28 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_edid3",
-    "createdAt": "2026-07-26T10:28:13.398Z",
+    "createdAt": "2026-07-26T11:06:35.121Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -10170,7 +10170,7 @@
   "fulfillments": [
    {
     "id": "ff_earui",
-    "createdAt": "2026-07-26T21:28:13.398Z",
+    "createdAt": "2026-07-26T22:06:35.121Z",
     "lineItemIds": [
      "li_e9mdd"
     ],
@@ -10188,8 +10188,8 @@
   "customerId": "c_109",
   "email": "ravi.bennett@example.com",
   "phone": "(671) 555-4107",
-  "createdAt": "2026-07-30T18:00:21.278Z",
-  "cancelledAt": "2026-07-30T19:00:21.278Z",
+  "createdAt": "2026-07-30T18:38:43.009Z",
+  "cancelledAt": "2026-07-30T19:38:43.009Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -10239,14 +10239,14 @@
   "timeline": [
    {
     "id": "ev_effvv",
-    "createdAt": "2026-07-30T18:00:21.278Z",
+    "createdAt": "2026-07-30T18:38:43.009Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_egz2s",
-    "createdAt": "2026-07-31T14:00:21.278Z",
+    "createdAt": "2026-07-31T14:38:43.009Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -10262,7 +10262,7 @@
   "customerId": "c_123",
   "email": "noah.eriksen@example.com",
   "phone": "(499) 555-2190",
-  "createdAt": "2026-07-31T01:13:50.192Z",
+  "createdAt": "2026-07-31T01:52:11.913Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -10325,21 +10325,21 @@
   "timeline": [
    {
     "id": "ev_ekznu",
-    "createdAt": "2026-07-31T01:13:50.192Z",
+    "createdAt": "2026-07-31T01:52:11.913Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_el7or",
-    "createdAt": "2026-07-31T01:18:46.192Z",
+    "createdAt": "2026-07-31T01:57:07.913Z",
     "type": "payment",
     "message": "Payment of $134.95 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_emij1",
-    "createdAt": "2026-08-01T10:13:50.192Z",
+    "createdAt": "2026-08-01T10:52:11.913Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Ava Chen"
@@ -10348,7 +10348,7 @@
   "fulfillments": [
    {
     "id": "ff_ej7u1",
-    "createdAt": "2026-08-01T10:13:50.192Z",
+    "createdAt": "2026-08-01T10:52:11.913Z",
     "lineItemIds": [
      "li_ehviy"
     ],
@@ -10367,8 +10367,8 @@
   "customerId": "c_109",
   "email": "ravi.bennett@example.com",
   "phone": "(671) 555-4107",
-  "createdAt": "2026-07-31T20:53:35.476Z",
-  "closedAt": "2026-08-02T20:53:35.476Z",
+  "createdAt": "2026-07-31T21:31:57.207Z",
+  "closedAt": "2026-08-02T21:31:57.207Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -10418,21 +10418,21 @@
   "timeline": [
    {
     "id": "ev_epq3k",
-    "createdAt": "2026-07-31T20:53:35.476Z",
+    "createdAt": "2026-07-31T21:31:57.207Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_eqrm5",
-    "createdAt": "2026-07-31T20:57:03.476Z",
+    "createdAt": "2026-07-31T21:35:25.207Z",
     "type": "payment",
     "message": "Payment of $41.71 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_er7tm",
-    "createdAt": "2026-08-02T01:53:35.476Z",
+    "createdAt": "2026-08-02T02:31:57.207Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -10441,7 +10441,7 @@
   "fulfillments": [
    {
     "id": "ff_eoyyq",
-    "createdAt": "2026-08-01T22:53:35.476Z",
+    "createdAt": "2026-08-01T23:31:57.207Z",
     "lineItemIds": [
      "li_endre"
     ],
@@ -10459,8 +10459,8 @@
   "customerId": "c_140",
   "email": "wren.bennett@example.com",
   "phone": "(262) 555-3466",
-  "createdAt": "2026-08-02T12:02:49.445Z",
-  "closedAt": "2026-08-04T12:02:49.445Z",
+  "createdAt": "2026-08-02T12:41:11.165Z",
+  "closedAt": "2026-08-04T12:41:11.165Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -10515,21 +10515,21 @@
   "timeline": [
    {
     "id": "ev_euk9f",
-    "createdAt": "2026-08-02T12:02:49.445Z",
+    "createdAt": "2026-08-02T12:41:11.165Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_evq7j",
-    "createdAt": "2026-08-02T12:03:19.445Z",
+    "createdAt": "2026-08-02T12:41:41.165Z",
     "type": "payment",
     "message": "Payment of $33.18 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ew9xk",
-    "createdAt": "2026-08-03T12:02:49.445Z",
+    "createdAt": "2026-08-03T12:41:11.165Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Ava Chen"
@@ -10538,7 +10538,7 @@
   "fulfillments": [
    {
     "id": "ff_et8l9",
-    "createdAt": "2026-08-03T01:02:49.445Z",
+    "createdAt": "2026-08-03T01:41:11.165Z",
     "lineItemIds": [
      "li_es8fl"
     ],
@@ -10557,7 +10557,7 @@
   "customerId": "c_140",
   "email": "wren.bennett@example.com",
   "phone": "(262) 555-3466",
-  "createdAt": "2026-08-03T21:05:44.824Z",
+  "createdAt": "2026-08-03T21:44:06.544Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -10633,21 +10633,21 @@
   "timeline": [
    {
     "id": "ev_f11lb",
-    "createdAt": "2026-08-03T21:05:44.824Z",
+    "createdAt": "2026-08-03T21:44:06.544Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_f22jd",
-    "createdAt": "2026-08-03T21:08:28.824Z",
+    "createdAt": "2026-08-03T21:46:50.544Z",
     "type": "payment",
     "message": "Payment of $121.18 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_f319d",
-    "createdAt": "2026-08-04T05:05:44.824Z",
+    "createdAt": "2026-08-04T05:44:06.544Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Ava Chen"
@@ -10656,7 +10656,7 @@
   "fulfillments": [
    {
     "id": "ff_f0yjf",
-    "createdAt": "2026-08-05T11:05:44.824Z",
+    "createdAt": "2026-08-05T11:44:06.544Z",
     "lineItemIds": [
      "li_ex1gz"
     ],
@@ -10675,7 +10675,7 @@
   "customerId": "c_152",
   "email": "sadie.baptiste@example.com",
   "phone": "(312) 555-0299",
-  "createdAt": "2026-08-04T20:12:30.544Z",
+  "createdAt": "2026-08-04T20:50:52.276Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "partial",
   "status": "open",
@@ -10731,28 +10731,28 @@
   "timeline": [
    {
     "id": "ev_f7o2n",
-    "createdAt": "2026-08-04T20:12:30.544Z",
+    "createdAt": "2026-08-04T20:50:52.276Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_f8mgm",
-    "createdAt": "2026-08-04T20:15:23.544Z",
+    "createdAt": "2026-08-04T20:53:45.276Z",
     "type": "payment",
     "message": "Payment of $41.98 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_f99tv",
-    "createdAt": "2026-08-06T12:12:30.544Z",
+    "createdAt": "2026-08-06T12:50:52.276Z",
     "type": "fulfillment",
     "message": "Some items fulfilled",
     "author": "Noah Kim"
    },
    {
     "id": "ev_faq26",
-    "createdAt": "2026-08-11T20:12:30.544Z",
+    "createdAt": "2026-08-11T20:50:52.276Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -10761,7 +10761,7 @@
   "fulfillments": [
    {
     "id": "ff_f58d6",
-    "createdAt": "2026-08-05T00:12:30.544Z",
+    "createdAt": "2026-08-05T00:50:52.276Z",
     "lineItemIds": [
      "li_f45ez"
     ],
@@ -10774,7 +10774,7 @@
   "refunds": [
    {
     "id": "rf_f6tkr",
-    "createdAt": "2026-08-10T20:12:30.544Z",
+    "createdAt": "2026-08-10T20:50:52.276Z",
     "amount": 9.24,
     "reason": "customer",
     "lineItemIds": [
@@ -10791,7 +10791,7 @@
   "customerId": "c_145",
   "email": "leo.haddad@example.com",
   "phone": "(311) 555-4398",
-  "createdAt": "2026-08-15T01:47:41.065Z",
+  "createdAt": "2026-08-15T02:26:02.789Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -10854,14 +10854,14 @@
   "timeline": [
    {
     "id": "ev_fdjzh",
-    "createdAt": "2026-08-15T01:47:41.065Z",
+    "createdAt": "2026-08-15T02:26:02.789Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_fex58",
-    "createdAt": "2026-08-15T01:50:08.065Z",
+    "createdAt": "2026-08-15T02:28:29.789Z",
     "type": "payment",
     "message": "Payment of $110.16 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -10877,8 +10877,8 @@
   "customerId": "c_108",
   "email": "chloe.moreau@example.com",
   "phone": "(915) 555-4065",
-  "createdAt": "2026-08-16T08:51:59.876Z",
-  "cancelledAt": "2026-08-16T09:51:59.876Z",
+  "createdAt": "2026-08-16T09:30:21.596Z",
+  "cancelledAt": "2026-08-16T10:30:21.596Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -10957,14 +10957,14 @@
   "timeline": [
    {
     "id": "ev_fi45v",
-    "createdAt": "2026-08-16T08:51:59.876Z",
+    "createdAt": "2026-08-16T09:30:21.596Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_fjzxb",
-    "createdAt": "2026-08-16T13:51:59.876Z",
+    "createdAt": "2026-08-16T14:30:21.596Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -10980,7 +10980,7 @@
   "customerId": "c_148",
   "email": "leo.rossi@example.com",
   "phone": "(432) 555-9080",
-  "createdAt": "2026-08-21T17:44:45.042Z",
+  "createdAt": "2026-08-21T18:23:06.762Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "unfulfilled",
   "status": "open",
@@ -11030,14 +11030,14 @@
   "timeline": [
    {
     "id": "ev_flmjg",
-    "createdAt": "2026-08-21T17:44:45.042Z",
+    "createdAt": "2026-08-21T18:23:06.762Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_fm0ln",
-    "createdAt": "2026-08-21T17:46:40.042Z",
+    "createdAt": "2026-08-21T18:25:01.762Z",
     "type": "payment",
     "message": "Payment of $38.88 captured via Shopify Payments",
     "author": "Northstar Goods"
@@ -11053,7 +11053,7 @@
   "customerId": "c_129",
   "email": "leo.oseibonsu@example.com",
   "phone": "(650) 555-6996",
-  "createdAt": "2026-08-21T20:29:27.843Z",
+  "createdAt": "2026-08-21T21:07:49.559Z",
   "paymentStatus": "partially_refunded",
   "fulfillmentStatus": "fulfilled",
   "status": "open",
@@ -11106,28 +11106,28 @@
   "timeline": [
    {
     "id": "ev_fqzjr",
-    "createdAt": "2026-08-21T20:29:27.843Z",
+    "createdAt": "2026-08-21T21:07:49.559Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_frw6c",
-    "createdAt": "2026-08-21T20:32:06.843Z",
+    "createdAt": "2026-08-21T21:10:28.559Z",
     "type": "payment",
     "message": "Payment of $99.36 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_fs30l",
-    "createdAt": "2026-08-22T01:29:27.843Z",
+    "createdAt": "2026-08-22T02:07:49.559Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Maya Patel"
    },
    {
     "id": "ev_ftlb3",
-    "createdAt": "2026-08-25T20:29:27.843Z",
+    "createdAt": "2026-08-25T21:07:49.559Z",
     "type": "refund",
     "message": "Refund issued (partial)",
     "author": "Ava Chen"
@@ -11136,7 +11136,7 @@
   "fulfillments": [
    {
     "id": "ff_fohnh",
-    "createdAt": "2026-08-22T04:29:27.843Z",
+    "createdAt": "2026-08-22T05:07:49.559Z",
     "lineItemIds": [
      "li_fnkdl"
     ],
@@ -11149,7 +11149,7 @@
   "refunds": [
    {
     "id": "rf_fp9et",
-    "createdAt": "2026-08-25T20:29:27.843Z",
+    "createdAt": "2026-08-25T21:07:49.559Z",
     "amount": 48.69,
     "reason": "customer",
     "lineItemIds": [
@@ -11166,8 +11166,8 @@
   "customerId": "c_161",
   "email": "dmitri.novak@example.com",
   "phone": "(440) 555-6255",
-  "createdAt": "2026-08-28T03:57:30.014Z",
-  "closedAt": "2026-08-30T03:57:30.014Z",
+  "createdAt": "2026-08-28T04:35:51.734Z",
+  "closedAt": "2026-08-30T04:35:51.734Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -11217,21 +11217,21 @@
   "timeline": [
    {
     "id": "ev_fwohm",
-    "createdAt": "2026-08-28T03:57:30.014Z",
+    "createdAt": "2026-08-28T04:35:51.734Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_fxmpi",
-    "createdAt": "2026-08-28T04:02:21.014Z",
+    "createdAt": "2026-08-28T04:40:42.734Z",
     "type": "payment",
     "message": "Payment of $29.38 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_fyq1r",
-    "createdAt": "2026-08-29T00:57:30.014Z",
+    "createdAt": "2026-08-29T01:35:51.734Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -11240,7 +11240,7 @@
   "fulfillments": [
    {
     "id": "ff_fv470",
-    "createdAt": "2026-08-29T07:57:30.014Z",
+    "createdAt": "2026-08-29T08:35:51.734Z",
     "lineItemIds": [
      "li_fu6gu"
     ],
@@ -11258,8 +11258,8 @@
   "customerId": "c_136",
   "email": "zoe.castellano@example.com",
   "phone": "(247) 555-1731",
-  "createdAt": "2026-08-30T05:30:46.419Z",
-  "closedAt": "2026-09-01T05:30:46.419Z",
+  "createdAt": "2026-08-30T06:09:08.135Z",
+  "closedAt": "2026-09-01T06:09:08.135Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -11309,21 +11309,21 @@
   "timeline": [
    {
     "id": "ev_g1pcj",
-    "createdAt": "2026-08-30T05:30:46.419Z",
+    "createdAt": "2026-08-30T06:09:08.135Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_g2fa7",
-    "createdAt": "2026-08-30T05:32:49.419Z",
+    "createdAt": "2026-08-30T06:11:11.135Z",
     "type": "payment",
     "message": "Payment of $22.27 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_g38mt",
-    "createdAt": "2026-08-30T22:30:46.419Z",
+    "createdAt": "2026-08-30T23:09:08.135Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -11332,7 +11332,7 @@
   "fulfillments": [
    {
     "id": "ff_g0hj3",
-    "createdAt": "2026-08-31T10:30:46.419Z",
+    "createdAt": "2026-08-31T11:09:08.135Z",
     "lineItemIds": [
      "li_fzsbm"
     ],
@@ -11350,8 +11350,8 @@
   "customerId": "c_135",
   "email": "isla.lindqvist@example.com",
   "phone": "(919) 555-7877",
-  "createdAt": "2026-09-02T13:14:51.264Z",
-  "cancelledAt": "2026-09-02T14:14:51.264Z",
+  "createdAt": "2026-09-02T13:53:12.995Z",
+  "cancelledAt": "2026-09-02T14:53:12.995Z",
   "paymentStatus": "voided",
   "fulfillmentStatus": "unfulfilled",
   "status": "cancelled",
@@ -11432,14 +11432,14 @@
   "timeline": [
    {
     "id": "ev_g7u8v",
-    "createdAt": "2026-09-02T13:14:51.264Z",
+    "createdAt": "2026-09-02T13:53:12.995Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_g834p",
-    "createdAt": "2026-09-02T16:14:51.264Z",
+    "createdAt": "2026-09-02T16:53:12.995Z",
     "type": "cancel",
     "message": "Order cancelled by staff",
     "author": "Noah Kim"
@@ -11455,8 +11455,8 @@
   "customerId": "c_120",
   "email": "marcus.ibrahim@example.com",
   "phone": "(705) 555-2923",
-  "createdAt": "2026-09-03T17:13:56.620Z",
-  "closedAt": "2026-09-05T17:13:56.620Z",
+  "createdAt": "2026-09-03T17:52:18.336Z",
+  "closedAt": "2026-09-05T17:52:18.336Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -11525,21 +11525,21 @@
   "timeline": [
    {
     "id": "ev_gcd6m",
-    "createdAt": "2026-09-03T17:13:56.620Z",
+    "createdAt": "2026-09-03T17:52:18.336Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_gdr5p",
-    "createdAt": "2026-09-03T17:14:53.620Z",
+    "createdAt": "2026-09-03T17:53:15.336Z",
     "type": "payment",
     "message": "Payment of $91.66 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_ge156",
-    "createdAt": "2026-09-05T02:13:56.620Z",
+    "createdAt": "2026-09-05T02:52:18.336Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -11548,7 +11548,7 @@
   "fulfillments": [
    {
     "id": "ff_gbdkr",
-    "createdAt": "2026-09-04T05:13:56.620Z",
+    "createdAt": "2026-09-04T05:52:18.336Z",
     "lineItemIds": [
      "li_g95iy",
      "li_gav6i"
@@ -11568,8 +11568,8 @@
   "customerId": "c_127",
   "email": "diego.larsen@example.com",
   "phone": "(377) 555-6772",
-  "createdAt": "2026-09-07T03:29:31.443Z",
-  "closedAt": "2026-09-09T03:29:31.443Z",
+  "createdAt": "2026-09-07T04:07:53.159Z",
+  "closedAt": "2026-09-09T04:07:53.159Z",
   "paymentStatus": "paid",
   "fulfillmentStatus": "fulfilled",
   "status": "closed",
@@ -11645,21 +11645,21 @@
   "timeline": [
    {
     "id": "ev_gjsvs",
-    "createdAt": "2026-09-07T03:29:31.443Z",
+    "createdAt": "2026-09-07T04:07:53.159Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_gkqma",
-    "createdAt": "2026-09-07T03:34:31.443Z",
+    "createdAt": "2026-09-07T04:12:53.159Z",
     "type": "payment",
     "message": "Payment of $99.14 captured via Shopify Payments",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_gluif",
-    "createdAt": "2026-09-08T02:29:31.443Z",
+    "createdAt": "2026-09-08T03:07:53.159Z",
     "type": "fulfillment",
     "message": "All items fulfilled",
     "author": "Noah Kim"
@@ -11668,7 +11668,7 @@
   "fulfillments": [
    {
     "id": "ff_gibii",
-    "createdAt": "2026-09-07T14:29:31.443Z",
+    "createdAt": "2026-09-07T15:07:53.159Z",
     "lineItemIds": [
      "li_gfdg5",
      "li_gguka",
@@ -11689,8 +11689,8 @@
   "customerId": "c_149",
   "email": "rowan.bennett@example.com",
   "phone": "(845) 555-7797",
-  "createdAt": "2026-09-08T19:10:40.847Z",
-  "closedAt": "2026-09-10T19:10:40.847Z",
+  "createdAt": "2026-09-08T19:49:02.568Z",
+  "closedAt": "2026-09-10T19:49:02.568Z",
   "paymentStatus": "refunded",
   "fulfillmentStatus": "returned",
   "status": "closed",
@@ -11753,14 +11753,14 @@
   "timeline": [
    {
     "id": "ev_gpkhn",
-    "createdAt": "2026-09-08T19:10:40.847Z",
+    "createdAt": "2026-09-08T19:49:02.568Z",
     "type": "created",
     "message": "Order placed by customer from Online Store",
     "author": "Northstar Goods"
    },
    {
     "id": "ev_gqe69",
-    "createdAt": "2026-09-16T19:10:40.847Z",
+    "createdAt": "2026-09-16T19:49:02.568Z",
     "type": "refund",
     "message": "Refund issued (full)",
     "author": "Ava Chen"
@@ -11770,7 +11770,7 @@
   "refunds": [
    {
     "id": "rf_go5lc",
-    "createdAt": "2026-09-11T19:10:40.847Z",
+    "createdAt": "2026-09-11T19:49:02.568Z",
     "amount": 117.83,
     "reason": "damaged",
     "lineItemIds": [
@@ -11787,7 +11787,7 @@
   "name": "#D1000",
   "customerId": "c_161",
   "email": "dmitri.novak@example.com",
-  "createdAt": "2026-09-07T21:21:05.964Z",
+  "createdAt": "2026-09-07T21:59:27.655Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -11863,7 +11863,7 @@
   "timeline": [
    {
     "id": "ev_guruj",
-    "createdAt": "2026-09-09T15:26:38.901Z",
+    "createdAt": "2026-09-09T16:05:00.592Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"
@@ -11879,7 +11879,7 @@
   "name": "#D1001",
   "customerId": "c_126",
   "email": "aisha.reyes@example.com",
-  "createdAt": "2026-09-08T11:24:15.577Z",
+  "createdAt": "2026-09-08T12:02:37.269Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -11929,7 +11929,7 @@
   "timeline": [
    {
     "id": "ev_gwwde",
-    "createdAt": "2026-08-29T05:19:41.804Z",
+    "createdAt": "2026-08-29T05:58:03.496Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"
@@ -11945,7 +11945,7 @@
   "name": "#D1002",
   "customerId": "c_134",
   "email": "ingrid.kimura@example.com",
-  "createdAt": "2026-09-08T02:58:30.230Z",
+  "createdAt": "2026-09-08T03:36:51.922Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -12008,7 +12008,7 @@
   "timeline": [
    {
     "id": "ev_gzyqe",
-    "createdAt": "2026-08-30T20:14:15.821Z",
+    "createdAt": "2026-08-30T20:52:37.513Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"
@@ -12024,7 +12024,7 @@
   "name": "#D1003",
   "customerId": "c_149",
   "email": "rowan.bennett@example.com",
-  "createdAt": "2026-08-30T08:54:09.948Z",
+  "createdAt": "2026-08-30T09:32:31.640Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -12100,7 +12100,7 @@
   "timeline": [
    {
     "id": "ev_h3j6p",
-    "createdAt": "2026-08-31T19:22:58.502Z",
+    "createdAt": "2026-08-31T20:01:20.194Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"
@@ -12116,7 +12116,7 @@
   "name": "#D1004",
   "customerId": "c_155",
   "email": "nora.novak@example.com",
-  "createdAt": "2026-09-10T00:25:28.974Z",
+  "createdAt": "2026-09-10T01:03:50.666Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -12166,7 +12166,7 @@
   "timeline": [
    {
     "id": "ev_h5sfb",
-    "createdAt": "2026-09-08T19:38:20.920Z",
+    "createdAt": "2026-09-08T20:16:42.612Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"
@@ -12182,7 +12182,7 @@
   "name": "#D1005",
   "customerId": "c_104",
   "email": "iris.nguyen@example.com",
-  "createdAt": "2026-09-10T01:08:22.569Z",
+  "createdAt": "2026-09-10T01:46:44.261Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -12232,7 +12232,7 @@
   "timeline": [
    {
     "id": "ev_h7gcd",
-    "createdAt": "2026-09-09T09:43:15.268Z",
+    "createdAt": "2026-09-09T10:21:36.960Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"
@@ -12248,7 +12248,7 @@
   "name": "#D1006",
   "customerId": "c_116",
   "email": "noah.nguyen@example.com",
-  "createdAt": "2026-08-26T11:20:30.902Z",
+  "createdAt": "2026-08-26T11:58:52.594Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -12298,7 +12298,7 @@
   "timeline": [
    {
     "id": "ev_h9psa",
-    "createdAt": "2026-08-24T11:37:55.999Z",
+    "createdAt": "2026-08-24T12:16:17.691Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"
@@ -12314,7 +12314,7 @@
   "name": "#D1007",
   "customerId": "c_122",
   "email": "hana.kaur@example.com",
-  "createdAt": "2026-09-09T06:07:29.722Z",
+  "createdAt": "2026-09-09T06:45:51.414Z",
   "paymentStatus": "unpaid",
   "fulfillmentStatus": "unfulfilled",
   "status": "draft",
@@ -12364,7 +12364,7 @@
   "timeline": [
    {
     "id": "ev_hbpf1",
-    "createdAt": "2026-09-08T13:24:10.551Z",
+    "createdAt": "2026-09-08T14:02:32.243Z",
     "type": "created",
     "message": "Draft order created",
     "author": "Ava Chen"

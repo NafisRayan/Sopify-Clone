@@ -829,6 +829,9 @@ const themeLibrary = [
 mkdirSync(DATA, { recursive: true })
 writeArt()
 
+import { generateParity } from './parity'
+const parity = generateParity({ products, customers, orders: orders.filter((o) => !o.isDraft), locations, staff })
+
 function write(name: string, data: unknown): void {
   writeFileSync(join(DATA, `${name}.json`), JSON.stringify(data, null, 1))
 }
@@ -856,8 +859,29 @@ write('tasks', tasks)
 write('theme', theme)
 write('theme-library', themeLibrary)
 
+// parity expansion
+write('companies', parity.companies)
+write('segments', parity.segments)
+write('transfers', parity.transfers)
+write('gift-cards', parity.giftCards)
+write('payouts', parity.payouts)
+write('balance-transactions', parity.transactions)
+write('metafield-definitions', parity.metafieldDefinitions)
+write('metafields', parity.metafields)
+write('redirects', parity.redirects)
+write('locales', parity.locales)
+write('markets', parity.markets)
+write('staff-activity', parity.staffActivity)
+write('returns', parity.returns)
+write('order-edits', parity.orderEdits)
+write('order-risk', parity.orderRisk)
+write('plan', parity.plan)
+
 console.log(`✔ Wrote seed data to src/data/
   products=${products.length} variants=${allVariants.length} customers=${customers.length}
   orders=${orders.length} (drafts=8) abandoned=${abandoned.length} collections=${collections.length}
   locations=${locations.length} inventoryLevels=${inventoryLevels.length} discounts=${discounts.length}
-  campaigns=${campaigns.length} staff=${staff.length} pages=${pages.length} posts=${posts.length} files=${files.length}`)
+  campaigns=${campaigns.length} staff=${staff.length} pages=${pages.length} posts=${posts.length} files=${files.length}
+  companies=${parity.companies.length} segments=${parity.segments.length} transfers=${parity.transfers.length}
+  giftCards=${parity.giftCards.length} payouts=${parity.payouts.length} transactions=${parity.transactions.length}
+  redirects=${parity.redirects.length} activity=${parity.staffActivity.length} returns=${parity.returns.length}`)

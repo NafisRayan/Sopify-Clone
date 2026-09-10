@@ -1,0 +1,30 @@
+[
+ {
+  "id": "oe_1",
+  "orderId": "o_1011",
+  "at": "2026-09-09T22:08:27.041Z",
+  "author": "Ava Chen",
+  "added": [
+   {
+    "variantId": "p_serving-board_v1",
+    "quantity": 2
+   }
+  ],
+  "removed": [],
+  "deltaTotal": 72
+ },
+ {
+  "id": "oe_2",
+  "orderId": "o_1012",
+  "at": "2026-09-07T22:00:59.200Z",
+  "author": "Ava Chen",
+  "added": [
+   {
+    "variantId": "p_phone-sling_v2",
+    "quantity": 1
+   }
+  ],
+  "removed": [],
+  "deltaTotal": 38
+ }
+]

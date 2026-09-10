@@ -1,0 +1,49 @@
+[
+ {
+  "id": "ret_1",
+  "orderId": "o_1004",
+  "status": "open",
+  "lines": [
+   {
+    "lineItemId": "li_e9wf",
+    "quantity": 1
+   }
+  ],
+  "reason": "Changed mind",
+  "restock": true,
+  "refundAmount": 18,
+  "createdAt": "2026-08-30T11:39:50.973Z"
+ },
+ {
+  "id": "ret_2",
+  "orderId": "o_1005",
+  "status": "returned",
+  "lines": [
+   {
+    "lineItemId": "li_j713",
+    "quantity": 1
+   }
+  ],
+  "reason": "Wrong size",
+  "restock": true,
+  "refundAmount": 58,
+  "createdAt": "2026-09-07T11:39:50.973Z",
+  "closedAt": "2026-09-09T11:39:50.973Z"
+ },
+ {
+  "id": "ret_3",
+  "orderId": "o_1007",
+  "status": "returned",
+  "lines": [
+   {
+    "lineItemId": "li_tnrt",
+    "quantity": 1
+   }
+  ],
+  "reason": "Arrived damaged",
+  "restock": true,
+  "refundAmount": 30,
+  "createdAt": "2026-08-31T11:39:50.973Z",
+  "closedAt": "2026-09-08T11:39:50.973Z"
+ }
+]

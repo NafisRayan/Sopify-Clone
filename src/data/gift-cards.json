@@ -1,0 +1,230 @@
+[
+ {
+  "id": "gc_1",
+  "code": "NORTH-7420-3086-4520",
+  "customerId": "c_155",
+  "initialBalance": 150,
+  "balance": 120,
+  "currency": "USD",
+  "status": "enabled",
+  "expiresAt": "2027-05-21T11:39:50.949Z",
+  "note": "Customer service goodwill card.",
+  "createdAt": "2026-07-01T11:39:50.948Z",
+  "history": [
+   {
+    "id": "gch_1_1",
+    "at": "2026-07-01T11:39:50.948Z",
+    "type": "issued",
+    "amount": 150,
+    "note": "Issued to Nora Novak"
+   },
+   {
+    "id": "gch_1_2",
+    "at": "2026-08-26T11:39:50.950Z",
+    "type": "used",
+    "amount": -30,
+    "note": "Applied at checkout"
+   }
+  ]
+ },
+ {
+  "id": "gc_2",
+  "code": "NORTH-2638-7995-1210",
+  "customerId": "c_127",
+  "initialBalance": 75,
+  "balance": 75,
+  "currency": "USD",
+  "status": "enabled",
+  "createdAt": "2026-06-26T11:39:50.950Z",
+  "history": [
+   {
+    "id": "gch_2_1",
+    "at": "2026-06-26T11:39:50.950Z",
+    "type": "issued",
+    "amount": 75,
+    "note": "Issued to Diego Larsen"
+   }
+  ]
+ },
+ {
+  "id": "gc_3",
+  "code": "NORTH-8484-4286-7650",
+  "customerId": "c_106",
+  "initialBalance": 75,
+  "balance": 75,
+  "currency": "USD",
+  "status": "enabled",
+  "createdAt": "2026-05-03T11:39:50.950Z",
+  "history": [
+   {
+    "id": "gch_3_1",
+    "at": "2026-05-03T11:39:50.950Z",
+    "type": "issued",
+    "amount": 75,
+    "note": "Issued to Isla Larsen"
+   }
+  ]
+ },
+ {
+  "id": "gc_4",
+  "code": "NORTH-7871-1401-2513",
+  "initialBalance": 50,
+  "balance": 50,
+  "currency": "USD",
+  "status": "enabled",
+  "createdAt": "2026-08-29T11:39:50.950Z",
+  "history": [
+   {
+    "id": "gch_4_1",
+    "at": "2026-08-29T11:39:50.950Z",
+    "type": "issued",
+    "amount": 50,
+    "note": "Issued manually"
+   }
+  ]
+ },
+ {
+  "id": "gc_5",
+  "code": "NORTH-7060-8397-5131",
+  "customerId": "c_158",
+  "initialBalance": 150,
+  "balance": 124.5,
+  "currency": "USD",
+  "status": "enabled",
+  "createdAt": "2026-06-30T11:39:50.950Z",
+  "history": [
+   {
+    "id": "gch_5_1",
+    "at": "2026-06-30T11:39:50.950Z",
+    "type": "issued",
+    "amount": 150,
+    "note": "Issued to Noah Fontaine"
+   },
+   {
+    "id": "gch_5_2",
+    "at": "2026-09-04T11:39:50.950Z",
+    "type": "used",
+    "amount": -25.5,
+    "note": "Applied at checkout"
+   }
+  ]
+ },
+ {
+  "id": "gc_6",
+  "code": "NORTH-1663-8548-2868",
+  "customerId": "c_140",
+  "initialBalance": 100,
+  "balance": 100,
+  "currency": "USD",
+  "status": "enabled",
+  "createdAt": "2026-04-24T11:39:50.950Z",
+  "history": [
+   {
+    "id": "gch_6_1",
+    "at": "2026-04-24T11:39:50.950Z",
+    "type": "issued",
+    "amount": 100,
+    "note": "Issued to Wren Bennett"
+   }
+  ]
+ },
+ {
+  "id": "gc_7",
+  "code": "NORTH-7465-9885-5588",
+  "initialBalance": 75,
+  "balance": 33,
+  "currency": "USD",
+  "status": "enabled",
+  "expiresAt": "2027-03-03T11:39:50.950Z",
+  "createdAt": "2026-05-25T11:39:50.950Z",
+  "history": [
+   {
+    "id": "gch_7_1",
+    "at": "2026-05-25T11:39:50.950Z",
+    "type": "issued",
+    "amount": 75,
+    "note": "Issued manually"
+   },
+   {
+    "id": "gch_7_2",
+    "at": "2026-08-23T11:39:50.950Z",
+    "type": "used",
+    "amount": -42,
+    "note": "Applied at checkout"
+   }
+  ]
+ },
+ {
+  "id": "gc_8",
+  "code": "NORTH-2545-2053-3794",
+  "customerId": "c_134",
+  "initialBalance": 100,
+  "balance": 100,
+  "currency": "USD",
+  "status": "enabled",
+  "expiresAt": "2026-12-20T11:39:50.950Z",
+  "createdAt": "2026-06-30T11:39:50.950Z",
+  "history": [
+   {
+    "id": "gch_8_1",
+    "at": "2026-06-30T11:39:50.950Z",
+    "type": "issued",
+    "amount": 100,
+    "note": "Issued to Ingrid Kimura"
+   }
+  ]
+ },
+ {
+  "id": "gc_9",
+  "code": "NORTH-8483-4454-4334",
+  "customerId": "c_157",
+  "initialBalance": 75,
+  "balance": 75,
+  "currency": "USD",
+  "status": "disabled",
+  "createdAt": "2026-05-04T11:39:50.951Z",
+  "history": [
+   {
+    "id": "gch_9_1",
+    "at": "2026-05-04T11:39:50.951Z",
+    "type": "issued",
+    "amount": 75,
+    "note": "Issued to Ravi Reyes"
+   },
+   {
+    "id": "gch_9_3",
+    "at": "2026-09-07T11:39:50.951Z",
+    "type": "disabled",
+    "amount": 0,
+    "note": "Disabled by staff"
+   }
+  ]
+ },
+ {
+  "id": "gc_10",
+  "code": "NORTH-7546-1359-2628",
+  "customerId": "c_150",
+  "initialBalance": 50,
+  "balance": 0,
+  "currency": "USD",
+  "status": "expired",
+  "expiresAt": "2026-09-08T11:39:50.951Z",
+  "createdAt": "2026-05-07T11:39:50.951Z",
+  "history": [
+   {
+    "id": "gch_10_1",
+    "at": "2026-05-07T11:39:50.951Z",
+    "type": "issued",
+    "amount": 50,
+    "note": "Issued to Sadie Nguyen"
+   },
+   {
+    "id": "gch_10_2",
+    "at": "2026-09-08T11:39:50.951Z",
+    "type": "used",
+    "amount": -37.5,
+    "note": "Applied at checkout"
+   }
+  ]
+ }
+]

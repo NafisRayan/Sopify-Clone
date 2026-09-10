@@ -6,7 +6,7 @@
   "change": 10,
   "resultingAvailable": 50,
   "reason": "Opening stock",
-  "createdAt": "2026-08-23T18:34:18.977Z",
+  "createdAt": "2026-08-23T19:12:40.670Z",
   "author": "Maya Patel"
  },
  {
@@ -16,7 +16,7 @@
   "change": -10,
   "resultingAvailable": 22,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-02T22:11:37.682Z",
+  "createdAt": "2026-08-02T22:49:59.375Z",
   "author": "Maya Patel"
  },
  {
@@ -26,7 +26,7 @@
   "change": 25,
   "resultingAvailable": 74,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-24T11:05:33.469Z",
+  "createdAt": "2026-08-24T11:43:55.162Z",
   "author": "Noah Kim"
  },
  {
@@ -36,7 +36,7 @@
   "change": 50,
   "resultingAvailable": 59,
   "reason": "Damage adjustment",
-  "createdAt": "2026-09-01T04:57:56.185Z",
+  "createdAt": "2026-09-01T05:36:17.878Z",
   "author": "Noah Kim"
  },
  {
@@ -46,7 +46,7 @@
   "change": -10,
   "resultingAvailable": 44,
   "reason": "Damage adjustment",
-  "createdAt": "2026-08-16T18:44:47.295Z",
+  "createdAt": "2026-08-16T19:23:08.988Z",
   "author": "Ava Chen"
  },
  {
@@ -56,7 +56,7 @@
   "change": 50,
   "resultingAvailable": 68,
   "reason": "Opening stock",
-  "createdAt": "2026-08-06T06:29:18.813Z",
+  "createdAt": "2026-08-06T07:07:40.506Z",
   "author": "Noah Kim"
  },
  {
@@ -66,7 +66,7 @@
   "change": -10,
   "resultingAvailable": 24,
   "reason": "Manual adjustment",
-  "createdAt": "2026-09-05T22:02:53.990Z",
+  "createdAt": "2026-09-05T22:41:15.683Z",
   "author": "Ava Chen"
  },
  {
@@ -76,7 +76,7 @@
   "change": 25,
   "resultingAvailable": 79,
   "reason": "Cycle count correction",
-  "createdAt": "2026-07-13T08:33:39.040Z",
+  "createdAt": "2026-07-13T09:12:00.733Z",
   "author": "Ava Chen"
  },
  {
@@ -86,7 +86,7 @@
   "change": 50,
   "resultingAvailable": 59,
   "reason": "Opening stock",
-  "createdAt": "2026-08-26T06:07:38.511Z",
+  "createdAt": "2026-08-26T06:46:00.204Z",
   "author": "Maya Patel"
  },
  {
@@ -96,7 +96,7 @@
   "change": -10,
   "resultingAvailable": 22,
   "reason": "Received stock",
-  "createdAt": "2026-08-17T02:11:23.980Z",
+  "createdAt": "2026-08-17T02:49:45.673Z",
   "author": "Maya Patel"
  },
  {
@@ -106,7 +106,7 @@
   "change": 25,
   "resultingAvailable": 56,
   "reason": "Received stock",
-  "createdAt": "2026-09-09T01:16:09.604Z",
+  "createdAt": "2026-09-09T01:54:31.297Z",
   "author": "Noah Kim"
  },
  {
@@ -116,7 +116,7 @@
   "change": 25,
   "resultingAvailable": 29,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-24T16:41:35.347Z",
+  "createdAt": "2026-08-24T17:19:57.040Z",
   "author": "Noah Kim"
  },
  {
@@ -126,7 +126,7 @@
   "change": 20,
   "resultingAvailable": 30,
   "reason": "Cycle count correction",
-  "createdAt": "2026-09-01T06:42:31.151Z",
+  "createdAt": "2026-09-01T07:20:52.844Z",
   "author": "Noah Kim"
  },
  {
@@ -136,7 +136,7 @@
   "change": -10,
   "resultingAvailable": 18,
   "reason": "Damage adjustment",
-  "createdAt": "2026-07-22T10:21:16.230Z",
+  "createdAt": "2026-07-22T10:59:37.923Z",
   "author": "Ava Chen"
  },
  {
@@ -146,7 +146,7 @@
   "change": 25,
   "resultingAvailable": 25,
   "reason": "Received stock",
-  "createdAt": "2026-08-11T23:53:38.504Z",
+  "createdAt": "2026-08-12T00:32:00.197Z",
   "author": "Noah Kim"
  },
  {
@@ -156,7 +156,7 @@
   "change": 20,
   "resultingAvailable": 22,
   "reason": "Opening stock",
-  "createdAt": "2026-08-15T02:14:38.806Z",
+  "createdAt": "2026-08-15T02:53:00.499Z",
   "author": "Noah Kim"
  },
  {
@@ -166,7 +166,7 @@
   "change": -10,
   "resultingAvailable": 0,
   "reason": "Opening stock",
-  "createdAt": "2026-08-09T01:53:19.768Z",
+  "createdAt": "2026-08-09T02:31:41.461Z",
   "author": "Maya Patel"
  },
  {
@@ -176,7 +176,7 @@
   "change": 20,
   "resultingAvailable": 20,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-26T02:29:15.905Z",
+  "createdAt": "2026-08-26T03:07:37.598Z",
   "author": "Maya Patel"
  },
  {
@@ -186,7 +186,7 @@
   "change": -10,
   "resultingAvailable": 27,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-26T11:21:18.901Z",
+  "createdAt": "2026-08-26T11:59:40.594Z",
   "author": "Noah Kim"
  },
  {
@@ -196,7 +196,7 @@
   "change": 10,
   "resultingAvailable": 60,
   "reason": "Manual adjustment",
-  "createdAt": "2026-09-05T12:55:59.492Z",
+  "createdAt": "2026-09-05T13:34:21.185Z",
   "author": "Ava Chen"
  },
  {
@@ -206,7 +206,7 @@
   "change": 25,
   "resultingAvailable": 34,
   "reason": "Manual adjustment",
-  "createdAt": "2026-09-07T06:59:30.461Z",
+  "createdAt": "2026-09-07T07:37:52.154Z",
   "author": "Noah Kim"
  },
  {
@@ -216,7 +216,7 @@
   "change": 25,
   "resultingAvailable": 39,
   "reason": "Opening stock",
-  "createdAt": "2026-08-27T19:17:37.306Z",
+  "createdAt": "2026-08-27T19:55:58.999Z",
   "author": "Ava Chen"
  },
  {
@@ -226,7 +226,7 @@
   "change": -10,
   "resultingAvailable": 0,
   "reason": "Opening stock",
-  "createdAt": "2026-09-08T10:36:25.491Z",
+  "createdAt": "2026-09-08T11:14:47.184Z",
   "author": "Maya Patel"
  },
  {
@@ -236,7 +236,7 @@
   "change": 25,
   "resultingAvailable": 71,
   "reason": "Cycle count correction",
-  "createdAt": "2026-09-09T16:54:54.182Z",
+  "createdAt": "2026-09-09T17:33:15.875Z",
   "author": "Noah Kim"
  },
  {
@@ -246,7 +246,7 @@
   "change": 25,
   "resultingAvailable": 31,
   "reason": "Opening stock",
-  "createdAt": "2026-08-28T10:02:00.626Z",
+  "createdAt": "2026-08-28T10:40:22.319Z",
   "author": "Maya Patel"
  },
  {
@@ -256,7 +256,7 @@
   "change": 20,
   "resultingAvailable": 60,
   "reason": "Opening stock",
-  "createdAt": "2026-08-30T20:06:31.131Z",
+  "createdAt": "2026-08-30T20:44:52.824Z",
   "author": "Ava Chen"
  },
  {
@@ -266,7 +266,7 @@
   "change": 10,
   "resultingAvailable": 33,
   "reason": "Manual adjustment",
-  "createdAt": "2026-09-08T18:57:30.575Z",
+  "createdAt": "2026-09-08T19:35:52.268Z",
   "author": "Maya Patel"
  },
  {
@@ -276,7 +276,7 @@
   "change": 10,
   "resultingAvailable": 37,
   "reason": "Damage adjustment",
-  "createdAt": "2026-07-17T03:45:06.294Z",
+  "createdAt": "2026-07-17T04:23:27.987Z",
   "author": "Maya Patel"
  },
  {
@@ -286,7 +286,7 @@
   "change": -5,
   "resultingAvailable": 30,
   "reason": "Opening stock",
-  "createdAt": "2026-07-20T23:40:19.726Z",
+  "createdAt": "2026-07-21T00:18:41.419Z",
   "author": "Ava Chen"
  },
  {
@@ -296,7 +296,7 @@
   "change": 20,
   "resultingAvailable": 44,
   "reason": "Cycle count correction",
-  "createdAt": "2026-09-03T03:49:45.667Z",
+  "createdAt": "2026-09-03T04:28:07.360Z",
   "author": "Maya Patel"
  },
  {
@@ -306,7 +306,7 @@
   "change": 10,
   "resultingAvailable": 40,
   "reason": "Received stock",
-  "createdAt": "2026-08-04T23:01:01.149Z",
+  "createdAt": "2026-08-04T23:39:22.842Z",
   "author": "Noah Kim"
  },
  {
@@ -316,7 +316,7 @@
   "change": 10,
   "resultingAvailable": 68,
   "reason": "Opening stock",
-  "createdAt": "2026-08-17T06:37:12.616Z",
+  "createdAt": "2026-08-17T07:15:34.309Z",
   "author": "Maya Patel"
  },
  {
@@ -326,7 +326,7 @@
   "change": 50,
   "resultingAvailable": 75,
   "reason": "Opening stock",
-  "createdAt": "2026-07-22T23:22:34.538Z",
+  "createdAt": "2026-07-23T00:00:56.231Z",
   "author": "Noah Kim"
  },
  {
@@ -336,7 +336,7 @@
   "change": 20,
   "resultingAvailable": 42,
   "reason": "Opening stock",
-  "createdAt": "2026-07-28T03:21:07.308Z",
+  "createdAt": "2026-07-28T03:59:29.001Z",
   "author": "Maya Patel"
  },
  {
@@ -346,7 +346,7 @@
   "change": 20,
   "resultingAvailable": 20,
   "reason": "Opening stock",
-  "createdAt": "2026-08-18T08:00:29.682Z",
+  "createdAt": "2026-08-18T08:38:51.375Z",
   "author": "Noah Kim"
  },
  {
@@ -356,7 +356,7 @@
   "change": 10,
   "resultingAvailable": 21,
   "reason": "Damage adjustment",
-  "createdAt": "2026-08-31T13:25:24.413Z",
+  "createdAt": "2026-08-31T14:03:46.106Z",
   "author": "Ava Chen"
  },
  {
@@ -366,7 +366,7 @@
   "change": -10,
   "resultingAvailable": 3,
   "reason": "Cycle count correction",
-  "createdAt": "2026-08-01T15:21:41.102Z",
+  "createdAt": "2026-08-01T16:00:02.795Z",
   "author": "Maya Patel"
  },
  {
@@ -376,7 +376,7 @@
   "change": 10,
   "resultingAvailable": 35,
   "reason": "Cycle count correction",
-  "createdAt": "2026-08-12T15:59:59.454Z",
+  "createdAt": "2026-08-12T16:38:21.147Z",
   "author": "Noah Kim"
  },
  {
@@ -386,7 +386,7 @@
   "change": 20,
   "resultingAvailable": 73,
   "reason": "Damage adjustment",
-  "createdAt": "2026-09-06T00:57:17.862Z",
+  "createdAt": "2026-09-06T01:35:39.555Z",
   "author": "Ava Chen"
  },
  {
@@ -396,7 +396,7 @@
   "change": 50,
   "resultingAvailable": 100,
   "reason": "Manual adjustment",
-  "createdAt": "2026-08-15T17:01:51.263Z",
+  "createdAt": "2026-08-15T17:40:12.956Z",
   "author": "Maya Patel"
  }
 ]

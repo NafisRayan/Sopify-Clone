@@ -27,6 +27,12 @@ const discounts = load<Discount[]>('discounts')
 const abandoned = load<AbandonedCheckout[]>('abandoned-checkouts')
 const files = load<FileAsset[]>('files')
 const staff = load<StaffMember[]>('staff')
+const companies = load<import('../src/types/parity').Company[]>('companies')
+const transfers = load<import('../src/types/parity').InventoryTransfer[]>('transfers')
+const giftCards = load<import('../src/types/parity').GiftCard[]>('gift-cards')
+const transactions = load<import('../src/types/parity').BalanceTransaction[]>('balance-transactions')
+const redirects = load<import('../src/types/parity').UrlRedirect[]>('redirects')
+const returns = load<import('../src/types/parity').ReturnRecord[]>('returns')
 
 let errors = 0
 const fail = (msg: string) => {
@@ -116,6 +122,35 @@ ok(`abandoned checkouts: ${abandoned.length} checked`)
 // Staff owner
 if (!staff.some((s) => s.role === 'owner')) fail('no owner staff member')
 ok(`staff: ${staff.length} checked (owner present)`)
+
+// Parity entities
+for (const c of companies) {
+  if (!customerIds.has(c.customerId)) fail(`company ${c.name} references missing customer`)
+  if (c.locations.length === 0) fail(`company ${c.name} has no locations`)
+}
+for (const t of transfers) {
+  if (t.fromLocationId === t.toLocationId) fail(`transfer ${t.name} has identical from/to`)
+  for (const l of t.lines) if (!variantIds.has(l.variantId)) fail(`transfer ${t.name} bad variant`)
+  if (t.status === 'received' && t.lines.some((l) => l.receivedQuantity !== l.quantity)) fail(`transfer ${t.name} received with incomplete quantities`)
+}
+for (const g of giftCards) {
+  if (g.customerId && !customerIds.has(g.customerId)) fail(`gift card ${g.id} references missing customer`)
+  if (g.balance > g.initialBalance) fail(`gift card ${g.id} balance exceeds initial`)
+}
+for (const t of transactions) {
+  if (t.orderId && !orders.some((o) => o.id === t.orderId)) fail(`transaction ${t.id} references missing order`)
+}
+for (const r of redirects) {
+  if (!r.from.startsWith('/')) fail(`redirect ${r.id} from-path must start with /`)
+}
+for (const r of returns) {
+  if (!orders.some((o) => o.id === r.orderId)) fail(`return ${r.id} references missing order`)
+  for (const line of r.lines) {
+    const order = orders.find((o) => o.id === r.orderId)
+    if (order && !order.lineItems.some((li) => li.id === line.lineItemId)) fail(`return ${r.id} references missing line item`)
+  }
+}
+ok(`parity: companies=${companies.length} transfers=${transfers.length} giftCards=${giftCards.length} transactions=${transactions.length} redirects=${redirects.length} returns=${returns.length}`)
 
 // Counts vs spec §35
 const variants = products.flatMap((p) => p.variants).length
