@@ -1,0 +1,175 @@
+- generic [active] [ref=f13e1]:
+  - generic [ref=f13e3]:
+    - navigation "Main navigation" [ref=f13e4]:
+      - button "Northstar Goods Demo store" [ref=f13e8]:
+        - generic [ref=f13e15]:
+          - generic [ref=f13e16]: Northstar Goods
+          - generic [ref=f13e17]: Demo store
+      - generic [ref=f13e20]:
+        - link "Home" [ref=f13e21] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f13e26]:
+          - button "Orders 48" [expanded] [ref=f13e27]:
+            - generic [ref=f13e32]: Orders
+            - generic [ref=f13e33]: "48"
+          - generic [ref=f13e36]:
+            - link "All orders" [ref=f13e37] [cursor=pointer]:
+              - /url: /orders
+            - link "Drafts8" [ref=f13e38] [cursor=pointer]:
+              - /url: /draft-orders
+            - link "Abandoned checkouts" [ref=f13e39] [cursor=pointer]:
+              - /url: /abandoned-checkouts
+        - generic [ref=f13e40]:
+          - button "Products" [expanded] [ref=f13e41]
+          - generic [ref=f13e48]:
+            - link "All products" [ref=f13e49] [cursor=pointer]:
+              - /url: /products
+            - link "Collections" [ref=f13e50] [cursor=pointer]:
+              - /url: /collections
+            - link "Inventory" [ref=f13e51] [cursor=pointer]:
+              - /url: /inventory
+            - link "Transfers" [ref=f13e52] [cursor=pointer]:
+              - /url: /inventory/transfers
+            - link "Gift cards" [ref=f13e53] [cursor=pointer]:
+              - /url: /gift-cards
+            - link "Locations" [ref=f13e54] [cursor=pointer]:
+              - /url: /locations
+        - button "Customers" [ref=f13e56]
+        - button "Content" [ref=f13e66]
+        - link "Marketing" [ref=f13e73] [cursor=pointer]:
+          - /url: /marketing
+        - link "Discounts" [ref=f13e78] [cursor=pointer]:
+          - /url: /discounts
+        - link "Analytics" [ref=f13e83] [cursor=pointer]:
+          - /url: /analytics
+        - link "Finances" [ref=f13e87] [cursor=pointer]:
+          - /url: /finances/payouts
+        - button "Online Store" [ref=f13e94]
+        - link "Apps" [ref=f13e101] [cursor=pointer]:
+          - /url: /apps
+      - generic [ref=f13e108]:
+        - link "Settings" [ref=f13e109] [cursor=pointer]:
+          - /url: /settings
+        - generic [ref=f13e113]:
+          - generic [ref=f13e114]: AC
+          - generic [ref=f13e115]:
+            - paragraph [ref=f13e116]: Ava Chen
+            - paragraph [ref=f13e117]: ava@northstargoods.com
+    - generic [ref=f13e118]:
+      - banner [ref=f13e119]:
+        - button "Open search" [ref=f13e120]:
+          - generic [ref=f13e124]: Search
+          - generic [ref=f13e125]: ⌘K
+        - generic [ref=f13e126]:
+          - generic [ref=f13e127]: Demo data
+          - button "Help" [ref=f13e132]
+          - button "Notifications (3 unread)" [ref=f13e138]:
+            - generic [ref=f13e142]: "3"
+          - button "Account menu" [ref=f13e144]:
+            - generic [ref=f13e145]: AC
+      - main [ref=f13e148]:
+        - generic [ref=f13e181]:
+          - generic [ref=f13e183]:
+            - generic [ref=f13e184]:
+              - heading "Transfers" [level=1] [ref=f13e185]
+              - generic [ref=f13e186]: 2 in transit · 140 units on the way
+            - button "Create transfer" [ref=f13e188]
+          - generic [ref=f13e191]:
+            - generic [ref=f13e193]:
+              - textbox "Search transfers" [ref=f13e195]
+              - button "Filters" [ref=f13e198]
+            - table [ref=f13e204]:
+              - rowgroup [ref=f13e205]:
+                - row [ref=f13e206]:
+                  - columnheader [ref=f13e207]:
+                    - button "Transfer" [ref=f13e208]
+                  - columnheader "From → To" [ref=f13e212]
+                  - columnheader [ref=f13e213]:
+                    - button "Items" [ref=f13e214]
+                  - columnheader [ref=f13e218]:
+                    - button "Status" [ref=f13e219]
+                  - columnheader [ref=f13e223]:
+                    - button "Created" [ref=f13e224]
+              - rowgroup [ref=f13e228]:
+                - row [ref=f13e229] [cursor=pointer]:
+                  - cell "TF-1006" [ref=f13e230]
+                  - cell "Portland Warehouse Brooklyn Studio" [ref=f13e231]
+                  - cell "29 units · 3 SKU(s)" [ref=f13e235]
+                  - cell "Received" [ref=f13e237]
+                  - cell "Aug 31, 2026" [ref=f13e240]
+                - row [ref=f13e241] [cursor=pointer]:
+                  - cell "TF-1005" [ref=f13e242]
+                  - cell "Portland Warehouse Portland Flagship" [ref=f13e243]
+                  - cell "66 units · 4 SKU(s)" [ref=f13e247]
+                  - cell "In transit" [ref=f13e249]
+                  - cell "Aug 27, 2026" [ref=f13e252]
+                - row [ref=f13e253] [cursor=pointer]:
+                  - cell "TF-1004" [ref=f13e254]
+                  - cell "Portland Warehouse Return Center" [ref=f13e255]
+                  - cell "59 units · 3 SKU(s)" [ref=f13e259]
+                  - cell "Draft" [ref=f13e261]
+                  - cell "Aug 23, 2026" [ref=f13e264]
+                - row [ref=f13e265] [cursor=pointer]:
+                  - cell "TF-1003" [ref=f13e266]
+                  - cell "Portland Warehouse Austin Market" [ref=f13e267]
+                  - cell "60 units · 3 SKU(s)" [ref=f13e271]
+                  - cell "Received" [ref=f13e273]
+                  - cell "Aug 19, 2026" [ref=f13e276]
+                - row [ref=f13e277] [cursor=pointer]:
+                  - cell "TF-1002" [ref=f13e278]
+                  - cell "Portland Warehouse Brooklyn Studio" [ref=f13e279]
+                  - cell "74 units · 3 SKU(s)" [ref=f13e283]
+                  - cell "In transit" [ref=f13e285]
+                  - cell "Aug 15, 2026" [ref=f13e288]
+                - row [ref=f13e289] [cursor=pointer]:
+                  - cell "TF-1001" [ref=f13e290]
+                  - cell "Portland Warehouse Portland Flagship" [ref=f13e291]
+                  - cell "69 units · 3 SKU(s)" [ref=f13e295]
+                  - cell "Draft" [ref=f13e297]
+                  - cell "Aug 11, 2026" [ref=f13e300]
+            - generic [ref=f13e301]:
+              - paragraph [ref=f13e302]:
+                - text: Showing
+                - generic [ref=f13e303]: 1–6
+                - text: of 6
+              - generic [ref=f13e304]:
+                - button "Previous page" [disabled] [ref=f13e305]:
+                  - generic [ref=f13e306]: Previous
+                - generic [ref=f13e307]: Page 1 of 1
+                - button "Next page" [disabled] [ref=f13e308]:
+                  - generic [ref=f13e309]: Next
+  - dialog "TF-1001" [ref=f13e311]:
+    - generic [ref=f13e312]:
+      - generic [ref=f13e313]:
+        - heading "TF-1001" [level=2] [ref=f13e314]
+        - generic [ref=f13e315]: Portland Warehouse → Portland Flagship
+      - button "Close" [ref=f13e316]
+    - generic [ref=f13e321]:
+      - generic [ref=f13e322]:
+        - generic [ref=f13e323]: Draft
+        - generic [ref=f13e325]: Created Aug 11, 2026
+      - paragraph [ref=f13e326]: Restock before holiday promo.
+      - list [ref=f13e327]:
+        - listitem [ref=f13e328]:
+          - generic [ref=f13e329]:
+            - text: Oversized Linen Shirt · Terracotta / M/L
+            - generic [ref=f13e330]: OS16-TERR-ML
+          - generic [ref=f13e331]:
+            - generic [ref=f13e332]: "29"
+            - generic [ref=f13e333]: not received
+        - listitem [ref=f13e334]:
+          - generic [ref=f13e335]:
+            - text: Enamel Camping Mug · Forest
+            - generic [ref=f13e336]: ECM46-FORE
+          - generic [ref=f13e337]:
+            - generic [ref=f13e338]: "27"
+            - generic [ref=f13e339]: not received
+        - listitem [ref=f13e340]:
+          - generic [ref=f13e341]:
+            - text: Insulated Water Bottle 750ml · Juniper
+            - generic [ref=f13e342]: IWB19-JUNI
+          - generic [ref=f13e343]:
+            - generic [ref=f13e344]: "13"
+            - generic [ref=f13e345]: not received
+      - paragraph [ref=f13e346]: Sending deducts units from the source location; receiving adds them at the destination. Both steps are recorded in inventory history.
+    - button "Send transfer" [disabled] [ref=f13e352]

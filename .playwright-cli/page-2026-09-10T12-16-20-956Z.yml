@@ -1,0 +1,215 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e3]:
+    - navigation "Main navigation" [ref=f14e4]:
+      - button "Northstar Goods Demo store" [ref=f14e8]:
+        - generic [ref=f14e15]:
+          - generic [ref=f14e16]: Northstar Goods
+          - generic [ref=f14e17]: Demo store
+      - generic [ref=f14e20]:
+        - link "Home" [ref=f14e21] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f14e26]:
+          - button "Orders 48" [expanded] [ref=f14e27]:
+            - generic [ref=f14e32]: Orders
+            - generic [ref=f14e33]: "48"
+          - generic [ref=f14e36]:
+            - link "All orders" [ref=f14e37] [cursor=pointer]:
+              - /url: /orders
+            - link "Drafts8" [ref=f14e38] [cursor=pointer]:
+              - /url: /draft-orders
+            - link "Abandoned checkouts" [ref=f14e39] [cursor=pointer]:
+              - /url: /abandoned-checkouts
+        - generic [ref=f14e40]:
+          - button "Products" [expanded] [ref=f14e41]
+          - generic [ref=f14e48]:
+            - link "All products" [ref=f14e49] [cursor=pointer]:
+              - /url: /products
+            - link "Collections" [ref=f14e50] [cursor=pointer]:
+              - /url: /collections
+            - link "Inventory" [ref=f14e51] [cursor=pointer]:
+              - /url: /inventory
+            - link "Transfers" [ref=f14e52] [cursor=pointer]:
+              - /url: /inventory/transfers
+            - link "Gift cards" [ref=f14e53] [cursor=pointer]:
+              - /url: /gift-cards
+            - link "Locations" [ref=f14e54] [cursor=pointer]:
+              - /url: /locations
+        - button "Customers" [ref=f14e56]
+        - button "Content" [ref=f14e66]
+        - link "Marketing" [ref=f14e73] [cursor=pointer]:
+          - /url: /marketing
+        - link "Discounts" [ref=f14e78] [cursor=pointer]:
+          - /url: /discounts
+        - link "Analytics" [ref=f14e83] [cursor=pointer]:
+          - /url: /analytics
+        - link "Finances" [ref=f14e87] [cursor=pointer]:
+          - /url: /finances/payouts
+        - button "Online Store" [ref=f14e94]
+        - link "Apps" [ref=f14e101] [cursor=pointer]:
+          - /url: /apps
+      - generic [ref=f14e108]:
+        - link "Settings" [ref=f14e109] [cursor=pointer]:
+          - /url: /settings
+        - generic [ref=f14e113]:
+          - generic [ref=f14e114]: AC
+          - generic [ref=f14e115]:
+            - paragraph [ref=f14e116]: Ava Chen
+            - paragraph [ref=f14e117]: ava@northstargoods.com
+    - generic [ref=f14e118]:
+      - banner [ref=f14e119]:
+        - button "Open search" [ref=f14e120]:
+          - generic [ref=f14e124]: Search
+          - generic [ref=f14e125]: ⌘K
+        - generic [ref=f14e126]:
+          - generic [ref=f14e127]: Demo data
+          - button "Help" [ref=f14e132]
+          - button "Notifications (3 unread)" [ref=f14e138]:
+            - generic [ref=f14e142]: "3"
+          - button "Account menu" [ref=f14e144]:
+            - generic [ref=f14e145]: AC
+      - main [ref=f14e148]:
+        - generic [ref=f14e181]:
+          - generic [ref=f14e182]:
+            - button "Orders" [ref=f14e183]
+            - generic [ref=f14e186]:
+              - generic [ref=f14e187]:
+                - heading "#1011" [level=1] [ref=f14e188]
+                - generic [ref=f14e190]: Jun 19, 2025, 10:47 AM from Online Store
+              - generic [ref=f14e191]:
+                - button "More actions" [ref=f14e193]
+                - generic [ref=f14e198]:
+                  - button "Refund" [ref=f14e199]
+                  - button "Fulfill" [ref=f14e201]
+                  - button "Edit" [ref=f14e207]
+          - generic [ref=f14e209]:
+            - generic [ref=f14e210]:
+              - generic [ref=f14e213]:
+                - generic [ref=f14e214]: Open
+                - generic [ref=f14e216]: Paid
+                - generic [ref=f14e218]: Unfulfilled
+                - generic [ref=f14e220]: 3 unfulfilled items
+              - generic [ref=f14e221]:
+                - heading "5 items" [level=2] [ref=f14e970]
+                - list [ref=f14e225]:
+                  - listitem [ref=f14e226]:
+                    - generic [ref=f14e227]:
+                      - link "Oversized Linen Shirt" [ref=f14e228] [cursor=pointer]:
+                        - /url: /products/p_oversized-shirt
+                      - paragraph [ref=f14e229]: White / XS/S
+                      - paragraph [ref=f14e230]: $58.00 × 2 · OS16-WHIT-XSS
+                    - generic [ref=f14e231]: $116.00
+                  - listitem [ref=f14e232]:
+                    - generic [ref=f14e233]:
+                      - link "Packable Hammock" [ref=f14e234] [cursor=pointer]:
+                        - /url: /products/p_hammock
+                      - paragraph [ref=f14e235]: $58.00 × 2 · H34
+                    - generic [ref=f14e236]: $116.00
+                  - listitem [ref=f14e971]:
+                    - generic [ref=f14e972]:
+                      - link "Classic Cotton T-Shirt" [ref=f14e973] [cursor=pointer]:
+                        - /url: /products/p_classic-cotton-t-shirt
+                      - paragraph [ref=f14e974]: Black / S
+                      - paragraph [ref=f14e975]: $24.00 × 1 · CCT10-BLAC-S
+                    - generic [ref=f14e976]: $24.00
+                - generic [ref=f14e238]:
+                  - generic [ref=f14e239]:
+                    - term [ref=f14e240]: Subtotal · 5 items
+                    - definition [ref=f14e241]: $256.00
+                  - generic [ref=f14e242]:
+                    - term [ref=f14e243]: Discount (WELCOME10)
+                    - definition [ref=f14e244]: "-$23.20"
+                  - generic [ref=f14e245]:
+                    - term [ref=f14e246]: Free shipping
+                    - definition [ref=f14e247]: Free
+                  - generic [ref=f14e248]:
+                    - term [ref=f14e249]: Tax
+                    - definition [ref=f14e250]: $18.62
+                  - generic [ref=f14e251]:
+                    - term [ref=f14e252]: Total
+                    - definition [ref=f14e253]: $251.42 USD
+                  - generic [ref=f14e254]:
+                    - term [ref=f14e255]: Net
+                    - definition [ref=f14e256]: $251.42
+              - generic [ref=f14e257]:
+                - generic [ref=f14e259]:
+                  - heading "Timeline" [level=2] [ref=f14e260]
+                  - generic [ref=f14e261]: Activity on this order
+                - generic [ref=f14e262]:
+                  - generic [ref=f14e263]:
+                    - textbox "Timeline note" [ref=f14e265]:
+                      - /placeholder: Add a note to the timeline…
+                    - generic [ref=f14e266]:
+                      - generic [ref=f14e267]:
+                        - checkbox "Visible to customer" [checked] [ref=f14e268]
+                        - text: Visible to customer
+                      - button "Post" [disabled] [ref=f14e269]
+                  - list [ref=f14e271]:
+                    - listitem [ref=f14e977]:
+                      - generic [ref=f14e979]:
+                        - paragraph [ref=f14e980]: Order edited — added 1 item(s) · total +$25.92
+                        - paragraph [ref=f14e981]: Sep 10, 2026, 6:16 PM · Ava Chen
+                    - listitem [ref=f14e272]:
+                      - generic [ref=f14e274]:
+                        - paragraph [ref=f14e275]: Payment of $225.50 captured via Shopify Payments
+                        - paragraph [ref=f14e276]: Jun 19, 2025, 10:52 AM · Northstar Goods
+                    - listitem [ref=f14e277]:
+                      - generic [ref=f14e279]:
+                        - paragraph [ref=f14e280]: Order placed by customer from Online Store
+                        - paragraph [ref=f14e281]: Jun 19, 2025, 10:47 AM · Northstar Goods
+            - generic [ref=f14e282]:
+              - generic [ref=f14e283]:
+                - generic [ref=f14e284]:
+                  - heading "Customer" [level=2] [ref=f14e286]
+                  - link "View profile" [ref=f14e288] [cursor=pointer]:
+                    - /url: /customers/c_119
+                - generic [ref=f14e289]:
+                  - generic [ref=f14e290]:
+                    - generic [ref=f14e291]: AL
+                    - generic [ref=f14e292]:
+                      - paragraph [ref=f14e293]: Ava Larsen
+                      - paragraph [ref=f14e294]: 2 orders · $330.26 spent
+                  - list [ref=f14e295]:
+                    - listitem [ref=f14e296]:
+                      - generic [ref=f14e300]: ava.larsen@example.com
+                    - listitem [ref=f14e301]: (699) 555-2634
+              - generic [ref=f14e304]:
+                - heading "Addresses" [level=2] [ref=f14e307]
+                - generic [ref=f14e308]:
+                  - generic [ref=f14e309]:
+                    - paragraph [ref=f14e310]: Ship to
+                    - paragraph [ref=f14e314]: Ava Larsen692 Cedar LnAustin, TX 73301United States
+                  - generic [ref=f14e315]:
+                    - paragraph [ref=f14e316]: Billing
+                    - paragraph [ref=f14e317]: Same as shipping address
+                  - generic [ref=f14e318]:
+                    - paragraph [ref=f14e319]: Shipping method
+                    - paragraph [ref=f14e320]: Free shipping
+              - generic [ref=f14e321]:
+                - heading "Payment" [level=2] [ref=f14e324]
+                - generic [ref=f14e325]:
+                  - generic [ref=f14e326]:
+                    - generic [ref=f14e327]: Gateway
+                    - generic [ref=f14e328]: Shopify Payments
+                  - generic [ref=f14e329]:
+                    - generic [ref=f14e330]: Status
+                    - generic [ref=f14e331]: Paid
+              - generic [ref=f14e333]:
+                - generic [ref=f14e335]:
+                  - heading "Fraud analysis" [level=2] [ref=f14e336]
+                  - generic [ref=f14e337]: Order risk assessment
+                - generic [ref=f14e338]:
+                  - generic [ref=f14e339]: Medium risk
+                  - list [ref=f14e341]:
+                    - listitem [ref=f14e342]:
+                      - generic [ref=f14e343]: •
+                      - text: First-time customer
+                    - listitem [ref=f14e344]:
+                      - generic [ref=f14e345]: •
+                      - text: Multiple payment attempts
+              - generic [ref=f14e346]:
+                - generic [ref=f14e347]:
+                  - heading "Tags" [level=3] [ref=f14e348]
+                  - button "Edit" [ref=f14e349]
+                - paragraph [ref=f14e351]: No tags
+  - status [ref=f14e982]:
+    - generic [ref=f14e986]: Order updated

@@ -1,0 +1,189 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e3]:
+    - navigation "Main navigation" [ref=f27e4]:
+      - button "Northstar Goods Demo store" [ref=f27e8]:
+        - generic [ref=f27e15]:
+          - generic [ref=f27e16]: Northstar Goods
+          - generic [ref=f27e17]: Demo store
+      - generic [ref=f27e20]:
+        - link "Home" [ref=f27e21] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f27e26]:
+          - button "Orders 47" [expanded] [ref=f27e373]:
+            - generic [ref=f27e32]: Orders
+            - generic [ref=f27e33]: "47"
+          - generic [ref=f27e36]:
+            - link "All orders" [ref=f27e37] [cursor=pointer]:
+              - /url: /orders
+            - link "Drafts8" [ref=f27e38] [cursor=pointer]:
+              - /url: /draft-orders
+            - link "Abandoned checkouts" [ref=f27e39] [cursor=pointer]:
+              - /url: /abandoned-checkouts
+        - generic [ref=f27e40]:
+          - button "Products" [expanded] [ref=f27e41]
+          - generic [ref=f27e48]:
+            - link "All products" [ref=f27e49] [cursor=pointer]:
+              - /url: /products
+            - link "Collections" [ref=f27e50] [cursor=pointer]:
+              - /url: /collections
+            - link "Inventory" [ref=f27e51] [cursor=pointer]:
+              - /url: /inventory
+            - link "Locations" [ref=f27e52] [cursor=pointer]:
+              - /url: /locations
+        - link "Customers" [ref=f27e53] [cursor=pointer]:
+          - /url: /customers
+        - button "Content" [ref=f27e61]
+        - link "Marketing" [ref=f27e68] [cursor=pointer]:
+          - /url: /marketing
+        - link "Discounts" [ref=f27e73] [cursor=pointer]:
+          - /url: /discounts
+        - link "Analytics" [ref=f27e78] [cursor=pointer]:
+          - /url: /analytics
+        - button "Online Store" [ref=f27e83]
+        - link "Apps" [ref=f27e90] [cursor=pointer]:
+          - /url: /apps
+      - generic [ref=f27e97]:
+        - link "Settings" [ref=f27e98] [cursor=pointer]:
+          - /url: /settings
+        - generic [ref=f27e102]:
+          - generic [ref=f27e103]: AC
+          - generic [ref=f27e104]:
+            - paragraph [ref=f27e105]: Ava Chen
+            - paragraph [ref=f27e106]: ava@northstargoods.com
+    - generic [ref=f27e107]:
+      - banner [ref=f27e108]:
+        - button "Open search" [ref=f27e109]:
+          - generic [ref=f27e113]: Search
+          - generic [ref=f27e114]: ⌘K
+        - generic [ref=f27e115]:
+          - generic [ref=f27e116]: Demo data
+          - button "Help" [ref=f27e121]
+          - button "Notifications (3 unread)" [ref=f27e127]:
+            - generic [ref=f27e131]: "3"
+          - button "Account menu" [ref=f27e133]:
+            - generic [ref=f27e134]: AC
+      - main [ref=f27e137]:
+        - generic [ref=f27e170]:
+          - generic [ref=f27e171]:
+            - button "Orders" [ref=f27e172]
+            - generic [ref=f27e175]:
+              - generic [ref=f27e176]:
+                - heading "#1011" [level=1] [ref=f27e177]
+                - generic [ref=f27e179]: Jun 19, 2025, 9:49 AM from Online Store
+              - generic [ref=f27e180]:
+                - button "More actions" [ref=f27e182]
+                - button "Refund" [ref=f27e188]
+          - generic [ref=f27e196]:
+            - generic [ref=f27e197]:
+              - generic [ref=f27e200]:
+                - generic [ref=f27e201]: Closed
+                - generic [ref=f27e203]: Paid
+                - generic [ref=f27e205]: Fulfilled
+                - generic [ref=f27e207]: Everything fulfilled
+              - generic [ref=f27e208]:
+                - heading "4 items" [level=2] [ref=f27e211]
+                - list [ref=f27e212]:
+                  - listitem [ref=f27e213]:
+                    - generic [ref=f27e214]:
+                      - link "Oversized Linen Shirt" [ref=f27e215] [cursor=pointer]:
+                        - /url: /products/p_oversized-shirt
+                      - paragraph [ref=f27e216]: White / XS/S
+                      - paragraph [ref=f27e217]: $58.00 × 2 · OS16-WHIT-XSS
+                      - paragraph [ref=f27e374]: Fulfilled
+                    - generic [ref=f27e218]: $116.00
+                  - listitem [ref=f27e219]:
+                    - generic [ref=f27e220]:
+                      - link "Packable Hammock" [ref=f27e221] [cursor=pointer]:
+                        - /url: /products/p_hammock
+                      - paragraph [ref=f27e222]: $58.00 × 2 · H34
+                      - paragraph [ref=f27e380]: Fulfilled
+                    - generic [ref=f27e223]: $116.00
+                - generic [ref=f27e225]:
+                  - generic [ref=f27e226]:
+                    - term [ref=f27e227]: Subtotal · 4 items
+                    - definition [ref=f27e228]: $232.00
+                  - generic [ref=f27e229]:
+                    - term [ref=f27e230]: Discount (WELCOME10)
+                    - definition [ref=f27e231]: "-$23.20"
+                  - generic [ref=f27e232]:
+                    - term [ref=f27e233]: Free shipping
+                    - definition [ref=f27e234]: Free
+                  - generic [ref=f27e235]:
+                    - term [ref=f27e236]: Tax
+                    - definition [ref=f27e237]: $16.70
+                  - generic [ref=f27e238]:
+                    - term [ref=f27e239]: Total
+                    - definition [ref=f27e240]: $225.50 USD
+                  - generic [ref=f27e241]:
+                    - term [ref=f27e242]: Net
+                    - definition [ref=f27e243]: $225.50
+              - generic [ref=f27e244]:
+                - generic [ref=f27e246]:
+                  - heading "Timeline" [level=2] [ref=f27e247]
+                  - generic [ref=f27e248]: Activity on this order
+                - generic [ref=f27e249]:
+                  - generic [ref=f27e250]:
+                    - textbox "Timeline note" [ref=f27e252]:
+                      - /placeholder: Add a note to the timeline…
+                    - generic [ref=f27e253]:
+                      - generic [ref=f27e254]:
+                        - checkbox "Visible to customer" [checked] [ref=f27e255]
+                        - text: Visible to customer
+                      - button "Post" [disabled] [ref=f27e256]
+                  - list [ref=f27e258]:
+                    - listitem [ref=f27e386]:
+                      - generic [ref=f27e388]:
+                        - paragraph [ref=f27e389]: 4 items fulfilled from Portland Warehouse · Customer notified
+                        - paragraph [ref=f27e390]: Sep 10, 2026, 5:11 PM · Ava Chen
+                    - listitem [ref=f27e259]:
+                      - generic [ref=f27e261]:
+                        - paragraph [ref=f27e262]: Payment of $225.50 captured via Shopify Payments
+                        - paragraph [ref=f27e263]: Jun 19, 2025, 9:54 AM · Northstar Goods
+                    - listitem [ref=f27e264]:
+                      - generic [ref=f27e266]:
+                        - paragraph [ref=f27e267]: Order placed by customer from Online Store
+                        - paragraph [ref=f27e268]: Jun 19, 2025, 9:49 AM · Northstar Goods
+            - generic [ref=f27e269]:
+              - generic [ref=f27e270]:
+                - generic [ref=f27e271]:
+                  - heading "Customer" [level=2] [ref=f27e273]
+                  - link "View profile" [ref=f27e275] [cursor=pointer]:
+                    - /url: /customers/c_119
+                - generic [ref=f27e276]:
+                  - generic [ref=f27e277]:
+                    - generic [ref=f27e278]: AL
+                    - generic [ref=f27e279]:
+                      - paragraph [ref=f27e280]: Ava Larsen
+                      - paragraph [ref=f27e281]: 2 orders · $304.34 spent
+                  - list [ref=f27e282]:
+                    - listitem [ref=f27e283]:
+                      - generic [ref=f27e287]: ava.larsen@example.com
+                    - listitem [ref=f27e288]: (699) 555-2634
+              - generic [ref=f27e291]:
+                - heading "Addresses" [level=2] [ref=f27e294]
+                - generic [ref=f27e295]:
+                  - generic [ref=f27e296]:
+                    - paragraph [ref=f27e297]: Ship to
+                    - paragraph [ref=f27e301]: Ava Larsen692 Cedar LnAustin, TX 73301United States
+                  - generic [ref=f27e302]:
+                    - paragraph [ref=f27e303]: Billing
+                    - paragraph [ref=f27e304]: Same as shipping address
+                  - generic [ref=f27e305]:
+                    - paragraph [ref=f27e306]: Shipping method
+                    - paragraph [ref=f27e307]: Free shipping
+              - generic [ref=f27e308]:
+                - heading "Payment" [level=2] [ref=f27e311]
+                - generic [ref=f27e312]:
+                  - generic [ref=f27e313]:
+                    - generic [ref=f27e314]: Gateway
+                    - generic [ref=f27e315]: Shopify Payments
+                  - generic [ref=f27e316]:
+                    - generic [ref=f27e317]: Status
+                    - generic [ref=f27e318]: Paid
+              - generic [ref=f27e320]:
+                - generic [ref=f27e321]:
+                  - heading "Tags" [level=3] [ref=f27e322]
+                  - button "Edit" [ref=f27e323]
+                - paragraph [ref=f27e325]: No tags
+  - status [ref=f27e391]:
+    - generic [ref=f27e395]: Order fulfilled

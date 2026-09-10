@@ -1,0 +1,188 @@
+- generic [ref=f26e3]:
+  - navigation "Main navigation" [ref=f26e4]:
+    - button "Northstar Goods Demo store" [ref=f26e8]:
+      - generic [ref=f26e15]:
+        - generic [ref=f26e16]: Northstar Goods
+        - generic [ref=f26e17]: Demo store
+    - generic [ref=f26e20]:
+      - link "Home" [ref=f26e21] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f26e26]:
+        - button "Orders 48" [expanded] [ref=f26e27]:
+          - generic [ref=f26e32]: Orders
+          - generic [ref=f26e33]: "48"
+        - generic [ref=f26e36]:
+          - link "All orders" [ref=f26e37] [cursor=pointer]:
+            - /url: /orders
+          - link "Drafts8" [ref=f26e38] [cursor=pointer]:
+            - /url: /draft-orders
+          - link "Abandoned checkouts" [ref=f26e39] [cursor=pointer]:
+            - /url: /abandoned-checkouts
+      - generic [ref=f26e40]:
+        - button "Products" [expanded] [ref=f26e41]
+        - generic [ref=f26e48]:
+          - link "All products" [ref=f26e49] [cursor=pointer]:
+            - /url: /products
+          - link "Collections" [ref=f26e50] [cursor=pointer]:
+            - /url: /collections
+          - link "Inventory" [ref=f26e51] [cursor=pointer]:
+            - /url: /inventory
+          - link "Locations" [ref=f26e52] [cursor=pointer]:
+            - /url: /locations
+      - link "Customers" [ref=f26e53] [cursor=pointer]:
+        - /url: /customers
+      - button "Content" [ref=f26e61]
+      - link "Marketing" [ref=f26e68] [cursor=pointer]:
+        - /url: /marketing
+      - link "Discounts" [ref=f26e73] [cursor=pointer]:
+        - /url: /discounts
+      - link "Analytics" [ref=f26e78] [cursor=pointer]:
+        - /url: /analytics
+      - button "Online Store" [ref=f26e83]
+      - link "Apps" [ref=f26e90] [cursor=pointer]:
+        - /url: /apps
+    - generic [ref=f26e97]:
+      - link "Settings" [ref=f26e98] [cursor=pointer]:
+        - /url: /settings
+      - generic [ref=f26e102]:
+        - generic [ref=f26e103]: AC
+        - generic [ref=f26e104]:
+          - paragraph [ref=f26e105]: Ava Chen
+          - paragraph [ref=f26e106]: ava@northstargoods.com
+  - generic [ref=f26e107]:
+    - banner [ref=f26e108]:
+      - button "Open search" [ref=f26e109]:
+        - generic [ref=f26e113]: Search
+        - generic [ref=f26e114]: ⌘K
+      - generic [ref=f26e115]:
+        - generic [ref=f26e116]: Demo data
+        - button "Help" [ref=f26e121]
+        - button "Notifications (3 unread)" [ref=f26e127]:
+          - generic [ref=f26e131]: "3"
+        - button "Account menu" [ref=f26e133]:
+          - generic [ref=f26e134]: AC
+    - main [ref=f26e137]:
+      - generic [ref=f26e170]:
+        - generic [ref=f26e171]:
+          - button "Orders" [ref=f26e172]
+          - generic [ref=f26e175]:
+            - generic [ref=f26e176]:
+              - heading "#1116" [level=1] [ref=f26e177]
+              - generic [ref=f26e179]: Aug 22, 2026, 2:29 AM from Online Store
+            - generic [ref=f26e180]:
+              - button "More actions" [ref=f26e182]
+              - button "Refund" [ref=f26e188]
+        - generic [ref=f26e190]:
+          - generic [ref=f26e191]:
+            - generic [ref=f26e194]:
+              - generic [ref=f26e195]: Open
+              - generic [ref=f26e197]: Partially refunded
+              - generic [ref=f26e199]: Fulfilled
+              - generic [ref=f26e201]: Everything fulfilled
+            - generic [ref=f26e202]:
+              - heading "1 item" [level=2] [ref=f26e205]
+              - list [ref=f26e206]:
+                - listitem [ref=f26e207]:
+                  - generic [ref=f26e208]:
+                    - link "Brass Task Lamp" [ref=f26e209] [cursor=pointer]:
+                      - /url: /products/p_desk-lamp
+                    - paragraph [ref=f26e210]: Aged Brass
+                    - paragraph [ref=f26e211]: $92.00 × 1 · DL29-AGED
+                    - paragraph [ref=f26e212]: Fulfilled · USPS 1Z451AA302208672
+                    - paragraph [ref=f26e218]: Refunded
+                  - generic [ref=f26e219]: $92.00
+              - generic [ref=f26e221]:
+                - generic [ref=f26e222]:
+                  - term [ref=f26e223]: Subtotal · 1 items
+                  - definition [ref=f26e224]: $92.00
+                - generic [ref=f26e225]:
+                  - term [ref=f26e226]: Free shipping
+                  - definition [ref=f26e227]: Free
+                - generic [ref=f26e228]:
+                  - term [ref=f26e229]: Tax
+                  - definition [ref=f26e230]: $7.36
+                - generic [ref=f26e231]:
+                  - term [ref=f26e232]: Total
+                  - definition [ref=f26e233]: $99.36 USD
+                - generic [ref=f26e234]:
+                  - term [ref=f26e235]: Refunded
+                  - definition [ref=f26e236]: "-$48.69"
+                - generic [ref=f26e237]:
+                  - term [ref=f26e238]: Net
+                  - definition [ref=f26e239]: $50.67
+            - generic [ref=f26e240]:
+              - generic [ref=f26e242]:
+                - heading "Timeline" [level=2] [ref=f26e243]
+                - generic [ref=f26e244]: Activity on this order
+              - generic [ref=f26e245]:
+                - generic [ref=f26e246]:
+                  - textbox "Timeline note" [ref=f26e248]:
+                    - /placeholder: Add a note to the timeline…
+                  - generic [ref=f26e249]:
+                    - generic [ref=f26e250]:
+                      - checkbox "Visible to customer" [checked] [ref=f26e251]
+                      - text: Visible to customer
+                    - button "Post" [disabled] [ref=f26e252]
+                - list [ref=f26e254]:
+                  - listitem [ref=f26e255]:
+                    - generic [ref=f26e257]:
+                      - paragraph [ref=f26e258]: Refund issued (partial)
+                      - paragraph [ref=f26e259]: Aug 26, 2026, 2:29 AM · Ava Chen
+                  - listitem [ref=f26e260]:
+                    - generic [ref=f26e262]:
+                      - paragraph [ref=f26e263]: All items fulfilled
+                      - paragraph [ref=f26e264]: Aug 22, 2026, 7:29 AM · Maya Patel
+                  - listitem [ref=f26e265]:
+                    - generic [ref=f26e267]:
+                      - paragraph [ref=f26e268]: Payment of $99.36 captured via Shopify Payments
+                      - paragraph [ref=f26e269]: Aug 22, 2026, 2:32 AM · Northstar Goods
+                  - listitem [ref=f26e270]:
+                    - generic [ref=f26e272]:
+                      - paragraph [ref=f26e273]: Order placed by customer from Online Store
+                      - paragraph [ref=f26e274]: Aug 22, 2026, 2:29 AM · Northstar Goods
+          - generic [ref=f26e275]:
+            - generic [ref=f26e276]:
+              - generic [ref=f26e277]:
+                - heading "Customer" [level=2] [ref=f26e279]
+                - link "View profile" [ref=f26e281] [cursor=pointer]:
+                  - /url: /customers/c_129
+              - generic [ref=f26e282]:
+                - generic [ref=f26e283]:
+                  - generic [ref=f26e284]: LO
+                  - generic [ref=f26e285]:
+                    - paragraph [ref=f26e286]: Leo Osei-Bonsu
+                    - paragraph [ref=f26e287]: 2 orders · $209.52 spent
+                - list [ref=f26e288]:
+                  - listitem [ref=f26e289]:
+                    - generic [ref=f26e293]: leo.oseibonsu@example.com
+                  - listitem [ref=f26e294]: (650) 555-6996
+            - generic [ref=f26e297]:
+              - heading "Addresses" [level=2] [ref=f26e300]
+              - generic [ref=f26e301]:
+                - generic [ref=f26e302]:
+                  - paragraph [ref=f26e303]: Ship to
+                  - paragraph [ref=f26e307]: Leo Osei-Bonsu4454 Dogwood DrBerlin, Berlin 10115Germany
+                - generic [ref=f26e308]:
+                  - paragraph [ref=f26e309]: Billing
+                  - paragraph [ref=f26e310]: Same as shipping address
+                - generic [ref=f26e311]:
+                  - paragraph [ref=f26e312]: Shipping method
+                  - paragraph [ref=f26e313]: Free shipping
+            - generic [ref=f26e314]:
+              - heading "Payment" [level=2] [ref=f26e317]
+              - generic [ref=f26e318]:
+                - generic [ref=f26e319]:
+                  - generic [ref=f26e320]: Gateway
+                  - generic [ref=f26e321]: Shopify Payments
+                - generic [ref=f26e322]:
+                  - generic [ref=f26e323]: Status
+                  - generic [ref=f26e324]: Partially refunded
+                - generic [ref=f26e326]:
+                  - paragraph [ref=f26e327]: Refund $48.69
+                  - paragraph [ref=f26e328]: "15d ago · reason: customer · restocked"
+            - generic [ref=f26e329]:
+              - generic [ref=f26e330]:
+                - heading "Tags" [level=3] [ref=f26e331]
+                - button "Edit" [ref=f26e332]
+              - generic [ref=f26e333]: wholesale
+              - paragraph [ref=f26e335]: Please leave package at side door.

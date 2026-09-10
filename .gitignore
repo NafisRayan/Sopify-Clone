@@ -1,10 +1,7 @@
-node_modules
-dist
-dist-ssr
+node_modules/
+dist/
 *.local
 .DS_Store
 *.log
-*.png
-.playwright-cli/
-*.png
-scripts/patch_settings.py
+.env
+backend/prisma/dev.db*
